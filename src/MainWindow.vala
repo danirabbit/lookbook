@@ -28,6 +28,22 @@ public class MainWindow : Gtk.Window {
     }
 
     construct {
+        var actions = new Gtk.Grid ();
+        var apps = new Gtk.Grid ();
 
+        var stack = new Gtk.Stack ();
+        stack.add_titled (actions, "actions", "Actions");
+        stack.add_titled (apps, "apps", "Apps");
+
+        var stack_sidebar = new Gtk.StackSidebar ();
+        stack_sidebar.stack = stack;
+        stack_sidebar.vexpand = true;
+
+        var grid = new Gtk.Grid ();
+        grid.add (stack_sidebar);
+        grid.add (stack);
+
+        add (grid);
+        show_all ();
     }
 }
