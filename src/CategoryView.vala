@@ -18,21 +18,62 @@
 */
 
 public class CategoryView : Gtk.Grid {
-    public string category { get; construct; }
+    private const string ICONS = """
+        {
+            "address-book-new",
+            "appointment-new",
+            "bookmark-new"
+        }
+    """;
 
-    public CategoryView (string category) {
-        Object (category: category);
+    public string category_name { get; construct; }
+
+    public CategoryView (string category_name) {
+        Object (category_name: category_name);
     }
 
     construct {
         var view = new Gtk.Stack ();
 
-        var icon_theme = Gtk.IconTheme.get_default ();
-        icon_theme.list_icons (category).foreach ((icon) => {
-            message ("%s".printf (icon));
-            var icon_view = new IconView (icon,"");
-            view.add_titled (icon_view, icon, icon);
-        });
+        string data =
+		"""
+		{
+            "actions" : [
+                {
+                    "name" : "address-book-new",
+                    "description" : "The icon used for the action to create a new address book."
+                },
+                {
+                    "name" : "application-exit",
+                    "description" : "The icon used for exiting an application."
+                },
+                {
+                    "name" : "call-start",
+                    "description" : "The icon used for initiating or accepting a call."
+                }
+            ]
+		}
+		""";
+
+        var parser = new Json.Parser ();
+
+        try {
+            parser.load_from_data (data);
+        } catch (Error e) {
+            message ("we fucked up");
+            return;
+        }
+
+        var object = parser.get_root ().get_object ();
+
+        var category = object.get_array_member (category_name);
+
+        foreach (var icon in category.get_elements ()) {
+            var name = icon.get_object ().get_string_member ("name");
+            var description = icon.get_object ().get_string_member ("description");
+            var icon_view = new IconView (name, description);
+            view.add_titled (icon_view, name, name);
+        }
 
         var list = new Gtk.StackSidebar ();
         list.stack = view;

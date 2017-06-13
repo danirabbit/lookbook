@@ -43,22 +43,23 @@ public class MainWindow : Gtk.Window {
     }
 
     construct {
-        var categories = new Gtk.Stack ();
+        var category_stack = new Gtk.Stack ();
 
-        var icon_theme = Gtk.IconTheme.get_default ();
+        string categories [] =  { "actions" };
 
-        icon_theme.list_contexts ().foreach ((category) => {
+
+        foreach (string category in categories){
             var category_view = new CategoryView (category);
-            categories.add_titled (category_view, category, category);
-        });
+            category_stack.add_titled (category_view, category, category);
+        }
 
         var categories_sidebar = new Gtk.StackSidebar ();
-        categories_sidebar.stack = categories;
+        categories_sidebar.stack = category_stack;
         categories_sidebar.vexpand = true;
 
         var grid = new Gtk.Grid ();
         grid.add (categories_sidebar);
-        grid.add (categories);
+        grid.add (category_stack);
 
         add (grid);
 
