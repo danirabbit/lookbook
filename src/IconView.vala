@@ -19,22 +19,6 @@
  */
 
 public class IconView : Gtk.ScrolledWindow {
-    private const string CODE_STYLE = """
-        .code {
-            background-color: #fdf6e3;
-            border-radius: 3px;
-            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.20);
-            color: #657b83;
-            font-family: roboto mono;
-            padding: 6px;
-        }
-
-        .code:selected {
-            background-color: #657B84;
-            color: #fdf6e3;
-        }
-    """;
-
     public string description { get; construct; }
     public string icon_name { get; construct; }
 
@@ -134,15 +118,6 @@ public class IconView : Gtk.ScrolledWindow {
 
             grid.add (icon_row);
             i++;
-        }
-        
-
-        var provider = new Gtk.CssProvider ();
-        try {
-            provider.load_from_data (CODE_STYLE, CODE_STYLE.length);
-            Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
-        } catch (Error e) {
-            critical (e.message);
         }
     }
 }

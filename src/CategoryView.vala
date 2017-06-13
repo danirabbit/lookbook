@@ -25,10 +25,14 @@ public class CategoryView : Gtk.Grid {
     }
 
     construct {
-        var address_book_new = new IconView ("address-book-new", "The icon used for the action to create a new address book.");
-
         var view = new Gtk.Stack ();
-        view.add_titled (address_book_new, "address-book-new", "address-book-new");
+
+        var icon_theme = Gtk.IconTheme.get_default ();
+        icon_theme.list_icons (category).foreach ((icon) => {
+            message ("%s".printf (icon));
+            var icon_view = new IconView (icon,"");
+            view.add_titled (icon_view, icon, icon);
+        });
 
         var list = new Gtk.StackSidebar ();
         list.stack = view;
