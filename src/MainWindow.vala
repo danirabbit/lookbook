@@ -27,18 +27,22 @@ public class MainWindow : Gtk.Window {
     }
 
     construct {
-        var address_book_new = new IconView ("address-book-new", "The icon used for the action to create a new address book.");
+        var categories = new Gtk.Stack ();
 
-        var icons_view = new Gtk.Stack ();
-        icons_view.add_titled (address_book_new, "address-book-new", "address-book-new");
+        var icon_theme = Gtk.IconTheme.get_default ();
 
-        var icons_list = new Gtk.StackSidebar ();
-        icons_list.stack = icons_view;
-        icons_list.vexpand = true;
+        icon_theme.list_contexts ().foreach ((category) => {
+            var category_view = new CategoryView (category);
+            categories.add_titled (category_view, category, category);
+        });
+
+        var categories_sidebar = new Gtk.StackSidebar ();
+        categories_sidebar.stack = categories;
+        categories_sidebar.vexpand = true;
 
         var grid = new Gtk.Grid ();
-        grid.add (icons_list);
-        grid.add (icons_view);
+        grid.add (categories_sidebar);
+        grid.add (categories);
 
         add (grid);
         show_all ();
