@@ -52,7 +52,7 @@ public class IconView : Gtk.ScrolledWindow {
 
         Gtk.IconSize [] sizes = {Gtk.IconSize.SMALL_TOOLBAR, Gtk.IconSize.LARGE_TOOLBAR, Gtk.IconSize.DND, Gtk.IconSize.DIALOG};
 
-        string [] pixels = {"16px", "24px", "32px", "48px"};
+        string [] pixels = {"16", "24", "32", "48"};
 
         var color_title = new Gtk.Label ("Color Icons");
         color_title.margin_top = 24;
@@ -64,9 +64,10 @@ public class IconView : Gtk.ScrolledWindow {
 
         foreach (Gtk.IconSize size in sizes) {
             var icon = new Gtk.Image.from_icon_name (icon_name, size);
+            icon.pixel_size = pixels[i].to_int ();
             size_group.add_widget (icon);
 
-            var label = new Gtk.Label (pixels[i]);
+            var pixel_label = new Gtk.Label (pixels[i] + "px");
 
             var snippet = new Gtk.Label ("var icon = new Gtk.Image.from_icon_name (\"%s\", %s);".printf (icon_name, size.to_string ()));
             snippet.hexpand = true;
@@ -80,7 +81,7 @@ public class IconView : Gtk.ScrolledWindow {
             icon_row.column_spacing = 12;
             icon_row.margin_top = 12;
             icon_row.add (icon);
-            icon_row.add (label);
+            icon_row.add (pixel_label);
             icon_row.add (snippet);
 
             grid.add (icon_row);

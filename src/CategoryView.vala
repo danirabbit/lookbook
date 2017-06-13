@@ -36,8 +36,8 @@ public class CategoryView : Gtk.Grid {
         var view = new Gtk.Stack ();
 
         string data =
-		"""
-		{
+        """
+        {
             "actions" : [
                 {
                     "name" : "address-book-new",
@@ -52,8 +52,8 @@ public class CategoryView : Gtk.Grid {
                     "description" : "The icon used for initiating or accepting a call."
                 }
             ]
-		}
-		""";
+        }
+        """;
 
         var parser = new Json.Parser ();
 
