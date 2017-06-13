@@ -21,27 +21,39 @@ public class MainWindow : Gtk.Window {
     public MainWindow (Gtk.Application application) {
         Object (application: application,
                 icon_name: "com.github.danrabbit.lookbook",
-                resizable: false,
                 title: _("LookBook"),
                 height_request: 600,
                 width_request: 800);
     }
 
     construct {
+        var address_book_new = new IconView ("address-book-new", "The icon used for the action to create a new address book.");
+
+        var actions_view = new Gtk.Stack ();
+        actions_view.add_titled (address_book_new, "address-book-new", "address-book-new");
+
+        var actions_list = new Gtk.StackSidebar ();
+        actions_list.stack = actions_view;
+        actions_list.vexpand = true;
+        actions_list.get_style_context ().remove_class ("sidebar");
+
         var actions = new Gtk.Grid ();
+        actions.add (actions_list);
+        actions.add (actions_view);
+
         var apps = new Gtk.Grid ();
 
-        var stack = new Gtk.Stack ();
-        stack.add_titled (actions, "actions", "Actions");
-        stack.add_titled (apps, "apps", "Apps");
+        var categories = new Gtk.Stack ();
+        categories.add_titled (actions, "actions", "Actions");
+        categories.add_titled (apps, "apps", "Apps");
 
-        var stack_sidebar = new Gtk.StackSidebar ();
-        stack_sidebar.stack = stack;
-        stack_sidebar.vexpand = true;
+        var categories_sidebar = new Gtk.StackSidebar ();
+        categories_sidebar.stack = categories;
+        categories_sidebar.vexpand = true;
 
         var grid = new Gtk.Grid ();
-        grid.add (stack_sidebar);
-        grid.add (stack);
+        grid.add (categories_sidebar);
+        grid.add (categories);
 
         add (grid);
         show_all ();

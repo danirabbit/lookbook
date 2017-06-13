@@ -17,6 +17,7 @@ c_args = [
 executable(
     meson.project_name(),
     'src/Application.vala',
+    'src/IconView.vala',
     'src/MainWindow.vala',
     c_args: c_args,
     dependencies: [
