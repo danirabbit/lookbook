@@ -32,7 +32,7 @@ public class LookBook : Gtk.Application {
 
         var app_window = new MainWindow (this);
 
-        app_window.show ();
+        app_window.show_all ();
 
         var quit_action = new SimpleAction ("quit", null);
 

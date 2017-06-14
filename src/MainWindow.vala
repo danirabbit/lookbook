@@ -70,7 +70,5 @@ public class MainWindow : Gtk.Window {
         } catch (Error e) {
             critical (e.message);
         }
-
-        show_all ();
     }
 }

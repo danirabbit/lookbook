@@ -18,14 +18,6 @@
 */
 
 public class CategoryView : Gtk.Paned {
-    private const string ICONS = """
-        {
-            "address-book-new",
-            "appointment-new",
-            "bookmark-new"
-        }
-    """;
-
     public string category_name { get; construct; }
 
     public CategoryView (string category_name) {
