@@ -20,6 +20,8 @@ executable(
     'src/CategoryView.vala',
     'src/IconView.vala',
     'src/MainWindow.vala',
+    'src/Widgets/IconListBox.vala',
+    'src/Widgets/IconListRow.vala',
     c_args: c_args,
     dependencies: [
         dependency('glib-2.0'),

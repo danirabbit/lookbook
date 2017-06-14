@@ -182,8 +182,7 @@ public class CategoryView : Gtk.Paned {
             view.add_titled (icon_view, name, name);
         }
 
-        var list = new Gtk.StackSidebar ();
-        list.stack = view;
+        var list = new IconListBox (view);
         list.vexpand = true;
 
         add1 (list);
