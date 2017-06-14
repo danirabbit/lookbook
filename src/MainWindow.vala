@@ -57,11 +57,11 @@ public class MainWindow : Gtk.Window {
         categories_sidebar.stack = category_stack;
         categories_sidebar.vexpand = true;
 
-        var grid = new Gtk.Grid ();
-        grid.add (categories_sidebar);
-        grid.add (category_stack);
+        var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
+        paned.add1 (categories_sidebar);
+        paned.add2 (category_stack);
 
-        add (grid);
+        add (paned);
 
         var provider = new Gtk.CssProvider ();
         try {

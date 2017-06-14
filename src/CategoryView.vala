@@ -17,7 +17,7 @@
 * Boston, MA 02110-1301 USA
 */
 
-public class CategoryView : Gtk.Grid {
+public class CategoryView : Gtk.Paned {
     private const string ICONS = """
         {
             "address-book-new",
@@ -29,7 +29,10 @@ public class CategoryView : Gtk.Grid {
     public string category_name { get; construct; }
 
     public CategoryView (string category_name) {
-        Object (category_name: category_name);
+        Object (
+            category_name: category_name,
+            orientation: Gtk.Orientation.HORIZONTAL
+        );
     }
 
     construct {
@@ -130,7 +133,7 @@ public class CategoryView : Gtk.Grid {
         list.vexpand = true;
         list.get_style_context ().remove_class ("sidebar");
 
-        add (list);
-        add (view);
+        add1 (list);
+        add2 (view);
     }
 }
