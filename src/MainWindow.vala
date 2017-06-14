@@ -58,6 +58,7 @@ public class MainWindow : Gtk.Window {
         categories_sidebar.vexpand = true;
 
         var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
+        paned.position = 128;
         paned.add1 (categories_sidebar);
         paned.add2 (category_stack);
 

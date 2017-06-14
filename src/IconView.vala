@@ -98,9 +98,10 @@ public class IconView : Gtk.ScrolledWindow {
 
         foreach (Gtk.IconSize size in sizes) {
             var icon = new Gtk.Image.from_icon_name (icon_name + "-symbolic", size);
+            icon.pixel_size = pixels[i].to_int ();
             size_group.add_widget (icon);
 
-            var label = new Gtk.Label (pixels[i]);
+            var label = new Gtk.Label (pixels[i] + "px");
 
             var snippet = new Gtk.Label ("var icon = new Gtk.Image.from_icon_name (\"%s-symbolic\", %s);".printf (icon_name, size.to_string ()));
             snippet.hexpand = true;
@@ -121,4 +122,5 @@ public class IconView : Gtk.ScrolledWindow {
             i++;
         }
     }
+
 }
