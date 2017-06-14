@@ -88,6 +88,14 @@ public class CategoryView : Gtk.Paned {
                     "description" : "Create a new contact in an address book application"
                 },
                 {
+                    "name" : "document-export",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-import",
+                    "description" : ""
+                },
+                {
                     "name" : "document-new",
                     "description" : ""
                 },
@@ -132,6 +140,10 @@ public class CategoryView : Gtk.Paned {
                     "description" : ""
                 },
                 {
+                    "name" : "edit",
+                    "description" : ""
+                },
+                {
                     "name" : "edit-clear",
                     "description" : ""
                 },
@@ -156,6 +168,10 @@ public class CategoryView : Gtk.Paned {
                     "description" : ""
                 },
                 {
+                    "name" : "edit-flag",
+                    "description" : ""
+                },
+                {
                     "name" : "edit-paste",
                     "description" : ""
                 },
@@ -169,6 +185,18 @@ public class CategoryView : Gtk.Paned {
                 },
                 {
                     "name" : "edit-undo",
+                    "description" : ""
+                },
+                {
+                    "name" : "event-new",
+                    "description" : ""
+                },
+                {
+                    "name" : "folder-copy",
+                    "description" : ""
+                },
+                {
+                    "name" : "folder-move",
                     "description" : ""
                 },
                 {
@@ -205,6 +233,10 @@ public class CategoryView : Gtk.Paned {
                 },
                 {
                     "name" : "format-text-bold",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-text-highlight",
                     "description" : ""
                 },
                 {
@@ -269,6 +301,22 @@ public class CategoryView : Gtk.Paned {
                 },
                 {
                     "name" : "help-faq",
+                    "description" : ""
+                },
+                {
+                    "name" : "image-adjust",
+                    "description" : ""
+                },
+                {
+                    "name" : "image-auto-adjust",
+                    "description" : ""
+                },
+                {
+                    "name" : "image-crop",
+                    "description" : ""
+                },
+                {
+                    "name" : "image-red-eye",
                     "description" : ""
                 },
                 {
