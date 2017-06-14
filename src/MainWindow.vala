@@ -38,8 +38,8 @@ public class MainWindow : Gtk.Window {
         Object (application: application,
                 icon_name: "com.github.danrabbit.lookbook",
                 title: _("LookBook"),
-                height_request: 600,
-                width_request: 800);
+                height_request: 900,
+                width_request: 900);
     }
 
     construct {

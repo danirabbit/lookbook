@@ -617,7 +617,7 @@ public class CategoryView : Gtk.Paned {
         try {
             parser.load_from_data (data);
         } catch (Error e) {
-            message ("we fucked up");
+            message ("invalid data");
             return;
         }
 

@@ -38,6 +38,11 @@ public class IconView : Gtk.ScrolledWindow {
         var description = new Gtk.Label (description);
         description.xalign = 0;
 
+        var color_title = new Gtk.Label ("Color Icons");
+        color_title.margin_top = 24;
+        color_title.xalign = 0;
+        color_title.get_style_context ().add_class ("h4");
+
         var grid = new Gtk.Grid ();
         grid.column_spacing = 12;
         grid.row_spacing = 12;
@@ -45,6 +50,7 @@ public class IconView : Gtk.ScrolledWindow {
         grid.orientation = Gtk.Orientation.VERTICAL;
         grid.add (title);
         grid.add (description);
+        grid.add (color_title);
 
         add (grid);
 
@@ -53,12 +59,6 @@ public class IconView : Gtk.ScrolledWindow {
         Gtk.IconSize [] sizes = {Gtk.IconSize.SMALL_TOOLBAR, Gtk.IconSize.LARGE_TOOLBAR, Gtk.IconSize.DND, Gtk.IconSize.DIALOG};
 
         string [] pixels = {"16", "24", "32", "48"};
-
-        var color_title = new Gtk.Label ("Color Icons");
-        color_title.margin_top = 24;
-        color_title.xalign = 0;
-        color_title.get_style_context ().add_class ("h4");
-        grid.add (color_title);
 
         int i = 0;
 
@@ -69,13 +69,9 @@ public class IconView : Gtk.ScrolledWindow {
 
             var pixel_label = new Gtk.Label (pixels[i] + "px");
 
-            var snippet = new Gtk.Label ("var icon = new Gtk.Image.from_icon_name (\"%s\", %s);".printf (icon_name, size.to_string ()));
+            var snippet = new Snippet ("var icon = new Gtk.Image.from_icon_name (\"%s\", %s);".printf (icon_name, size.to_string ()));
             snippet.hexpand = true;
-            snippet.selectable = true;
             snippet.valign = Gtk.Align.CENTER;
-            snippet.wrap = true;
-            snippet.xalign = 0;
-            snippet.get_style_context ().add_class ("code");
 
             var icon_row = new Gtk.Grid ();
             icon_row.column_spacing = 12;
@@ -103,13 +99,9 @@ public class IconView : Gtk.ScrolledWindow {
 
             var label = new Gtk.Label (pixels[i] + "px");
 
-            var snippet = new Gtk.Label ("var icon = new Gtk.Image.from_icon_name (\"%s-symbolic\", %s);".printf (icon_name, size.to_string ()));
+            var snippet = new Snippet ("var icon = new Gtk.Image.from_icon_name (\"%s-symbolic\", %s);".printf (icon_name, size.to_string ()));
             snippet.hexpand = true;
-            snippet.selectable = true;
             snippet.valign = Gtk.Align.CENTER;
-            snippet.wrap = true;
-            snippet.xalign = 0;
-            snippet.get_style_context ().add_class ("code");
 
             var icon_row = new Gtk.Grid ();
             icon_row.column_spacing = 12;
@@ -120,6 +112,21 @@ public class IconView : Gtk.ScrolledWindow {
 
             grid.add (icon_row);
             i++;
+        }
+    }
+
+    private class Snippet : Gtk.Label {
+        public Snippet (string label) {
+            Object (
+                label: label,
+                selectable: true,
+                wrap: true,
+                xalign: 0
+            );
+        }
+
+        construct {
+            get_style_context ().add_class ("code");
         }
     }
 
