@@ -593,7 +593,7 @@ public class CategoryView : Gtk.Paned {
                     "description" : "The icon used for generic address book file types"
                 },
                 {
-                    "name" : "x-office-calendar	",
+                    "name" : "x-office-calendar",
                     "description" : "The icon used for generic calendar file types"
                 },
                 {
