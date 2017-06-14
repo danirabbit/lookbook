@@ -89,13 +89,82 @@ public class CategoryView : Gtk.Paned {
             ],
             "Categories" : [
                 {
+                    "name" : "applications-accessories",
+                    "description" : "The icon for the Accessories category of applications"
+                },
+                {
+                    "name" : "applications-development",
+                    "description" : ""
+                },
+                {
+                    "name" : "applications-engineering",
+                    "description" : ""
+                },
+                {
+                    "name" : "applications-games",
+                    "description" : ""
+                },
+                {
+                    "name" : "applications-graphics	",
+                    "description" : ""
+                },
+                {
                     "name" : "applications-internet",
                     "description" : "The icon for the Internet category of applications"
                 },
                 {
                     "name" : "applications-multimedia",
                     "description" : "The icon for the Multimedia category of applications"
+                },
+                {
+                    "name" : "applications-office",
+                    "description" : ""
+                },
+                {
+                    "name" : "applications-other",
+                    "description" : ""
+                },
+                {
+                    "name" : "applications-science",
+                    "description" : ""
+                },
+                {
+                    "name" : "applications-system",
+                    "description" : ""
+                },
+                {
+                    "name" : "applications-utilities",
+                    "description" : ""
+                },
+                {
+                    "name" : "preferences-desktop",
+                    "description" : ""
+                },
+                {
+                    "name" : "preferences-desktop-peripherals",
+                    "description" : ""
+                },
+                {
+                    "name" : "preferences-desktop-personal",
+                    "description" : ""
+                },
+                {
+                    "name" : "preferences-other",
+                    "description" : ""
+                },
+                {
+                    "name" : "preferences-system",
+                    "description" : ""
+                },
+                {
+                    "name" : "preferences-system-network",
+                    "description" : ""
+                },
+                {
+                    "name" : "system-help",
+                    "description" : ""
                 }
+
             ],
             "Mimetypes" : [
                 {
