@@ -17,21 +17,26 @@
 * Boston, MA 02110-1301 USA
 */
 
-public class IconListBox : Gtk.ListBox {
+public class IconListBox : Gtk.ScrolledWindow {
     public IconListBox (Gtk.Stack stack) {
         Object (
-            activate_on_single_click: true,
-            selection_mode: Gtk.SelectionMode.SINGLE
+            hscrollbar_policy: Gtk.PolicyType.NEVER
         );
+
+        var listbox = new Gtk.ListBox ();
+        listbox.activate_on_single_click = true;
+        listbox.selection_mode = Gtk.SelectionMode.SINGLE;
 
         foreach (unowned Gtk.Widget child in stack.get_children ()) {
             var row = new IconListRow (((IconView) child).icon_name);
-            add (row);
+            listbox.add (row);
         }
 
-        row_selected.connect ((row) => {
+        listbox.row_selected.connect ((row) => {
             var title = ((IconListRow) row).icon_name;
             stack.visible_child_name = title;
         });
+
+        add (listbox);
     }
 }

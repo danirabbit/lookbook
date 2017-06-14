@@ -79,12 +79,204 @@ public class CategoryView : Gtk.Paned {
                     "description" : "Initiate or accept a call"
                 },
                 {
-                    "name" : "call-end",
+                    "name" : "call-stop",
                     "description" : "Stop the current call"
                 },
                 {
                     "name" : "contact-new",
                     "description" : "Create a new contact in an address book application"
+                },
+                {
+                    "name" : "document-new",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-open",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-open-recent",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-page-setup",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-print",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-print-preview",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-properties",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-revert",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-save",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-save-as",
+                    "description" : ""
+                },
+                {
+                    "name" : "document-send",
+                    "description" : ""
+                },
+                {
+                    "name" : "edit-clear",
+                    "description" : ""
+                },
+                {
+                    "name" : "edit-copy",
+                    "description" : ""
+                },
+                {
+                    "name" : "edit-cut",
+                    "description" : ""
+                },
+                {
+                    "name" : "edit-delete",
+                    "description" : ""
+                },
+                {
+                    "name" : "edit-find",
+                    "description" : ""
+                },
+                {
+                    "name" : "edit-find-replace",
+                    "description" : ""
+                },
+                {
+                    "name" : "edit-paste",
+                    "description" : ""
+                },
+                {
+                    "name" : "edit-redo",
+                    "description" : ""
+                },
+                {
+                    "name" : "edit-select-all",
+                    "description" : ""
+                },
+                {
+                    "name" : "edit-undo",
+                    "description" : ""
+                },
+                {
+                    "name" : "folder-new",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-indent-less",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-indent-more",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-justify-center",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-justify-fill",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-justify-right",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-text-direction-ltr",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-text-direction-rtl",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-text-bold",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-text-italic",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-text-underline",
+                    "description" : ""
+                },
+                {
+                    "name" : "format-text-strikethrough",
+                    "description" : ""
+                },
+                {
+                    "name" : "go-bottom",
+                    "description" : ""
+                },
+                {
+                    "name" : "go-down",
+                    "description" : ""
+                },
+                {
+                    "name" : "go-first",
+                    "description" : ""
+                },
+                {
+                    "name" : "go-home",
+                    "description" : ""
+                },
+                {
+                    "name" : "go-jump",
+                    "description" : ""
+                },
+                {
+                    "name" : "go-last",
+                    "description" : ""
+                },
+                {
+                    "name" : "go-next",
+                    "description" : ""
+                },
+                {
+                    "name" : "go-previous",
+                    "description" : ""
+                },
+                {
+                    "name" : "go-top",
+                    "description" : ""
+                },
+                {
+                    "name" : "go-up",
+                    "description" : ""
+                },
+                {
+                    "name" : "help-about",
+                    "description" : ""
+                },
+                {
+                    "name" : "help-contents",
+                    "description" : ""
+                },
+                {
+                    "name" : "help-faq",
+                    "description" : ""
+                },
+                {
+                    "name" : "insert-image",
+                    "description" : ""
+                },
+                {
+                    "name" : "insert-link",
+                    "description" : ""
                 }
             ],
             "Categories" : [
