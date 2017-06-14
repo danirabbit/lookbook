@@ -277,6 +277,194 @@ public class CategoryView : Gtk.Paned {
                 {
                     "name" : "insert-link",
                     "description" : ""
+                },
+                {
+                    "name" : "insert-object",
+                    "description" : ""
+                },
+                {
+                    "name" : "insert-text",
+                    "description" : ""
+                },
+                {
+                    "name" : "list-add",
+                    "description" : ""
+                },
+                {
+                    "name" : "list-remove",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-forward",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-mark-important",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-mark-junk",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-mark-notjunk",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-mark-read",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-mark-unread",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-message-new",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-reply-all",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-reply-sender",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-send",
+                    "description" : ""
+                },
+                {
+                    "name" : "mail-send-receive",
+                    "description" : ""
+                },
+                {
+                    "name" : "media-eject",
+                    "description" : ""
+                },
+                {
+                    "name" : "media-playback-pause",
+                    "description" : ""
+                },
+                {
+                    "name" : "media-playback-start",
+                    "description" : ""
+                },
+                {
+                    "name" : "media-playback-stop",
+                    "description" : ""
+                },
+                {
+                    "name" : "media-record",
+                    "description" : ""
+                },
+                {
+                    "name" : "media-seek-backward",
+                    "description" : ""
+                },
+                {
+                    "name" : "media-seek-forward",
+                    "description" : ""
+                },
+                {
+                    "name" : "media-skip-backward",
+                    "description" : ""
+                },
+                {
+                    "name" : "media-skip-forward",
+                    "description" : ""
+                },
+                {
+                    "name" : "object-flip-horizontal",
+                    "description" : ""
+                },
+                {
+                    "name" : "object-flip-vertical",
+                    "description" : ""
+                },
+                {
+                    "name" : "object-rotate-left",
+                    "description" : ""
+                },
+                {
+                    "name" : "object-rotate-right",
+                    "description" : ""
+                },
+                {
+                    "name" : "process-stop",
+                    "description" : ""
+                },
+                {
+                    "name" : "system-lock-screen",
+                    "description" : ""
+                },
+                {
+                    "name" : "system-log-out",
+                    "description" : ""
+                },
+                {
+                    "name" : "system-run",
+                    "description" : ""
+                },
+                {
+                    "name" : "system-search",
+                    "description" : ""
+                },
+                {
+                    "name" : "system-reboot",
+                    "description" : ""
+                },
+                {
+                    "name" : "system-shutdown",
+                    "description" : ""
+                },
+                {
+                    "name" : "tools-check-spelling",
+                    "description" : ""
+                },
+                {
+                    "name" : "view-fullscreen",
+                    "description" : ""
+                },
+                {
+                    "name" : "view-refresh",
+                    "description" : ""
+                },
+                {
+                    "name" : "view-restore",
+                    "description" : ""
+                },
+                {
+                    "name" : "view-sort-ascending",
+                    "description" : ""
+                },
+                {
+                    "name" : "view-sort-descending",
+                    "description" : ""
+                },
+                {
+                    "name" : "window-close",
+                    "description" : ""
+                },
+                {
+                    "name" : "window-new",
+                    "description" : ""
+                },
+                {
+                    "name" : "zoom-fit-best",
+                    "description" : ""
+                },
+                {
+                    "name" : "zoom-in",
+                    "description" : ""
+                },
+                {
+                    "name" : "zoom-original",
+                    "description" : ""
+                },
+                {
+                    "name" : "zoom-out",
+                    "description" : ""
                 }
             ],
             "Categories" : [
