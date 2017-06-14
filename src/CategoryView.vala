@@ -41,15 +41,65 @@ public class CategoryView : Gtk.Grid {
             "actions" : [
                 {
                     "name" : "address-book-new",
-                    "description" : "The icon used for the action to create a new address book."
+                    "description" : "The icon used for the action to create a new address book"
+                },
+                {
+                    "name" : "align-horizontal-center",
+                    "description" : ""
+                },
+                {
+                    "name" : "align-horizontal-left",
+                    "description" : ""
+                },
+                {
+                    "name" : "align-horizontal-right",
+                    "description" : ""
+                },
+                {
+                    "name" : "align-vertical-bottom",
+                    "description" : ""
+                },
+                {
+                    "name" : "align-vertical-center",
+                    "description" : ""
+                },
+                {
+                    "name" : "align-vertical-top",
+                    "description" : ""
                 },
                 {
                     "name" : "application-exit",
-                    "description" : "The icon used for exiting an application."
+                    "description" : "Used for exiting an application"
+                },
+                {
+                    "name" : "appointment-new",
+                    "description" : "Create a new appointment in a calendaring application"
+                },
+                {
+                    "name" : "bookmark-new",
+                    "description" : "Create a new bookmark"
                 },
                 {
                     "name" : "call-start",
-                    "description" : "The icon used for initiating or accepting a call."
+                    "description" : "Initiate or accept a call"
+                },
+                {
+                    "name" : "call-end",
+                    "description" : "Stop the current call"
+                },
+                {
+                    "name" : "contact-new",
+                    "description" : "Create a new contact in an address book application"
+                }
+            ],
+            "categories" : [
+                {
+                    "name" : "applications-internet",
+                    "description" : ""
+                },
+                {
+                    "name" : "applications-multimedia",
+                    "description" : ""
                 }
             ]
         }
