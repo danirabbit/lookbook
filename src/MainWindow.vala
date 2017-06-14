@@ -45,7 +45,7 @@ public class MainWindow : Gtk.Window {
     construct {
         var category_stack = new Gtk.Stack ();
 
-        string categories [] =  { "actions", "categories" };
+        string categories [] =  { "Actions", "Categories", "Mimetypes" };
 
 
         foreach (string category in categories){

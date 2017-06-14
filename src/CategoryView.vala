@@ -33,7 +33,7 @@ public class CategoryView : Gtk.Paned {
         string data =
         """
         {
-            "actions" : [
+            "Actions" : [
                 {
                     "name" : "address-book-new",
                     "description" : "The icon used for the action to create a new address book"
@@ -87,14 +87,76 @@ public class CategoryView : Gtk.Paned {
                     "description" : "Create a new contact in an address book application"
                 }
             ],
-            "categories" : [
+            "Categories" : [
                 {
                     "name" : "applications-internet",
-                    "description" : ""
+                    "description" : "The icon for the Internet category of applications"
                 },
                 {
                     "name" : "applications-multimedia",
-                    "description" : ""
+                    "description" : "The icon for the Multimedia category of applications"
+                }
+            ],
+            "Mimetypes" : [
+                {
+                    "name" : "application-x-executable",
+                    "description" : "The icon used for executable file types"
+                },
+                {
+                    "name" : "audio-x-generic",
+                    "description" : "The icon used for generic audio file types"
+                },
+                {
+                    "name" : "font-x-generic",
+                    "description" : "The icon used for generic font file types"
+                },
+                {
+                    "name" : "image-x-generic",
+                    "description" : "The icon used for generic image file types"
+                },
+                {
+                    "name" : "package-x-generic",
+                    "description" : "The icon used for generic package file types"
+                },
+                {
+                    "name" : "text-html",
+                    "description" : "The icon used for HTML text file types"
+                },
+                {
+                    "name" : "text-x-generic",
+                    "description" : "The icon used for generic text file types"
+                },
+                {
+                    "name" : "text-x-generic-template",
+                    "description" : "The icon used for generic text templates"
+                },
+                {
+                    "name" : "text-x-script",
+                    "description" : "The icon used for script file types, such as shell scripts"
+                },
+                {
+                    "name" : "video-x-generic",
+                    "description" : "The icon used for generic video file types"
+                },
+                {
+                    "name" : "x-office-address-book",
+                    "description" : "The icon used for generic address book file types"
+                },
+                {
+                    "name" : "x-office-calendar	",
+                    "description" : "The icon used for generic calendar file types"
+                },
+                {
+                    "name" : "x-office-document",
+                    "description" : "The icon used for generic document and letter file types"
+                },
+                {
+                    "name" : "x-office-presentation",
+                    "description" : "The icon used for generic presentation file types"
+                },
+                {
+                    "name" : "x-office-spreadsheet",
+                    "description" : "The icon used for generic spreadsheet file types"
                 }
             ]
         }
