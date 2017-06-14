@@ -131,7 +131,6 @@ public class CategoryView : Gtk.Paned {
         var list = new Gtk.StackSidebar ();
         list.stack = view;
         list.vexpand = true;
-        list.get_style_context ().remove_class ("sidebar");
 
         add1 (list);
         add2 (view);
