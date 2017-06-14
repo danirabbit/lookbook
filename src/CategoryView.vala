@@ -23,7 +23,8 @@ public class CategoryView : Gtk.Paned {
     public CategoryView (string category_name) {
         Object (
             category_name: category_name,
-            orientation: Gtk.Orientation.HORIZONTAL
+            orientation: Gtk.Orientation.HORIZONTAL,
+            position: 256
         );
     }
 
