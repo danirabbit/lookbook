@@ -18,6 +18,8 @@
 */
 
 public class IconListBox : Gtk.ScrolledWindow {
+    public signal void row_selected ();
+
     public IconListBox (Gtk.Stack stack) {
         Object (
             hscrollbar_policy: Gtk.PolicyType.NEVER
@@ -35,6 +37,8 @@ public class IconListBox : Gtk.ScrolledWindow {
         listbox.row_selected.connect ((row) => {
             var title = ((IconListRow) row).icon_name;
             stack.visible_child_name = title;
+
+            row_selected ();
         });
 
         add (listbox);

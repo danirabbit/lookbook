@@ -681,9 +681,12 @@ public class CategoryView : Gtk.Paned {
         }
 
         var list = new IconListBox (view);
+        list.row_selected.connect (() => ((IconView)view.visible_child).switched_to ());
         list.vexpand = true;
 
         add1 (list);
         add2 (view);
+
+        view.realize.connect (() => ((IconView)view.visible_child).switched_to ());
     }
 }
