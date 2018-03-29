@@ -39,7 +39,7 @@ public class MainWindow : Gtk.Window {
                 icon_name: "com.github.danrabbit.lookbook",
                 title: _("LookBook"),
                 height_request: 900,
-                width_request: 900);
+                width_request: 1200);
     }
 
     construct {
