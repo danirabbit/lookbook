@@ -519,7 +519,15 @@ public class CategoryView : Gtk.Paned {
             description = _("")
         },
         Icon () {
+            name = "applications-education",
+            description = _("")
+        },
+        Icon () {
             name = "applications-engineering",
+            description = _("")
+        },
+        Icon () {
+            name = "applications-fonts",
             description = _("")
         },
         Icon () {
@@ -559,7 +567,47 @@ public class CategoryView : Gtk.Paned {
             description = _("")
         },
         Icon () {
+            name = "preferences-bluetooth",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-color",
+            description = _("")
+        },
+        Icon () {
             name = "preferences-desktop",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop-accessibility",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop-accessibility-pointing",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop-accessibility-zoom",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop-applications",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop-display",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop-keyboard",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop-locale",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop-online-accounts",
             description = _("")
         },
         Icon () {
@@ -568,6 +616,14 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "preferences-desktop-personal",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop-sound",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop-wallpaper",
             description = _("")
         },
         Icon () {
@@ -580,6 +636,34 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "preferences-system-network",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-system-notifications",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-system-parental-controls",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-system-power",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-system-privacy",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-system-sharing",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-system-time",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-system-windows",
             description = _("")
         },
         Icon () {

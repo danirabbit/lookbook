@@ -29,6 +29,7 @@ public class IconListRow : Gtk.ListBoxRow {
         icon.pixel_size = 24;
 
         var label = new Gtk.Label (icon_name);
+        label.ellipsize = Pango.EllipsizeMode.MIDDLE;
 
         var grid = new Gtk.Grid ();
         grid.column_spacing = 12;
