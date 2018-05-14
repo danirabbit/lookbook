@@ -690,6 +690,54 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "emblem-default",
             description = _("")
+        },
+        Icon () {
+            name = "emblem-documents",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-downloads",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-favorite",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-important",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-mail",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-photos",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-readonly",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-shared",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-symbolic-link",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-synchronized",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-system",
+            description = _("")
+        },
+        Icon () {
+            name = "emblem-unreadable",
+            description = _("")
         }
     };
 
