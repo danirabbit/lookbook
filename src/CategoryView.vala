@@ -697,7 +697,95 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "face-angel",
             description = _("")
-        }
+        },
+        Icon () {
+            name = "face-angry",
+            description = _("")
+        },
+        Icon () {
+            name = "face-cool",
+            description = _("")
+        },
+        Icon () {
+            name = "face-crying",
+            description = _("")
+        },
+        Icon () {
+            name = "face-devilish",
+            description = _("")
+        },
+        Icon () {
+            name = "face-embarrassed",
+            description = _("")
+        },
+        Icon () {
+            name = "face-heart",
+            description = _("")
+        },
+        Icon () {
+            name = "face-heart-broken",
+            description = _("")
+        },
+        Icon () {
+            name = "face-kiss",
+            description = _("")
+        },
+        Icon () {
+            name = "face-laugh",
+            description = _("")
+        },
+        Icon () {
+            name = "face-monkey",
+            description = _("")
+        },
+        Icon () {
+            name = "face-plain",
+            description = _("")
+        },
+        Icon () {
+            name = "face-raspberry",
+            description = _("")
+        },
+        Icon () {
+            name = "face-sad",
+            description = _("")
+        },
+        Icon () {
+            name = "face-sick",
+            description = _("")
+        },
+        Icon () {
+            name = "face-smile",
+            description = _("")
+        },
+        Icon () {
+            name = "face-smile-big",
+            description = _("")
+        },
+        Icon () {
+            name = "face-smirk",
+            description = _("")
+        },
+        Icon () {
+            name = "face-surprise",
+            description = _("")
+        },
+        Icon () {
+            name = "face-tired",
+            description = _("")
+        },
+        Icon () {
+            name = "face-uncertain",
+            description = _("")
+        },
+        Icon () {
+            name = "face-wink",
+            description = _("")
+        },
+        Icon () {
+            name = "face-worried",
+            description = _("")
+        },
     };
 
     static Icon[] mimes = {
