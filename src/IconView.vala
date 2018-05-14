@@ -90,34 +90,57 @@ public class IconView : Gtk.ScrolledWindow {
         if (!initialized) {
             string [] pixels = {"16", "24", "32", "48", "64", "128"};
 
+            var icon_theme = Gtk.IconTheme.get_default ();
+
             int i = 0;
 
+            var has_color = icon_theme.has_icon (icon_name);
+            var has_symbolic = icon_theme.has_icon (icon_name + "-symbolic");
+
             foreach (string pixel_size in pixels) {
-                var color_icon = new Gtk.Image ();
-                color_icon.gicon = new ThemedIcon (icon_name);
-                color_icon.icon_name = icon_name;
-                color_icon.pixel_size = int.parse (pixel_size);
-                color_icon.use_fallback = true;
-                color_icon.valign = Gtk.Align.END;
+                if (has_color) {
+                    var color_icon = new Gtk.Image ();
+                    color_icon.gicon = new ThemedIcon (icon_name);
+                    color_icon.icon_name = icon_name;
+                    color_icon.pixel_size = int.parse (pixel_size);
+                    color_icon.use_fallback = true;
+                    color_icon.valign = Gtk.Align.END;
 
-                var color_label = new Gtk.Label (pixels[i] + "px");
-                color_label.hexpand = true;
+                    var color_label = new Gtk.Label (pixels[i] + "px");
+                    color_label.hexpand = true;
 
-                color_row.attach (color_icon, i, 0);
-                color_row.attach (color_label, i, 1);
+                    color_row.attach (color_icon, i, 0);
+                    color_row.attach (color_label, i, 1);
+                }
 
-                var symbolic_icon = new Gtk.Image ();
-                symbolic_icon.gicon = new ThemedIcon (icon_name + "-symbolic");
-                symbolic_icon.pixel_size = int.parse (pixel_size);
-                symbolic_icon.valign = Gtk.Align.END;
+                if (has_symbolic) {
+                    var symbolic_icon = new Gtk.Image ();
+                    symbolic_icon.gicon = new ThemedIcon (icon_name + "-symbolic");
+                    symbolic_icon.pixel_size = int.parse (pixel_size);
+                    symbolic_icon.valign = Gtk.Align.END;
 
-                var symbolic_label = new Gtk.Label (pixels[i] + "px");
-                symbolic_label.hexpand = true;
+                    var symbolic_label = new Gtk.Label (pixels[i] + "px");
+                    symbolic_label.hexpand = true;
 
-                symbolic_row.attach (symbolic_icon, i, 0);
-                symbolic_row.attach (symbolic_label, i, 1);
+                    symbolic_row.attach (symbolic_icon, i, 0);
+                    symbolic_row.attach (symbolic_label, i, 1);
+                }
 
                 i++;
+            }
+
+            var not_has_label = new Gtk.Label (_("Unavailable"));
+            not_has_label.hexpand = true;
+            not_has_label.height_request = 157;
+
+            var style_context = not_has_label.get_style_context ();
+            style_context.add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+            style_context.add_class (Granite.STYLE_CLASS_H3_LABEL);
+
+            if (!has_color) {
+                color_row.add (not_has_label);
+            } else if (!has_symbolic) {
+                symbolic_row.add (not_has_label);
             }
 
             show_all ();
