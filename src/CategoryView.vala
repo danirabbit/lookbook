@@ -1046,6 +1046,307 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "airplane-mode",
             description = _("")
+        },
+        Icon () {
+            name = "appointment-missed",
+            description = _("")
+        },
+        Icon () {
+            name = "appointment-soon",
+            description = _("")
+        },
+        Icon () {
+            name = "audio-volume-high",
+            description = _("")
+        },
+        Icon () {
+            name = "audio-volume-low",
+            description = _("")
+        },
+        Icon () {
+            name = "audio-volume-medium",
+            description = _("")
+        },
+        Icon () {
+            name = "audio-volume-muted",
+            description = _("")
+        },
+        Icon () {
+            name = "audio-volume-muted-blocking",
+            description = _("")
+        },
+        Icon () {
+            name = "avatar-default",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-ac-adapter",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-caution",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-caution-charging",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-empty",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-empty-charging",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-full",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-full-charged",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-full-charging",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-good",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-good-charging",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-low",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-low-charging",
+            description = _("")
+        },
+        Icon () {
+            name = "battery-missing",
+            description = _("")
+        },
+        Icon () {
+            name = "bluetooth-disabled",
+            description = _("")
+        },
+        Icon () {
+            name = "channel-secure",
+            description = _("")
+        },
+        Icon () {
+            name = "dialog-error",
+            description = _("")
+        },
+        Icon () {
+            name = "dialog-information",
+            description = _("")
+        },
+        Icon () {
+            name = "dialog-password",
+            description = _("")
+        },
+        Icon () {
+            name = "dialog-question",
+            description = _("")
+        },
+        Icon () {
+            name = "dialog-warning",
+            description = _("")
+        },
+        Icon () {
+            name = "image-loading",
+            description = _("")
+        },
+        Icon () {
+            name = "image-missing",
+            description = _("")
+        },
+        Icon () {
+            name = "locked",
+            description = _("")
+        },
+        Icon () {
+            name = "mail-attachment",
+            description = _("")
+        },
+        Icon () {
+            name = "mail-unread",
+            description = _("")
+        },
+        Icon () {
+            name = "mail-read",
+            description = _("")
+        },
+        Icon () {
+            name = "mail-replied",
+            description = _("")
+        },
+        Icon () {
+            name = "mail-signed",
+            description = _("Electronic mail that contains a signature")
+        },
+        Icon () {
+            name = "mail-signed-verified",
+            description = _("Electronic mail that contains a signature which has also been verified by the security system")
+        },
+        Icon () {
+            name = "media-playlist-repeat",
+            description = _("")
+        },
+        Icon () {
+            name = "media-playlist-shuffle",
+            description = _("")
+        },
+        Icon () {
+            name = "network-error",
+            description = _("")
+        },
+        Icon () {
+            name = "network-idle",
+            description = _("")
+        },
+        Icon () {
+            name = "network-offline",
+            description = _("")
+        },
+        Icon () {
+            name = "network-receive",
+            description = _("")
+        },
+        Icon () {
+            name = "network-transmit",
+            description = _("")
+        },
+        Icon () {
+            name = "network-transmit-receive",
+            description = _("")
+        },
+        Icon () {
+            name = "network-wired-disconnected",
+            description = _("")
+        },
+        Icon () {
+            name = "non-starred",
+            name = "non-starred",
+            description = _("")
+        },
+        Icon () {
+            name = "notification-disabled",
+            description = _("")
+        },
+        Icon () {
+            name = "printer-error",
+            description = _("")
+        },
+        Icon () {
+            name = "printer-printing",
+            description = _("")
+        },
+        Icon () {
+            name = "process-completed",
+            description = _("")
+        },
+        Icon () {
+            name = "security-high",
+            description = _("")
+        },
+        Icon () {
+            name = "security-medium",
+            description = _("")
+        },
+        Icon () {
+            name = "security-low",
+            description = _("")
+        },
+        Icon () {
+            name = "software-update-available",
+            description = _("")
+        },
+        Icon () {
+            name = "software-update-urgent",
+            description = _("")
+        },
+        Icon () {
+            name = "starred",
+            description = _("")
+        },
+        Icon () {
+            name = "task-due",
+            description = _("")
+        },
+        Icon () {
+            name = "task-past-due",
+            description = _("")
+        },
+        Icon () {
+            name = "user-available",
+            description = _("")
+        },
+        Icon () {
+            name = "user-away",
+            description = _("")
+        },
+        Icon () {
+            name = "user-idle",
+            description = _("")
+        },
+        Icon () {
+            name = "user-offline",
+            description = _("")
+        },
+        Icon () {
+            name = "view-private",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-clear",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-clear-night",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-few-clouds",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-few-clouds-night",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-fog",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-overcast",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-severe-alert",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-showers",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-showers-scattered",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-snow",
+            description = _("")
+        },
+        Icon () {
+            name = "weather-storm",
+            description = _("")
         }
     };
 
