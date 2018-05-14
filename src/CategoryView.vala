@@ -87,6 +87,58 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "audio-x-generic",
             description = _("Generic audio file types")
+        },
+        Icon () {
+            name = "font-x-generic",
+            description = _("Generic font file types")
+        },
+        Icon () {
+            name = "image-x-generic",
+            description = _("Generic image file types")
+        },
+        Icon () {
+            name = "package-x-generic",
+            description = _("Generic package file types")
+        },
+        Icon () {
+            name = "text-html",
+            description = _("HTML text file types")
+        },
+        Icon () {
+            name = "text-x-generic",
+            description = _("Generic text file types")
+        },
+        Icon () {
+            name = "text-x-generic-template",
+            description = _("Generic text templates")
+        },
+        Icon () {
+            name = "text-x-script",
+            description = _("Script file types, such as shell scripts")
+        },
+        Icon () {
+            name = "video-x-generic",
+            description = _("Generic video file types")
+        },
+        Icon () {
+            name = "x-office-address-book",
+            description = _("Generic address book file types")
+        },
+        Icon () {
+            name = "x-office-calendar",
+            description = _("Generic calendar file types")
+        },
+        Icon () {
+            name = "x-office-document",
+            description = _("Generic document and letter file types")
+        },
+        Icon () {
+            name = "x-office-presentation",
+            description = _("Generic presentation file types")
+        },
+        Icon () {
+            name = "x-office-spreadsheet",
+            description = _("Generic spreadsheet file types")
         }
     };
 
@@ -616,60 +668,6 @@ public class CategoryView : Gtk.Paned {
                     "description" : ""
                 }
 
-            ],
-            "Mimetypes" : [
-                {
-                    "name" : "font-x-generic",
-                    "description" : "Generic font file types"
-                },
-                {
-                    "name" : "image-x-generic",
-                    "description" : "Generic image file types"
-                },
-                {
-                    "name" : "package-x-generic",
-                    "description" : "Generic package file types"
-                },
-                {
-                    "name" : "text-html",
-                    "description" : "HTML text file types"
-                },
-                {
-                    "name" : "text-x-generic",
-                    "description" : "Generic text file types"
-                },
-                {
-                    "name" : "text-x-generic-template",
-                    "description" : "Generic text templates"
-                },
-                {
-                    "name" : "text-x-script",
-                    "description" : "Script file types, such as shell scripts"
-                },
-                {
-                    "name" : "video-x-generic",
-                    "description" : "Generic video file types"
-                },
-                {
-                    "name" : "x-office-address-book",
-                    "description" : "Generic address book file types"
-                },
-                {
-                    "name" : "x-office-calendar",
-                    "description" : "Generic calendar file types"
-                },
-                {
-                    "name" : "x-office-document",
-                    "description" : "Generic document and letter file types"
-                },
-                {
-                    "name" : "x-office-presentation",
-                    "description" : "Generic presentation file types"
-                },
-                {
-                    "name" : "x-office-spreadsheet",
-                    "description" : "Generic spreadsheet file types"
-                }
             ]
         }
         """;
