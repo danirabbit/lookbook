@@ -58,7 +58,7 @@ public class MainWindow : Gtk.Window {
 
         var category_stack = new Gtk.Stack ();
 
-        string categories [] =  { "Actions", "Categories", "Mimetypes" };
+        string categories [] =  { "Actions", "Applications", "Categories", "Devices", "Emblems", "Emotes", "Mimetypes", "Places", "Status" };
 
         foreach (string category in categories){
             var category_view = new CategoryView (category);

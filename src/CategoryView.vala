@@ -509,6 +509,13 @@ public class CategoryView : Gtk.Paned {
         }
     };
 
+    static Icon[] apps = {
+        Icon () {
+            name = "accessories-calculator",
+            description = _("")
+        }
+    };
+
     static Icon[] categories = {
         Icon () {
             name = "applications-accessories",
@@ -672,6 +679,27 @@ public class CategoryView : Gtk.Paned {
         }
     };
 
+    static Icon[] devices = {
+        Icon () {
+            name = "audio-card",
+            description = _("")
+        }
+    };
+
+    static Icon[] emblems = {
+        Icon () {
+            name = "emblem-default",
+            description = _("")
+        }
+    };
+
+    static Icon[] emotes = {
+        Icon () {
+            name = "face-angel",
+            description = _("")
+        }
+    };
+
     static Icon[] mimes = {
         Icon () {
             name = "application-x-executable",
@@ -735,6 +763,20 @@ public class CategoryView : Gtk.Paned {
         }
     };
 
+    static Icon[] places = {
+        Icon () {
+            name = "bookmark-missing",
+            description = _("")
+        }
+    };
+
+    static Icon[] status = {
+        Icon () {
+            name = "airplane-mode",
+            description = _("")
+        }
+    };
+
     public CategoryView (string category_name) {
         Object (
             category_name: category_name,
@@ -750,10 +792,22 @@ public class CategoryView : Gtk.Paned {
         switch (category_name) {
             case "Actions":
                 category = actions;
+            case "Applications":
+                category = apps;
             case "Categories":
                 category = categories;
+            case "Devices":
+                category = devices;
+            case "Emblems":
+                category = emblems;
+            case "Emotes":
+                category = emotes;
             case "Mimetypes":
                 category = mimes;
+            case "Places":
+                category = places;
+            case "Status":
+                category = status;
         }
 
         foreach (var icon in category) {
