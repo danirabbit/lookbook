@@ -509,6 +509,107 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "accessories-calculator",
             description = _("")
+        },
+        Icon () {
+            name = "accessories-camera",
+            description = _("")
+        },
+        Icon () {
+            name = "accessories-character-map",
+            description = _("")
+        },
+        Icon () {
+            name = "accessories-dictionary",
+            description = _("")
+        },
+        Icon () {
+            name = "accessories-screenshot",
+            description = _("")
+        },
+        Icon () {
+            name = "accessories-text-editor",
+            description = _("")
+        },
+        Icon () {
+            name = "application-default-icon",
+            description = _("")
+        },
+        Icon () {
+            name = "archive-manager",
+            description = _("")
+        },
+        Icon () {
+            name = "internet-chat",
+            description = _("")
+        },
+        Icon () {
+            name = "internet-mail",
+            description = _("")
+        },
+        Icon () {
+            name = "internet-news-reader",
+            description = _("")
+        },
+        Icon () {
+            name = "internet-web-browser",
+            description = _("")
+        },
+
+        Icon () {
+            name = "multimedia-audio-player",
+            description = _("")
+        },
+        Icon () {
+            name = "multimedia-photo-manager",
+            description = _("")
+        },
+        Icon () {
+            name = "multimedia-video-player",
+            description = _("")
+        },
+        Icon () {
+            name = "office-address-book",
+            description = _("")
+        },
+        Icon () {
+            name = "office-calendar",
+            description = _("")
+        },
+        Icon () {
+            name = "postscript-viewer",
+            description = _("")
+        },
+        Icon () {
+            name = "preferences-desktop",
+            description = _("")
+        },
+        Icon () {
+            name = "system-file-manager",
+            description = _("")
+        },
+        Icon () {
+            name = "system-os-installer",
+            description = _("")
+        },
+        Icon () {
+            name = "system-software-install",
+            description = _("")
+        },
+        Icon () {
+            name = "system-software-update",
+            description = _("")
+        },
+        Icon () {
+            name = "system-users",
+            description = _("")
+        },
+        Icon () {
+            name = "utilities-system-monitor",
+            description = _("")
+        },
+        Icon () {
+            name = "utilities-terminal",
+            description = _("")
         }
     };
 
