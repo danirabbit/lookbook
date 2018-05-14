@@ -376,10 +376,6 @@ public class CategoryView : Gtk.Paned {
             description = _("")
         },
         Icon () {
-            name = "mail-send-receive",
-            description = _("")
-        },
-        Icon () {
             name = "media-eject",
             description = _("")
         },
