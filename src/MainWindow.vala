@@ -18,6 +18,8 @@
 */
 
 public class MainWindow : Gtk.Window {
+    private Gtk.SearchEntry search_entry;
+
     private const string CODE_STYLE = """
         .code {
             background-color: #fdf6e3;
@@ -43,14 +45,30 @@ public class MainWindow : Gtk.Window {
     }
 
     construct {
+        search_entry = new Gtk.SearchEntry ();
+        search_entry.hexpand = true;
+        search_entry.placeholder_text = _("Search Icon Names");
+        search_entry.valign = Gtk.Align.CENTER;
+
+        var headerbar = new Gtk.HeaderBar ();
+        headerbar.show_close_button = true;
+        headerbar.set_custom_title (search_entry);
+
+        set_titlebar (headerbar);
+
         var category_stack = new Gtk.Stack ();
 
         string categories [] =  { "Actions", "Categories", "Mimetypes" };
 
-
         foreach (string category in categories){
             var category_view = new CategoryView (category);
             category_stack.add_titled (category_view, category, category);
+
+            ((Gtk.ListBox)category_view.list.listbox).set_filter_func (filter_function);
+
+            search_entry.search_changed.connect (() => {
+                ((Gtk.ListBox)category_view.list.listbox).invalidate_filter ();
+            });
         }
 
         var categories_sidebar = new Gtk.StackSidebar ();
@@ -71,5 +89,17 @@ public class MainWindow : Gtk.Window {
         } catch (Error e) {
             critical (e.message);
         }
+    }
+
+    [CCode (instance_pos = -1)]
+    private bool filter_function (Gtk.ListBoxRow row) {
+        if (search_entry.text == "") {
+            return true;
+        }
+
+        if (search_entry.text in ((IconListRow) row).icon_name) {
+            return true;
+        }
+        return false;
     }
 }

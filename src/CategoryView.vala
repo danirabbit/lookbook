@@ -19,6 +19,7 @@
 
 public class CategoryView : Gtk.Paned {
     public string category_name { get; construct; }
+    public IconListBox list;
 
     private struct Icon {
         string name;
@@ -678,7 +679,7 @@ public class CategoryView : Gtk.Paned {
             view.add_titled (icon_view, name, name);
         }
 
-        var list = new IconListBox (view);
+        list = new IconListBox (view);
         list.row_selected.connect (() => ((IconView)view.visible_child).switched_to ());
         list.vexpand = true;
 

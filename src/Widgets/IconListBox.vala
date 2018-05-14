@@ -18,6 +18,7 @@
 */
 
 public class IconListBox : Gtk.ScrolledWindow {
+    public Gtk.ListBox listbox;
     public signal void row_selected ();
 
     public IconListBox (Gtk.Stack stack) {
@@ -25,7 +26,7 @@ public class IconListBox : Gtk.ScrolledWindow {
             hscrollbar_policy: Gtk.PolicyType.NEVER
         );
 
-        var listbox = new Gtk.ListBox ();
+        listbox = new Gtk.ListBox ();
         listbox.activate_on_single_click = true;
         listbox.selection_mode = Gtk.SelectionMode.SINGLE;
 
