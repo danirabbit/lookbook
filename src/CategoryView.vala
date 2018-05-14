@@ -622,10 +622,6 @@ public class CategoryView : Gtk.Paned {
             description = _("")
         },
         Icon () {
-            name = "preferences-desktop-personal",
-            description = _("")
-        },
-        Icon () {
             name = "preferences-desktop-sound",
             description = _("")
         },
