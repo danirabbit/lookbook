@@ -903,6 +903,142 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "bookmark-missing",
             description = _("")
+        },
+        Icon () {
+            name = "distributor-logo",
+            description = _("")
+        },
+        Icon () {
+            name = "folder",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-documents",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-download",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-drag-accept",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-music",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-open",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-pictures",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-publicshare",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-recent",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-remote",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-saved-search",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-tag",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-templates",
+            description = _("")
+        },
+        Icon () {
+            name = "folder-videos",
+            description = _("")
+        },
+        Icon () {
+            name = "internet-radio",
+            description = _("")
+        },
+        Icon () {
+            name = "library-audiobook",
+            description = _("")
+        },
+        Icon () {
+            name = "library-places",
+            description = _("")
+        },
+        Icon () {
+            name = "library-podcast",
+            description = _("")
+        },
+        Icon () {
+            name = "mail-inbox",
+            description = _("")
+        },
+        Icon () {
+            name = "mail-mailbox",
+            description = _("")
+        },
+        Icon () {
+            name = "mail-outbox",
+            description = _("")
+        },
+        Icon () {
+            name = "mail-sent",
+            description = _("")
+        },
+        Icon () {
+            name = "network-server",
+            description = _("")
+        },
+        Icon () {
+            name = "network-workgroup",
+            description = _("")
+        },
+        Icon () {
+            name = "playlist",
+            description = _("")
+        },
+        Icon () {
+            name = "playlist-automatic",
+            description = _("")
+        },
+        Icon () {
+            name = "playlist-queue",
+            description = _("")
+        },
+        Icon () {
+            name = "playlist-similar",
+            description = _("")
+        },
+        Icon () {
+            name = "tag",
+            description = _("")
+        },
+        Icon () {
+            name = "user-bookmarks",
+            description = _("")
+        },
+        Icon () {
+            name = "user-home",
+            description = _("")
+        },
+        Icon () {
+            name = "user-trash",
+            description = _("")
+        },
+        Icon () {
+            name = "user-trash-full",
+            description = _("")
         }
     };
 
