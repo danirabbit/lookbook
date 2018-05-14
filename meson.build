@@ -18,7 +18,6 @@ executable(
     meson.project_name(),
     'src/Application.vala',
     'src/CategoryView.vala',
-    'src/IconData.vala',
     'src/IconView.vala',
     'src/MainWindow.vala',
     'src/Widgets/IconListBox.vala',

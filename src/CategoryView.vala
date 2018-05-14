@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2017 Daniel Foré (http://danielfore.com)
+* Copyright (c) 2017-2018 Daniel Foré (http://danielfore.com)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -20,6 +20,76 @@
 public class CategoryView : Gtk.Paned {
     public string category_name { get; construct; }
 
+    private struct Icon {
+        string name;
+        string description;
+    }
+
+    static Icon[] actions = {
+        Icon () {
+            name = "address-book-new",
+            description = _("Create a new address book")
+        },
+        Icon () {
+            name = "align-horizontal-center",
+            description = _("Create a new address book")
+        },
+        Icon () {
+            name = "align-horizontal-left",
+            description = _("Align objects left along the X axis")
+        },
+        Icon () {
+            name = "align-horizontal-right",
+            description = _("Align objects right along the X axis")
+        },
+        Icon () {
+            name = "align-vertical-bottom",
+            description = _("Align objects to bottom along the Y axis")
+        },
+        Icon () {
+            name = "align-vertical-center",
+            description = _("Align objects to center along the Y axis")
+        },
+        Icon () {
+            name = "align-vertical-top",
+            description = _("Align objects to top along the Y axis")
+        },
+        Icon () {
+            name = "application-exit",
+            description = _("Used for exiting an application")
+        },
+        Icon () {
+            name = "appointment-new",
+            description = _("Create a new appointment in a calendaring application")
+        },
+        Icon () {
+            name = "bookmark-new",
+            description = _("Create a new bookmark")
+        }
+    };
+
+    static Icon[] categories = {
+        Icon () {
+            name = "applications-accessories",
+            description = _("Accessories category of applications")
+        },
+        Icon () {
+            name = "applications-development",
+            description = _("")
+        }
+    };
+
+    static Icon[] mimes = {
+        Icon () {
+            name = "application-x-executable",
+            description = _("Executable file types")
+        },
+        Icon () {
+            name = "audio-x-generic",
+            description = _("Generic audio file types")
+        }
+    };
+
     public CategoryView (string category_name) {
         Object (
             category_name: category_name,
@@ -35,46 +105,6 @@ public class CategoryView : Gtk.Paned {
         """
         {
             "Actions" : [
-                {
-                    "name" : "address-book-new",
-                    "description" : "Create a new address book"
-                },
-                {
-                    "name" : "align-horizontal-center",
-                    "description" : "Align objects to center along the X axis"
-                },
-                {
-                    "name" : "align-horizontal-left",
-                    "description" : "Align objects left along the X axis"
-                },
-                {
-                    "name" : "align-horizontal-right",
-                    "description" : "Align objects right along the X axis"
-                },
-                {
-                    "name" : "align-vertical-bottom",
-                    "description" : "Align objects to bottom along the Y axis"
-                },
-                {
-                    "name" : "align-vertical-center",
-                    "description" : "Align objects to center along the Y axis"
-                },
-                {
-                    "name" : "align-vertical-top",
-                    "description" : "Align objects to top along the Y axis"
-                },
-                {
-                    "name" : "application-exit",
-                    "description" : "Used for exiting an application"
-                },
-                {
-                    "name" : "appointment-new",
-                    "description" : "Create a new appointment in a calendaring application"
-                },
-                {
-                    "name" : "bookmark-new",
-                    "description" : "Create a new bookmark"
-                },
                 {
                     "name" : "call-start",
                     "description" : "Initiate or accept a call"
@@ -518,14 +548,6 @@ public class CategoryView : Gtk.Paned {
             ],
             "Categories" : [
                 {
-                    "name" : "applications-accessories",
-                    "description" : "The icon for the Accessories category of applications"
-                },
-                {
-                    "name" : "applications-development",
-                    "description" : ""
-                },
-                {
                     "name" : "applications-engineering",
                     "description" : ""
                 },
@@ -597,14 +619,6 @@ public class CategoryView : Gtk.Paned {
             ],
             "Mimetypes" : [
                 {
-                    "name" : "application-x-executable",
-                    "description" : "Executable file types"
-                },
-                {
-                    "name" : "audio-x-generic",
-                    "description" : "Generic audio file types"
-                },
-                {
                     "name" : "font-x-generic",
                     "description" : "Generic font file types"
                 },
@@ -660,22 +674,19 @@ public class CategoryView : Gtk.Paned {
         }
         """;
 
-        var parser = new Json.Parser ();
-
-        try {
-            parser.load_from_data (data);
-        } catch (Error e) {
-            message ("invalid data");
-            return;
+        Icon[] category;
+        switch (category_name) {
+            case "Actions":
+                category = actions;
+            case "Categories":
+                category = categories;
+            case "Mimetypes":
+                category = mimes;
         }
 
-        var object = parser.get_root ().get_object ();
-
-        var category = object.get_array_member (category_name);
-
-        foreach (var icon in category.get_elements ()) {
-            var name = icon.get_object ().get_string_member ("name");
-            var description = icon.get_object ().get_string_member ("description");
+        foreach (var icon in category) {
+            var name = icon.name;
+            var description = icon.description;
             var icon_view = new IconView (name, description);
             view.add_titled (icon_view, name, name);
         }
