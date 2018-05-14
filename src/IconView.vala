@@ -23,7 +23,8 @@ public class IconView : Gtk.ScrolledWindow {
     public string icon_name { get; construct; }
 
     private bool initialized = false;
-    private Gtk.Grid grid;
+    private Gtk.Grid color_row;
+    private Gtk.Grid symbolic_row;
 
     public IconView (string icon_name, string description) {
         Object (
@@ -46,7 +47,29 @@ public class IconView : Gtk.ScrolledWindow {
         color_title.xalign = 0;
         color_title.get_style_context ().add_class ("h4");
 
-        grid = new Gtk.Grid ();
+        color_row = new Gtk.Grid ();
+        color_row.column_spacing = 24;
+        color_row.row_spacing = 12;
+
+        var symbolic_title = new Gtk.Label ("Symbolic Icons");
+        symbolic_title.margin_top = 24;
+        symbolic_title.xalign = 0;
+        symbolic_title.get_style_context ().add_class ("h4");
+
+        symbolic_row = new Gtk.Grid ();
+        symbolic_row.column_spacing = 24;
+        symbolic_row.row_spacing = 12;
+
+        var snippet_title = new Gtk.Label ("Code Sample");
+        snippet_title.margin_top = 24;
+        snippet_title.xalign = 0;
+        snippet_title.get_style_context ().add_class ("h4");
+
+        var snippet = new Snippet ("var icon = new Gtk.Image ();\nicon.gicon = new ThemedIcon (\"%s\");\nicon.pixel_size = \"24\";".printf (icon_name));
+        snippet.hexpand = true;
+        snippet.valign = Gtk.Align.CENTER;
+
+        var grid = new Gtk.Grid ();
         grid.column_spacing = 12;
         grid.row_spacing = 12;
         grid.margin = 24;
@@ -54,69 +77,42 @@ public class IconView : Gtk.ScrolledWindow {
         grid.add (title);
         grid.add (description);
         grid.add (color_title);
+        grid.add (color_row);
+        grid.add (symbolic_title);
+        grid.add (symbolic_row);
+        grid.add (snippet_title);
+        grid.add (snippet);
 
         add (grid);
     }
 
     public void switched_to () {
         if (!initialized) {
-            var size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
-
-            Gtk.IconSize [] sizes = {Gtk.IconSize.SMALL_TOOLBAR, Gtk.IconSize.LARGE_TOOLBAR, Gtk.IconSize.DND, Gtk.IconSize.DIALOG};
-
-            string [] pixels = {"16", "24", "32", "48"};
+            string [] pixels = {"16", "24", "32", "48", "64", "128"};
 
             int i = 0;
 
-            foreach (Gtk.IconSize size in sizes) {
-                var icon = new Gtk.Image.from_icon_name (icon_name, size);
-                icon.pixel_size = int.parse (pixels[i]);
-                size_group.add_widget (icon);
+            foreach (string pixel_size in pixels) {
+                var color_icon = new Gtk.Image ();
+                color_icon.gicon = new ThemedIcon (icon_name);
+                color_icon.pixel_size = int.parse (pixel_size);
+                color_icon.valign = Gtk.Align.END;
 
-                var pixel_label = new Gtk.Label (pixels[i] + "px");
+                var color_label = new Gtk.Label (pixels[i] + "px");
 
-                var snippet = new Snippet ("var icon = new Gtk.Image.from_icon_name (\"%s\", %s);".printf (icon_name, size.to_string ()));
-                snippet.hexpand = true;
-                snippet.valign = Gtk.Align.CENTER;
+                color_row.attach (color_icon, i, 0);
+                color_row.attach (color_label, i, 1);
 
-                var icon_row = new Gtk.Grid ();
-                icon_row.column_spacing = 12;
-                icon_row.margin_top = 12;
-                icon_row.add (icon);
-                icon_row.add (pixel_label);
-                icon_row.add (snippet);
+                var symbolic_icon = new Gtk.Image ();
+                symbolic_icon.gicon = new ThemedIcon (icon_name + "-symbolic");
+                symbolic_icon.pixel_size = int.parse (pixel_size);
+                symbolic_icon.valign = Gtk.Align.END;
 
-                grid.add (icon_row);
-                i++;
-            }
+                var symbolic_label = new Gtk.Label (pixels[i] + "px");
 
-            var symbolic_title = new Gtk.Label ("Symbolic Icons");
-            symbolic_title.margin_top = 24;
-            symbolic_title.xalign = 0;
-            symbolic_title.get_style_context ().add_class ("h4");
-            grid.add (symbolic_title);
+                symbolic_row.attach (symbolic_icon, i, 0);
+                symbolic_row.attach (symbolic_label, i, 1);
 
-            i = 0;
-
-            foreach (Gtk.IconSize size in sizes) {
-                var icon = new Gtk.Image.from_icon_name (icon_name + "-symbolic", size);
-                icon.pixel_size = int.parse (pixels[i]);
-                size_group.add_widget (icon);
-
-                var label = new Gtk.Label (pixels[i] + "px");
-
-                var snippet = new Snippet ("var icon = new Gtk.Image.from_icon_name (\"%s-symbolic\", %s);".printf (icon_name, size.to_string ()));
-                snippet.hexpand = true;
-                snippet.valign = Gtk.Align.CENTER;
-
-                var icon_row = new Gtk.Grid ();
-                icon_row.column_spacing = 12;
-                icon_row.margin_top = 12;
-                icon_row.add (icon);
-                icon_row.add (label);
-                icon_row.add (snippet);
-
-                grid.add (icon_row);
                 i++;
             }
 
