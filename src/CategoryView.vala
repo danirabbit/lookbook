@@ -37,31 +37,31 @@ public class CategoryView : Gtk.Paned {
             "Actions" : [
                 {
                     "name" : "address-book-new",
-                    "description" : "The icon used for the action to create a new address book"
+                    "description" : "Create a new address book"
                 },
                 {
                     "name" : "align-horizontal-center",
-                    "description" : ""
+                    "description" : "Align objects to center along the X axis"
                 },
                 {
                     "name" : "align-horizontal-left",
-                    "description" : ""
+                    "description" : "Align objects left along the X axis"
                 },
                 {
                     "name" : "align-horizontal-right",
-                    "description" : ""
+                    "description" : "Align objects right along the X axis"
                 },
                 {
                     "name" : "align-vertical-bottom",
-                    "description" : ""
+                    "description" : "Align objects to bottom along the Y axis"
                 },
                 {
                     "name" : "align-vertical-center",
-                    "description" : ""
+                    "description" : "Align objects to center along the Y axis"
                 },
                 {
                     "name" : "align-vertical-top",
-                    "description" : ""
+                    "description" : "Align objects to top along the Y axis"
                 },
                 {
                     "name" : "application-exit",
@@ -598,63 +598,63 @@ public class CategoryView : Gtk.Paned {
             "Mimetypes" : [
                 {
                     "name" : "application-x-executable",
-                    "description" : "The icon used for executable file types"
+                    "description" : "Executable file types"
                 },
                 {
                     "name" : "audio-x-generic",
-                    "description" : "The icon used for generic audio file types"
+                    "description" : "Generic audio file types"
                 },
                 {
                     "name" : "font-x-generic",
-                    "description" : "The icon used for generic font file types"
+                    "description" : "Generic font file types"
                 },
                 {
                     "name" : "image-x-generic",
-                    "description" : "The icon used for generic image file types"
+                    "description" : "Generic image file types"
                 },
                 {
                     "name" : "package-x-generic",
-                    "description" : "The icon used for generic package file types"
+                    "description" : "Generic package file types"
                 },
                 {
                     "name" : "text-html",
-                    "description" : "The icon used for HTML text file types"
+                    "description" : "HTML text file types"
                 },
                 {
                     "name" : "text-x-generic",
-                    "description" : "The icon used for generic text file types"
+                    "description" : "Generic text file types"
                 },
                 {
                     "name" : "text-x-generic-template",
-                    "description" : "The icon used for generic text templates"
+                    "description" : "Generic text templates"
                 },
                 {
                     "name" : "text-x-script",
-                    "description" : "The icon used for script file types, such as shell scripts"
+                    "description" : "Script file types, such as shell scripts"
                 },
                 {
                     "name" : "video-x-generic",
-                    "description" : "The icon used for generic video file types"
+                    "description" : "Generic video file types"
                 },
                 {
                     "name" : "x-office-address-book",
-                    "description" : "The icon used for generic address book file types"
+                    "description" : "Generic address book file types"
                 },
                 {
                     "name" : "x-office-calendar",
-                    "description" : "The icon used for generic calendar file types"
+                    "description" : "Generic calendar file types"
                 },
                 {
                     "name" : "x-office-document",
-                    "description" : "The icon used for generic document and letter file types"
+                    "description" : "Generic document and letter file types"
                 },
                 {
                     "name" : "x-office-presentation",
-                    "description" : "The icon used for generic presentation file types"
+                    "description" : "Generic presentation file types"
                 },
                 {
                     "name" : "x-office-spreadsheet",
-                    "description" : "The icon used for generic spreadsheet file types"
+                    "description" : "Generic spreadsheet file types"
                 }
             ]
         }

@@ -95,7 +95,9 @@ public class IconView : Gtk.ScrolledWindow {
             foreach (string pixel_size in pixels) {
                 var color_icon = new Gtk.Image ();
                 color_icon.gicon = new ThemedIcon (icon_name);
+                color_icon.icon_name = icon_name;
                 color_icon.pixel_size = int.parse (pixel_size);
+                color_icon.use_fallback = true;
                 color_icon.valign = Gtk.Align.END;
 
                 var color_label = new Gtk.Label (pixels[i] + "px");
