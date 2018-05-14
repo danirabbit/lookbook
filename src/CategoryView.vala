@@ -776,6 +776,138 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "audio-card",
             description = _("")
+        },
+        Icon () {
+            name = "audio-input-microphone",
+            description = _("")
+        },
+        Icon () {
+            name = "audio-subwoofer",
+            description = _("")
+        },
+        Icon () {
+            name = "battery",
+            description = _("")
+        },
+        Icon () {
+            name = "bluetooth",
+            description = _("")
+        },
+        Icon () {
+            name = "camera-photo",
+            description = _("")
+        },
+        Icon () {
+            name = "camera-video",
+            description = _("")
+        },
+        Icon () {
+            name = "camera-web",
+            description = _("")
+        },
+        Icon () {
+            name = "computer",
+            description = _("")
+        },
+        Icon () {
+            name = "computer-laptop",
+            description = _("")
+        },
+        Icon () {
+            name = "drive-harddisk",
+            description = _("")
+        },
+        Icon () {
+            name = "drive-optical",
+            description = _("")
+        },
+        Icon () {
+            name = "drive-removable-media",
+            description = _("")
+        },
+        Icon () {
+            name = "drive-removable-media-usb",
+            description = _("")
+        },
+        Icon () {
+            name = "input-gaming",
+            description = _("")
+        },
+        Icon () {
+            name = "input-keyboard",
+            description = _("")
+        },
+        Icon () {
+            name = "input-mouse",
+            description = _("")
+        },
+        Icon () {
+            name = "input-tablet",
+            description = _("")
+        },
+        Icon () {
+            name = "input-touchpad",
+            description = _("")
+        },
+        Icon () {
+            name = "media-flash",
+            description = _("")
+        },
+        Icon () {
+            name = "media-optical",
+            description = _("")
+        },
+        Icon () {
+            name = "modem",
+            description = _("")
+        },
+        Icon () {
+            name = "multimedia-player",
+            description = _("")
+        },
+        Icon () {
+            name = "network-cellular",
+            description = _("")
+        },
+        Icon () {
+            name = "network-firewall",
+            description = _("")
+        },
+        Icon () {
+            name = "network-vpn",
+            description = _("")
+        },
+        Icon () {
+            name = "network-wired",
+            description = _("")
+        },
+        Icon () {
+            name = "network-wireless",
+            description = _("")
+        },
+        Icon () {
+            name = "network-wireless-hotspot",
+            description = _("")
+        },
+        Icon () {
+            name = "phone",
+            description = _("")
+        },
+        Icon () {
+            name = "printer",
+            description = _("")
+        },
+        Icon () {
+            name = "printer-network",
+            description = _("")
+        },
+        Icon () {
+            name = "scanner",
+            description = _("")
+        },
+        Icon () {
+            name = "video-display",
+            description = _("")
         }
     };
 
