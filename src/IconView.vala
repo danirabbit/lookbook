@@ -43,7 +43,7 @@ public class IconView : Gtk.ScrolledWindow {
         description.xalign = 0;
 
         var color_title = new Gtk.Label ("Color Icons");
-        color_title.margin_top = 24;
+        color_title.margin_top = 12;
         color_title.xalign = 0;
         color_title.get_style_context ().add_class ("h4");
 
@@ -52,7 +52,7 @@ public class IconView : Gtk.ScrolledWindow {
         color_row.row_spacing = 12;
 
         var symbolic_title = new Gtk.Label ("Symbolic Icons");
-        symbolic_title.margin_top = 24;
+        symbolic_title.margin_top = 12;
         symbolic_title.xalign = 0;
         symbolic_title.get_style_context ().add_class ("h4");
 
@@ -61,7 +61,7 @@ public class IconView : Gtk.ScrolledWindow {
         symbolic_row.row_spacing = 12;
 
         var snippet_title = new Gtk.Label ("Code Sample");
-        snippet_title.margin_top = 24;
+        snippet_title.margin_top = 12;
         snippet_title.xalign = 0;
         snippet_title.get_style_context ().add_class ("h4");
 

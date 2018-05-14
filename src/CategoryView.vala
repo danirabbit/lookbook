@@ -89,27 +89,27 @@ public class CategoryView : Gtk.Paned {
                 },
                 {
                     "name" : "document-export",
-                    "description" : ""
+                    "description" : "Export a document"
                 },
                 {
                     "name" : "document-import",
-                    "description" : ""
+                    "description" : "Import a document"
                 },
                 {
                     "name" : "document-new",
-                    "description" : ""
+                    "description" : "Create a new document"
                 },
                 {
                     "name" : "document-open",
-                    "description" : ""
+                    "description" : "Open a document"
                 },
                 {
                     "name" : "document-open-recent",
-                    "description" : ""
+                    "description" : "Open a document that was recently opened"
                 },
                 {
                     "name" : "document-page-setup",
-                    "description" : ""
+                    "description" : "The page setup action of a document editor"
                 },
                 {
                     "name" : "document-print",
@@ -117,27 +117,27 @@ public class CategoryView : Gtk.Paned {
                 },
                 {
                     "name" : "document-print-preview",
-                    "description" : ""
+                    "description" : "The print preview action of an application"
                 },
                 {
                     "name" : "document-properties",
-                    "description" : ""
+                    "description" : "View the properties of a document in an application"
                 },
                 {
                     "name" : "document-revert",
-                    "description" : ""
+                    "description" : "Revert to a previous version of a document"
                 },
                 {
                     "name" : "document-save",
-                    "description" : ""
+                    "description" : "The save action"
                 },
                 {
                     "name" : "document-save-as",
-                    "description" : ""
+                    "description" : "The save as action"
                 },
                 {
                     "name" : "document-send",
-                    "description" : ""
+                    "description" : "The send action"
                 },
                 {
                     "name" : "edit",
