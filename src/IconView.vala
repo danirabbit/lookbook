@@ -101,6 +101,7 @@ public class IconView : Gtk.ScrolledWindow {
                 color_icon.valign = Gtk.Align.END;
 
                 var color_label = new Gtk.Label (pixels[i] + "px");
+                color_label.hexpand = true;
 
                 color_row.attach (color_icon, i, 0);
                 color_row.attach (color_label, i, 1);
@@ -111,6 +112,7 @@ public class IconView : Gtk.ScrolledWindow {
                 symbolic_icon.valign = Gtk.Align.END;
 
                 var symbolic_label = new Gtk.Label (pixels[i] + "px");
+                symbolic_label.hexpand = true;
 
                 symbolic_row.attach (symbolic_icon, i, 0);
                 symbolic_row.attach (symbolic_label, i, 1);
