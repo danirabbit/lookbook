@@ -1063,28 +1063,164 @@ public class CategoryView : Gtk.Paned {
 
     static Icon[] mimes = {
         Icon () {
+            name = "application-epub+zip",
+            description = _("")
+        },
+        Icon () {
+            name = "application-illustrator",
+            description = _("")
+        },
+        Icon () {
+            name = "application-javascript",
+            description = _("")
+        },
+        Icon () {
+            name = "application-msword",
+            description = _("")
+        },
+        Icon () {
+            name = "application-octet-stream",
+            description = _("")
+        },
+        Icon () {
+            name = "application-pdf",
+            description = _("")
+        },
+        Icon () {
+            name = "application-pgp",
+            description = _("")
+        },
+        Icon () {
+            name = "application-vnd.debian.binary-package",
+            description = _("")
+        },
+        Icon () {
+            name = "application-vnd.ms-access",
+            description = _("")
+        },
+        Icon () {
+            name = "application-vnd.ms-excel",
+            description = _("")
+        },
+        Icon () {
+            name = "application-vnd.ms-powerpoint",
+            description = _("")
+        },
+        Icon () {
+            name = "application-vnd.oasis.opendocument.chart",
+            description = _("")
+        },
+        Icon () {
+            name = "application-x-bittorrent",
+            description = _("")
+        },
+        Icon () {
+            name = "application-x-cd-image",
+            description = _("")
+        },
+        Icon () {
+            name = "application-x-desktop",
+            description = _("")
+        },
+        Icon () {
             name = "application-x-executable",
             description = _("Executable file types")
+        },
+        Icon () {
+            name = "application-x-fictionbook+xml",
+            description = _("")
+        },
+        Icon () {
+            name = "application-x-firmware",
+            description = _("")
+        },
+        Icon () {
+            name = "application-x-flash-video",
+            description = _("")
+        },
+        Icon () {
+            name = "application-x-php",
+            description = _("")
         },
         Icon () {
             name = "audio-x-generic",
             description = _("Generic audio file types")
         },
         Icon () {
+            name = "audio-x-playlist",
+            description = _("")
+        },
+        Icon () {
+            name = "extension",
+            description = _("")
+        },
+        Icon () {
             name = "font-x-generic",
             description = _("Generic font file types")
+        },
+        Icon () {
+            name = "image-vnd.adobe.photoshop",
+            description = _("")
         },
         Icon () {
             name = "image-x-generic",
             description = _("Generic image file types")
         },
         Icon () {
+            name = "image-x-xcf",
+            description = _("")
+        },
+        Icon () {
+            name = "internet-feed",
+            description = _("")
+        },
+        Icon () {
+            name = "model",
+            description = _("")
+        },
+        Icon () {
+            name = "office-contact",
+            description = _("")
+        },
+        Icon () {
+            name = "office-database",
+            description = _("")
+        },
+        Icon () {
             name = "package-x-generic",
             description = _("Generic package file types")
         },
         Icon () {
+            name = "text-css",
+            description = _("")
+        },
+        Icon () {
             name = "text-html",
             description = _("HTML text file types")
+        },
+        Icon () {
+            name = "text-markdown",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-authors",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-changelog",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-chdr",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-copying",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-csrc",
+            description = _("")
         },
         Icon () {
             name = "text-x-generic",
@@ -1095,8 +1231,56 @@ public class CategoryView : Gtk.Paned {
             description = _("Generic text templates")
         },
         Icon () {
+            name = "text-x-gettext-translation",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-gettext-translation-template",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-go",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-install",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-makefile",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-preview",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-python",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-readme",
+            description = _("")
+        },
+        Icon () {
             name = "text-x-script",
             description = _("Script file types, such as shell scripts")
+        },
+        Icon () {
+            name = "text-x-ssa",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-tex",
+            description = _("")
+        },
+        Icon () {
+            name = "text-x-vala",
+            description = _("")
+        },
+        Icon () {
+            name = "unknown",
+            description = _("")
         },
         Icon () {
             name = "video-x-generic",
@@ -1115,12 +1299,32 @@ public class CategoryView : Gtk.Paned {
             description = _("Generic document and letter file types")
         },
         Icon () {
+            name = "x-office-document-template",
+            description = _("")
+        },
+        Icon () {
+            name = "x-office-drawing",
+            description = _("")
+        },
+        Icon () {
+            name = "x-office-drawing-template",
+            description = _("")
+        },
+        Icon () {
             name = "x-office-presentation",
             description = _("Generic presentation file types")
         },
         Icon () {
+            name = "x-office-presentation-template",
+            description = _("")
+        },
+        Icon () {
             name = "x-office-spreadsheet",
             description = _("Generic spreadsheet file types")
+        },
+        Icon () {
+            name = "x-office-spreadsheet-template",
+            description = _("")
         }
     };
 
