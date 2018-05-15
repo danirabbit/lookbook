@@ -17,8 +17,7 @@ executable(
         dependency('glib-2.0'),
         dependency('gobject-2.0'),
         dependency('granite', version: '>=0.5'),
-        dependency('gtk+-3.0'),
-        dependency('json-glib-1.0')
+        dependency('gtk+-3.0')
     ],
     install : true
 )
