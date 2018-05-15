@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017-2018 Daniel Foré <daniel@elementary.io> -->
+<component type="desktop-application">
+    <id>com.github.danrabbit.lookbook</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0+</project_license>
+    <name>LookBook</name>
+    <summary>Browse and find system icons</summary>
+    <description>
+        <p>Browse system icons by category or search by icon name. See icons at different sizes and get a quick code snippet to use in your apps.</p>
+    </description>
+    <provides>
+        <binary>com.github.danrabbit.lookbook</binary>
+    </provides>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/danrabbit/lookbook/master/data/screenshot.png</image>
+        </screenshot>
+    </screenshots>
+    <translation type="gettext">com.github.danrabbit.lookbook</translation>
+    <developer_name>Daniel Foré</developer_name>
+    <url type="homepage">http://danielfore.com</url>
+    <url type="bugtracker">https://github.com/danrabbit/lookbook/issues</url>
+    <custom>
+        <value key="x-appcenter-color-primary">#fff</value>
+        <value key="x-appcenter-color-primary-text">#333</value>
+        <value key="x-appcenter-suggested-price">10</value>
+    </custom>
+</component>

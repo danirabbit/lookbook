@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-14 18:27-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:7
+#: data/com.github.danrabbit.lookbook.desktop.in:3
+msgid "LookBook"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:8
+#: data/com.github.danrabbit.lookbook.desktop.in:4
+msgid "Browse and find system icons"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:10
+msgid ""
+"Browse system icons by category or search by icon name. See icons at "
+"different sizes and get a quick code snippet to use in your apps."
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:21
+msgid "Daniel Foré"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.desktop.in:6
+msgid "com.github.danrabbit.lookbook"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.desktop.in:7
+msgid "icons;iconography;"
+msgstr ""

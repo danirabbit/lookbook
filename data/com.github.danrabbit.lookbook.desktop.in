@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=LookBook
+Comment=Browse and find system icons
+Exec=com.github.danrabbit.lookbook
+Icon=com.github.danrabbit.lookbook
+Keywords=icons;iconography;
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Development;Graphics;Utility;
