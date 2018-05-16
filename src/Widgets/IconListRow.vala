@@ -18,10 +18,14 @@
 */
 
 public class IconListRow : Gtk.ListBoxRow {
+    public string description { get; construct; }
     public string icon_name { get; construct; }
 
-    public IconListRow (string icon_name) {
-        Object (icon_name: icon_name);
+    public IconListRow (string icon_name, string description) {
+        Object (
+            description: description,
+            icon_name: icon_name
+        );
     }
 
     construct {
