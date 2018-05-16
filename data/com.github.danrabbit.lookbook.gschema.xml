@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema path="/com/github/danrabbit/lookbook/"
-  id="com.github.danrabbit.lookbook"
-  gettext-domain="com.github.danrabbit.lookbook">
+  <schema path="/com/github/danrabbit/lookbook/" id="com.github.danrabbit.lookbook">
+    <key name="window-height" type="i">
+      <default>900</default>
+      <summary>Most recent window height</summary>
+      <description>Most recent window height</description>
+    </key>
+    <key name="window-maximized" type="b">
+      <default>false</default>
+      <summary>Whether the window was maximized on last run</summary>
+      <description>Whether the window was maximized on last run</description>
+    </key>
+    <key name="window-width" type="i">
+      <default>1200</default>
+      <summary>Most recent window width</summary>
+      <description>Most recent window width</description>
+    </key>
     <key name="window-x" type="i">
       <default>-1</default>
       <summary>Most recent x position of LookBook</summary>

@@ -40,8 +40,8 @@ public class MainWindow : Gtk.Window {
         Object (application: application,
                 icon_name: "com.github.danrabbit.lookbook",
                 title: _("LookBook"),
-                height_request: 900,
-                width_request: 1200);
+                height_request: 700,
+                width_request: 1024);
     }
 
     construct {
@@ -101,5 +101,25 @@ public class MainWindow : Gtk.Window {
             return true;
         }
         return false;
+    }
+
+    public override bool configure_event (Gdk.EventConfigure event) {
+        if (is_maximized) {
+            LookBook.settings.set_boolean ("window-maximized", true);
+        } else {
+            LookBook.settings.set_boolean ("window-maximized", false);
+
+            Gtk.Allocation rect;
+            get_allocation (out rect);
+            LookBook.settings.set_int ("window-height", rect.height);
+            LookBook.settings.set_int ("window-width", rect.width);
+
+            int root_x, root_y;
+            get_position (out root_x, out root_y);
+            LookBook.settings.set_int ("window-x", root_x);
+            LookBook.settings.set_int ("window-y", root_y);
+        }
+
+        return base.configure_event (event);
     }
 }
