@@ -1207,6 +1207,10 @@ public class CategoryView : Gtk.Paned {
             description = _("")
         },
         Icon () {
+            name = "text-x-bibtex",
+            description = _("")
+        },
+        Icon () {
             name = "text-x-changelog",
             description = _("")
         },
