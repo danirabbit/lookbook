@@ -21,1799 +21,2225 @@ public class CategoryView : Gtk.Paned {
     public string category_name { get; construct; }
     public Gtk.ListBox listbox;
 
+    public enum Category {
+        ACTIONS,
+        APPS,
+        CATEGORIES,
+        DEVICES,
+        EMBLEMS,
+        EMOTES,
+        MIMES,
+        PLACES,
+        STATUS;
+
+        public string to_string () {
+            switch (this) {
+                case ACTIONS:
+                    return _("Actions");
+                case APPS:
+                    return _("Applications");
+                case CATEGORIES:
+                    return _("Categories");
+                case DEVICES:
+                    return _("Devices");
+                case EMBLEMS:
+                    return _("Emblems");
+                case EMOTES:
+                    return _("Emotes");
+                case MIMES:
+                    return _("Mimetypes");
+                case PLACES:
+                    return _("Places");
+                case STATUS:
+                    return _("Status");
+                default:
+                    return _("OTHER");
+            }
+        }
+
+        public static Category[] all () {
+            return { ACTIONS, APPS, CATEGORIES, DEVICES, EMBLEMS, EMOTES, MIMES, PLACES, STATUS };
+        }
+    }
+
     private struct Icon {
         string name;
         string description;
+        Category category;
     }
 
-    static Icon[] actions = {
+    static Icon[] icons = {
         Icon () {
             name = "address-book-new",
-            description = _("Create a new address book")
+            description = _("Create a new address book"),
+            category = ACTIONS
         },
         Icon () {
             name = "align-horizontal-center",
-            description = _("Align objects to center along the X axis")
+            description = _("Align objects to center along the X axis"),
+            category = ACTIONS
         },
         Icon () {
             name = "align-horizontal-left",
-            description = _("Align objects left along the X axis")
+            description = _("Align objects left along the X axis"),
+            category = ACTIONS
         },
         Icon () {
             name = "align-horizontal-right",
-            description = _("Align objects right along the X axis")
+            description = _("Align objects right along the X axis"),
+            category = ACTIONS
         },
         Icon () {
             name = "align-vertical-bottom",
-            description = _("Align objects to bottom along the Y axis")
+            description = _("Align objects to bottom along the Y axis"),
+            category = ACTIONS
         },
         Icon () {
             name = "align-vertical-center",
-            description = _("Align objects to center along the Y axis")
+            description = _("Align objects to center along the Y axis"),
+            category = ACTIONS
         },
         Icon () {
             name = "align-vertical-top",
-            description = _("Align objects to top along the Y axis")
+            description = _("Align objects to top along the Y axis"),
+            category = ACTIONS
         },
         Icon () {
             name = "application-exit",
-            description = _("Used for exiting an application")
+            description = _("Used for exiting an application"),
+            category = ACTIONS
         },
         Icon () {
             name = "appointment-new",
-            description = _("Create a new appointment in a calendaring application")
+            description = _("Create a new appointment in a calendaring application"),
+            category = ACTIONS
         },
         Icon () {
             name = "bookmark-new",
-            description = _("Create a new bookmark")
+            description = _("Create a new bookmark"),
+            category = ACTIONS
         },
         Icon () {
             name = "call-start",
-            description = _("Initiate or accept a call")
+            description = _("Initiate or accept a call"),
+            category = ACTIONS
         },
         Icon () {
             name = "call-stop",
-            description = _("Stop the current call")
+            description = _("Stop the current call"),
+            category = ACTIONS
         },
         Icon () {
             name = "contact-new",
-            description = _("Create a new contact in an address book application")
+            description = _("Create a new contact in an address book application"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-export",
-            description = _("Export a document")
+            description = _("Export a document"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-import",
-            description = _("Import a document")
+            description = _("Import a document"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-new",
-            description = _("Create a new document")
+            description = _("Create a new document"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-open",
-            description = _("Open a document")
+            description = _("Open a document"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-open-recent",
-            description = _("Open a document that was recently opened")
+            description = _("Open a document that was recently opened"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-page-setup",
-            description = _("The page setup action of a document editor")
+            description = _("The page setup action of a document editor"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-print",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "document-print-preview",
-            description = _("The print preview action of an application")
+            description = _("The print preview action of an application"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-properties",
-            description = _("View the properties of a document in an application")
+            description = _("View the properties of a document in an application"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-revert",
-            description = _("Revert to a previous version of a document")
+            description = _("Revert to a previous version of a document"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-save",
-            description = _("The save action")
+            description = _("The save action"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-save-as",
-            description = _("The save as action")
+            description = _("The save as action"),
+            category = ACTIONS
         },
         Icon () {
             name = "document-send",
-            description = _("The send action")
+            description = _("The send action"),
+            category = ACTIONS
         },
         Icon () {
             name = "edit",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-clear",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-copy",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-cut",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-delete",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-find",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-find-replace",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-flag",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-paste",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-redo",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-select-all",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "edit-undo",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "event-new",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "folder-copy",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "folder-move",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "folder-new",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-indent-less",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-indent-more",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-justify-center",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-justify-fill",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-justify-right",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-text-direction-ltr",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-text-direction-rtl",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-text-bold",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-text-highlight",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-text-italic",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-text-underline",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "format-text-strikethrough",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "go-bottom",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "go-down",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "go-first",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "go-home",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "go-jump",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "go-last",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "go-next",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "go-previous",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "go-top",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "go-up",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "help-about",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "help-contents",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "help-faq",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "image-adjust",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "image-auto-adjust",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "image-crop",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "image-red-eye",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "insert-image",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "insert-link",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "insert-object",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "insert-text",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "list-add",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "list-remove",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "mail-forward",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "mail-mark-important",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "mail-mark-junk",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "mail-mark-notjunk",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "mail-mark-read",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "mail-mark-unread",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "mail-message-new",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "mail-reply-all",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "mail-reply-sender",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "mail-send",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "media-eject",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "media-playback-pause",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "media-playback-start",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "media-playback-stop",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "media-record",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "media-seek-backward",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "media-seek-forward",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "media-skip-backward",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "media-skip-forward",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "object-flip-horizontal",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "object-flip-vertical",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "object-rotate-left",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "object-rotate-right",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "process-stop",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "system-lock-screen",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "system-log-out",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "system-run",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "system-search",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "system-reboot",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "system-shutdown",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "tools-check-spelling",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "view-fullscreen",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "view-refresh",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "view-restore",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "view-sort-ascending",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "view-sort-descending",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "window-close",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "window-new",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "zoom-fit-best",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "zoom-in",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "zoom-original",
-            description = _("")
+            description = _(""),
+            category = ACTIONS
         },
         Icon () {
             name = "zoom-out",
-            description = _("")
-        }
-    };
-
-    static Icon[] apps = {
+            description = _(""),
+            category = ACTIONS
+        },
         Icon () {
             name = "accessories-calculator",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "accessories-camera",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "accessories-character-map",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "accessories-dictionary",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "accessories-screenshot",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "accessories-text-editor",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "application-default-icon",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "archive-manager",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "internet-chat",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "internet-mail",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "internet-news-reader",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "internet-web-browser",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
 
         Icon () {
             name = "multimedia-audio-player",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "multimedia-photo-manager",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "multimedia-video-player",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "office-address-book",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "office-calendar",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "postscript-viewer",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "preferences-desktop",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "system-file-manager",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "system-os-installer",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "system-software-install",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "system-software-update",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "system-users",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "utilities-system-monitor",
-            description = _("")
+            description = _(""),
+            category = APPS
         },
         Icon () {
             name = "utilities-terminal",
-            description = _("")
-        }
-    };
-
-    static Icon[] categories = {
+            description = _(""),
+            category = APPS
+        },
         Icon () {
             name = "applications-accessories",
-            description = _("Accessories category of applications")
+            description = _("Accessories category of applications"),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-development",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-education",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-engineering",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-fonts",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-games",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-graphics",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-internet",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-multimedia",
-            description = _("Multimedia category of applications")
+            description = _("Multimedia category of applications"),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-office",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-other",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-science",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-system",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "applications-utilities",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-bluetooth",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-color",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-accessibility",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-accessibility-pointing",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-accessibility-zoom",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-applications",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-display",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-keyboard",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-locale",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-online-accounts",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-peripherals",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-sound",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-wallpaper",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-other",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-system",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-network",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-notifications",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-parental-controls",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-power",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-privacy",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-sharing",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-time",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-windows",
-            description = _("")
+            description = _(""),
+            category = CATEGORIES
         },
         Icon () {
             name = "system-help",
-            description = _("")
-        }
-    };
-
-    static Icon[] devices = {
+            description = _(""),
+            category = CATEGORIES
+        },
         Icon () {
             name = "audio-card",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "audio-input-microphone",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "audio-subwoofer",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "battery",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "bluetooth",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "camera-photo",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "camera-video",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "camera-web",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "computer",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "computer-laptop",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "drive-harddisk",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "drive-optical",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "drive-removable-media",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "drive-removable-media-usb",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "input-gaming",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "input-keyboard",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "input-mouse",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "input-tablet",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "input-touchpad",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "media-flash",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "media-optical",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "modem",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "multimedia-player",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "network-cellular",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "network-firewall",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "network-vpn",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "network-wired",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "network-wireless",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "network-wireless-hotspot",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "phone",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "printer",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "printer-network",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "scanner",
-            description = _("")
+            description = _(""),
+            category = DEVICES
         },
         Icon () {
             name = "video-display",
-            description = _("")
-        }
-    };
-
-    static Icon[] emblems = {
+            description = _(""),
+            category = DEVICES
+        },
         Icon () {
             name = "emblem-default",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-documents",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-downloads",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-favorite",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-important",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-mail",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-photos",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-readonly",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-shared",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-symbolic-link",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-synchronized",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-system",
-            description = _("")
+            description = _(""),
+            category = EMBLEMS
         },
         Icon () {
             name = "emblem-unreadable",
-            description = _("")
-        }
-    };
-
-    static Icon[] emotes = {
+            description = _(""),
+            category = EMBLEMS
+        },
         Icon () {
             name = "face-angel",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-angry",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-cool",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-crying",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-devilish",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-embarrassed",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-heart",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-heart-broken",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-kiss",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-laugh",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-monkey",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-plain",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-raspberry",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-sad",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-sick",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-smile",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-smile-big",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-smirk",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-surprise",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-tired",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-uncertain",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-wink",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
         Icon () {
             name = "face-worried",
-            description = _("")
+            description = _(""),
+            category = EMOTES
         },
-    };
-
-    static Icon[] mimes = {
         Icon () {
             name = "application-epub+zip",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-illustrator",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-javascript",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-msword",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-octet-stream",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-pdf",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-pgp",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-vnd.debian.binary-package",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-vnd.ms-access",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-vnd.ms-excel",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-vnd.ms-powerpoint",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-vnd.oasis.opendocument.chart",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-x-bittorrent",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-x-cd-image",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-x-desktop",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-x-executable",
-            description = _("Executable file types")
+            description = _("Executable file types"),
+            category = MIMES
         },
         Icon () {
             name = "application-x-fictionbook+xml",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-x-firmware",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-x-flash-video",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "application-x-php",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "audio-x-generic",
-            description = _("Generic audio file types")
+            description = _("Generic audio file types"),
+            category = MIMES
         },
         Icon () {
             name = "audio-x-playlist",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "extension",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "font-x-generic",
-            description = _("Generic font file types")
+            description = _("Generic font file types"),
+            category = MIMES
         },
         Icon () {
             name = "image-vnd.adobe.photoshop",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "image-x-generic",
-            description = _("Generic image file types")
+            description = _("Generic image file types"),
+            category = MIMES
         },
         Icon () {
             name = "image-x-xcf",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "internet-feed",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "model",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "office-contact",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "office-database",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "package-x-generic",
-            description = _("Generic package file types")
+            description = _("Generic package file types"),
+            category = MIMES
         },
         Icon () {
             name = "text-css",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-html",
-            description = _("HTML text file types")
+            description = _("HTML text file types"),
+            category = MIMES
         },
         Icon () {
             name = "text-markdown",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-authors",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-bibtex",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-changelog",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-chdr",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-copying",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-csrc",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-generic",
-            description = _("Generic text file types")
+            description = _("Generic text file types"),
+            category = MIMES
         },
         Icon () {
             name = "text-x-generic-template",
-            description = _("Generic text templates")
+            description = _("Generic text templates"),
+            category = MIMES
         },
         Icon () {
             name = "text-x-gettext-translation",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-gettext-translation-template",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-go",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-install",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-makefile",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-preview",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-python",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-readme",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-script",
-            description = _("Script file types, such as shell scripts")
+            description = _("Script file types, such as shell scripts"),
+            category = MIMES
         },
         Icon () {
             name = "text-x-ssa",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-tex",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "text-x-vala",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "unknown",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "video-x-generic",
-            description = _("Generic video file types")
+            description = _("Generic video file types"),
+            category = MIMES
         },
         Icon () {
             name = "x-office-address-book",
-            description = _("Generic address book file types")
+            description = _("Generic address book file types"),
+            category = MIMES
         },
         Icon () {
             name = "x-office-calendar",
-            description = _("Generic calendar file types")
+            description = _("Generic calendar file types"),
+            category = MIMES
         },
         Icon () {
             name = "x-office-document",
-            description = _("Generic document and letter file types")
+            description = _("Generic document and letter file types"),
+            category = MIMES
         },
         Icon () {
             name = "x-office-document-template",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "x-office-drawing",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "x-office-drawing-template",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "x-office-presentation",
-            description = _("Generic presentation file types")
+            description = _("Generic presentation file types"),
+            category = MIMES
         },
         Icon () {
             name = "x-office-presentation-template",
-            description = _("")
+            description = _(""),
+            category = MIMES
         },
         Icon () {
             name = "x-office-spreadsheet",
-            description = _("Generic spreadsheet file types")
+            description = _("Generic spreadsheet file types"),
+            category = MIMES
         },
         Icon () {
             name = "x-office-spreadsheet-template",
-            description = _("")
-        }
-    };
-
-    static Icon[] places = {
+            description = _(""),
+            category = MIMES
+        },
         Icon () {
             name = "bookmark-missing",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "distributor-logo",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-documents",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-download",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-drag-accept",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-music",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-open",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-pictures",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-publicshare",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-recent",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-remote",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-saved-search",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-tag",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-templates",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "folder-videos",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "internet-radio",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "library-audiobook",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "library-places",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "library-podcast",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "mail-inbox",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "mail-mailbox",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "mail-outbox",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "mail-sent",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "network-server",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "network-workgroup",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "playlist",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "playlist-automatic",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "playlist-queue",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "playlist-similar",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "tag",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "user-bookmarks",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "user-home",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "user-trash",
-            description = _("")
+            description = _(""),
+            category = PLACES
         },
         Icon () {
             name = "user-trash-full",
-            description = _("")
-        }
-    };
-
-    static Icon[] status = {
+            description = _(""),
+            category = PLACES
+        },
         Icon () {
             name = "airplane-mode",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "appointment-missed",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "appointment-soon",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "audio-volume-high",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "audio-volume-low",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "audio-volume-medium",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "audio-volume-muted",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "audio-volume-muted-blocking",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "avatar-default",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-ac-adapter",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-caution",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-caution-charging",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-empty",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-empty-charging",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-full",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-full-charged",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-full-charging",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-good",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-good-charging",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-low",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-low-charging",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "battery-missing",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "bluetooth-disabled",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "channel-secure",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "dialog-error",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "dialog-information",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "dialog-password",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "dialog-question",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "dialog-warning",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "image-loading",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "image-missing",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "locked",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "mail-attachment",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "mail-unread",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "mail-read",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "mail-replied",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "mail-signed",
-            description = _("Electronic mail that contains a signature")
+            description = _("Electronic mail that contains a signature"),
+            category = STATUS
         },
         Icon () {
             name = "mail-signed-verified",
-            description = _("Electronic mail that contains a signature which has also been verified by the security system")
+            description = _("Electronic mail that contains a signature which has also been verified by the security system"),
+            category = STATUS
         },
         Icon () {
             name = "media-playlist-repeat",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "media-playlist-shuffle",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "network-error",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "network-idle",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "network-offline",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "network-receive",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "network-transmit",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "network-transmit-receive",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "network-wired-disconnected",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "non-starred",
-            name = "non-starred",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "notification-disabled",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "printer-error",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "printer-printing",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "process-completed",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "security-high",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "security-medium",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "security-low",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "software-update-available",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "software-update-urgent",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "starred",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "task-due",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "task-past-due",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "user-available",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "user-away",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "user-idle",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "user-offline",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "view-private",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-clear",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-clear-night",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-few-clouds",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-few-clouds-night",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-fog",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-overcast",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-severe-alert",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-showers",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-showers-scattered",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-snow",
-            description = _("")
+            description = _(""),
+            category = STATUS
         },
         Icon () {
             name = "weather-storm",
-            description = _("")
+            description = _(""),
+            category = STATUS
         }
     };
 
-    public CategoryView (string category_name) {
+    public CategoryView () {
         Object (
-            category_name: category_name,
             orientation: Gtk.Orientation.HORIZONTAL,
             position: 256
         );
     }
 
     construct {
-        Icon[] category;
-        switch (category_name) {
-            case "Actions":
-                category = actions;
-            case "Applications":
-                category = apps;
-            case "Categories":
-                category = categories;
-            case "Devices":
-                category = devices;
-            case "Emblems":
-                category = emblems;
-            case "Emotes":
-                category = emotes;
-            case "Mimetypes":
-                category = mimes;
-            case "Places":
-                category = places;
-            case "Status":
-                category = status;
-        }
-
         var icon_view = new IconView ();
 
         listbox = new Gtk.ListBox ();
@@ -1828,8 +2254,8 @@ public class CategoryView : Gtk.Paned {
         add1 (scrolled_window);
         add2 (icon_view);
 
-        foreach (var icon in category) {
-            var row = new IconListRow (icon.name, icon.description);
+        foreach (var icon in icons) {
+            var row = new IconListRow (icon.name, icon.description, icon.category);
             listbox.add (row);
         }
 
