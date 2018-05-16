@@ -33,7 +33,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "align-horizontal-center",
-            description = _("Create a new address book")
+            description = _("Align objects to center along the X axis")
         },
         Icon () {
             name = "align-horizontal-left",
@@ -1810,12 +1810,11 @@ public class CategoryView : Gtk.Paned {
                 category = status;
         }
 
-        var icon_view = new IconView ("", "");
+        var icon_view = new IconView ();
 
         listbox = new Gtk.ListBox ();
         listbox.activate_on_single_click = true;
         listbox.selection_mode = Gtk.SelectionMode.SINGLE;
-        listbox.select_row (listbox.get_row_at_index (0));
 
         var scrolled_window = new Gtk.ScrolledWindow (null, null);
         scrolled_window.hscrollbar_policy = Gtk.PolicyType.NEVER;
