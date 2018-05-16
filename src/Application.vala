@@ -19,9 +19,16 @@
 */
 
 public class LookBook : Gtk.Application {
+    public static GLib.Settings settings;
+    private MainWindow main_window;
+
     public LookBook () {
         Object (application_id: "com.github.danrabbit.lookbook",
         flags: ApplicationFlags.FLAGS_NONE);
+    }
+
+    static construct {
+        settings = new Settings ("com.github.danrabbit.lookbook");
     }
 
     protected override void activate () {
@@ -30,18 +37,38 @@ public class LookBook : Gtk.Application {
             return;
         }
 
-        var app_window = new MainWindow (this);
+        main_window = new MainWindow (this);
 
-        app_window.show_all ();
+        var window_height = settings.get_int ("window-height");
+        var window_width = settings.get_int ("window-width");
+        var window_x = settings.get_int ("window-x");
+        var window_y = settings.get_int ("window-y");
+
+        if (window_x != -1 ||  window_y != -1) {
+            main_window.move (window_x, window_y);
+        }
+
+        if (window_height != -1 ||  window_width != -1) {
+            var rect = Gtk.Allocation ();
+            rect.height = window_height;
+            rect.width = window_width;
+            main_window.set_allocation (rect);
+        }
+
+        if (settings.get_boolean ("window-maximized")) {
+            main_window.maximize ();
+        }
+
+        main_window.show_all ();
 
         var quit_action = new SimpleAction ("quit", null);
 
         add_action (quit_action);
-        add_accelerator ("<Control>q", "app.quit", null);
+        set_accels_for_action ("app.quit", {"<Control>q"});
 
         quit_action.activate.connect (() => {
-            if (app_window != null) {
-                app_window.destroy ();
+            if (main_window != null) {
+                main_window.destroy ();
             }
         });
     }

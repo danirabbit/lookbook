@@ -19,7 +19,7 @@
 
 public class CategoryView : Gtk.Paned {
     public string category_name { get; construct; }
-    public IconListBox list;
+    public Gtk.ListBox listbox;
 
     private struct Icon {
         string name;
@@ -1788,8 +1788,6 @@ public class CategoryView : Gtk.Paned {
     }
 
     construct {
-        var view = new Gtk.Stack ();
-
         Icon[] category;
         switch (category_name) {
             case "Actions":
@@ -1812,20 +1810,29 @@ public class CategoryView : Gtk.Paned {
                 category = status;
         }
 
+        var icon_view = new IconView ("", "");
+
+        listbox = new Gtk.ListBox ();
+        listbox.activate_on_single_click = true;
+        listbox.selection_mode = Gtk.SelectionMode.SINGLE;
+        listbox.select_row (listbox.get_row_at_index (0));
+
+        var scrolled_window = new Gtk.ScrolledWindow (null, null);
+        scrolled_window.hscrollbar_policy = Gtk.PolicyType.NEVER;
+        scrolled_window.vexpand = true;
+        scrolled_window.add (listbox);
+
+        add1 (scrolled_window);
+        add2 (icon_view);
+
         foreach (var icon in category) {
-            var name = icon.name;
-            var description = icon.description;
-            var icon_view = new IconView (name, description);
-            view.add_titled (icon_view, name, name);
+            var row = new IconListRow (icon.name, icon.description);
+            listbox.add (row);
         }
 
-        list = new IconListBox (view);
-        list.row_selected.connect (() => ((IconView)view.visible_child).switched_to ());
-        list.vexpand = true;
-
-        add1 (list);
-        add2 (view);
-
-        view.realize.connect (() => ((IconView)view.visible_child).switched_to ());
+        listbox.row_selected.connect ((row) => {
+            icon_view.icon_name = ((IconListRow) row).icon_name;
+            icon_view.description = ((IconListRow) row).description;
+        });
     }
 }

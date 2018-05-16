@@ -11,7 +11,6 @@ executable(
     'src/CategoryView.vala',
     'src/IconView.vala',
     'src/MainWindow.vala',
-    'src/Widgets/IconListBox.vala',
     'src/Widgets/IconListRow.vala',
     dependencies: [
         dependency('glib-2.0'),
@@ -24,3 +23,5 @@ executable(
 
 subdir('data')
 subdir('po')
+
+meson.add_install_script('meson/post_install.py')
