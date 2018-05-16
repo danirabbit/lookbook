@@ -105,7 +105,7 @@ public class MainWindow : Gtk.Window {
             }
         }
 
-        if (search_entry.text in ((IconListRow) row).icon_name) {
+        if (search_entry.text.down () in ((IconListRow) row).icon_name) {
             return true;
         }
         return false;

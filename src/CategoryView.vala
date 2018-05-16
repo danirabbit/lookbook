@@ -2245,6 +2245,7 @@ public class CategoryView : Gtk.Paned {
         listbox = new Gtk.ListBox ();
         listbox.activate_on_single_click = true;
         listbox.selection_mode = Gtk.SelectionMode.SINGLE;
+        listbox.set_sort_func (sort_function);
 
         var scrolled_window = new Gtk.ScrolledWindow (null, null);
         scrolled_window.hscrollbar_policy = Gtk.PolicyType.NEVER;
@@ -2263,5 +2264,12 @@ public class CategoryView : Gtk.Paned {
             icon_view.icon_name = ((IconListRow) row).icon_name;
             icon_view.description = ((IconListRow) row).description;
         });
+    }
+
+    [CCode (instance_pos = -1)]
+    private int sort_function (Gtk.ListBoxRow row1, Gtk.ListBoxRow row2) {
+        var name1 = ((IconListRow) row1).icon_name;
+        var name2 = ((IconListRow) row2).icon_name;
+        return name1.collate (name2);
     }
 }
