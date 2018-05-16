@@ -32,17 +32,33 @@ public class LookBook : Gtk.Application {
 
         var app_window = new MainWindow (this);
 
+        var settings = new Settings ("com.github.danrabbit.lookbook");
+
+        var window_x = settings.get_int ("window-x");
+        var window_y = settings.get_int ("window-y");
+
+        if (window_x != -1 ||  window_y != -1) {
+            app_window.move (window_x, window_y);
+        }
+
         app_window.show_all ();
 
         var quit_action = new SimpleAction ("quit", null);
 
         add_action (quit_action);
-        add_accelerator ("<Control>q", "app.quit", null);
+        set_accels_for_action ("app.quit", {"<Control>q"});
 
         quit_action.activate.connect (() => {
             if (app_window != null) {
                 app_window.destroy ();
             }
+        });
+
+        app_window.state_flags_changed.connect (() => {
+            int root_x, root_y;
+            app_window.get_position (out root_x, out root_y);
+            settings.set_int ("window-x", root_x);
+            settings.set_int ("window-y", root_y);
         });
     }
 
