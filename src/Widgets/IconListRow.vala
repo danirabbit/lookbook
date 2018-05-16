@@ -18,11 +18,13 @@
 */
 
 public class IconListRow : Gtk.ListBoxRow {
+    public CategoryView.Category category { get; construct; }
     public string description { get; construct; }
     public string icon_name { get; construct; }
 
-    public IconListRow (string icon_name, string description) {
+    public IconListRow (string icon_name, string description, CategoryView.Category category) {
         Object (
+            category: category,
             description: description,
             icon_name: icon_name
         );
