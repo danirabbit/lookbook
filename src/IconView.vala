@@ -18,27 +18,18 @@
  * Boston, MA 02111-1307, USA.
  */
 
-public class IconView : Gtk.ScrolledWindow {
-    public string description { get; set; }
-    public string icon_name { get; set; }
-
+public class IconView : Granite.SimpleSettingsPage {
     private Gtk.Grid color_row;
     private Gtk.Grid symbolic_row;
 
-    public IconView (string icon_name, string description) {
+    public IconView () {
         Object (
-            hscrollbar_policy: Gtk.PolicyType.NEVER
+            icon_name: "address-book-new",
+            description: _("Create a new address book")
         );
     }
 
     construct {
-        var title = new Gtk.Label ("");
-        title.xalign = 0;
-        title.get_style_context ().add_class ("h2");
-
-        var description_label = new Gtk.Label ("");
-        description_label.xalign = 0;
-
         var color_title = new Gtk.Label ("Color Icons");
         color_title.margin_top = 12;
         color_title.xalign = 0;
@@ -66,27 +57,21 @@ public class IconView : Gtk.ScrolledWindow {
         snippet.hexpand = true;
         snippet.valign = Gtk.Align.CENTER;
 
-        var grid = new Gtk.Grid ();
-        grid.column_spacing = 12;
-        grid.row_spacing = 12;
-        grid.margin = 24;
-        grid.orientation = Gtk.Orientation.VERTICAL;
-        grid.add (title);
-        grid.add (description_label);
-        grid.add (color_title);
-        grid.add (color_row);
-        grid.add (symbolic_title);
-        grid.add (symbolic_row);
-        grid.add (snippet_title);
-        grid.add (snippet);
-
-        add (grid);
+        content_area.column_spacing = 12;
+        content_area.row_spacing = 12;
+        content_area.orientation = Gtk.Orientation.VERTICAL;
+        content_area.add (color_title);
+        content_area.add (color_row);
+        content_area.add (symbolic_title);
+        content_area.add (symbolic_row);
+        content_area.add (snippet_title);
+        content_area.add (snippet);
 
         var icon_theme = Gtk.IconTheme.get_default ();
         string [] pixels = {"16", "24", "32", "48", "64", "128"};
 
         notify["icon-name"].connect (() => {
-            title.label = icon_name;
+            title = icon_name;
             snippet.label = "var icon = new Gtk.Image ();\nicon.gicon = new ThemedIcon (\"%s\");\nicon.pixel_size = \"24\";".printf (icon_name);
 
             int i = 0;
@@ -149,10 +134,6 @@ public class IconView : Gtk.ScrolledWindow {
             }
 
             show_all ();
-        });
-
-        notify["description"].connect (() => {
-            description_label.label = description;
         });
     }
 
