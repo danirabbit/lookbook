@@ -105,7 +105,9 @@ public class MainWindow : Gtk.Window {
             }
         }
 
-        if (search_entry.text.down () in ((IconListRow) row).icon_name) {
+        var search_term = search_entry.text.down ();
+
+        if (search_term in ((IconListRow) row).icon_name || search_term in ((IconListRow) row).description.down ()) {
             return true;
         }
         return false;
