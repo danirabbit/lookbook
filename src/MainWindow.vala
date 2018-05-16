@@ -64,10 +64,10 @@ public class MainWindow : Gtk.Window {
             var category_view = new CategoryView (category);
             category_stack.add_titled (category_view, category, category);
 
-            ((Gtk.ListBox)category_view.list.listbox).set_filter_func (filter_function);
+            ((Gtk.ListBox)category_view.listbox).set_filter_func (filter_function);
 
             search_entry.search_changed.connect (() => {
-                ((Gtk.ListBox)category_view.list.listbox).invalidate_filter ();
+                ((Gtk.ListBox)category_view.listbox).invalidate_filter ();
             });
         }
 

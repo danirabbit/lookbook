@@ -19,28 +19,25 @@
  */
 
 public class IconView : Gtk.ScrolledWindow {
-    public string description { get; construct; }
-    public string icon_name { get; construct; }
+    public string description { get; set; }
+    public string icon_name { get; set; }
 
-    private bool initialized = false;
     private Gtk.Grid color_row;
     private Gtk.Grid symbolic_row;
 
     public IconView (string icon_name, string description) {
         Object (
-            description: description,
-            hscrollbar_policy: Gtk.PolicyType.NEVER,
-            icon_name: icon_name
+            hscrollbar_policy: Gtk.PolicyType.NEVER
         );
     }
 
     construct {
-        var title = new Gtk.Label (icon_name);
+        var title = new Gtk.Label ("");
         title.xalign = 0;
         title.get_style_context ().add_class ("h2");
 
-        var description = new Gtk.Label (description);
-        description.xalign = 0;
+        var description_label = new Gtk.Label ("");
+        description_label.xalign = 0;
 
         var color_title = new Gtk.Label ("Color Icons");
         color_title.margin_top = 12;
@@ -65,7 +62,7 @@ public class IconView : Gtk.ScrolledWindow {
         snippet_title.xalign = 0;
         snippet_title.get_style_context ().add_class ("h4");
 
-        var snippet = new Snippet ("var icon = new Gtk.Image ();\nicon.gicon = new ThemedIcon (\"%s\");\nicon.pixel_size = \"24\";".printf (icon_name));
+        var snippet = new Snippet ("");
         snippet.hexpand = true;
         snippet.valign = Gtk.Align.CENTER;
 
@@ -75,7 +72,7 @@ public class IconView : Gtk.ScrolledWindow {
         grid.margin = 24;
         grid.orientation = Gtk.Orientation.VERTICAL;
         grid.add (title);
-        grid.add (description);
+        grid.add (description_label);
         grid.add (color_title);
         grid.add (color_row);
         grid.add (symbolic_title);
@@ -84,18 +81,26 @@ public class IconView : Gtk.ScrolledWindow {
         grid.add (snippet);
 
         add (grid);
-    }
 
-    public void switched_to () {
-        if (!initialized) {
-            string [] pixels = {"16", "24", "32", "48", "64", "128"};
+        var icon_theme = Gtk.IconTheme.get_default ();
+        string [] pixels = {"16", "24", "32", "48", "64", "128"};
 
-            var icon_theme = Gtk.IconTheme.get_default ();
+        notify["icon-name"].connect (() => {
+            title.label = icon_name;
+            snippet.label = "var icon = new Gtk.Image ();\nicon.gicon = new ThemedIcon (\"%s\");\nicon.pixel_size = \"24\";".printf (icon_name);
 
             int i = 0;
 
             var has_color = icon_theme.has_icon (icon_name);
             var has_symbolic = icon_theme.has_icon (icon_name + "-symbolic");
+
+            foreach (var child in color_row.get_children ()) {
+                child.destroy ();
+            }
+
+            foreach (var child in symbolic_row.get_children ()) {
+                child.destroy ();
+            }
 
             foreach (string pixel_size in pixels) {
                 if (has_color) {
@@ -144,9 +149,11 @@ public class IconView : Gtk.ScrolledWindow {
             }
 
             show_all ();
+        });
 
-            initialized = true;
-        }
+        notify["description"].connect (() => {
+            description_label.label = description;
+        });
     }
 
     private class Snippet : Gtk.Label {
