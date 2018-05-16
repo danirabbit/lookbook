@@ -1,0 +1,37 @@
+---
+
+language: node_js
+
+node_js:
+  - lts/*
+
+sudo: required
+
+services:
+  - docker
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - libstdc++-4.9-dev
+
+cache:
+  directories:
+    - /tmp/liftoff
+
+matrix:
+  include:
+    - env: DIST=juno
+
+before_install:
+  - docker pull ubuntu:18.04
+
+install:
+  - npm install @elementaryos/houston
+
+script:
+  - houston ci
+    --distribution $DIST
+
