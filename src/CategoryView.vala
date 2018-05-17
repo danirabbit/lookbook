@@ -176,7 +176,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "document-properties",
-            description = _("View the properties of a document in an application"),
+            description = _("View the properties of a document"),
             category = ACTIONS
         },
         Icon () {
@@ -186,52 +186,52 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "document-save",
-            description = _("The save action"),
+            description = _("Save"),
             category = ACTIONS
         },
         Icon () {
             name = "document-save-as",
-            description = _("The save as action"),
+            description = _("Save as"),
             category = ACTIONS
         },
         Icon () {
             name = "document-send",
-            description = _("The send action"),
+            description = _("Send"),
             category = ACTIONS
         },
         Icon () {
             name = "edit",
-            description = _(""),
+            description = _("Edit"),
             category = ACTIONS
         },
         Icon () {
             name = "edit-clear",
-            description = _(""),
+            description = _("Clear"),
             category = ACTIONS
         },
         Icon () {
             name = "edit-copy",
-            description = _(""),
+            description = _("Copy"),
             category = ACTIONS
         },
         Icon () {
             name = "edit-cut",
-            description = _(""),
+            description = _("Cut"),
             category = ACTIONS
         },
         Icon () {
             name = "edit-delete",
-            description = _(""),
+            description = _("Delete"),
             category = ACTIONS
         },
         Icon () {
             name = "edit-find",
-            description = _(""),
+            description = _("Find"),
             category = ACTIONS
         },
         Icon () {
             name = "edit-find-replace",
-            description = _(""),
+            description = _("Find & Replace"),
             category = ACTIONS
         },
         Icon () {
@@ -241,77 +241,82 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "edit-paste",
-            description = _(""),
+            description = _("Paste"),
             category = ACTIONS
         },
         Icon () {
             name = "edit-redo",
-            description = _(""),
+            description = _("Redo"),
             category = ACTIONS
         },
         Icon () {
             name = "edit-select-all",
-            description = _(""),
+            description = _("Select all"),
             category = ACTIONS
         },
         Icon () {
             name = "edit-undo",
-            description = _(""),
+            description = _("Undo"),
             category = ACTIONS
         },
         Icon () {
             name = "event-new",
-            description = _(""),
+            description = _("Create a new calendar event"),
             category = ACTIONS
         },
         Icon () {
             name = "folder-copy",
-            description = _(""),
+            description = _("Copy a folder"),
             category = ACTIONS
         },
         Icon () {
             name = "folder-move",
-            description = _(""),
+            description = _("Move a folder"),
             category = ACTIONS
         },
         Icon () {
             name = "folder-new",
-            description = _(""),
+            description = _("Create a new folder"),
             category = ACTIONS
         },
         Icon () {
             name = "format-indent-less",
-            description = _(""),
+            description = _("Decrease indent"),
             category = ACTIONS
         },
         Icon () {
             name = "format-indent-more",
-            description = _(""),
+            description = _("Increase indent"),
             category = ACTIONS
         },
         Icon () {
             name = "format-justify-center",
-            description = _(""),
+            description = _("Center justify text"),
             category = ACTIONS
         },
         Icon () {
             name = "format-justify-fill",
-            description = _(""),
+            description = _("Fill justify text"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "format-justify-left",
+            description = _("Left justify text"),
             category = ACTIONS
         },
         Icon () {
             name = "format-justify-right",
-            description = _(""),
+            description = _("Right justify text"),
             category = ACTIONS
         },
         Icon () {
             name = "format-text-direction-ltr",
-            description = _(""),
+            description = _("Format text as left-to-right"),
             category = ACTIONS
         },
         Icon () {
             name = "format-text-direction-rtl",
-            description = _(""),
+            description = _("Format text as right-to-left"),
             category = ACTIONS
         },
         Icon () {
