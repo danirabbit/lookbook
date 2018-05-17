@@ -1966,6 +1966,11 @@ public class CategoryView : Gtk.Paned {
             category = STATUS
         },
         Icon () {
+            name = "channel-insecure",
+            description = _(""),
+            category = STATUS
+        },
+        Icon () {
             name = "channel-secure",
             description = _(""),
             category = STATUS
