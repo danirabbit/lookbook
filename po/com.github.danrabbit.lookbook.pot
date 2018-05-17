@@ -106,32 +106,26 @@
 #: src/CategoryView.vala:1325 src/CategoryView.vala:1330
 #: src/CategoryView.vala:1335 src/CategoryView.vala:1340
 #: src/CategoryView.vala:1345 src/CategoryView.vala:1350
-#: src/CategoryView.vala:1355 src/CategoryView.vala:1360
-#: src/CategoryView.vala:1365 src/CategoryView.vala:1370
-#: src/CategoryView.vala:1375 src/CategoryView.vala:1380
-#: src/CategoryView.vala:1385 src/CategoryView.vala:1390
-#: src/CategoryView.vala:1395 src/CategoryView.vala:1400
-#: src/CategoryView.vala:1405 src/CategoryView.vala:1410
-#: src/CategoryView.vala:1415 src/CategoryView.vala:1420
-#: src/CategoryView.vala:1430 src/CategoryView.vala:1435
-#: src/CategoryView.vala:1440 src/CategoryView.vala:1445
-#: src/CategoryView.vala:1455 src/CategoryView.vala:1460
-#: src/CategoryView.vala:1470 src/CategoryView.vala:1480
-#: src/CategoryView.vala:1485 src/CategoryView.vala:1490
-#: src/CategoryView.vala:1495 src/CategoryView.vala:1500
-#: src/CategoryView.vala:1510 src/CategoryView.vala:1520
-#: src/CategoryView.vala:1525 src/CategoryView.vala:1530
-#: src/CategoryView.vala:1535 src/CategoryView.vala:1540
-#: src/CategoryView.vala:1545 src/CategoryView.vala:1550
-#: src/CategoryView.vala:1565 src/CategoryView.vala:1570
-#: src/CategoryView.vala:1575 src/CategoryView.vala:1580
+#: src/CategoryView.vala:1355 src/CategoryView.vala:1365
+#: src/CategoryView.vala:1370 src/CategoryView.vala:1375
+#: src/CategoryView.vala:1380 src/CategoryView.vala:1385
+#: src/CategoryView.vala:1390 src/CategoryView.vala:1395
+#: src/CategoryView.vala:1400 src/CategoryView.vala:1405
+#: src/CategoryView.vala:1410 src/CategoryView.vala:1415
+#: src/CategoryView.vala:1420 src/CategoryView.vala:1430
+#: src/CategoryView.vala:1435 src/CategoryView.vala:1440
+#: src/CategoryView.vala:1460 src/CategoryView.vala:1465
+#: src/CategoryView.vala:1490 src/CategoryView.vala:1495
+#: src/CategoryView.vala:1500 src/CategoryView.vala:1505
+#: src/CategoryView.vala:1530 src/CategoryView.vala:1535
+#: src/CategoryView.vala:1540 src/CategoryView.vala:1550
+#: src/CategoryView.vala:1570 src/CategoryView.vala:1575
 #: src/CategoryView.vala:1585 src/CategoryView.vala:1590
-#: src/CategoryView.vala:1595 src/CategoryView.vala:1600
-#: src/CategoryView.vala:1610 src/CategoryView.vala:1615
-#: src/CategoryView.vala:1620 src/CategoryView.vala:1625
-#: src/CategoryView.vala:1650 src/CategoryView.vala:1655
-#: src/CategoryView.vala:1660 src/CategoryView.vala:1670
-#: src/CategoryView.vala:1680 src/CategoryView.vala:1685
+#: src/CategoryView.vala:1595 src/CategoryView.vala:1605
+#: src/CategoryView.vala:1615 src/CategoryView.vala:1620
+#: src/CategoryView.vala:1630 src/CategoryView.vala:1655
+#: src/CategoryView.vala:1660 src/CategoryView.vala:1665
+#: src/CategoryView.vala:1675 src/CategoryView.vala:1685
 #: src/CategoryView.vala:1690 src/CategoryView.vala:1695
 #: src/CategoryView.vala:1700 src/CategoryView.vala:1705
 #: src/CategoryView.vala:1710 src/CategoryView.vala:1715
@@ -167,7 +161,7 @@
 #: src/CategoryView.vala:2010 src/CategoryView.vala:2015
 #: src/CategoryView.vala:2020 src/CategoryView.vala:2025
 #: src/CategoryView.vala:2030 src/CategoryView.vala:2035
-#: src/CategoryView.vala:2040 src/CategoryView.vala:2055
+#: src/CategoryView.vala:2040 src/CategoryView.vala:2045
 #: src/CategoryView.vala:2060 src/CategoryView.vala:2065
 #: src/CategoryView.vala:2070 src/CategoryView.vala:2075
 #: src/CategoryView.vala:2080 src/CategoryView.vala:2085
@@ -186,13 +180,13 @@
 #: src/CategoryView.vala:2210 src/CategoryView.vala:2215
 #: src/CategoryView.vala:2220 src/CategoryView.vala:2225
 #: src/CategoryView.vala:2230 src/CategoryView.vala:2235
-#: src/CategoryView.vala:2240
+#: src/CategoryView.vala:2240 src/CategoryView.vala:2245
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.danrabbit.lookbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-16 19:44-0700\n"
+"POT-Creation-Date: 2018-05-17 12:23-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -441,71 +435,119 @@ msgstr ""
 msgid "Multimedia category of applications"
 msgstr ""
 
+#: src/CategoryView.vala:1360
+msgid "Javascript programming language file types"
+msgstr ""
+
 #: src/CategoryView.vala:1425
 msgid "Executable file types"
 msgstr ""
 
+#: src/CategoryView.vala:1445
+msgid "PHP programming language file types"
+msgstr ""
+
 #: src/CategoryView.vala:1450
+msgid "Ruby programming language file types"
+msgstr ""
+
+#: src/CategoryView.vala:1455
 msgid "Generic audio file types"
 msgstr ""
 
-#: src/CategoryView.vala:1465
+#: src/CategoryView.vala:1470
 msgid "Generic font file types"
 msgstr ""
 
 #: src/CategoryView.vala:1475
+msgid "Adobe Photoshop image file types"
+msgstr ""
+
+#: src/CategoryView.vala:1480
 msgid "Generic image file types"
 msgstr ""
 
-#: src/CategoryView.vala:1505
+#: src/CategoryView.vala:1485
+msgid "XCF image file types"
+msgstr ""
+
+#: src/CategoryView.vala:1510
 msgid "Generic package file types"
 msgstr ""
 
 #: src/CategoryView.vala:1515
+msgid "CSS text file types"
+msgstr ""
+
+#: src/CategoryView.vala:1520
 msgid "HTML text file types"
 msgstr ""
 
+#: src/CategoryView.vala:1525
+msgid "Markdown text file types"
+msgstr ""
+
+#: src/CategoryView.vala:1545
+msgid "C programming language header file types"
+msgstr ""
+
 #: src/CategoryView.vala:1555
-msgid "Generic text file types"
+msgid "C programming language file types"
 msgstr ""
 
 #: src/CategoryView.vala:1560
+msgid "Generic text file types"
+msgstr ""
+
+#: src/CategoryView.vala:1565
 msgid "Generic text templates"
 msgstr ""
 
-#: src/CategoryView.vala:1605
+#: src/CategoryView.vala:1580
+msgid "Go programming language file types"
+msgstr ""
+
+#: src/CategoryView.vala:1600
+msgid "Python programming language file types"
+msgstr ""
+
+#: src/CategoryView.vala:1610
 msgid "Script file types, such as shell scripts"
 msgstr ""
 
-#: src/CategoryView.vala:1630
-msgid "Generic video file types"
+#: src/CategoryView.vala:1625
+msgid "Vala programming language file types"
 msgstr ""
 
 #: src/CategoryView.vala:1635
-msgid "Generic address book file types"
+msgid "Generic video file types"
 msgstr ""
 
 #: src/CategoryView.vala:1640
-msgid "Generic calendar file types"
+msgid "Generic address book file types"
 msgstr ""
 
 #: src/CategoryView.vala:1645
+msgid "Generic calendar file types"
+msgstr ""
+
+#: src/CategoryView.vala:1650
 msgid "Generic document and letter file types"
 msgstr ""
 
-#: src/CategoryView.vala:1665
+#: src/CategoryView.vala:1670
 msgid "Generic presentation file types"
 msgstr ""
 
-#: src/CategoryView.vala:1675
+#: src/CategoryView.vala:1680
 msgid "Generic spreadsheet file types"
 msgstr ""
 
-#: src/CategoryView.vala:2045
+#: src/CategoryView.vala:2050
 msgid "Electronic mail that contains a signature"
 msgstr ""
 
-#: src/CategoryView.vala:2050
+#: src/CategoryView.vala:2055
 msgid ""
 "Electronic mail that contains a signature which has also been verified by "
 "the security system"

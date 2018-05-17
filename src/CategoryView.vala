@@ -1357,7 +1357,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "application-javascript",
-            description = _(""),
+            description = _("Javascript programming language file types"),
             category = MIMES
         },
         Icon () {
@@ -1442,7 +1442,12 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "application-x-php",
-            description = _(""),
+            description = _("PHP programming language file types"),
+            category = MIMES
+        },
+        Icon () {
+            name = "application-x-ruby",
+            description = _("Ruby programming language file types"),
             category = MIMES
         },
         Icon () {
@@ -1467,7 +1472,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "image-vnd.adobe.photoshop",
-            description = _(""),
+            description = _("Adobe Photoshop image file types"),
             category = MIMES
         },
         Icon () {
@@ -1477,7 +1482,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "image-x-xcf",
-            description = _(""),
+            description = _("XCF image file types"),
             category = MIMES
         },
         Icon () {
@@ -1507,7 +1512,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-css",
-            description = _(""),
+            description = _("CSS text file types"),
             category = MIMES
         },
         Icon () {
@@ -1517,7 +1522,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-markdown",
-            description = _(""),
+            description = _("Markdown text file types"),
             category = MIMES
         },
         Icon () {
@@ -1537,7 +1542,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-chdr",
-            description = _(""),
+            description = _("C programming language header file types"),
             category = MIMES
         },
         Icon () {
@@ -1547,7 +1552,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-csrc",
-            description = _(""),
+            description = _("C programming language file types"),
             category = MIMES
         },
         Icon () {
@@ -1572,7 +1577,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-go",
-            description = _(""),
+            description = _("Go programming language file types"),
             category = MIMES
         },
         Icon () {
@@ -1592,7 +1597,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-python",
-            description = _(""),
+            description = _("Python programming language file types"),
             category = MIMES
         },
         Icon () {
@@ -1617,7 +1622,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-vala",
-            description = _(""),
+            description = _("Vala programming language file types"),
             category = MIMES
         },
         Icon () {
