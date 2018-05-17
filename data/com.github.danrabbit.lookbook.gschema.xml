@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
   <schema path="/com/github/danrabbit/lookbook/" id="com.github.danrabbit.lookbook">
+    <key name="prefer-dark-style" type="b">
+      <default>false</default>
+      <summary>If the dark Gtk stylesheet should be used</summary>
+      <description>If the dark Gtk stylesheet should be used</description>
+    </key> 
     <key name="window-height" type="i">
       <default>900</default>
       <summary>Most recent window height</summary>
