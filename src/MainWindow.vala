@@ -48,7 +48,7 @@ public class MainWindow : Gtk.Window {
     construct {
         search_entry = new Gtk.SearchEntry ();
         search_entry.hexpand = true;
-        search_entry.placeholder_text = _("Search Icon Names");
+        search_entry.placeholder_text = _("Search Icon Names or Descriptions");
         search_entry.valign = Gtk.Align.CENTER;
 
         var light_icon = new Gtk.Image.from_icon_name ("display-brightness-symbolic", Gtk.IconSize.SMALL_TOOLBAR);
