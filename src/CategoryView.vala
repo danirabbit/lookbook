@@ -346,17 +346,17 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "go-bottom",
-            description = _("Go to the bottom, i.e. of a list"),
+            description = _("Go to the bottom, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "go-down",
-            description = _("Go down, i.e. in a list"),
+            description = _("Go down, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "go-first",
-            description = _("Go to the first item, i.e. in a list"),
+            description = _("Go to the first item, such as in a list"),
             category = ACTIONS
         },
         Icon () {
@@ -371,27 +371,27 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "go-last",
-            description = _("Go to the last item, i.e. in a list"),
+            description = _("Go to the last item, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "go-next",
-            description = _("Go forward to the next item, i.e. in a list or navigation"),
+            description = _("Go forward to the next item, such as in a list or navigation"),
             category = ACTIONS
         },
         Icon () {
             name = "go-previous",
-            description = _("Go back to the previous item, i.e. in a list or navigation"),
+            description = _("Go back to the previous item, such as in a list or navigation"),
             category = ACTIONS
         },
         Icon () {
             name = "go-top",
-            description = _("Go to the top, i.e. of a list"),
+            description = _("Go to the top, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "go-up",
-            description = _("Go up, i.e. in a list"),
+            description = _("Go up, such as in a list"),
             category = ACTIONS
         },
         Icon () {
