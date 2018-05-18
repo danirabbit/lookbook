@@ -671,133 +671,133 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "accessories-calculator",
-            description = _(""),
+            description = _("Calculator"),
             category = APPS
         },
         Icon () {
             name = "accessories-camera",
-            description = _(""),
+            description = _("Camera or webcam"),
             category = APPS
         },
         Icon () {
             name = "accessories-character-map",
-            description = _(""),
+            description = _("International and extended text character map"),
             category = APPS
         },
         Icon () {
             name = "accessories-dictionary",
-            description = _(""),
+            description = _("Dictionary"),
             category = APPS
         },
         Icon () {
             name = "accessories-screenshot",
-            description = _(""),
+            description = _("Screenshot tool"),
             category = APPS
         },
         Icon () {
             name = "accessories-text-editor",
-            description = _(""),
+            description = _("Text editor"),
             category = APPS
         },
         Icon () {
             name = "application-default-icon",
-            description = _(""),
+            description = _("Default or unprovided app icon"),
             category = APPS
         },
         Icon () {
             name = "archive-manager",
-            description = _(""),
+            description = _("Archive manager"),
             category = APPS
         },
         Icon () {
             name = "internet-chat",
-            description = _(""),
+            description = _("Internet chat or messaging"),
             category = APPS
         },
         Icon () {
             name = "internet-mail",
-            description = _(""),
+            description = _("Mail or email"),
             category = APPS
         },
         Icon () {
             name = "internet-news-reader",
-            description = _(""),
+            description = _("News or feed reader"),
             category = APPS
         },
         Icon () {
             name = "internet-web-browser",
-            description = _(""),
+            description = _("Web browser"),
             category = APPS
         },
 
         Icon () {
             name = "multimedia-audio-player",
-            description = _(""),
+            description = _("Music or audio player"),
             category = APPS
         },
         Icon () {
             name = "multimedia-photo-manager",
-            description = _(""),
+            description = _("Photo manager or library"),
             category = APPS
         },
         Icon () {
             name = "multimedia-video-player",
-            description = _(""),
+            description = _("Video or movie player"),
             category = APPS
         },
         Icon () {
             name = "office-address-book",
-            description = _(""),
+            description = _("Address book or contacts"),
             category = APPS
         },
         Icon () {
             name = "office-calendar",
-            description = _(""),
+            description = _("Calendar"),
             category = APPS
         },
         Icon () {
             name = "postscript-viewer",
-            description = _(""),
+            description = _("Portable document or PDF viewer"),
             category = APPS
         },
         Icon () {
             name = "preferences-desktop",
-            description = _(""),
+            description = _("System settings"),
             category = APPS
         },
         Icon () {
             name = "system-file-manager",
-            description = _(""),
+            description = _("Files"),
             category = APPS
         },
         Icon () {
             name = "system-os-installer",
-            description = _(""),
+            description = _("Install the operating system"),
             category = APPS
         },
         Icon () {
             name = "system-software-install",
-            description = _(""),
+            description = _("AppCenter or software installer"),
             category = APPS
         },
         Icon () {
             name = "system-software-update",
-            description = _(""),
+            description = _("Software updater"),
             category = APPS
         },
         Icon () {
             name = "system-users",
-            description = _(""),
+            description = _("User settings"),
             category = APPS
         },
         Icon () {
             name = "utilities-system-monitor",
-            description = _(""),
+            description = _("System resource monitor"),
             category = APPS
         },
         Icon () {
             name = "utilities-terminal",
-            description = _(""),
+            description = _("Terminal"),
             category = APPS
         },
         Icon () {
