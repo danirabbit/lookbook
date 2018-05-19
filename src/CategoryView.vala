@@ -321,483 +321,483 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "format-text-bold",
-            description = _(""),
+            description = _("Format text as bold"),
             category = ACTIONS
         },
         Icon () {
             name = "format-text-highlight",
-            description = _(""),
+            description = _("Format text as highlighted"),
             category = ACTIONS
         },
         Icon () {
             name = "format-text-italic",
-            description = _(""),
+            description = _("Format text as italic"),
             category = ACTIONS
         },
         Icon () {
             name = "format-text-underline",
-            description = _(""),
+            description = _("Format text as underlined"),
             category = ACTIONS
         },
         Icon () {
             name = "format-text-strikethrough",
-            description = _(""),
+            description = _("Format text as being struck through"),
             category = ACTIONS
         },
         Icon () {
             name = "go-bottom",
-            description = _(""),
+            description = _("Go to the bottom, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "go-down",
-            description = _(""),
+            description = _("Go down, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "go-first",
-            description = _(""),
+            description = _("Go to the first item, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "go-home",
-            description = _(""),
+            description = _("Go to the home location"),
             category = ACTIONS
         },
         Icon () {
             name = "go-jump",
-            description = _(""),
+            description = _("Jump to a location"),
             category = ACTIONS
         },
         Icon () {
             name = "go-last",
-            description = _(""),
+            description = _("Go to the last item, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "go-next",
-            description = _(""),
+            description = _("Go forward to the next item, such as in a list or navigation"),
             category = ACTIONS
         },
         Icon () {
             name = "go-previous",
-            description = _(""),
+            description = _("Go back to the previous item, such as in a list or navigation"),
             category = ACTIONS
         },
         Icon () {
             name = "go-top",
-            description = _(""),
+            description = _("Go to the top, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "go-up",
-            description = _(""),
+            description = _("Go up, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "help-about",
-            description = _(""),
+            description = _("Information about an app"),
             category = ACTIONS
         },
         Icon () {
             name = "help-contents",
-            description = _(""),
+            description = _("Get help"),
             category = ACTIONS
         },
         Icon () {
             name = "help-faq",
-            description = _(""),
+            description = _("Frequently asked questions"),
             category = ACTIONS
         },
         Icon () {
             name = "image-adjust",
-            description = _(""),
+            description = _("Make adjustments to an image"),
             category = ACTIONS
         },
         Icon () {
             name = "image-auto-adjust",
-            description = _(""),
+            description = _("Automatically adjust an image"),
             category = ACTIONS
         },
         Icon () {
             name = "image-crop",
-            description = _(""),
+            description = _("Crop an image"),
             category = ACTIONS
         },
         Icon () {
             name = "image-red-eye",
-            description = _(""),
+            description = _("Remove red eye from an image"),
             category = ACTIONS
         },
         Icon () {
             name = "insert-image",
-            description = _(""),
+            description = _("Insert an image"),
             category = ACTIONS
         },
         Icon () {
             name = "insert-link",
-            description = _(""),
+            description = _("Insert a link"),
             category = ACTIONS
         },
         Icon () {
             name = "insert-object",
-            description = _(""),
+            description = _("Insert an object"),
             category = ACTIONS
         },
         Icon () {
             name = "insert-text",
-            description = _(""),
+            description = _("Insert text"),
             category = ACTIONS
         },
         Icon () {
             name = "list-add",
-            description = _(""),
+            description = _("Add to a list"),
             category = ACTIONS
         },
         Icon () {
             name = "list-remove",
-            description = _(""),
+            description = _("Remove from a list"),
             category = ACTIONS
         },
         Icon () {
             name = "mail-forward",
-            description = _(""),
+            description = _("Forward an email"),
             category = ACTIONS
         },
         Icon () {
             name = "mail-mark-important",
-            description = _(""),
+            description = _("Mark an email as important"),
             category = ACTIONS
         },
         Icon () {
             name = "mail-mark-junk",
-            description = _(""),
+            description = _("Mark an email as junk or spam"),
             category = ACTIONS
         },
         Icon () {
             name = "mail-mark-notjunk",
-            description = _(""),
+            description = _("Mark an email as not junk or spam"),
             category = ACTIONS
         },
         Icon () {
             name = "mail-mark-read",
-            description = _(""),
+            description = _("Mark an email as read"),
             category = ACTIONS
         },
         Icon () {
             name = "mail-mark-unread",
-            description = _(""),
+            description = _("Mark an email as unread"),
             category = ACTIONS
         },
         Icon () {
             name = "mail-message-new",
-            description = _(""),
+            description = _("Compose a new email"),
             category = ACTIONS
         },
         Icon () {
             name = "mail-reply-all",
-            description = _(""),
+            description = _("Reply to all participants of an email"),
             category = ACTIONS
         },
         Icon () {
             name = "mail-reply-sender",
-            description = _(""),
+            description = _("Reply to the sender of an email"),
             category = ACTIONS
         },
         Icon () {
             name = "mail-send",
-            description = _(""),
+            description = _("Send an email"),
             category = ACTIONS
         },
         Icon () {
             name = "media-eject",
-            description = _(""),
+            description = _("Eject removable media"),
             category = ACTIONS
         },
         Icon () {
             name = "media-playback-pause",
-            description = _(""),
+            description = _("Pause media playback"),
             category = ACTIONS
         },
         Icon () {
             name = "media-playback-start",
-            description = _(""),
+            description = _("Start playing media"),
             category = ACTIONS
         },
         Icon () {
             name = "media-playback-stop",
-            description = _(""),
+            description = _("Stop playing media"),
             category = ACTIONS
         },
         Icon () {
             name = "media-record",
-            description = _(""),
+            description = _("Start recording"),
             category = ACTIONS
         },
         Icon () {
             name = "media-seek-backward",
-            description = _(""),
+            description = _("Seek backwards or rewind"),
             category = ACTIONS
         },
         Icon () {
             name = "media-seek-forward",
-            description = _(""),
+            description = _("Seek forwards, or fastforward"),
             category = ACTIONS
         },
         Icon () {
             name = "media-skip-backward",
-            description = _(""),
+            description = _("Skip backwards, such as to the previous track"),
             category = ACTIONS
         },
         Icon () {
             name = "media-skip-forward",
-            description = _(""),
+            description = _("Skip forwards, such as to the next track"),
             category = ACTIONS
         },
         Icon () {
             name = "object-flip-horizontal",
-            description = _(""),
+            description = _("Flip an object horizontally"),
             category = ACTIONS
         },
         Icon () {
             name = "object-flip-vertical",
-            description = _(""),
+            description = _("Flip an object vertically"),
             category = ACTIONS
         },
         Icon () {
             name = "object-rotate-left",
-            description = _(""),
+            description = _("Rotate an object to the left or counter-clockwise"),
             category = ACTIONS
         },
         Icon () {
             name = "object-rotate-right",
-            description = _(""),
+            description = _("Rotate an object to the right or clockwise"),
             category = ACTIONS
         },
         Icon () {
             name = "process-stop",
-            description = _(""),
+            description = _("Stop an action that may take a while to process, such as web page loading in a browser"),
             category = ACTIONS
         },
         Icon () {
             name = "system-lock-screen",
-            description = _(""),
+            description = _("Lock the screen or the user's session"),
             category = ACTIONS
         },
         Icon () {
             name = "system-log-out",
-            description = _(""),
+            description = _("Log out of the user's session"),
             category = ACTIONS
         },
         Icon () {
             name = "system-run",
-            description = _(""),
+            description = _("Run a system app or command"),
             category = ACTIONS
         },
         Icon () {
             name = "system-search",
-            description = _(""),
+            description = _("Search the system"),
             category = ACTIONS
         },
         Icon () {
             name = "system-reboot",
-            description = _(""),
+            description = _("Restart the device"),
             category = ACTIONS
         },
         Icon () {
             name = "system-shutdown",
-            description = _(""),
+            description = _("Shut the device down"),
             category = ACTIONS
         },
         Icon () {
             name = "tools-check-spelling",
-            description = _(""),
+            description = _("Check spelling"),
             category = ACTIONS
         },
         Icon () {
             name = "view-fullscreen",
-            description = _(""),
+            description = _("View fullscreen"),
             category = ACTIONS
         },
         Icon () {
             name = "view-refresh",
-            description = _(""),
+            description = _("Refresh the current view"),
             category = ACTIONS
         },
         Icon () {
             name = "view-restore",
-            description = _(""),
+            description = _("Leave fullscreen and return to a normal window"),
             category = ACTIONS
         },
         Icon () {
             name = "view-sort-ascending",
-            description = _(""),
+            description = _("Sort items in an ascending order, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "view-sort-descending",
-            description = _(""),
+            description = _("Sort items in a descending order, such as in a list"),
             category = ACTIONS
         },
         Icon () {
             name = "window-close",
-            description = _(""),
+            description = _("Close the window"),
             category = ACTIONS
         },
         Icon () {
             name = "window-new",
-            description = _(""),
+            description = _("Create a new window"),
             category = ACTIONS
         },
         Icon () {
             name = "zoom-fit-best",
-            description = _(""),
+            description = _("Zoom to the best fit"),
             category = ACTIONS
         },
         Icon () {
             name = "zoom-in",
-            description = _(""),
+            description = _("Zoom in"),
             category = ACTIONS
         },
         Icon () {
             name = "zoom-original",
-            description = _(""),
+            description = _("Zoom to the original size"),
             category = ACTIONS
         },
         Icon () {
             name = "zoom-out",
-            description = _(""),
+            description = _("Zoom out"),
             category = ACTIONS
         },
         Icon () {
             name = "accessories-calculator",
-            description = _(""),
+            description = _("Calculator"),
             category = APPS
         },
         Icon () {
             name = "accessories-camera",
-            description = _(""),
+            description = _("Camera or webcam"),
             category = APPS
         },
         Icon () {
             name = "accessories-character-map",
-            description = _(""),
+            description = _("International and extended text character map"),
             category = APPS
         },
         Icon () {
             name = "accessories-dictionary",
-            description = _(""),
+            description = _("Dictionary"),
             category = APPS
         },
         Icon () {
             name = "accessories-screenshot",
-            description = _(""),
+            description = _("Screenshot tool"),
             category = APPS
         },
         Icon () {
             name = "accessories-text-editor",
-            description = _(""),
+            description = _("Text editor"),
             category = APPS
         },
         Icon () {
             name = "application-default-icon",
-            description = _(""),
+            description = _("Default or unprovided app icon"),
             category = APPS
         },
         Icon () {
             name = "archive-manager",
-            description = _(""),
+            description = _("Archive manager"),
             category = APPS
         },
         Icon () {
             name = "internet-chat",
-            description = _(""),
+            description = _("Internet chat or messaging"),
             category = APPS
         },
         Icon () {
             name = "internet-mail",
-            description = _(""),
+            description = _("Mail or email"),
             category = APPS
         },
         Icon () {
             name = "internet-news-reader",
-            description = _(""),
+            description = _("News or feed reader"),
             category = APPS
         },
         Icon () {
             name = "internet-web-browser",
-            description = _(""),
+            description = _("Web browser"),
             category = APPS
         },
 
         Icon () {
             name = "multimedia-audio-player",
-            description = _(""),
+            description = _("Music or audio player"),
             category = APPS
         },
         Icon () {
             name = "multimedia-photo-manager",
-            description = _(""),
+            description = _("Photo manager or library"),
             category = APPS
         },
         Icon () {
             name = "multimedia-video-player",
-            description = _(""),
+            description = _("Video or movie player"),
             category = APPS
         },
         Icon () {
             name = "office-address-book",
-            description = _(""),
+            description = _("Address book or contacts"),
             category = APPS
         },
         Icon () {
             name = "office-calendar",
-            description = _(""),
+            description = _("Calendar"),
             category = APPS
         },
         Icon () {
             name = "postscript-viewer",
-            description = _(""),
+            description = _("Portable document or PDF viewer"),
             category = APPS
         },
         Icon () {
             name = "preferences-desktop",
-            description = _(""),
+            description = _("System settings"),
             category = APPS
         },
         Icon () {
             name = "system-file-manager",
-            description = _(""),
+            description = _("Files"),
             category = APPS
         },
         Icon () {
             name = "system-os-installer",
-            description = _(""),
+            description = _("Install the operating system"),
             category = APPS
         },
         Icon () {
             name = "system-software-install",
-            description = _(""),
+            description = _("AppCenter or software installer"),
             category = APPS
         },
         Icon () {
             name = "system-software-update",
-            description = _(""),
+            description = _("Software updater"),
             category = APPS
         },
         Icon () {
             name = "system-users",
-            description = _(""),
+            description = _("User settings"),
             category = APPS
         },
         Icon () {
             name = "utilities-system-monitor",
-            description = _(""),
+            description = _("System resource monitor"),
             category = APPS
         },
         Icon () {
             name = "utilities-terminal",
-            description = _(""),
+            description = _("Terminal"),
             category = APPS
         },
         Icon () {
