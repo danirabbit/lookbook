@@ -166,7 +166,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "document-print",
-            description = _(""),
+            description = _("Print"),
             category = ACTIONS
         },
         Icon () {
@@ -236,7 +236,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "edit-flag",
-            description = _(""),
+            description = _("Flag an item, such as a spam email"),
             category = ACTIONS
         },
         Icon () {
