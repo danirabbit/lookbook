@@ -1167,67 +1167,67 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "emblem-default",
-            description = _(""),
+            description = _("Default selection emblem, such as for a printer or other device"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-documents",
-            description = _(""),
+            description = _("Documents emblem"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-downloads",
-            description = _(""),
+            description = _("Downloads emblem"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-favorite",
-            description = _(""),
+            description = _("Item the user has marked as a favorite"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-important",
-            description = _(""),
+            description = _("Item marked as important"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-mail",
-            description = _(""),
+            description = _("Item related to email"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-photos",
-            description = _(""),
+            description = _("Photos emblem"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-readonly",
-            description = _(""),
+            description = _("Item is read-only, or the user cannot write to or make changes to it"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-shared",
-            description = _(""),
+            description = _("Item shared with other people or users"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-symbolic-link",
-            description = _(""),
+            description = _("Item is a symbolic link to a file somewhere else"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-synchronized",
-            description = _(""),
+            description = _("Item is configured to be synchronized to another device or location"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-system",
-            description = _(""),
+            description = _("Item is a system file, library, setting, or data"),
             category = EMBLEMS
         },
         Icon () {
             name = "emblem-unreadable",
-            description = _(""),
+            description = _("Item is unreadable or inaccessible"),
             category = EMBLEMS
         },
         Icon () {
