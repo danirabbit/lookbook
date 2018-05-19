@@ -802,197 +802,197 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "applications-accessories",
-            description = _("Accessories category of applications"),
+            description = _("Accessory or utility app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-development",
-            description = _(""),
+            description = _("Programming, software development, code, or IDE app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-education",
-            description = _(""),
+            description = _("Education, learning, or school app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-engineering",
-            description = _(""),
+            description = _("Engineering app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-fonts",
-            description = _(""),
+            description = _("Font category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-games",
-            description = _(""),
+            description = _("Games app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-graphics",
-            description = _(""),
+            description = _("Graphics, drawing, art, or photo manipulation app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-internet",
-            description = _(""),
+            description = _("Internet or web related app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-multimedia",
-            description = _("Multimedia category of applications"),
+            description = _("Multimedia, audio, or video app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-office",
-            description = _(""),
+            description = _("Office app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-other",
-            description = _(""),
+            description = _("Other or uncategorized app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-science",
-            description = _(""),
+            description = _("Science app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-system",
-            description = _(""),
+            description = _("System tools or OS app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "applications-utilities",
-            description = _(""),
+            description = _("Utility app category"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-bluetooth",
-            description = _(""),
+            description = _("Bluetooth settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-color",
-            description = _(""),
+            description = _("Color settings such as printer, display, or camera calibration"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop",
-            description = _(""),
+            description = _("Desktop interface settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-accessibility",
-            description = _(""),
+            description = _("Universal access settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-accessibility-pointing",
-            description = _(""),
+            description = _("Universal access settings for pointing, such as controlling the cursor"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-accessibility-zoom",
-            description = _(""),
+            description = _("Universal access settings for zooming or magnifying"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-applications",
-            description = _(""),
+            description = _("App-related settings, such as default or startup apps"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-display",
-            description = _(""),
+            description = _("Display settings, such as resolution or scaling"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-keyboard",
-            description = _(""),
+            description = _("Keyboard settings, such as layout or shortcuts"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-locale",
-            description = _(""),
+            description = _("International localization, language, or region settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-online-accounts",
-            description = _(""),
+            description = _("Online account and cloud sync or sign in settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-peripherals",
-            description = _(""),
+            description = _("Settings for peripherals, such as a mouse or keyboard"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-sound",
-            description = _(""),
+            description = _("Sound or audio input and output settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-desktop-wallpaper",
-            description = _(""),
+            description = _("Desktop wallpaper or background settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-other",
-            description = _(""),
+            description = _("Other, miscellaneous, or uncategorized settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-system",
-            description = _(""),
+            description = _("System settings or preferences"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-network",
-            description = _(""),
+            description = _("Network settings, such as wireless, Ethernet, or VPN"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-notifications",
-            description = _(""),
+            description = _("Notification alert settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-parental-controls",
-            description = _(""),
+            description = _("Parental control settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-power",
-            description = _(""),
+            description = _("Power management or energy usage settings, such as battery"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-privacy",
-            description = _(""),
+            description = _("Privacy and security settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-sharing",
-            description = _(""),
+            description = _("Sharing settings, such as library sharing or media streaming over a network"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-time",
-            description = _(""),
+            description = _("Time and date settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "preferences-system-windows",
-            description = _(""),
+            description = _("Window management settings"),
             category = CATEGORIES
         },
         Icon () {
             name = "system-help",
-            description = _(""),
+            description = _("Help"),
             category = CATEGORIES
         },
         Icon () {
