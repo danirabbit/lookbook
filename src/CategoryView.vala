@@ -997,172 +997,172 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "audio-card",
-            description = _(""),
+            description = _("Audio output device, such as a sound card or speaker"),
             category = DEVICES
         },
         Icon () {
             name = "audio-input-microphone",
-            description = _(""),
+            description = _("Microphone"),
             category = DEVICES
         },
         Icon () {
             name = "audio-subwoofer",
-            description = _(""),
+            description = _("Subwoofer or bass speaker"),
             category = DEVICES
         },
         Icon () {
             name = "battery",
-            description = _(""),
+            description = _("Battery"),
             category = DEVICES
         },
         Icon () {
             name = "bluetooth",
-            description = _(""),
+            description = _("Bluetooth"),
             category = DEVICES
         },
         Icon () {
             name = "camera-photo",
-            description = _(""),
+            description = _("Digital photo or still camera"),
             category = DEVICES
         },
         Icon () {
             name = "camera-video",
-            description = _(""),
+            description = _("Video or movie camera"),
             category = DEVICES
         },
         Icon () {
             name = "camera-web",
-            description = _(""),
+            description = _("Webcam or built-in camera"),
             category = DEVICES
         },
         Icon () {
             name = "computer",
-            description = _(""),
+            description = _("Generic or desktop computer"),
             category = DEVICES
         },
         Icon () {
             name = "computer-laptop",
-            description = _(""),
+            description = _("Laptop or notebook computer"),
             category = DEVICES
         },
         Icon () {
             name = "drive-harddisk",
-            description = _(""),
+            description = _("Hard disk or storage drive"),
             category = DEVICES
         },
         Icon () {
             name = "drive-optical",
-            description = _(""),
+            description = _("Optical drive, such as for CD, DVD, or Blu-ray discs"),
             category = DEVICES
         },
         Icon () {
             name = "drive-removable-media",
-            description = _(""),
+            description = _("Removable storage device, such as a portable hard drive"),
             category = DEVICES
         },
         Icon () {
             name = "drive-removable-media-usb",
-            description = _(""),
+            description = _("USB drive or stick, such as a flash, jump, or thumb drive"),
             category = DEVICES
         },
         Icon () {
             name = "input-gaming",
-            description = _(""),
+            description = _("Video game controller, such as a paddle, remote, or joystick"),
             category = DEVICES
         },
         Icon () {
             name = "input-keyboard",
-            description = _(""),
+            description = _("Keyboard"),
             category = DEVICES
         },
         Icon () {
             name = "input-mouse",
-            description = _(""),
+            description = _("Mouse"),
             category = DEVICES
         },
         Icon () {
             name = "input-tablet",
-            description = _(""),
+            description = _("Graphics tablet or pen input, such as a Wacom digitizer, Intuos, Cintiq, or Bamboo"),
             category = DEVICES
         },
         Icon () {
             name = "input-touchpad",
-            description = _(""),
+            description = _("Touchpad input, such as a multitouch trackpad or clickpad"),
             category = DEVICES
         },
         Icon () {
             name = "media-flash",
-            description = _(""),
+            description = _("Flash media such as a memory stick or SD card"),
             category = DEVICES
         },
         Icon () {
             name = "media-optical",
-            description = _(""),
+            description = _("Optical media, such as a CD, DVD, or Blu-ray disc"),
             category = DEVICES
         },
         Icon () {
             name = "modem",
-            description = _(""),
+            description = _("Network modem or router"),
             category = DEVICES
         },
         Icon () {
             name = "multimedia-player",
-            description = _(""),
+            description = _("Media player device, such as a portable mp3 music player or iPod"),
             category = DEVICES
         },
         Icon () {
             name = "network-cellular",
-            description = _(""),
+            description = _("Cellular type wireless network or device, such as a 2G, 3G, or 4G LTE connection, modem, or SIM card"),
             category = DEVICES
         },
         Icon () {
             name = "network-firewall",
-            description = _(""),
+            description = _("Networking firewall"),
             category = DEVICES
         },
         Icon () {
             name = "network-vpn",
-            description = _(""),
+            description = _("Virtual private network or VPN connection"),
             category = DEVICES
         },
         Icon () {
             name = "network-wired",
-            description = _(""),
+            description = _("Wired network connection, such as Ethernet"),
             category = DEVICES
         },
         Icon () {
             name = "network-wireless",
-            description = _(""),
+            description = _("Wireless network connection, such as Wi-Fi"),
             category = DEVICES
         },
         Icon () {
             name = "network-wireless-hotspot",
-            description = _(""),
+            description = _("Wireless hotspot connection, such as through a mobile cellular phone or smartphone"),
             category = DEVICES
         },
         Icon () {
             name = "phone",
-            description = _(""),
+            description = _("Generic phone, such as a mobile Android smartphone or iPhone"),
             category = DEVICES
         },
         Icon () {
             name = "printer",
-            description = _(""),
+            description = _("Printer"),
             category = DEVICES
         },
         Icon () {
             name = "printer-network",
-            description = _(""),
+            description = _("Network-connected or shared printer"),
             category = DEVICES
         },
         Icon () {
             name = "scanner",
-            description = _(""),
+            description = _("Scanner"),
             category = DEVICES
         },
         Icon () {
             name = "video-display",
-            description = _(""),
+            description = _("Display, screen, or monitor"),
             category = DEVICES
         },
         Icon () {
