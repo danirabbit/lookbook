@@ -3,19 +3,7 @@
 # This file is distributed under the same license as the com.github.danrabbit.lookbook package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: src/CategoryView.vala:1235 src/CategoryView.vala:1240
-#: src/CategoryView.vala:1245 src/CategoryView.vala:1250
-#: src/CategoryView.vala:1255 src/CategoryView.vala:1260
-#: src/CategoryView.vala:1265 src/CategoryView.vala:1270
-#: src/CategoryView.vala:1275 src/CategoryView.vala:1280
-#: src/CategoryView.vala:1285 src/CategoryView.vala:1290
-#: src/CategoryView.vala:1295 src/CategoryView.vala:1300
-#: src/CategoryView.vala:1305 src/CategoryView.vala:1310
-#: src/CategoryView.vala:1315 src/CategoryView.vala:1320
-#: src/CategoryView.vala:1325 src/CategoryView.vala:1330
-#: src/CategoryView.vala:1335 src/CategoryView.vala:1340
-#: src/CategoryView.vala:1345 src/CategoryView.vala:1350
-#: src/CategoryView.vala:1355 src/CategoryView.vala:1365
+#: src/CategoryView.vala:1350 src/CategoryView.vala:1365
 #: src/CategoryView.vala:1370 src/CategoryView.vala:1375
 #: src/CategoryView.vala:1380 src/CategoryView.vala:1385
 #: src/CategoryView.vala:1390 src/CategoryView.vala:1395
@@ -95,7 +83,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.danrabbit.lookbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-19 17:05-0700\n"
+"POT-Creation-Date: 2018-05-19 17:11-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1079,6 +1067,102 @@ msgstr ""
 
 #: src/CategoryView.vala:1230
 msgid "Item is unreadable or inaccessible"
+msgstr ""
+
+#: src/CategoryView.vala:1235
+msgid "0:-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1240
+msgid "X-( emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1245
+msgid "B-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1250
+msgid ":'( emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1255
+msgid ">:-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1260
+msgid ":-[ emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1265
+msgid "<3 emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1270
+msgid "</3 emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1275
+msgid ":-* emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1280
+msgid ":-)) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1285
+msgid ":-(|) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1290
+msgid ":-| emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1295
+msgid ":-P emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1300
+msgid ":-( emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1305
+msgid ":-& emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1310
+msgid ":-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1315
+msgid ":-D emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1320
+msgid ":-! emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1325
+msgid ":-0 emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1330
+msgid "|-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1335
+msgid ":-/ emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1340
+msgid ";-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1345
+msgid ":-S emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1355
+msgid "Adobe Illustrator image file types"
 msgstr ""
 
 #: src/CategoryView.vala:1360
