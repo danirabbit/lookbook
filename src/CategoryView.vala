@@ -1232,117 +1232,117 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "face-angel",
-            description = _(""),
+            description = _("0:-) emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-angry",
-            description = _(""),
+            description = _("X-( emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-cool",
-            description = _(""),
+            description = _("B-) emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-crying",
-            description = _(""),
+            description = _(":'( emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-devilish",
-            description = _(""),
+            description = _(">:-) emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-embarrassed",
-            description = _(""),
+            description = _(":-[ emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-heart",
-            description = _(""),
+            description = _("<3 emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-heart-broken",
-            description = _(""),
+            description = _("</3 emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-kiss",
-            description = _(""),
+            description = _(":-* emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-laugh",
-            description = _(""),
+            description = _(":-)) emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-monkey",
-            description = _(""),
+            description = _(":-(|) emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-plain",
-            description = _(""),
+            description = _(":-| emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-raspberry",
-            description = _(""),
+            description = _(":-P emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-sad",
-            description = _(""),
+            description = _(":-( emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-sick",
-            description = _(""),
+            description = _(":-& emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-smile",
-            description = _(""),
+            description = _(":-) emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-smile-big",
-            description = _(""),
+            description = _(":-D emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-smirk",
-            description = _(""),
+            description = _(":-! emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-surprise",
-            description = _(""),
+            description = _(":-0 emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-tired",
-            description = _(""),
+            description = _("|-) emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-uncertain",
-            description = _(""),
+            description = _(":-/ emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-wink",
-            description = _(""),
+            description = _(";-) emoticon"),
             category = EMOTES
         },
         Icon () {
             name = "face-worried",
-            description = _(""),
+            description = _(":-S emoticon"),
             category = EMOTES
         },
         Icon () {
@@ -1352,7 +1352,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "application-illustrator",
-            description = _(""),
+            description = _("Adobe Illustrator image file types"),
             category = MIMES
         },
         Icon () {
