@@ -35,6 +35,16 @@ public class MainWindow : Gtk.Window {
             background-color: #657B84;
             color: #fdf6e3;
         }
+
+        switch slider {
+            min-height: 16px;
+            min-width: 16px;
+        }
+
+        switch:checked {
+            background-image: none;
+            border-color: alpha (#000, 0.25);
+        }
     """;
 
     public MainWindow (Gtk.Application application) {
@@ -57,6 +67,7 @@ public class MainWindow : Gtk.Window {
         var gtk_settings = Gtk.Settings.get_default ();
 
         var dark_switch = new Gtk.Switch ();
+        dark_switch.valign = Gtk.Align.CENTER;
         dark_switch.bind_property ("active", gtk_settings, "gtk_application_prefer_dark_theme");
 
         LookBook.settings.bind ("prefer-dark-style", dark_switch, "active", GLib.SettingsBindFlags.DEFAULT);
