@@ -35,16 +35,6 @@ public class MainWindow : Gtk.Window {
             background-color: #657B84;
             color: #fdf6e3;
         }
-
-        switch slider {
-            min-height: 16px;
-            min-width: 16px;
-        }
-
-        switch:checked {
-            background-image: none;
-            border-color: alpha (#000, 0.25);
-        }
     """;
 
     public MainWindow (Gtk.Application application) {
@@ -61,26 +51,20 @@ public class MainWindow : Gtk.Window {
         search_entry.placeholder_text = _("Search Icon Names or Descriptions");
         search_entry.valign = Gtk.Align.CENTER;
 
-        var light_icon = new Gtk.Image.from_icon_name ("display-brightness-symbolic", Gtk.IconSize.SMALL_TOOLBAR);
-        light_icon.tooltip_text = "Light background";
-
         var gtk_settings = Gtk.Settings.get_default ();
 
-        var dark_switch = new Gtk.Switch ();
-        dark_switch.valign = Gtk.Align.CENTER;
-        dark_switch.bind_property ("active", gtk_settings, "gtk_application_prefer_dark_theme");
+        var mode_switch = new ModeSwitch ("display-brightness-symbolic", "weather-clear-night-symbolic");
+        mode_switch.primary_icon_tooltip_text = _("Light background");
+        mode_switch.secondary_icon_tooltip_text = _("Dark background");
+        mode_switch.valign = Gtk.Align.CENTER;
+        mode_switch.bind_property ("active", gtk_settings, "gtk_application_prefer_dark_theme");
 
-        LookBook.settings.bind ("prefer-dark-style", dark_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-
-        var dark_icon = new Gtk.Image.from_icon_name ("weather-clear-night-symbolic", Gtk.IconSize.SMALL_TOOLBAR);
-        dark_icon.tooltip_text = "Dark background";
+        LookBook.settings.bind ("prefer-dark-style", mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
         var headerbar = new Gtk.HeaderBar ();
         headerbar.show_close_button = true;
         headerbar.set_custom_title (search_entry);
-        headerbar.pack_end (dark_icon);
-        headerbar.pack_end (dark_switch);
-        headerbar.pack_end (light_icon);
+        headerbar.pack_end (mode_switch);
         headerbar.pack_end (new Gtk.Separator (Gtk.Orientation.VERTICAL));
 
         set_titlebar (headerbar);
