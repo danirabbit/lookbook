@@ -17,13 +17,51 @@
 * Boston, MA 02110-1301 USA
 */
 
+/**
+ * ModeSwitch is a selection control for choosing between two options that can be described with an icon.
+ *
+ * ''Example''<<BR>>
+ * {{{
+ *   var gtk_settings = Gtk.Settings.get_default ();
+ *
+ *   var mode_switch = new ModeSwitch ("display-brightness-symbolic", "weather-clear-night-symbolic");
+ *   mode_switch.primary_icon_tooltip_text = _("Light background");
+ *   mode_switch.secondary_icon_tooltip_text = _("Dark background");
+ *   mode_switch.bind_property ("active", gtk_settings, "gtk_application_prefer_dark_theme");
+ * }}}
+ */
 public class ModeSwitch : Gtk.Grid {
+    /**
+     * Whether the {@link Gtk.Switch} widget is pointing to the secondary icon or not.
+     */
     public bool active { get; set; }
+
+    /**
+     * The icon name to use for the primary icon for the switch.
+     */
     public string primary_icon_name { get; construct set; }
+
+    /**
+     * The contents of the tooltip on the primary icon.
+     */
     public string primary_icon_tooltip_text { get; set; }
+
+    /**
+     * The icon name to use for the secondary icon for the switch.
+     */
     public string secondary_icon_name  { get; construct set; }
+
+    /**
+     * The contents of the tooltip on the secondary icon.
+     */
     public string secondary_icon_tooltip_text { get; set; }
 
+    /**
+     * Constructs a new {@link Granite.ModeSwitch}.
+     * 
+     * @param primary_icon_name The icon name to use for the primary icon for the switch.
+     * @param secondary_icon_name The icon name to use for the secondary icon for the switch.
+     */
     public ModeSwitch (string primary_icon_name, string secondary_icon_name) {
         Object (
             primary_icon_name: primary_icon_name,
