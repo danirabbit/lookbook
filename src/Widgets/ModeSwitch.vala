@@ -88,11 +88,31 @@ public class ModeSwitch : Gtk.Grid {
         secondary_icon_box.add_events (Gdk.EventMask.BUTTON_RELEASE_MASK);
         secondary_icon_box.add (secondary_icon);
 
-        bind_property ("active", mode_switch, "active", GLib.BindingFlags.BIDIRECTIONAL);
+        column_spacing = 6;
+        add (primary_icon_box);
+        add (mode_switch);
+        add (secondary_icon_box);
+
         bind_property ("primary-icon-name", primary_icon, "icon-name", GLib.BindingFlags.SYNC_CREATE);
         bind_property ("primary-icon-tooltip-text", primary_icon, "tooltip-text");
         bind_property ("secondary-icon-name", secondary_icon, "icon-name", GLib.BindingFlags.SYNC_CREATE);
         bind_property ("secondary-icon-tooltip-text", secondary_icon, "tooltip-text");
+
+        this.notify["active"].connect (() => {
+            if (Gtk.StateFlags.DIR_RTL in get_state_flags ()) {
+                mode_switch.active = !active;
+            } else {
+                mode_switch.active = active;
+            }
+        });
+
+        mode_switch.notify["active"].connect (() => {
+            if (Gtk.StateFlags.DIR_RTL in get_state_flags ()) {
+                active = !mode_switch.active;
+            } else {
+                active = mode_switch.active;
+            }
+        });
 
         primary_icon_box.button_release_event.connect (() => {
             active = false;
@@ -103,10 +123,5 @@ public class ModeSwitch : Gtk.Grid {
             active = true;
             return Gdk.EVENT_STOP;
         });
-
-        column_spacing = 6;
-        add (primary_icon_box);
-        add (mode_switch);
-        add (secondary_icon_box);
     }
 }
