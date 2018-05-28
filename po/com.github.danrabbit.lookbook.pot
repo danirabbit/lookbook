@@ -83,7 +83,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.danrabbit.lookbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-19 17:11-0700\n"
+"POT-Creation-Date: 2018-05-28 13:56-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1305,4 +1305,12 @@ msgstr ""
 
 #: src/MainWindow.vala:51
 msgid "Search Icon Names or Descriptions"
+msgstr ""
+
+#: src/MainWindow.vala:57
+msgid "Light background"
+msgstr ""
+
+#: src/MainWindow.vala:58
+msgid "Dark background"
 msgstr ""
