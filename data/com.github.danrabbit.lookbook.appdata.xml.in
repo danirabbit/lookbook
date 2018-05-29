@@ -16,6 +16,9 @@
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/danrabbit/lookbook/master/data/screenshot.png</image>
     </screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/danrabbit/lookbook/master/data/screenshot2.png</image>
+    </screenshot>
   </screenshots>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>

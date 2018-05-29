@@ -18,6 +18,7 @@
 */
 
 public class MainWindow : Gtk.Window {
+    private Gtk.ListBox categories_sidebar;
     private Gtk.SearchEntry search_entry;
 
     private const string CODE_STYLE = """
@@ -47,38 +48,42 @@ public class MainWindow : Gtk.Window {
     construct {
         search_entry = new Gtk.SearchEntry ();
         search_entry.hexpand = true;
-        search_entry.placeholder_text = _("Search Icon Names");
+        search_entry.placeholder_text = _("Search Icon Names or Descriptions");
         search_entry.valign = Gtk.Align.CENTER;
+
+        var gtk_settings = Gtk.Settings.get_default ();
+
+        var mode_switch = new ModeSwitch ("display-brightness-symbolic", "weather-clear-night-symbolic");
+        mode_switch.primary_icon_tooltip_text = _("Light background");
+        mode_switch.secondary_icon_tooltip_text = _("Dark background");
+        mode_switch.valign = Gtk.Align.CENTER;
+        mode_switch.bind_property ("active", gtk_settings, "gtk_application_prefer_dark_theme");
+
+        LookBook.settings.bind ("prefer-dark-style", mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
         var headerbar = new Gtk.HeaderBar ();
         headerbar.show_close_button = true;
         headerbar.set_custom_title (search_entry);
+        headerbar.pack_end (mode_switch);
+        headerbar.pack_end (new Gtk.Separator (Gtk.Orientation.VERTICAL));
 
         set_titlebar (headerbar);
 
-        var category_stack = new Gtk.Stack ();
+        var category_view = new CategoryView ();
 
-        string categories [] =  { "Actions", "Applications", "Categories", "Devices", "Emblems", "Emotes", "Mimetypes", "Places", "Status" };
-
-        foreach (string category in categories){
-            var category_view = new CategoryView (category);
-            category_stack.add_titled (category_view, category, category);
-
-            ((Gtk.ListBox)category_view.listbox).set_filter_func (filter_function);
-
-            search_entry.search_changed.connect (() => {
-                ((Gtk.ListBox)category_view.listbox).invalidate_filter ();
-            });
-        }
-
-        var categories_sidebar = new Gtk.StackSidebar ();
-        categories_sidebar.stack = category_stack;
+        categories_sidebar = new Gtk.ListBox ();
         categories_sidebar.vexpand = true;
+        categories_sidebar.get_style_context ().add_class (Gtk.STYLE_CLASS_SIDEBAR);
+
+        foreach (var category in CategoryView.Category.all ()) {
+            var sidebar_row = new SidebarRow (category);
+            categories_sidebar.add (sidebar_row);
+        }
 
         var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
         paned.position = 128;
         paned.add1 (categories_sidebar);
-        paned.add2 (category_stack);
+        paned.add2 (category_view);
 
         add (paned);
 
@@ -89,15 +94,32 @@ public class MainWindow : Gtk.Window {
         } catch (Error e) {
             critical (e.message);
         }
+
+        ((Gtk.ListBox)category_view.listbox).set_filter_func (filter_function);
+
+        search_entry.search_changed.connect (() => {
+            ((Gtk.ListBox)category_view.listbox).invalidate_filter ();
+        });
+
+        categories_sidebar.row_selected.connect (() => {
+            ((Gtk.ListBox)category_view.listbox).invalidate_filter ();
+        });
     }
 
     [CCode (instance_pos = -1)]
     private bool filter_function (Gtk.ListBoxRow row) {
         if (search_entry.text == "") {
-            return true;
+            var sidebar_row = categories_sidebar.get_selected_row ();
+            if (sidebar_row != null) {
+                return ((IconListRow) row).category == ((SidebarRow) sidebar_row).category;
+            } else {
+                return true;
+            }
         }
 
-        if (search_entry.text in ((IconListRow) row).icon_name) {
+        var search_term = search_entry.text.down ();
+
+        if (search_term in ((IconListRow) row).icon_name || search_term in ((IconListRow) row).description.down ()) {
             return true;
         }
         return false;

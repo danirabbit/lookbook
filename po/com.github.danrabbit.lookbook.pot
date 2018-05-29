@@ -3,206 +3,87 @@
 # This file is distributed under the same license as the com.github.danrabbit.lookbook package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: src/CategoryView.vala:108 src/CategoryView.vala:136
-#: src/CategoryView.vala:140 src/CategoryView.vala:144
-#: src/CategoryView.vala:148 src/CategoryView.vala:152
-#: src/CategoryView.vala:156 src/CategoryView.vala:160
-#: src/CategoryView.vala:164 src/CategoryView.vala:168
-#: src/CategoryView.vala:172 src/CategoryView.vala:176
-#: src/CategoryView.vala:180 src/CategoryView.vala:184
-#: src/CategoryView.vala:188 src/CategoryView.vala:192
-#: src/CategoryView.vala:196 src/CategoryView.vala:200
-#: src/CategoryView.vala:204 src/CategoryView.vala:208
-#: src/CategoryView.vala:212 src/CategoryView.vala:216
-#: src/CategoryView.vala:220 src/CategoryView.vala:224
-#: src/CategoryView.vala:228 src/CategoryView.vala:232
-#: src/CategoryView.vala:236 src/CategoryView.vala:240
-#: src/CategoryView.vala:244 src/CategoryView.vala:248
-#: src/CategoryView.vala:252 src/CategoryView.vala:256
-#: src/CategoryView.vala:260 src/CategoryView.vala:264
-#: src/CategoryView.vala:268 src/CategoryView.vala:272
-#: src/CategoryView.vala:276 src/CategoryView.vala:280
-#: src/CategoryView.vala:284 src/CategoryView.vala:288
-#: src/CategoryView.vala:292 src/CategoryView.vala:296
-#: src/CategoryView.vala:300 src/CategoryView.vala:304
-#: src/CategoryView.vala:308 src/CategoryView.vala:312
-#: src/CategoryView.vala:316 src/CategoryView.vala:320
-#: src/CategoryView.vala:324 src/CategoryView.vala:328
-#: src/CategoryView.vala:332 src/CategoryView.vala:336
-#: src/CategoryView.vala:340 src/CategoryView.vala:344
-#: src/CategoryView.vala:348 src/CategoryView.vala:352
-#: src/CategoryView.vala:356 src/CategoryView.vala:360
-#: src/CategoryView.vala:364 src/CategoryView.vala:368
-#: src/CategoryView.vala:372 src/CategoryView.vala:376
-#: src/CategoryView.vala:380 src/CategoryView.vala:384
-#: src/CategoryView.vala:388 src/CategoryView.vala:392
-#: src/CategoryView.vala:396 src/CategoryView.vala:400
-#: src/CategoryView.vala:404 src/CategoryView.vala:408
-#: src/CategoryView.vala:412 src/CategoryView.vala:416
-#: src/CategoryView.vala:420 src/CategoryView.vala:424
-#: src/CategoryView.vala:428 src/CategoryView.vala:432
-#: src/CategoryView.vala:436 src/CategoryView.vala:440
-#: src/CategoryView.vala:444 src/CategoryView.vala:448
-#: src/CategoryView.vala:452 src/CategoryView.vala:456
-#: src/CategoryView.vala:460 src/CategoryView.vala:464
-#: src/CategoryView.vala:468 src/CategoryView.vala:472
-#: src/CategoryView.vala:476 src/CategoryView.vala:480
-#: src/CategoryView.vala:484 src/CategoryView.vala:488
-#: src/CategoryView.vala:492 src/CategoryView.vala:496
-#: src/CategoryView.vala:500 src/CategoryView.vala:504
-#: src/CategoryView.vala:511 src/CategoryView.vala:515
-#: src/CategoryView.vala:519 src/CategoryView.vala:523
-#: src/CategoryView.vala:527 src/CategoryView.vala:531
-#: src/CategoryView.vala:535 src/CategoryView.vala:539
-#: src/CategoryView.vala:543 src/CategoryView.vala:547
-#: src/CategoryView.vala:551 src/CategoryView.vala:555
-#: src/CategoryView.vala:560 src/CategoryView.vala:564
-#: src/CategoryView.vala:568 src/CategoryView.vala:572
-#: src/CategoryView.vala:576 src/CategoryView.vala:580
-#: src/CategoryView.vala:584 src/CategoryView.vala:588
-#: src/CategoryView.vala:592 src/CategoryView.vala:596
-#: src/CategoryView.vala:600 src/CategoryView.vala:604
-#: src/CategoryView.vala:608 src/CategoryView.vala:612
-#: src/CategoryView.vala:623 src/CategoryView.vala:627
-#: src/CategoryView.vala:631 src/CategoryView.vala:635
-#: src/CategoryView.vala:639 src/CategoryView.vala:643
-#: src/CategoryView.vala:647 src/CategoryView.vala:655
-#: src/CategoryView.vala:659 src/CategoryView.vala:663
-#: src/CategoryView.vala:667 src/CategoryView.vala:671
-#: src/CategoryView.vala:675 src/CategoryView.vala:679
-#: src/CategoryView.vala:683 src/CategoryView.vala:687
-#: src/CategoryView.vala:691 src/CategoryView.vala:695
-#: src/CategoryView.vala:699 src/CategoryView.vala:703
-#: src/CategoryView.vala:707 src/CategoryView.vala:711
-#: src/CategoryView.vala:715 src/CategoryView.vala:719
-#: src/CategoryView.vala:723 src/CategoryView.vala:727
-#: src/CategoryView.vala:731 src/CategoryView.vala:735
-#: src/CategoryView.vala:739 src/CategoryView.vala:743
-#: src/CategoryView.vala:747 src/CategoryView.vala:751
-#: src/CategoryView.vala:755 src/CategoryView.vala:759
-#: src/CategoryView.vala:763 src/CategoryView.vala:767
-#: src/CategoryView.vala:771 src/CategoryView.vala:778
-#: src/CategoryView.vala:782 src/CategoryView.vala:786
-#: src/CategoryView.vala:790 src/CategoryView.vala:794
-#: src/CategoryView.vala:798 src/CategoryView.vala:802
-#: src/CategoryView.vala:806 src/CategoryView.vala:810
-#: src/CategoryView.vala:814 src/CategoryView.vala:818
-#: src/CategoryView.vala:822 src/CategoryView.vala:826
-#: src/CategoryView.vala:830 src/CategoryView.vala:834
-#: src/CategoryView.vala:838 src/CategoryView.vala:842
-#: src/CategoryView.vala:846 src/CategoryView.vala:850
-#: src/CategoryView.vala:854 src/CategoryView.vala:858
-#: src/CategoryView.vala:862 src/CategoryView.vala:866
-#: src/CategoryView.vala:870 src/CategoryView.vala:874
-#: src/CategoryView.vala:878 src/CategoryView.vala:882
-#: src/CategoryView.vala:886 src/CategoryView.vala:890
-#: src/CategoryView.vala:894 src/CategoryView.vala:898
-#: src/CategoryView.vala:902 src/CategoryView.vala:906
-#: src/CategoryView.vala:910 src/CategoryView.vala:917
-#: src/CategoryView.vala:921 src/CategoryView.vala:925
-#: src/CategoryView.vala:929 src/CategoryView.vala:933
-#: src/CategoryView.vala:937 src/CategoryView.vala:941
-#: src/CategoryView.vala:945 src/CategoryView.vala:949
-#: src/CategoryView.vala:953 src/CategoryView.vala:957
-#: src/CategoryView.vala:961 src/CategoryView.vala:965
-#: src/CategoryView.vala:972 src/CategoryView.vala:976
-#: src/CategoryView.vala:980 src/CategoryView.vala:984
-#: src/CategoryView.vala:988 src/CategoryView.vala:992
-#: src/CategoryView.vala:996 src/CategoryView.vala:1000
-#: src/CategoryView.vala:1004 src/CategoryView.vala:1008
-#: src/CategoryView.vala:1012 src/CategoryView.vala:1016
-#: src/CategoryView.vala:1020 src/CategoryView.vala:1024
-#: src/CategoryView.vala:1028 src/CategoryView.vala:1032
-#: src/CategoryView.vala:1036 src/CategoryView.vala:1040
-#: src/CategoryView.vala:1044 src/CategoryView.vala:1048
-#: src/CategoryView.vala:1052 src/CategoryView.vala:1056
-#: src/CategoryView.vala:1060 src/CategoryView.vala:1067
-#: src/CategoryView.vala:1071 src/CategoryView.vala:1075
-#: src/CategoryView.vala:1079 src/CategoryView.vala:1083
-#: src/CategoryView.vala:1087 src/CategoryView.vala:1091
-#: src/CategoryView.vala:1095 src/CategoryView.vala:1099
-#: src/CategoryView.vala:1103 src/CategoryView.vala:1107
-#: src/CategoryView.vala:1111 src/CategoryView.vala:1115
-#: src/CategoryView.vala:1119 src/CategoryView.vala:1123
-#: src/CategoryView.vala:1131 src/CategoryView.vala:1135
-#: src/CategoryView.vala:1139 src/CategoryView.vala:1143
-#: src/CategoryView.vala:1151 src/CategoryView.vala:1155
-#: src/CategoryView.vala:1163 src/CategoryView.vala:1171
-#: src/CategoryView.vala:1175 src/CategoryView.vala:1179
-#: src/CategoryView.vala:1183 src/CategoryView.vala:1187
-#: src/CategoryView.vala:1195 src/CategoryView.vala:1203
-#: src/CategoryView.vala:1207 src/CategoryView.vala:1211
-#: src/CategoryView.vala:1215 src/CategoryView.vala:1219
-#: src/CategoryView.vala:1223 src/CategoryView.vala:1235
-#: src/CategoryView.vala:1239 src/CategoryView.vala:1243
-#: src/CategoryView.vala:1247 src/CategoryView.vala:1251
-#: src/CategoryView.vala:1255 src/CategoryView.vala:1259
-#: src/CategoryView.vala:1263 src/CategoryView.vala:1271
-#: src/CategoryView.vala:1275 src/CategoryView.vala:1279
-#: src/CategoryView.vala:1283 src/CategoryView.vala:1303
-#: src/CategoryView.vala:1307 src/CategoryView.vala:1311
-#: src/CategoryView.vala:1319 src/CategoryView.vala:1327
-#: src/CategoryView.vala:1334 src/CategoryView.vala:1338
-#: src/CategoryView.vala:1342 src/CategoryView.vala:1346
-#: src/CategoryView.vala:1350 src/CategoryView.vala:1354
-#: src/CategoryView.vala:1358 src/CategoryView.vala:1362
-#: src/CategoryView.vala:1366 src/CategoryView.vala:1370
-#: src/CategoryView.vala:1374 src/CategoryView.vala:1378
-#: src/CategoryView.vala:1382 src/CategoryView.vala:1386
-#: src/CategoryView.vala:1390 src/CategoryView.vala:1394
-#: src/CategoryView.vala:1398 src/CategoryView.vala:1402
-#: src/CategoryView.vala:1406 src/CategoryView.vala:1410
-#: src/CategoryView.vala:1414 src/CategoryView.vala:1418
-#: src/CategoryView.vala:1422 src/CategoryView.vala:1426
-#: src/CategoryView.vala:1430 src/CategoryView.vala:1434
-#: src/CategoryView.vala:1438 src/CategoryView.vala:1442
-#: src/CategoryView.vala:1446 src/CategoryView.vala:1450
-#: src/CategoryView.vala:1454 src/CategoryView.vala:1458
-#: src/CategoryView.vala:1462 src/CategoryView.vala:1466
-#: src/CategoryView.vala:1470 src/CategoryView.vala:1477
-#: src/CategoryView.vala:1481 src/CategoryView.vala:1485
-#: src/CategoryView.vala:1489 src/CategoryView.vala:1493
-#: src/CategoryView.vala:1497 src/CategoryView.vala:1501
-#: src/CategoryView.vala:1505 src/CategoryView.vala:1509
-#: src/CategoryView.vala:1513 src/CategoryView.vala:1517
-#: src/CategoryView.vala:1521 src/CategoryView.vala:1525
-#: src/CategoryView.vala:1529 src/CategoryView.vala:1533
-#: src/CategoryView.vala:1537 src/CategoryView.vala:1541
-#: src/CategoryView.vala:1545 src/CategoryView.vala:1549
-#: src/CategoryView.vala:1553 src/CategoryView.vala:1557
-#: src/CategoryView.vala:1561 src/CategoryView.vala:1565
-#: src/CategoryView.vala:1569 src/CategoryView.vala:1573
-#: src/CategoryView.vala:1577 src/CategoryView.vala:1581
-#: src/CategoryView.vala:1585 src/CategoryView.vala:1589
-#: src/CategoryView.vala:1593 src/CategoryView.vala:1597
-#: src/CategoryView.vala:1601 src/CategoryView.vala:1605
-#: src/CategoryView.vala:1609 src/CategoryView.vala:1613
-#: src/CategoryView.vala:1617 src/CategoryView.vala:1629
-#: src/CategoryView.vala:1633 src/CategoryView.vala:1637
-#: src/CategoryView.vala:1641 src/CategoryView.vala:1645
-#: src/CategoryView.vala:1649 src/CategoryView.vala:1653
-#: src/CategoryView.vala:1657 src/CategoryView.vala:1661
-#: src/CategoryView.vala:1666 src/CategoryView.vala:1670
-#: src/CategoryView.vala:1674 src/CategoryView.vala:1678
-#: src/CategoryView.vala:1682 src/CategoryView.vala:1686
-#: src/CategoryView.vala:1690 src/CategoryView.vala:1694
-#: src/CategoryView.vala:1698 src/CategoryView.vala:1702
-#: src/CategoryView.vala:1706 src/CategoryView.vala:1710
-#: src/CategoryView.vala:1714 src/CategoryView.vala:1718
-#: src/CategoryView.vala:1722 src/CategoryView.vala:1726
-#: src/CategoryView.vala:1730 src/CategoryView.vala:1734
-#: src/CategoryView.vala:1738 src/CategoryView.vala:1742
-#: src/CategoryView.vala:1746 src/CategoryView.vala:1750
-#: src/CategoryView.vala:1754 src/CategoryView.vala:1758
-#: src/CategoryView.vala:1762 src/CategoryView.vala:1766
-#: src/CategoryView.vala:1770 src/CategoryView.vala:1774
-#: src/CategoryView.vala:1778
+#: src/CategoryView.vala:1350 src/CategoryView.vala:1365
+#: src/CategoryView.vala:1370 src/CategoryView.vala:1375
+#: src/CategoryView.vala:1380 src/CategoryView.vala:1385
+#: src/CategoryView.vala:1390 src/CategoryView.vala:1395
+#: src/CategoryView.vala:1400 src/CategoryView.vala:1405
+#: src/CategoryView.vala:1410 src/CategoryView.vala:1415
+#: src/CategoryView.vala:1420 src/CategoryView.vala:1430
+#: src/CategoryView.vala:1435 src/CategoryView.vala:1440
+#: src/CategoryView.vala:1460 src/CategoryView.vala:1465
+#: src/CategoryView.vala:1490 src/CategoryView.vala:1495
+#: src/CategoryView.vala:1500 src/CategoryView.vala:1505
+#: src/CategoryView.vala:1530 src/CategoryView.vala:1535
+#: src/CategoryView.vala:1540 src/CategoryView.vala:1550
+#: src/CategoryView.vala:1570 src/CategoryView.vala:1575
+#: src/CategoryView.vala:1585 src/CategoryView.vala:1590
+#: src/CategoryView.vala:1595 src/CategoryView.vala:1605
+#: src/CategoryView.vala:1615 src/CategoryView.vala:1620
+#: src/CategoryView.vala:1630 src/CategoryView.vala:1655
+#: src/CategoryView.vala:1660 src/CategoryView.vala:1665
+#: src/CategoryView.vala:1675 src/CategoryView.vala:1685
+#: src/CategoryView.vala:1690 src/CategoryView.vala:1695
+#: src/CategoryView.vala:1700 src/CategoryView.vala:1705
+#: src/CategoryView.vala:1710 src/CategoryView.vala:1715
+#: src/CategoryView.vala:1720 src/CategoryView.vala:1725
+#: src/CategoryView.vala:1730 src/CategoryView.vala:1735
+#: src/CategoryView.vala:1740 src/CategoryView.vala:1745
+#: src/CategoryView.vala:1750 src/CategoryView.vala:1755
+#: src/CategoryView.vala:1760 src/CategoryView.vala:1765
+#: src/CategoryView.vala:1770 src/CategoryView.vala:1775
+#: src/CategoryView.vala:1780 src/CategoryView.vala:1785
+#: src/CategoryView.vala:1790 src/CategoryView.vala:1795
+#: src/CategoryView.vala:1800 src/CategoryView.vala:1805
+#: src/CategoryView.vala:1810 src/CategoryView.vala:1815
+#: src/CategoryView.vala:1820 src/CategoryView.vala:1825
+#: src/CategoryView.vala:1830 src/CategoryView.vala:1835
+#: src/CategoryView.vala:1840 src/CategoryView.vala:1845
+#: src/CategoryView.vala:1850 src/CategoryView.vala:1855
+#: src/CategoryView.vala:1860 src/CategoryView.vala:1865
+#: src/CategoryView.vala:1870 src/CategoryView.vala:1875
+#: src/CategoryView.vala:1880 src/CategoryView.vala:1885
+#: src/CategoryView.vala:1890 src/CategoryView.vala:1895
+#: src/CategoryView.vala:1900 src/CategoryView.vala:1905
+#: src/CategoryView.vala:1910 src/CategoryView.vala:1915
+#: src/CategoryView.vala:1920 src/CategoryView.vala:1925
+#: src/CategoryView.vala:1930 src/CategoryView.vala:1935
+#: src/CategoryView.vala:1940 src/CategoryView.vala:1945
+#: src/CategoryView.vala:1950 src/CategoryView.vala:1955
+#: src/CategoryView.vala:1960 src/CategoryView.vala:1965
+#: src/CategoryView.vala:1970 src/CategoryView.vala:1975
+#: src/CategoryView.vala:1980 src/CategoryView.vala:1985
+#: src/CategoryView.vala:1990 src/CategoryView.vala:1995
+#: src/CategoryView.vala:2000 src/CategoryView.vala:2005
+#: src/CategoryView.vala:2010 src/CategoryView.vala:2015
+#: src/CategoryView.vala:2020 src/CategoryView.vala:2025
+#: src/CategoryView.vala:2030 src/CategoryView.vala:2035
+#: src/CategoryView.vala:2040 src/CategoryView.vala:2045
+#: src/CategoryView.vala:2060 src/CategoryView.vala:2065
+#: src/CategoryView.vala:2070 src/CategoryView.vala:2075
+#: src/CategoryView.vala:2080 src/CategoryView.vala:2085
+#: src/CategoryView.vala:2090 src/CategoryView.vala:2095
+#: src/CategoryView.vala:2100 src/CategoryView.vala:2105
+#: src/CategoryView.vala:2110 src/CategoryView.vala:2115
+#: src/CategoryView.vala:2120 src/CategoryView.vala:2125
+#: src/CategoryView.vala:2130 src/CategoryView.vala:2135
+#: src/CategoryView.vala:2140 src/CategoryView.vala:2145
+#: src/CategoryView.vala:2150 src/CategoryView.vala:2155
+#: src/CategoryView.vala:2160 src/CategoryView.vala:2165
+#: src/CategoryView.vala:2170 src/CategoryView.vala:2175
+#: src/CategoryView.vala:2180 src/CategoryView.vala:2185
+#: src/CategoryView.vala:2190 src/CategoryView.vala:2195
+#: src/CategoryView.vala:2200 src/CategoryView.vala:2205
+#: src/CategoryView.vala:2210 src/CategoryView.vala:2215
+#: src/CategoryView.vala:2220 src/CategoryView.vala:2225
+#: src/CategoryView.vala:2230 src/CategoryView.vala:2235
+#: src/CategoryView.vala:2240 src/CategoryView.vala:2245
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.danrabbit.lookbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-14 18:25-0700\n"
+"POT-Creation-Date: 2018-05-28 13:56-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,188 +92,1225 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/CategoryView.vala:32 src/CategoryView.vala:36
-msgid "Create a new address book"
+#: src/CategoryView.vala:38
+msgid "Actions"
 msgstr ""
 
 #: src/CategoryView.vala:40
-msgid "Align objects left along the X axis"
+msgid "Applications"
+msgstr ""
+
+#: src/CategoryView.vala:42
+msgid "Categories"
 msgstr ""
 
 #: src/CategoryView.vala:44
-msgid "Align objects right along the X axis"
+msgid "Devices"
+msgstr ""
+
+#: src/CategoryView.vala:46
+msgid "Emblems"
 msgstr ""
 
 #: src/CategoryView.vala:48
-msgid "Align objects to bottom along the Y axis"
+msgid "Emotes"
+msgstr ""
+
+#: src/CategoryView.vala:50
+msgid "Mimetypes"
 msgstr ""
 
 #: src/CategoryView.vala:52
-msgid "Align objects to center along the Y axis"
+msgid "Places"
+msgstr ""
+
+#: src/CategoryView.vala:54
+msgid "Status"
 msgstr ""
 
 #: src/CategoryView.vala:56
-msgid "Align objects to top along the Y axis"
+msgid "OTHER"
 msgstr ""
 
-#: src/CategoryView.vala:60
-msgid "Used for exiting an application"
+#: src/CategoryView.vala:74 src/IconView.vala:28
+msgid "Create a new address book"
 msgstr ""
 
-#: src/CategoryView.vala:64
-msgid "Create a new appointment in a calendaring application"
-msgstr ""
-
-#: src/CategoryView.vala:68
-msgid "Create a new bookmark"
-msgstr ""
-
-#: src/CategoryView.vala:72
-msgid "Initiate or accept a call"
-msgstr ""
-
-#: src/CategoryView.vala:76
-msgid "Stop the current call"
-msgstr ""
-
-#: src/CategoryView.vala:80
-msgid "Create a new contact in an address book application"
+#: src/CategoryView.vala:79
+msgid "Align objects to center along the X axis"
 msgstr ""
 
 #: src/CategoryView.vala:84
-msgid "Export a document"
+msgid "Align objects left along the X axis"
 msgstr ""
 
-#: src/CategoryView.vala:88
-msgid "Import a document"
+#: src/CategoryView.vala:89
+msgid "Align objects right along the X axis"
 msgstr ""
 
-#: src/CategoryView.vala:92
-msgid "Create a new document"
+#: src/CategoryView.vala:94
+msgid "Align objects to bottom along the Y axis"
 msgstr ""
 
-#: src/CategoryView.vala:96
-msgid "Open a document"
-msgstr ""
-
-#: src/CategoryView.vala:100
-msgid "Open a document that was recently opened"
+#: src/CategoryView.vala:99
+msgid "Align objects to center along the Y axis"
 msgstr ""
 
 #: src/CategoryView.vala:104
-msgid "The page setup action of a document editor"
+msgid "Align objects to top along the Y axis"
 msgstr ""
 
-#: src/CategoryView.vala:112
-msgid "The print preview action of an application"
+#: src/CategoryView.vala:109
+msgid "Used for exiting an application"
 msgstr ""
 
-#: src/CategoryView.vala:116
-msgid "View the properties of a document in an application"
+#: src/CategoryView.vala:114
+msgid "Create a new appointment in a calendaring application"
 msgstr ""
 
-#: src/CategoryView.vala:120
-msgid "Revert to a previous version of a document"
+#: src/CategoryView.vala:119
+msgid "Create a new bookmark"
 msgstr ""
 
 #: src/CategoryView.vala:124
-msgid "The save action"
+msgid "Initiate or accept a call"
 msgstr ""
 
-#: src/CategoryView.vala:128
-msgid "The save as action"
+#: src/CategoryView.vala:129
+msgid "Stop the current call"
 msgstr ""
 
-#: src/CategoryView.vala:132
-msgid "The send action"
+#: src/CategoryView.vala:134
+msgid "Create a new contact in an address book application"
+msgstr ""
+
+#: src/CategoryView.vala:139
+msgid "Export a document"
+msgstr ""
+
+#: src/CategoryView.vala:144
+msgid "Import a document"
+msgstr ""
+
+#: src/CategoryView.vala:149
+msgid "Create a new document"
+msgstr ""
+
+#: src/CategoryView.vala:154
+msgid "Open a document"
+msgstr ""
+
+#: src/CategoryView.vala:159
+msgid "Open a document that was recently opened"
+msgstr ""
+
+#: src/CategoryView.vala:164
+msgid "The page setup action of a document editor"
+msgstr ""
+
+#: src/CategoryView.vala:169
+msgid "Print"
+msgstr ""
+
+#: src/CategoryView.vala:174
+msgid "The print preview action of an application"
+msgstr ""
+
+#: src/CategoryView.vala:179
+msgid "View the properties of a document"
+msgstr ""
+
+#: src/CategoryView.vala:184
+msgid "Revert to a previous version of a document"
+msgstr ""
+
+#: src/CategoryView.vala:189
+msgid "Save"
+msgstr ""
+
+#: src/CategoryView.vala:194
+msgid "Save as"
+msgstr ""
+
+#: src/CategoryView.vala:199
+msgid "Send"
+msgstr ""
+
+#: src/CategoryView.vala:204
+msgid "Edit"
+msgstr ""
+
+#: src/CategoryView.vala:209
+msgid "Clear"
+msgstr ""
+
+#: src/CategoryView.vala:214
+msgid "Copy"
+msgstr ""
+
+#: src/CategoryView.vala:219
+msgid "Cut"
+msgstr ""
+
+#: src/CategoryView.vala:224
+msgid "Delete"
+msgstr ""
+
+#: src/CategoryView.vala:229
+msgid "Find"
+msgstr ""
+
+#: src/CategoryView.vala:234
+msgid "Find & Replace"
+msgstr ""
+
+#: src/CategoryView.vala:239
+msgid "Flag an item, such as a spam email"
+msgstr ""
+
+#: src/CategoryView.vala:244
+msgid "Paste"
+msgstr ""
+
+#: src/CategoryView.vala:249
+msgid "Redo"
+msgstr ""
+
+#: src/CategoryView.vala:254
+msgid "Select all"
+msgstr ""
+
+#: src/CategoryView.vala:259
+msgid "Undo"
+msgstr ""
+
+#: src/CategoryView.vala:264
+msgid "Create a new calendar event"
+msgstr ""
+
+#: src/CategoryView.vala:269
+msgid "Copy a folder"
+msgstr ""
+
+#: src/CategoryView.vala:274
+msgid "Move a folder"
+msgstr ""
+
+#: src/CategoryView.vala:279
+msgid "Create a new folder"
+msgstr ""
+
+#: src/CategoryView.vala:284
+msgid "Decrease indent"
+msgstr ""
+
+#: src/CategoryView.vala:289
+msgid "Increase indent"
+msgstr ""
+
+#: src/CategoryView.vala:294
+msgid "Center justify text"
+msgstr ""
+
+#: src/CategoryView.vala:299
+msgid "Fill justify text"
+msgstr ""
+
+#: src/CategoryView.vala:304
+msgid "Left justify text"
+msgstr ""
+
+#: src/CategoryView.vala:309
+msgid "Right justify text"
+msgstr ""
+
+#: src/CategoryView.vala:314
+msgid "Format text as left-to-right"
+msgstr ""
+
+#: src/CategoryView.vala:319
+msgid "Format text as right-to-left"
+msgstr ""
+
+#: src/CategoryView.vala:324
+msgid "Format text as bold"
+msgstr ""
+
+#: src/CategoryView.vala:329
+msgid "Format text as highlighted"
+msgstr ""
+
+#: src/CategoryView.vala:334
+msgid "Format text as italic"
+msgstr ""
+
+#: src/CategoryView.vala:339
+msgid "Format text as underlined"
+msgstr ""
+
+#: src/CategoryView.vala:344
+msgid "Format text as being struck through"
+msgstr ""
+
+#: src/CategoryView.vala:349
+msgid "Go to the bottom, such as in a list"
+msgstr ""
+
+#: src/CategoryView.vala:354
+msgid "Go down, such as in a list"
+msgstr ""
+
+#: src/CategoryView.vala:359
+msgid "Go to the first item, such as in a list"
+msgstr ""
+
+#: src/CategoryView.vala:364
+msgid "Go to the home location"
+msgstr ""
+
+#: src/CategoryView.vala:369
+msgid "Jump to a location"
+msgstr ""
+
+#: src/CategoryView.vala:374
+msgid "Go to the last item, such as in a list"
+msgstr ""
+
+#: src/CategoryView.vala:379
+msgid "Go forward to the next item, such as in a list or navigation"
+msgstr ""
+
+#: src/CategoryView.vala:384
+msgid "Go back to the previous item, such as in a list or navigation"
+msgstr ""
+
+#: src/CategoryView.vala:389
+msgid "Go to the top, such as in a list"
+msgstr ""
+
+#: src/CategoryView.vala:394
+msgid "Go up, such as in a list"
+msgstr ""
+
+#: src/CategoryView.vala:399
+msgid "Information about an app"
+msgstr ""
+
+#: src/CategoryView.vala:404
+msgid "Get help"
+msgstr ""
+
+#: src/CategoryView.vala:409
+msgid "Frequently asked questions"
+msgstr ""
+
+#: src/CategoryView.vala:414
+msgid "Make adjustments to an image"
+msgstr ""
+
+#: src/CategoryView.vala:419
+msgid "Automatically adjust an image"
+msgstr ""
+
+#: src/CategoryView.vala:424
+msgid "Crop an image"
+msgstr ""
+
+#: src/CategoryView.vala:429
+msgid "Remove red eye from an image"
+msgstr ""
+
+#: src/CategoryView.vala:434
+msgid "Insert an image"
+msgstr ""
+
+#: src/CategoryView.vala:439
+msgid "Insert a link"
+msgstr ""
+
+#: src/CategoryView.vala:444
+msgid "Insert an object"
+msgstr ""
+
+#: src/CategoryView.vala:449
+msgid "Insert text"
+msgstr ""
+
+#: src/CategoryView.vala:454
+msgid "Add to a list"
+msgstr ""
+
+#: src/CategoryView.vala:459
+msgid "Remove from a list"
+msgstr ""
+
+#: src/CategoryView.vala:464
+msgid "Forward an email"
+msgstr ""
+
+#: src/CategoryView.vala:469
+msgid "Mark an email as important"
+msgstr ""
+
+#: src/CategoryView.vala:474
+msgid "Mark an email as junk or spam"
+msgstr ""
+
+#: src/CategoryView.vala:479
+msgid "Mark an email as not junk or spam"
+msgstr ""
+
+#: src/CategoryView.vala:484
+msgid "Mark an email as read"
+msgstr ""
+
+#: src/CategoryView.vala:489
+msgid "Mark an email as unread"
+msgstr ""
+
+#: src/CategoryView.vala:494
+msgid "Compose a new email"
+msgstr ""
+
+#: src/CategoryView.vala:499
+msgid "Reply to all participants of an email"
+msgstr ""
+
+#: src/CategoryView.vala:504
+msgid "Reply to the sender of an email"
+msgstr ""
+
+#: src/CategoryView.vala:509
+msgid "Send an email"
+msgstr ""
+
+#: src/CategoryView.vala:514
+msgid "Eject removable media"
+msgstr ""
+
+#: src/CategoryView.vala:519
+msgid "Pause media playback"
+msgstr ""
+
+#: src/CategoryView.vala:524
+msgid "Start playing media"
+msgstr ""
+
+#: src/CategoryView.vala:529
+msgid "Stop playing media"
+msgstr ""
+
+#: src/CategoryView.vala:534
+msgid "Start recording"
+msgstr ""
+
+#: src/CategoryView.vala:539
+msgid "Seek backwards or rewind"
+msgstr ""
+
+#: src/CategoryView.vala:544
+msgid "Seek forwards, or fastforward"
+msgstr ""
+
+#: src/CategoryView.vala:549
+msgid "Skip backwards, such as to the previous track"
+msgstr ""
+
+#: src/CategoryView.vala:554
+msgid "Skip forwards, such as to the next track"
+msgstr ""
+
+#: src/CategoryView.vala:559
+msgid "Flip an object horizontally"
+msgstr ""
+
+#: src/CategoryView.vala:564
+msgid "Flip an object vertically"
+msgstr ""
+
+#: src/CategoryView.vala:569
+msgid "Rotate an object to the left or counter-clockwise"
+msgstr ""
+
+#: src/CategoryView.vala:574
+msgid "Rotate an object to the right or clockwise"
+msgstr ""
+
+#: src/CategoryView.vala:579
+msgid ""
+"Stop an action that may take a while to process, such as web page loading in "
+"a browser"
+msgstr ""
+
+#: src/CategoryView.vala:584
+msgid "Lock the screen or the user's session"
+msgstr ""
+
+#: src/CategoryView.vala:589
+msgid "Log out of the user's session"
+msgstr ""
+
+#: src/CategoryView.vala:594
+msgid "Run a system app or command"
+msgstr ""
+
+#: src/CategoryView.vala:599
+msgid "Search the system"
+msgstr ""
+
+#: src/CategoryView.vala:604
+msgid "Restart the device"
+msgstr ""
+
+#: src/CategoryView.vala:609
+msgid "Shut the device down"
+msgstr ""
+
+#: src/CategoryView.vala:614
+msgid "Check spelling"
 msgstr ""
 
 #: src/CategoryView.vala:619
-msgid "Accessories category of applications"
+msgid "View fullscreen"
 msgstr ""
 
-#: src/CategoryView.vala:651
-msgid "Multimedia category of applications"
+#: src/CategoryView.vala:624
+msgid "Refresh the current view"
 msgstr ""
 
-#: src/CategoryView.vala:1127
-msgid "Executable file types"
+#: src/CategoryView.vala:629
+msgid "Leave fullscreen and return to a normal window"
 msgstr ""
 
-#: src/CategoryView.vala:1147
-msgid "Generic audio file types"
+#: src/CategoryView.vala:634
+msgid "Sort items in an ascending order, such as in a list"
 msgstr ""
 
-#: src/CategoryView.vala:1159
-msgid "Generic font file types"
+#: src/CategoryView.vala:639
+msgid "Sort items in a descending order, such as in a list"
 msgstr ""
 
-#: src/CategoryView.vala:1167
-msgid "Generic image file types"
+#: src/CategoryView.vala:644
+msgid "Close the window"
 msgstr ""
 
-#: src/CategoryView.vala:1191
-msgid "Generic package file types"
+#: src/CategoryView.vala:649
+msgid "Create a new window"
 msgstr ""
 
-#: src/CategoryView.vala:1199
-msgid "HTML text file types"
+#: src/CategoryView.vala:654
+msgid "Zoom to the best fit"
 msgstr ""
 
-#: src/CategoryView.vala:1227
-msgid "Generic text file types"
+#: src/CategoryView.vala:659
+msgid "Zoom in"
 msgstr ""
 
-#: src/CategoryView.vala:1231
-msgid "Generic text templates"
+#: src/CategoryView.vala:664
+msgid "Zoom to the original size"
 msgstr ""
 
-#: src/CategoryView.vala:1267
-msgid "Script file types, such as shell scripts"
+#: src/CategoryView.vala:669
+msgid "Zoom out"
 msgstr ""
 
-#: src/CategoryView.vala:1287
-msgid "Generic video file types"
+#: src/CategoryView.vala:674
+msgid "Calculator"
 msgstr ""
 
-#: src/CategoryView.vala:1291
-msgid "Generic address book file types"
+#: src/CategoryView.vala:679
+msgid "Camera or webcam"
+msgstr ""
+
+#: src/CategoryView.vala:684
+msgid "International and extended text character map"
+msgstr ""
+
+#: src/CategoryView.vala:689
+msgid "Dictionary"
+msgstr ""
+
+#: src/CategoryView.vala:694
+msgid "Screenshot tool"
+msgstr ""
+
+#: src/CategoryView.vala:699
+msgid "Text editor"
+msgstr ""
+
+#: src/CategoryView.vala:704
+msgid "Default or unprovided app icon"
+msgstr ""
+
+#: src/CategoryView.vala:709
+msgid "Archive manager"
+msgstr ""
+
+#: src/CategoryView.vala:714
+msgid "Internet chat or messaging"
+msgstr ""
+
+#: src/CategoryView.vala:719
+msgid "Mail or email"
+msgstr ""
+
+#: src/CategoryView.vala:724
+msgid "News or feed reader"
+msgstr ""
+
+#: src/CategoryView.vala:729
+msgid "Web browser"
+msgstr ""
+
+#: src/CategoryView.vala:735
+msgid "Music or audio player"
+msgstr ""
+
+#: src/CategoryView.vala:740
+msgid "Photo manager or library"
+msgstr ""
+
+#: src/CategoryView.vala:745
+msgid "Video or movie player"
+msgstr ""
+
+#: src/CategoryView.vala:750
+msgid "Address book or contacts"
+msgstr ""
+
+#: src/CategoryView.vala:755
+msgid "Calendar"
+msgstr ""
+
+#: src/CategoryView.vala:760
+msgid "Portable document or PDF viewer"
+msgstr ""
+
+#: src/CategoryView.vala:765
+msgid "System settings"
+msgstr ""
+
+#: src/CategoryView.vala:770
+msgid "Files"
+msgstr ""
+
+#: src/CategoryView.vala:775
+msgid "Install the operating system"
+msgstr ""
+
+#: src/CategoryView.vala:780
+msgid "AppCenter or software installer"
+msgstr ""
+
+#: src/CategoryView.vala:785
+msgid "Software updater"
+msgstr ""
+
+#: src/CategoryView.vala:790
+msgid "User settings"
+msgstr ""
+
+#: src/CategoryView.vala:795
+msgid "System resource monitor"
+msgstr ""
+
+#: src/CategoryView.vala:800
+msgid "Terminal"
+msgstr ""
+
+#: src/CategoryView.vala:805
+msgid "Accessory or utility app category"
+msgstr ""
+
+#: src/CategoryView.vala:810
+msgid "Programming, software development, code, or IDE app category"
+msgstr ""
+
+#: src/CategoryView.vala:815
+msgid "Education, learning, or school app category"
+msgstr ""
+
+#: src/CategoryView.vala:820
+msgid "Engineering app category"
+msgstr ""
+
+#: src/CategoryView.vala:825
+msgid "Font category"
+msgstr ""
+
+#: src/CategoryView.vala:830
+msgid "Games app category"
+msgstr ""
+
+#: src/CategoryView.vala:835
+msgid "Graphics, drawing, art, or photo manipulation app category"
+msgstr ""
+
+#: src/CategoryView.vala:840
+msgid "Internet or web related app category"
+msgstr ""
+
+#: src/CategoryView.vala:845
+msgid "Multimedia, audio, or video app category"
+msgstr ""
+
+#: src/CategoryView.vala:850
+msgid "Office app category"
+msgstr ""
+
+#: src/CategoryView.vala:855
+msgid "Other or uncategorized app category"
+msgstr ""
+
+#: src/CategoryView.vala:860
+msgid "Science app category"
+msgstr ""
+
+#: src/CategoryView.vala:865
+msgid "System tools or OS app category"
+msgstr ""
+
+#: src/CategoryView.vala:870
+msgid "Utility app category"
+msgstr ""
+
+#: src/CategoryView.vala:875
+msgid "Bluetooth settings"
+msgstr ""
+
+#: src/CategoryView.vala:880
+msgid "Color settings such as printer, display, or camera calibration"
+msgstr ""
+
+#: src/CategoryView.vala:885
+msgid "Desktop interface settings"
+msgstr ""
+
+#: src/CategoryView.vala:890
+msgid "Universal access settings"
+msgstr ""
+
+#: src/CategoryView.vala:895
+msgid "Universal access settings for pointing, such as controlling the cursor"
+msgstr ""
+
+#: src/CategoryView.vala:900
+msgid "Universal access settings for zooming or magnifying"
+msgstr ""
+
+#: src/CategoryView.vala:905
+msgid "App-related settings, such as default or startup apps"
+msgstr ""
+
+#: src/CategoryView.vala:910
+msgid "Display settings, such as resolution or scaling"
+msgstr ""
+
+#: src/CategoryView.vala:915
+msgid "Keyboard settings, such as layout or shortcuts"
+msgstr ""
+
+#: src/CategoryView.vala:920
+msgid "International localization, language, or region settings"
+msgstr ""
+
+#: src/CategoryView.vala:925
+msgid "Online account and cloud sync or sign in settings"
+msgstr ""
+
+#: src/CategoryView.vala:930
+msgid "Settings for peripherals, such as a mouse or keyboard"
+msgstr ""
+
+#: src/CategoryView.vala:935
+msgid "Sound or audio input and output settings"
+msgstr ""
+
+#: src/CategoryView.vala:940
+msgid "Desktop wallpaper or background settings"
+msgstr ""
+
+#: src/CategoryView.vala:945
+msgid "Other, miscellaneous, or uncategorized settings"
+msgstr ""
+
+#: src/CategoryView.vala:950
+msgid "System settings or preferences"
+msgstr ""
+
+#: src/CategoryView.vala:955
+msgid "Network settings, such as wireless, Ethernet, or VPN"
+msgstr ""
+
+#: src/CategoryView.vala:960
+msgid "Notification alert settings"
+msgstr ""
+
+#: src/CategoryView.vala:965
+msgid "Parental control settings"
+msgstr ""
+
+#: src/CategoryView.vala:970
+msgid "Power management or energy usage settings, such as battery"
+msgstr ""
+
+#: src/CategoryView.vala:975
+msgid "Privacy and security settings"
+msgstr ""
+
+#: src/CategoryView.vala:980
+msgid ""
+"Sharing settings, such as library sharing or media streaming over a network"
+msgstr ""
+
+#: src/CategoryView.vala:985
+msgid "Time and date settings"
+msgstr ""
+
+#: src/CategoryView.vala:990
+msgid "Window management settings"
+msgstr ""
+
+#: src/CategoryView.vala:995
+msgid "Help"
+msgstr ""
+
+#: src/CategoryView.vala:1000
+msgid "Audio output device, such as a sound card or speaker"
+msgstr ""
+
+#: src/CategoryView.vala:1005
+msgid "Microphone"
+msgstr ""
+
+#: src/CategoryView.vala:1010
+msgid "Subwoofer or bass speaker"
+msgstr ""
+
+#: src/CategoryView.vala:1015
+msgid "Battery"
+msgstr ""
+
+#: src/CategoryView.vala:1020
+msgid "Bluetooth"
+msgstr ""
+
+#: src/CategoryView.vala:1025
+msgid "Digital photo or still camera"
+msgstr ""
+
+#: src/CategoryView.vala:1030
+msgid "Video or movie camera"
+msgstr ""
+
+#: src/CategoryView.vala:1035
+msgid "Webcam or built-in camera"
+msgstr ""
+
+#: src/CategoryView.vala:1040
+msgid "Generic or desktop computer"
+msgstr ""
+
+#: src/CategoryView.vala:1045
+msgid "Laptop or notebook computer"
+msgstr ""
+
+#: src/CategoryView.vala:1050
+msgid "Hard disk or storage drive"
+msgstr ""
+
+#: src/CategoryView.vala:1055
+msgid "Optical drive, such as for CD, DVD, or Blu-ray discs"
+msgstr ""
+
+#: src/CategoryView.vala:1060
+msgid "Removable storage device, such as a portable hard drive"
+msgstr ""
+
+#: src/CategoryView.vala:1065
+msgid "USB drive or stick, such as a flash, jump, or thumb drive"
+msgstr ""
+
+#: src/CategoryView.vala:1070
+msgid "Video game controller, such as a paddle, remote, or joystick"
+msgstr ""
+
+#: src/CategoryView.vala:1075
+msgid "Keyboard"
+msgstr ""
+
+#: src/CategoryView.vala:1080
+msgid "Mouse"
+msgstr ""
+
+#: src/CategoryView.vala:1085
+msgid ""
+"Graphics tablet or pen input, such as a Wacom digitizer, Intuos, Cintiq, or "
+"Bamboo"
+msgstr ""
+
+#: src/CategoryView.vala:1090
+msgid "Touchpad input, such as a multitouch trackpad or clickpad"
+msgstr ""
+
+#: src/CategoryView.vala:1095
+msgid "Flash media such as a memory stick or SD card"
+msgstr ""
+
+#: src/CategoryView.vala:1100
+msgid "Optical media, such as a CD, DVD, or Blu-ray disc"
+msgstr ""
+
+#: src/CategoryView.vala:1105
+msgid "Network modem or router"
+msgstr ""
+
+#: src/CategoryView.vala:1110
+msgid "Media player device, such as a portable mp3 music player or iPod"
+msgstr ""
+
+#: src/CategoryView.vala:1115
+msgid ""
+"Cellular type wireless network or device, such as a 2G, 3G, or 4G LTE "
+"connection, modem, or SIM card"
+msgstr ""
+
+#: src/CategoryView.vala:1120
+msgid "Networking firewall"
+msgstr ""
+
+#: src/CategoryView.vala:1125
+msgid "Virtual private network or VPN connection"
+msgstr ""
+
+#: src/CategoryView.vala:1130
+msgid "Wired network connection, such as Ethernet"
+msgstr ""
+
+#: src/CategoryView.vala:1135
+msgid "Wireless network connection, such as Wi-Fi"
+msgstr ""
+
+#: src/CategoryView.vala:1140
+msgid ""
+"Wireless hotspot connection, such as through a mobile cellular phone or "
+"smartphone"
+msgstr ""
+
+#: src/CategoryView.vala:1145
+msgid "Generic phone, such as a mobile Android smartphone or iPhone"
+msgstr ""
+
+#: src/CategoryView.vala:1150
+msgid "Printer"
+msgstr ""
+
+#: src/CategoryView.vala:1155
+msgid "Network-connected or shared printer"
+msgstr ""
+
+#: src/CategoryView.vala:1160
+msgid "Scanner"
+msgstr ""
+
+#: src/CategoryView.vala:1165
+msgid "Display, screen, or monitor"
+msgstr ""
+
+#: src/CategoryView.vala:1170
+msgid "Default selection emblem, such as for a printer or other device"
+msgstr ""
+
+#: src/CategoryView.vala:1175
+msgid "Documents emblem"
+msgstr ""
+
+#: src/CategoryView.vala:1180
+msgid "Downloads emblem"
+msgstr ""
+
+#: src/CategoryView.vala:1185
+msgid "Item the user has marked as a favorite"
+msgstr ""
+
+#: src/CategoryView.vala:1190
+msgid "Item marked as important"
+msgstr ""
+
+#: src/CategoryView.vala:1195
+msgid "Item related to email"
+msgstr ""
+
+#: src/CategoryView.vala:1200
+msgid "Photos emblem"
+msgstr ""
+
+#: src/CategoryView.vala:1205
+msgid "Item is read-only, or the user cannot write to or make changes to it"
+msgstr ""
+
+#: src/CategoryView.vala:1210
+msgid "Item shared with other people or users"
+msgstr ""
+
+#: src/CategoryView.vala:1215
+msgid "Item is a symbolic link to a file somewhere else"
+msgstr ""
+
+#: src/CategoryView.vala:1220
+msgid "Item is configured to be synchronized to another device or location"
+msgstr ""
+
+#: src/CategoryView.vala:1225
+msgid "Item is a system file, library, setting, or data"
+msgstr ""
+
+#: src/CategoryView.vala:1230
+msgid "Item is unreadable or inaccessible"
+msgstr ""
+
+#: src/CategoryView.vala:1235
+msgid "0:-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1240
+msgid "X-( emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1245
+msgid "B-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1250
+msgid ":'( emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1255
+msgid ">:-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1260
+msgid ":-[ emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1265
+msgid "<3 emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1270
+msgid "</3 emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1275
+msgid ":-* emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1280
+msgid ":-)) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1285
+msgid ":-(|) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1290
+msgid ":-| emoticon"
 msgstr ""
 
 #: src/CategoryView.vala:1295
-msgid "Generic calendar file types"
+msgid ":-P emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1299
-msgid "Generic document and letter file types"
+#: src/CategoryView.vala:1300
+msgid ":-( emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1305
+msgid ":-& emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1310
+msgid ":-) emoticon"
 msgstr ""
 
 #: src/CategoryView.vala:1315
-msgid "Generic presentation file types"
+msgid ":-D emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1323
-msgid "Generic spreadsheet file types"
+#: src/CategoryView.vala:1320
+msgid ":-! emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1621
-msgid "Electronic mail that contains a signature"
+#: src/CategoryView.vala:1325
+msgid ":-0 emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1330
+msgid "|-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1335
+msgid ":-/ emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1340
+msgid ";-) emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1345
+msgid ":-S emoticon"
+msgstr ""
+
+#: src/CategoryView.vala:1355
+msgid "Adobe Illustrator image file types"
+msgstr ""
+
+#: src/CategoryView.vala:1360
+msgid "Javascript programming language file types"
+msgstr ""
+
+#: src/CategoryView.vala:1425
+msgid "Executable file types"
+msgstr ""
+
+#: src/CategoryView.vala:1445
+msgid "PHP programming language file types"
+msgstr ""
+
+#: src/CategoryView.vala:1450
+msgid "Ruby programming language file types"
+msgstr ""
+
+#: src/CategoryView.vala:1455
+msgid "Generic audio file types"
+msgstr ""
+
+#: src/CategoryView.vala:1470
+msgid "Generic font file types"
+msgstr ""
+
+#: src/CategoryView.vala:1475
+msgid "Adobe Photoshop image file types"
+msgstr ""
+
+#: src/CategoryView.vala:1480
+msgid "Generic image file types"
+msgstr ""
+
+#: src/CategoryView.vala:1485
+msgid "XCF image file types"
+msgstr ""
+
+#: src/CategoryView.vala:1510
+msgid "Generic package file types"
+msgstr ""
+
+#: src/CategoryView.vala:1515
+msgid "CSS text file types"
+msgstr ""
+
+#: src/CategoryView.vala:1520
+msgid "HTML text file types"
+msgstr ""
+
+#: src/CategoryView.vala:1525
+msgid "Markdown text file types"
+msgstr ""
+
+#: src/CategoryView.vala:1545
+msgid "C programming language header file types"
+msgstr ""
+
+#: src/CategoryView.vala:1555
+msgid "C programming language file types"
+msgstr ""
+
+#: src/CategoryView.vala:1560
+msgid "Generic text file types"
+msgstr ""
+
+#: src/CategoryView.vala:1565
+msgid "Generic text templates"
+msgstr ""
+
+#: src/CategoryView.vala:1580
+msgid "Go programming language file types"
+msgstr ""
+
+#: src/CategoryView.vala:1600
+msgid "Python programming language file types"
+msgstr ""
+
+#: src/CategoryView.vala:1610
+msgid "Script file types, such as shell scripts"
 msgstr ""
 
 #: src/CategoryView.vala:1625
+msgid "Vala programming language file types"
+msgstr ""
+
+#: src/CategoryView.vala:1635
+msgid "Generic video file types"
+msgstr ""
+
+#: src/CategoryView.vala:1640
+msgid "Generic address book file types"
+msgstr ""
+
+#: src/CategoryView.vala:1645
+msgid "Generic calendar file types"
+msgstr ""
+
+#: src/CategoryView.vala:1650
+msgid "Generic document and letter file types"
+msgstr ""
+
+#: src/CategoryView.vala:1670
+msgid "Generic presentation file types"
+msgstr ""
+
+#: src/CategoryView.vala:1680
+msgid "Generic spreadsheet file types"
+msgstr ""
+
+#: src/CategoryView.vala:2050
+msgid "Electronic mail that contains a signature"
+msgstr ""
+
+#: src/CategoryView.vala:2055
 msgid ""
 "Electronic mail that contains a signature which has also been verified by "
 "the security system"
 msgstr ""
 
-#: src/IconView.vala:132
+#: src/IconView.vala:33
+msgid "Color Icons"
+msgstr ""
+
+#: src/IconView.vala:42
+msgid "Symbolic Icons"
+msgstr ""
+
+#: src/IconView.vala:51
+msgid "Code Sample"
+msgstr ""
+
+#: src/IconView.vala:122
 msgid "Unavailable"
 msgstr ""
 
-#: src/MainWindow.vala:42
+#: src/MainWindow.vala:43
 msgid "LookBook"
 msgstr ""
 
-#: src/MainWindow.vala:50
-msgid "Search Icon Names"
+#: src/MainWindow.vala:51
+msgid "Search Icon Names or Descriptions"
+msgstr ""
+
+#: src/MainWindow.vala:57
+msgid "Light background"
+msgstr ""
+
+#: src/MainWindow.vala:58
+msgid "Dark background"
 msgstr ""

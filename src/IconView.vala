@@ -30,28 +30,28 @@ public class IconView : Granite.SimpleSettingsPage {
     }
 
     construct {
-        var color_title = new Gtk.Label ("Color Icons");
+        var color_title = new Gtk.Label (_("Color Icons"));
         color_title.margin_top = 12;
         color_title.xalign = 0;
-        color_title.get_style_context ().add_class ("h4");
+        color_title.get_style_context ().add_class (Granite.STYLE_CLASS_H4_LABEL);
 
         color_row = new Gtk.Grid ();
         color_row.column_spacing = 24;
         color_row.row_spacing = 12;
 
-        var symbolic_title = new Gtk.Label ("Symbolic Icons");
+        var symbolic_title = new Gtk.Label (_("Symbolic Icons"));
         symbolic_title.margin_top = 12;
         symbolic_title.xalign = 0;
-        symbolic_title.get_style_context ().add_class ("h4");
+        symbolic_title.get_style_context ().add_class (Granite.STYLE_CLASS_H4_LABEL);
 
         symbolic_row = new Gtk.Grid ();
         symbolic_row.column_spacing = 24;
         symbolic_row.row_spacing = 12;
 
-        var snippet_title = new Gtk.Label ("Code Sample");
+        var snippet_title = new Gtk.Label (_("Code Sample"));
         snippet_title.margin_top = 12;
         snippet_title.xalign = 0;
-        snippet_title.get_style_context ().add_class ("h4");
+        snippet_title.get_style_context ().add_class (Granite.STYLE_CLASS_H4_LABEL);
 
         var snippet = new Snippet ("");
         snippet.hexpand = true;

@@ -17,34 +17,17 @@
 * Boston, MA 02110-1301 USA
 */
 
-public class IconListRow : Gtk.ListBoxRow {
+public class SidebarRow : Gtk.ListBoxRow {
     public CategoryView.Category category { get; construct; }
-    public string description { get; construct; }
-    public string icon_name { get; construct; }
 
-    public IconListRow (string icon_name, string description, CategoryView.Category category) {
-        Object (
-            category: category,
-            description: description,
-            icon_name: icon_name
-        );
+    public SidebarRow (CategoryView.Category category) {
+        Object (category: category);
     }
 
     construct {
-        var icon = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.SMALL_TOOLBAR);
-        icon.pixel_size = 24;
+        var label = new Gtk.Label (category.to_string ());
+        label.xalign = 0;
 
-        var label = new Gtk.Label (icon_name);
-        label.ellipsize = Pango.EllipsizeMode.MIDDLE;
-
-        var grid = new Gtk.Grid ();
-        grid.column_spacing = 12;
-        grid.margin = 3;
-        grid.margin_start = 6;
-        grid.margin_end = 6;
-        grid.add (icon);
-        grid.add (label);
-
-        add (grid);
+        add (label);
     }
 }
