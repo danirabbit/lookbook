@@ -2222,7 +2222,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "weather-severe-alert",
-            description = _("Severe or cricial weather warning or alert"),
+            description = _("Severe or critical weather warning or alert"),
             category = STATUS
         },
         Icon () {
