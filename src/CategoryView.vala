@@ -1616,6 +1616,11 @@ public class CategoryView : Gtk.Paned {
             category = MIMES
         },
         Icon () {
+            name = "text-x-sass",
+            description = _("Sass programming language file types"),
+            category = MIMES
+        },
+        Icon () {
             name = "text-x-script",
             description = _("Script file types, such as shell scripts"),
             category = MIMES
