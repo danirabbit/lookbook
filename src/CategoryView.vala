@@ -130,6 +130,16 @@ public class CategoryView : Gtk.Paned {
             category = ACTIONS
         },
         Icon () {
+            name = "changes-allow",
+            description = _("Allow changes by unlocking such as with a password"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "changes-prevent",
+            description = _("Prevent changes by locking such as with a password"),
+            category = ACTIONS
+        },
+        Icon () {
             name = "contact-new",
             description = _("Create a new contact in an address book application"),
             category = ACTIONS
@@ -1606,6 +1616,11 @@ public class CategoryView : Gtk.Paned {
             category = MIMES
         },
         Icon () {
+            name = "text-x-sass",
+            description = _("Sass programming language file types"),
+            category = MIMES
+        },
+        Icon () {
             name = "text-x-script",
             description = _("Script file types, such as shell scripts"),
             category = MIMES
@@ -1862,387 +1877,387 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "airplane-mode",
-            description = _(""),
+            description = _("Airplane mode, where wireless radios are disabled or off"),
             category = STATUS
         },
         Icon () {
             name = "appointment-missed",
-            description = _(""),
+            description = _("An appointment or calendar event was missed"),
             category = STATUS
         },
         Icon () {
             name = "appointment-soon",
-            description = _(""),
+            description = _("An appointment or calendar event will be happening soon"),
             category = STATUS
         },
         Icon () {
             name = "audio-volume-high",
-            description = _(""),
+            description = _("High or loud audio volume"),
             category = STATUS
         },
         Icon () {
             name = "audio-volume-low",
-            description = _(""),
+            description = _("Low or quiet audio volume"),
             category = STATUS
         },
         Icon () {
             name = "audio-volume-medium",
-            description = _(""),
+            description = _("Medium or normal audio volume"),
             category = STATUS
         },
         Icon () {
             name = "audio-volume-muted",
-            description = _(""),
+            description = _("Audio volume is muted or off"),
             category = STATUS
         },
         Icon () {
             name = "audio-volume-muted-blocking",
-            description = _(""),
+            description = _("Audio volume is muted or off and something is being blocked from making noise"),
             category = STATUS
         },
         Icon () {
             name = "avatar-default",
-            description = _(""),
+            description = _("The default avatar to represent a user, such as someone who has not set a profile picture"),
             category = STATUS
         },
         Icon () {
             name = "battery-ac-adapter",
-            description = _(""),
+            description = _("A charger or AC adapter for a battery-powered device"),
             category = STATUS
         },
         Icon () {
             name = "battery-caution",
-            description = _(""),
+            description = _("Low battery level"),
             category = STATUS
         },
         Icon () {
             name = "battery-caution-charging",
-            description = _(""),
+            description = _("Low battery level, plugged into a charger or AC adapter"),
             category = STATUS
         },
         Icon () {
             name = "battery-empty",
-            description = _(""),
+            description = _("Critically low battery level"),
             category = STATUS
         },
         Icon () {
             name = "battery-empty-charging",
-            description = _(""),
+            description = _("Critically low battery, plugged into a charger or AC adapter"),
             category = STATUS
         },
         Icon () {
             name = "battery-full",
-            description = _(""),
+            description = _("Mostly charged battery level"),
             category = STATUS
         },
         Icon () {
             name = "battery-full-charged",
-            description = _(""),
+            description = _("Completely charged battery level"),
             category = STATUS
         },
         Icon () {
             name = "battery-full-charging",
-            description = _(""),
+            description = _("Mostly charged battery level, plugged into a charger or AC adapter"),
             category = STATUS
         },
         Icon () {
             name = "battery-good",
-            description = _(""),
+            description = _("Medium-high charged battery level"),
             category = STATUS
         },
         Icon () {
             name = "battery-good-charging",
-            description = _(""),
+            description = _("Medium-high charged battery level, plugged into a charger or AC adapter"),
             category = STATUS
         },
         Icon () {
             name = "battery-low",
-            description = _(""),
+            description = _("Medium-low charged battery level"),
             category = STATUS
         },
         Icon () {
             name = "battery-low-charging",
-            description = _(""),
+            description = _("Medium-low charged battery level, plugged into a charger or AC adapter"),
             category = STATUS
         },
         Icon () {
             name = "battery-missing",
-            description = _(""),
+            description = _("Missing or malfunctioning battery"),
             category = STATUS
         },
         Icon () {
             name = "bluetooth-disabled",
-            description = _(""),
+            description = _("Bluetooth radio is disabled or off"),
             category = STATUS
         },
         Icon () {
             name = "channel-insecure",
-            description = _(""),
+            description = _("Insecure, unsecure, or unencrypted communication or connection, such as HTTP"),
             category = STATUS
         },
         Icon () {
             name = "channel-secure",
-            description = _(""),
+            description = _("Secure or encrypted communication or connection, such as HTTPS or encrypted Wi-Fi"),
             category = STATUS
         },
         Icon () {
             name = "dialog-error",
-            description = _(""),
+            description = _("Critical, unrecoverable, or other serious error"),
             category = STATUS
         },
         Icon () {
             name = "dialog-information",
-            description = _(""),
+            description = _("Contextual information or explanation"),
             category = STATUS
         },
         Icon () {
             name = "dialog-password",
-            description = _(""),
+            description = _("Requesting authentication details, such as a password or encryption key"),
             category = STATUS
         },
         Icon () {
             name = "dialog-question",
-            description = _(""),
+            description = _("Question, decision, or choice for the user"),
             category = STATUS
         },
         Icon () {
             name = "dialog-warning",
-            description = _(""),
+            description = _("Warning of potentially dangerous actions or consequences"),
             category = STATUS
         },
         Icon () {
             name = "image-loading",
-            description = _(""),
+            description = _("Placeholder used when an image or thumbnail is loading"),
             category = STATUS
         },
         Icon () {
             name = "image-missing",
-            description = _(""),
+            description = _("Placeholder used when an image or thumbnail is missing or cannot be loaded"),
             category = STATUS
         },
         Icon () {
             name = "locked",
-            description = _(""),
+            description = _("Locked or secured, typically requiring authentication or a password to unlock"),
             category = STATUS
         },
         Icon () {
             name = "mail-attachment",
-            description = _(""),
+            description = _("Mail attachment or file in an email"),
             category = STATUS
         },
         Icon () {
             name = "mail-unread",
-            description = _(""),
+            description = _("New, unread, or unviewed email"),
             category = STATUS
         },
         Icon () {
             name = "mail-read",
-            description = _(""),
+            description = _("Read or already-viewed email"),
             category = STATUS
         },
         Icon () {
             name = "mail-replied",
-            description = _(""),
+            description = _("Email that has been replied or responded to"),
             category = STATUS
         },
         Icon () {
             name = "mail-signed",
-            description = _("Electronic mail that contains a signature"),
+            description = _("Email that contains a signature"),
             category = STATUS
         },
         Icon () {
             name = "mail-signed-verified",
-            description = _("Electronic mail that contains a signature which has also been verified by the security system"),
+            description = _("Email that contains a signature that is verified by the security system"),
             category = STATUS
         },
         Icon () {
             name = "media-playlist-repeat",
-            description = _(""),
+            description = _("Repeat a song, video, track, album, playlist, or other media"),
             category = STATUS
         },
         Icon () {
             name = "media-playlist-shuffle",
-            description = _(""),
+            description = _("Shuffle or randomize an album, playlist, or other media"),
             category = STATUS
         },
         Icon () {
             name = "network-error",
-            description = _(""),
+            description = _("Error or problem initializing or creating a network connection"),
             category = STATUS
         },
         Icon () {
             name = "network-idle",
-            description = _(""),
+            description = _("No data being transmitted or received while connected to a network"),
             category = STATUS
         },
         Icon () {
             name = "network-offline",
-            description = _(""),
+            description = _("Disconnected or offline from a network"),
             category = STATUS
         },
         Icon () {
             name = "network-receive",
-            description = _(""),
+            description = _("Data is being received over a network"),
             category = STATUS
         },
         Icon () {
             name = "network-transmit",
-            description = _(""),
+            description = _("Data is being transmitted over a network"),
             category = STATUS
         },
         Icon () {
             name = "network-transmit-receive",
-            description = _(""),
+            description = _("Data is being both transmitted and received simultaneously over a network"),
             category = STATUS
         },
         Icon () {
             name = "network-wired-disconnected",
-            description = _(""),
+            description = _("Wired network, such as Ethernet, is disconnected"),
             category = STATUS
         },
         Icon () {
             name = "non-starred",
-            description = _(""),
+            description = _("Item is not starred, favorited, or pinned by the user"),
             category = STATUS
         },
         Icon () {
             name = "notification-disabled",
-            description = _(""),
+            description = _("Notifications are disabled or in Do-Not-Disturb mode"),
             category = STATUS
         },
         Icon () {
             name = "printer-error",
-            description = _(""),
+            description = _("Error or problem occurred when attempting to print"),
             category = STATUS
         },
         Icon () {
             name = "printer-printing",
-            description = _(""),
+            description = _("Job has been successfully spooled or sent to a printer"),
             category = STATUS
         },
         Icon () {
             name = "process-completed",
-            description = _(""),
+            description = _("Process, job, or task has successfully completed or finished"),
             category = STATUS
         },
         Icon () {
             name = "security-high",
-            description = _(""),
+            description = _("Known to be secure, such as using strong encryption and a valid, verified, or trusted certificate"),
             category = STATUS
         },
         Icon () {
             name = "security-medium",
-            description = _(""),
+            description = _("Presumed to be secure, such as using encryption"),
             category = STATUS
         },
         Icon () {
             name = "security-low",
-            description = _(""),
+            description = _("Presumed to be insecure, such as unsecured, unencrypted, weak encryption, or an invalid, unverified, or untrusted certificate"),
             category = STATUS
         },
         Icon () {
             name = "software-update-available",
-            description = _(""),
+            description = _("Updated apps, software, or drivers are available"),
             category = STATUS
         },
         Icon () {
             name = "software-update-urgent",
-            description = _(""),
+            description = _("Urgent or critical updates are available"),
             category = STATUS
         },
         Icon () {
             name = "starred",
-            description = _(""),
+            description = _("Item is starred, favorited, or pinned by the user"),
             category = STATUS
         },
         Icon () {
             name = "task-due",
-            description = _(""),
+            description = _("Task is due soon"),
             category = STATUS
         },
         Icon () {
             name = "task-past-due",
-            description = _(""),
+            description = _("Task is incomplete past the due date"),
             category = STATUS
         },
         Icon () {
             name = "user-available",
-            description = _(""),
+            description = _("User, person, or contact is available or online"),
             category = STATUS
         },
         Icon () {
             name = "user-away",
-            description = _(""),
+            description = _("User, person, or contact is away or unavailable"),
             category = STATUS
         },
         Icon () {
             name = "user-idle",
-            description = _(""),
+            description = _("User, person, or contact is idle or unresponsive"),
             category = STATUS
         },
         Icon () {
             name = "user-offline",
-            description = _(""),
+            description = _("User, person, or contact is offline or unreachable"),
             category = STATUS
         },
         Icon () {
             name = "view-private",
-            description = _(""),
+            description = _("Private, anonymous, untracked, or incognito"),
             category = STATUS
         },
         Icon () {
             name = "weather-clear",
-            description = _(""),
+            description = _("Clear skies or sunny weather"),
             category = STATUS
         },
         Icon () {
             name = "weather-clear-night",
-            description = _(""),
+            description = _("Clear skies weather during the night"),
             category = STATUS
         },
         Icon () {
             name = "weather-few-clouds",
-            description = _(""),
+            description = _("Partly cloudy, partly clear, or partly sunny weather"),
             category = STATUS
         },
         Icon () {
             name = "weather-few-clouds-night",
-            description = _(""),
+            description = _("Partly cloudy or partly clear weather during the night"),
             category = STATUS
         },
         Icon () {
             name = "weather-fog",
-            description = _(""),
+            description = _("Foggy weather"),
             category = STATUS
         },
         Icon () {
             name = "weather-overcast",
-            description = _(""),
+            description = _("Overcast or cloudy weather"),
             category = STATUS
         },
         Icon () {
             name = "weather-severe-alert",
-            description = _(""),
+            description = _("Severe or critical weather warning or alert"),
             category = STATUS
         },
         Icon () {
             name = "weather-showers",
-            description = _(""),
+            description = _("Showers or rainy weather"),
             category = STATUS
         },
         Icon () {
             name = "weather-showers-scattered",
-            description = _(""),
+            description = _("Scattered showers or partly rainy weather"),
             category = STATUS
         },
         Icon () {
             name = "weather-snow",
-            description = _(""),
+            description = _("Snow showers or snowy weather"),
             category = STATUS
         },
         Icon () {
             name = "weather-storm",
-            description = _(""),
+            description = _("Thunderstorms or stormy weather"),
             category = STATUS
         }
     };
