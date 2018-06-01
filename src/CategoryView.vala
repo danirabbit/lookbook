@@ -130,6 +130,16 @@ public class CategoryView : Gtk.Paned {
             category = ACTIONS
         },
         Icon () {
+            name = "changes-allow",
+            description = _("Allow changes by unlocking such as with a password"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "changes-prevent",
+            description = _("Prevent changes by locking such as with a password"),
+            category = ACTIONS
+        },
+        Icon () {
             name = "contact-new",
             description = _("Create a new contact in an address book application"),
             category = ACTIONS
