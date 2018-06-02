@@ -53,9 +53,22 @@ public class IconView : Granite.SimpleSettingsPage {
         snippet_title.xalign = 0;
         snippet_title.get_style_context ().add_class (Granite.STYLE_CLASS_H4_LABEL);
 
-        var snippet = new Snippet ("");
-        snippet.hexpand = true;
-        snippet.valign = Gtk.Align.CENTER;
+        var source_buffer = new Gtk.SourceBuffer (null);
+        source_buffer.highlight_syntax = true;
+        source_buffer.language = Gtk.SourceLanguageManager.get_default ().get_language ("vala");
+        source_buffer.style_scheme = new Gtk.SourceStyleSchemeManager ().get_scheme ("solarized-light");
+
+        var source_view = new Gtk.SourceView ();
+        source_view.buffer = source_buffer;
+        source_view.editable = false;
+        source_view.left_margin = source_view.right_margin = 6;
+        source_view.monospace = true;
+        source_view.pixels_above_lines = source_view.pixels_below_lines = 3;
+        source_view.show_line_numbers = true;
+
+        var snippet = new Gtk.Grid ();
+        snippet.get_style_context ().add_class ("code");
+        snippet.add (source_view);
 
         content_area.column_spacing = 12;
         content_area.row_spacing = 12;
@@ -72,7 +85,7 @@ public class IconView : Granite.SimpleSettingsPage {
 
         notify["icon-name"].connect (() => {
             title = icon_name;
-            snippet.label = "var icon = new Gtk.Image ();\nicon.gicon = new ThemedIcon (\"%s\");\nicon.pixel_size = \"24\";".printf (icon_name);
+            source_buffer.text = "var icon = new Gtk.Image ();\nicon.gicon = new ThemedIcon (\"%s\");\nicon.pixel_size = \"24\";".printf (icon_name);
 
             int i = 0;
 
@@ -136,20 +149,4 @@ public class IconView : Granite.SimpleSettingsPage {
             show_all ();
         });
     }
-
-    private class Snippet : Gtk.Label {
-        public Snippet (string label) {
-            Object (
-                label: label,
-                selectable: true,
-                wrap: true,
-                xalign: 0
-            );
-        }
-
-        construct {
-            get_style_context ().add_class ("code");
-        }
-    }
-
 }

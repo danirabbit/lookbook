@@ -24,16 +24,14 @@ public class MainWindow : Gtk.Window {
     private const string CODE_STYLE = """
         .code {
             background-color: #fdf6e3;
+            background-image:
+            linear-gradient(to right,
+                #EEE8D5 calc(10px + 1.1em),
+                #FDF6E3 calc(10px + 1.1em)
+            );
             border-radius: 3px;
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.20);
-            color: #657b83;
-            font-family: roboto mono;
-            padding: 6px;
-        }
-
-        .code:selected {
-            background-color: #657B84;
-            color: #fdf6e3;
+            padding: 3px;
         }
     """;
 
