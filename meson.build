@@ -24,6 +24,12 @@ executable(
     install : true
 )
 
+test (
+    'Vala lint',
+    find_program('io.elementary.vala-lint'),
+    args: ['-d', join_paths(meson.source_root(), 'src')]
+)
+
 subdir('data')
 subdir('po')
 

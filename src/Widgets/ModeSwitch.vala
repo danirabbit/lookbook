@@ -58,7 +58,7 @@ public class ModeSwitch : Gtk.Grid {
 
     /**
      * Constructs a new {@link Granite.ModeSwitch}.
-     * 
+     *
      * @param primary_icon_name The icon name to use for the primary icon for the switch.
      * @param secondary_icon_name The icon name to use for the secondary icon for the switch.
      */
