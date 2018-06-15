@@ -1536,11 +1536,6 @@ public class CategoryView : Gtk.Paned {
             category = MIMES
         },
         Icon () {
-            name = "text-x-authors",
-            description = _(""),
-            category = MIMES
-        },
-        Icon () {
             name = "text-x-bibtex",
             description = _(""),
             category = MIMES
