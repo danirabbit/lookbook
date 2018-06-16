@@ -21,20 +21,6 @@ public class MainWindow : Gtk.Window {
     private Gtk.ListBox categories_sidebar;
     private Gtk.SearchEntry search_entry;
 
-    private const string CODE_STYLE = """
-        .code {
-            background-color: #fdf6e3;
-            background-image:
-            linear-gradient(to right,
-                #EEE8D5 calc(10px + 1.1em),
-                #FDF6E3 calc(10px + 1.1em)
-            );
-            border-radius: 3px;
-            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.20);
-            padding: 3px;
-        }
-    """;
-
     public MainWindow (Gtk.Application application) {
         Object (application: application,
                 icon_name: "com.github.danrabbit.lookbook",
@@ -84,14 +70,6 @@ public class MainWindow : Gtk.Window {
         paned.add2 (category_view);
 
         add (paned);
-
-        var provider = new Gtk.CssProvider ();
-        try {
-            provider.load_from_data (CODE_STYLE, CODE_STYLE.length);
-            Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
-        } catch (Error e) {
-            critical (e.message);
-        }
 
         ((Gtk.ListBox)category_view.listbox).set_filter_func (filter_function);
 
