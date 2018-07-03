@@ -49,7 +49,7 @@ public class ModeSwitch : Gtk.Grid {
     /**
      * The icon name to use for the secondary icon for the switch.
      */
-    public string secondary_icon_name  { get; construct set; }
+    public string secondary_icon_name { get; construct set; }
 
     /**
      * The contents of the tooltip on the secondary icon.
