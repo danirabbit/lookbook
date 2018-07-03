@@ -12,6 +12,19 @@
   <provides>
     <binary>com.github.danrabbit.lookbook</binary>
   </provides>
+  <releases>
+    <release version="1.0.0" date="2018-7-3">
+      <description>
+        <p>I'm a new soul</p>
+        <p>I came to this strange world</p>
+        <p>Hoping I could learn a bit bout how to give and take</p>
+        <p>But since I came here</p>
+        <p>Felt the joy and the fear</p>
+        <p>Finding myself making every possible mistake</p>
+        <p>La-la-la-la-la-la-la-la…</p>
+      </description>
+    </release>
+  </releases>
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/danrabbit/lookbook/master/data/screenshot.png</image>
