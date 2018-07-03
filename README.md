@@ -1,4 +1,4 @@
-<img align="left" width="64" height="64" src="data/icons/64/com.github.danrabbit.lookbook.svg">
+<img align="left" width="64" height="64" src="data/icons/64.svg">
 <h1 class="rich-diff-level-zero">LookBook</h1>
 
 ![LookBook Screenshot](data/screenshot.png?raw=true)
