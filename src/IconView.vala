@@ -102,10 +102,7 @@ public class IconView : Granite.SimpleSettingsPage {
 
             foreach (string pixel_size in pixels) {
                 if (has_color) {
-                    var color_icon = new Gtk.Image ();
-                    color_icon.gicon = new ThemedIcon (icon_name);
-                    color_icon.icon_name = icon_name;
-                    color_icon.pixel_size = int.parse (pixel_size);
+                    var color_icon = new Granite.AsyncImage.from_gicon_async (new ThemedIcon (icon_name), int.parse (pixel_size));
                     color_icon.use_fallback = true;
                     color_icon.valign = Gtk.Align.END;
 
@@ -117,9 +114,7 @@ public class IconView : Granite.SimpleSettingsPage {
                 }
 
                 if (has_symbolic) {
-                    var symbolic_icon = new Gtk.Image ();
-                    symbolic_icon.gicon = new ThemedIcon (icon_name + "-symbolic");
-                    symbolic_icon.pixel_size = int.parse (pixel_size);
+                    var symbolic_icon = new Granite.AsyncImage.from_gicon_async (new ThemedIcon (icon_name + "-symbolic"), int.parse (pixel_size));
                     symbolic_icon.valign = Gtk.Align.END;
 
                     var symbolic_label = new Gtk.Label (pixels[i] + "px");
