@@ -631,7 +631,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "view-refresh",
-            description = _("Refresh the current view"),
+            description = _("Refresh or reload the current view"),
             category = ACTIONS
         },
         Icon () {
