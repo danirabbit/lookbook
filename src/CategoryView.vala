@@ -1521,6 +1521,46 @@ public class CategoryView : Gtk.Paned {
             category = MIMES
         },
         Icon () {
+            name = "payment-card",
+            description = _("Credit or debit card payments"),
+            category = MIMES
+        },
+        Icon () {
+            name = "payment-card-amex",
+            description = _("American Express credit card payments"),
+            category = MIMES
+        },
+        Icon () {
+            name = "payment-card-diners-club",
+            description = _("Diner's Club credit card payments"),
+            category = MIMES
+        },
+        Icon () {
+            name = "payment-card-discover",
+            description = _("Discover credit card payments"),
+            category = MIMES
+        },
+        Icon () {
+            name = "payment-card-jcb",
+            description = _("Japan Credit Bureau credit card payments"),
+            category = MIMES
+        },
+        Icon () {
+            name = "payment-card-mastercard",
+            description = _("Mastercard credit card payments"),
+            category = MIMES
+        },
+        Icon () {
+            name = "payment-card-unionpay",
+            description = _("China UnionPay credit card payments"),
+            category = MIMES
+        },
+        Icon () {
+            name = "payment-card-visa",
+            description = _("Visa credit card payments"),
+            category = MIMES
+        },
+        Icon () {
             name = "text-css",
             description = _("CSS text file types"),
             category = MIMES
