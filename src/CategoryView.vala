@@ -1527,37 +1527,37 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "payment-card-amex",
-            description = _("American Express credit card payments"),
+            description = _("American Express branded credit or debit card payments"),
             category = MIMES
         },
         Icon () {
             name = "payment-card-diners-club",
-            description = _("Diner's Club credit card payments"),
+            description = _("Diner's Club branded credit or debit card payments"),
             category = MIMES
         },
         Icon () {
             name = "payment-card-discover",
-            description = _("Discover credit card payments"),
+            description = _("Discover branded credit or debit card payments"),
             category = MIMES
         },
         Icon () {
             name = "payment-card-jcb",
-            description = _("Japan Credit Bureau credit card payments"),
+            description = _("Japan Credit Bureau branded credit or debit card payments"),
             category = MIMES
         },
         Icon () {
             name = "payment-card-mastercard",
-            description = _("Mastercard credit card payments"),
+            description = _("Mastercard branded credit or debit card payments"),
             category = MIMES
         },
         Icon () {
             name = "payment-card-unionpay",
-            description = _("China UnionPay credit card payments"),
+            description = _("China UnionPay branded credit or debit card payments"),
             category = MIMES
         },
         Icon () {
             name = "payment-card-visa",
-            description = _("Visa credit card payments"),
+            description = _("Visa branded credit or debit card payments"),
             category = MIMES
         },
         Icon () {
