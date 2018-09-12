@@ -80,6 +80,8 @@ public class MainWindow : Gtk.Window {
         categories_sidebar.row_selected.connect (() => {
             ((Gtk.ListBox)category_view.listbox).invalidate_filter ();
         });
+
+        search_entry.grab_focus ();
     }
 
     [CCode (instance_pos = -1)]
