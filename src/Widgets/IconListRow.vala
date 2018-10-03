@@ -31,7 +31,7 @@ public class IconListRow : Gtk.ListBoxRow {
     }
 
     construct {
-        var icon = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.SMALL_TOOLBAR);
+        var icon = new Granite.AsyncImage.from_icon_name_async (icon_name, Gtk.IconSize.SMALL_TOOLBAR);
         icon.pixel_size = 24;
 
         var label = new Gtk.Label (icon_name);
