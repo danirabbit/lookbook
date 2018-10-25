@@ -625,8 +625,33 @@ public class CategoryView : Gtk.Paned {
             category = ACTIONS
         },
         Icon () {
+            name = "tools-timer",
+            description = _("Set or adjust a timer"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "view-column",
+            description = _("Display the current view as columns"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "view-continuous",
+            description = _("display the current view in a continously scrolling list"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "view-dual",
+            description = _("display the current view as a split, dual view"),
+            category = ACTIONS
+        },
+        Icon () {
             name = "view-fullscreen",
             description = _("View fullscreen"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "view-grid",
+            description = _("Display the current view as a grid of images or icons"),
             category = ACTIONS
         },
         Icon () {
@@ -637,6 +662,26 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "view-restore",
             description = _("Leave fullscreen and return to a normal window"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "view-more",
+            description = _("View more information about the given context in a popover or menu"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "view-more-horizontal",
+            description = _("View more information about the given context in a new view or window"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "view-paged",
+            description = _("Display the current view as a collection of pages"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "view-pin",
+            description = _("Pin the current view so that it does not automatically hide"),
             category = ACTIONS
         },
         Icon () {
@@ -768,11 +813,6 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "postscript-viewer",
             description = _("Portable document or PDF viewer"),
-            category = APPS
-        },
-        Icon () {
-            name = "preferences-desktop",
-            description = _("System settings"),
             category = APPS
         },
         Icon () {

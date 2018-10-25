@@ -84,13 +84,29 @@ public class IconView : Granite.SimpleSettingsPage {
         string [] pixels = {"16", "24", "32", "48", "64", "128"};
 
         notify["icon-name"].connect (() => {
-            title = icon_name;
+            var is_symbolic = icon_name.has_suffix ("-symbolic");
+            string color_icon_name;
+
+            if (is_symbolic) {
+                color_icon_name = icon_name.replace ("-symbolic", "");
+            } else {
+                color_icon_name = icon_name;
+            }
+
+            var symbolic_icon_name = color_icon_name + "-symbolic";
+            var has_color = icon_theme.has_icon (color_icon_name);
+
+            if (!is_symbolic && !has_color) {
+                icon_name = symbolic_icon_name;
+            }
+
+            title = color_icon_name;
             source_buffer.text = "var icon = new Gtk.Image ();\nicon.gicon = new ThemedIcon (\"%s\");\nicon.pixel_size = \"24\";".printf (icon_name);
 
             int i = 0;
 
-            var has_color = icon_theme.has_icon (icon_name);
-            var has_symbolic = icon_theme.has_icon (icon_name + "-symbolic");
+
+            var has_symbolic = icon_theme.has_icon (symbolic_icon_name);
 
             foreach (var child in color_row.get_children ()) {
                 child.destroy ();
@@ -103,7 +119,7 @@ public class IconView : Granite.SimpleSettingsPage {
             foreach (string pixel_size in pixels) {
                 if (has_color) {
                     var color_icon = new Gtk.Image ();
-                    color_icon.gicon = new ThemedIcon (icon_name);
+                    color_icon.gicon = new ThemedIcon (color_icon_name);
                     color_icon.icon_name = icon_name;
                     color_icon.pixel_size = int.parse (pixel_size);
                     color_icon.use_fallback = true;
@@ -118,7 +134,7 @@ public class IconView : Granite.SimpleSettingsPage {
 
                 if (has_symbolic) {
                     var symbolic_icon = new Gtk.Image ();
-                    symbolic_icon.gicon = new ThemedIcon (icon_name + "-symbolic");
+                    symbolic_icon.gicon = new ThemedIcon (symbolic_icon_name);
                     symbolic_icon.pixel_size = int.parse (pixel_size);
                     symbolic_icon.valign = Gtk.Align.END;
 

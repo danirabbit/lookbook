@@ -31,8 +31,16 @@ public class IconListRow : Gtk.ListBoxRow {
     }
 
     construct {
-        var icon = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.SMALL_TOOLBAR);
-        icon.pixel_size = 24;
+        var icon = new Gtk.Image ();
+
+        if (Gtk.IconTheme.get_default ().has_icon (icon_name)) {
+            icon.icon_name = icon_name;
+            icon.pixel_size = 24;
+        } else {
+            icon.icon_name = icon_name + "-symbolic";
+            icon.pixel_size = 16;
+            icon.set_size_request (24, 24);
+        }
 
         var label = new Gtk.Label (icon_name);
         label.ellipsize = Pango.EllipsizeMode.MIDDLE;
