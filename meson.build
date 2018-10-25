@@ -19,7 +19,6 @@ executable(
     'src/IconView.vala',
     'src/MainWindow.vala',
     'src/Widgets/IconListRow.vala',
-    'src/Widgets/ModeSwitch.vala',
     'src/Widgets/SidebarRow.vala',
     dependencies: [
         dependency('glib-2.0'),
