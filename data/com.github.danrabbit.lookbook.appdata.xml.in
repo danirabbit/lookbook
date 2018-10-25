@@ -13,6 +13,11 @@
     <binary>com.github.danrabbit.lookbook</binary>
   </provides>
   <releases>
+    <release version="1.1.0" date="2018-10-25">
+      <description>
+        <p>Better support for symbolic-only icons and under the hood improvements!</p>
+      </description>
+    </release>
     <release version="1.0.0" date="2018-7-3">
       <description>
         <p>I'm a new soul</p>
