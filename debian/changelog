@@ -1,3 +1,9 @@
+com.github.danrabbit.lookbook (1.1.0) bionic; urgency=medium
+
+  * Better support for symbolic-only icons and under the hood improvements
+
+ -- Daniel Fore <daniel@elementary.io>  Thu, 25 Oct 2018 12:10:44 -0700
+
 com.github.danrabbit.lookbook (0.1) bionic; urgency=medium
 
   * Initial release.
