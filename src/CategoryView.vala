@@ -2368,6 +2368,7 @@ public class CategoryView : Gtk.Paned {
         listbox.row_selected.connect ((row) => {
             icon_view.icon_name = ((IconListRow) row).icon_name;
             icon_view.description = ((IconListRow) row).description;
+            icon_view.category_name = ((IconListRow) row).category.to_string ().down ();
         });
     }
 

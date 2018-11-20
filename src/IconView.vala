@@ -22,10 +22,13 @@ public class IconView : Granite.SimpleSettingsPage {
     private Gtk.Grid color_row;
     private Gtk.Grid symbolic_row;
 
-    public IconView () {
+    public string category_name {get; set;}
+
+    public IconView (string _category_name = "actions") {
         Object (
             icon_name: "address-book-new",
-            description: _("Create a new address book")
+            description: _("Create a new address book"),
+            category_name: _category_name
         );
     }
 
@@ -105,7 +108,6 @@ public class IconView : Granite.SimpleSettingsPage {
 
             int i = 0;
 
-
             var has_symbolic = icon_theme.has_icon (symbolic_icon_name);
 
             foreach (var child in color_row.get_children ()) {
@@ -116,6 +118,7 @@ public class IconView : Granite.SimpleSettingsPage {
                 child.destroy ();
             }
 
+            const string THEME_PATH = "/usr/share/icons/elementary";
             foreach (string pixel_size in pixels) {
                 if (has_color) {
                     var color_icon = new Gtk.Image ();
@@ -128,8 +131,13 @@ public class IconView : Granite.SimpleSettingsPage {
                     var color_label = new Gtk.Label (pixels[i] + "px");
                     color_label.hexpand = true;
 
+                    string filename = color_icon_name + ".svg";
+                    string path = string.join ("/", THEME_PATH, category_name, pixel_size, filename);
+                    var debug = new Gtk.Label (path);
+
                     color_row.attach (color_icon, i, 0);
                     color_row.attach (color_label, i, 1);
+                    color_row.attach (debug, i, 2);
                 }
 
                 if (has_symbolic) {
@@ -141,8 +149,13 @@ public class IconView : Granite.SimpleSettingsPage {
                     var symbolic_label = new Gtk.Label (pixels[i] + "px");
                     symbolic_label.hexpand = true;
 
+                    string filename = symbolic_icon_name + ".svg";
+                    string path = string.join ("/", THEME_PATH, category_name, pixel_size, filename);
+                    var debug = new Gtk.Label (path);
+
                     symbolic_row.attach (symbolic_icon, i, 0);
                     symbolic_row.attach (symbolic_label, i, 1);
+                    symbolic_row.attach (debug, i, 2);
                 }
 
                 i++;
