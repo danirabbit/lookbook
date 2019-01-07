@@ -1051,6 +1051,16 @@ public class CategoryView : Gtk.Paned {
             category = DEVICES
         },
         Icon () {
+            name = "audio-headphones",
+            description = _("Audio output device representing headphones"),
+            category = DEVICES
+        },
+        Icon () {
+            name = "audio-headset",
+            description = _("Audio output device representing a headset"),
+            category = DEVICES
+        },
+        Icon () {
             name = "audio-input-microphone",
             description = _("Microphone"),
             category = DEVICES
