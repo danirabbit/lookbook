@@ -1005,7 +1005,7 @@ msgid ""
 "Wireless hotspot connection, such as through a mobile cellular phone or "
 "smartphone"
 msgstr ""
-Connexion à un point d'accès sans fil, par exemple par l'intermédiaire d'un téléphone cellulaire mobile ou "
+"Connexion à un point d'accès sans fil, par exemple par l'intermédiaire d'un téléphone cellulaire mobile ou "
 "d'un smartphone"
 
 #: src/CategoryView.vala:1195
@@ -1030,645 +1030,658 @@ msgstr "Écran ou moniteur"
 
 #: src/CategoryView.vala:1220
 msgid "Default selection emblem, such as for a printer or other device"
-msgstr ""
+msgstr "Symbole de sélection par défaut, par exemple pour une imprimante ou un autre dispositif"
 
 #: src/CategoryView.vala:1225
 msgid "Documents emblem"
-msgstr ""
+msgstr "Symbole Documents"
 
 #: src/CategoryView.vala:1230
 msgid "Downloads emblem"
-msgstr ""
+msgstr "Symbole Téléchargements"
 
 #: src/CategoryView.vala:1235
 msgid "Item the user has marked as a favorite"
-msgstr ""
+msgstr "Élément que l'utilisateur a marqué comme favori"
 
 #: src/CategoryView.vala:1240
 msgid "Item marked as important"
-msgstr ""
+msgstr "Élément marqué comme important"
 
 #: src/CategoryView.vala:1245
 msgid "Item related to email"
-msgstr ""
+msgstr "Élément relatif à l'e-mail"
 
 #: src/CategoryView.vala:1250
 msgid "Photos emblem"
-msgstr ""
+msgstr "Symbole Photos"
 
 #: src/CategoryView.vala:1255
 msgid "Item is read-only, or the user cannot write to or make changes to it"
-msgstr ""
+msgstr "L'élément est en lecture seule ou l'utilisateur ne peut pas y écrire ou y apporter des modifications"
 
 #: src/CategoryView.vala:1260
 msgid "Item shared with other people or users"
-msgstr ""
+msgstr "Élément partagé avec d'autres personnes ou utilisateurs"
 
 #: src/CategoryView.vala:1265
 msgid "Item is a symbolic link to a file somewhere else"
-msgstr ""
+msgstr "L'élément est un lien symbolique vers un autre fichier"
 
 #: src/CategoryView.vala:1270
 msgid "Item is configured to be synchronized to another device or location"
-msgstr ""
+msgstr "L'élément est configuré pour être synchronisé avec un autre appareil ou un autre emplacement"
 
 #: src/CategoryView.vala:1275
 msgid "Item is a system file, library, setting, or data"
-msgstr ""
+msgstr "L'élément est un fichier système, une bibliothèque, un paramètre ou des données"
 
 #: src/CategoryView.vala:1280
 msgid "Item is unreadable or inaccessible"
-msgstr ""
+msgstr "L'élément est illisible ou inaccessible"
 
 #: src/CategoryView.vala:1285
 msgid "0:-) emoticon"
-msgstr ""
+msgstr "Émoji 0:)"
 
 #: src/CategoryView.vala:1290
 msgid "X-( emoticon"
-msgstr ""
+msgstr "Émoji X("
 
 #: src/CategoryView.vala:1295
 msgid "B-) emoticon"
-msgstr ""
+msgstr "Émoji B)"
 
 #: src/CategoryView.vala:1300
 msgid ":'( emoticon"
-msgstr ""
+msgstr "Émoji :'("
 
 #: src/CategoryView.vala:1305
 msgid ">:-) emoticon"
-msgstr ""
+msgstr "Émoji >:("
 
 #: src/CategoryView.vala:1310
 msgid ":-[ emoticon"
-msgstr ""
+msgstr "Émoji :["
 
 #: src/CategoryView.vala:1315
 msgid "<3 emoticon"
-msgstr ""
+msgstr "Émoji <3"
 
 #: src/CategoryView.vala:1320
 msgid "</3 emoticon"
-msgstr ""
+msgstr "Émoji </3"
 
 #: src/CategoryView.vala:1325
 msgid ":-* emoticon"
-msgstr ""
+msgstr "Émoji :*"
 
 #: src/CategoryView.vala:1330
 msgid ":-)) emoticon"
-msgstr ""
+msgstr "Émoji :))"
 
 #: src/CategoryView.vala:1335
 msgid ":-(|) emoticon"
-msgstr ""
+msgstr "Émoji :(|)"
 
 #: src/CategoryView.vala:1340
 msgid ":-| emoticon"
-msgstr ""
+msgstr "Émoji :|"
 
 #: src/CategoryView.vala:1345
 msgid ":-P emoticon"
-msgstr ""
+msgstr "Émoji :P"
 
 #: src/CategoryView.vala:1350
 msgid ":-( emoticon"
-msgstr ""
+msgstr "Émoji :("
 
 #: src/CategoryView.vala:1355
 msgid ":-& emoticon"
-msgstr ""
+msgstr "Émoji :&"
 
 #: src/CategoryView.vala:1360
 msgid ":-) emoticon"
-msgstr ""
+msgstr "Émoji :)"
 
 #: src/CategoryView.vala:1365
 msgid ":-D emoticon"
-msgstr ""
+msgstr "Émoji :D"
 
 #: src/CategoryView.vala:1370
 msgid ":-! emoticon"
-msgstr ""
+msgstr "Émoji :!"
 
 #: src/CategoryView.vala:1375
 msgid ":-0 emoticon"
-msgstr ""
+msgstr "Émoji :0"
 
 #: src/CategoryView.vala:1380
 msgid "|-) emoticon"
-msgstr ""
+msgstr "Émoji |)"
 
 #: src/CategoryView.vala:1385
 msgid ":-/ emoticon"
-msgstr ""
+msgstr "Émoji :/"
 
 #: src/CategoryView.vala:1390
 msgid ";-) emoticon"
-msgstr ""
+msgstr "Émoji ;)"
 
 #: src/CategoryView.vala:1395
 msgid ":-S emoticon"
-msgstr ""
+msgstr "Émoji :S"
 
 #: src/CategoryView.vala:1405
 msgid "Adobe Illustrator image file types"
-msgstr ""
+msgstr "Types de fichiers image Adobe Illustrator"
 
 #: src/CategoryView.vala:1410
 msgid "Javascript programming language file types"
-msgstr ""
+msgstr "Types de fichiers du langage de programmation Javascript"
 
 #: src/CategoryView.vala:1475
 msgid "Executable file types"
-msgstr ""
+msgstr "Types de fichiers exécutables"
 
 #: src/CategoryView.vala:1495
 msgid "PHP programming language file types"
-msgstr ""
+msgstr "Types de fichiers du langage de programmation PHP"
 
 #: src/CategoryView.vala:1500
 msgid "Ruby programming language file types"
-msgstr ""
+msgstr "Types de fichiers du langage de programmation Ruby"
 
 #: src/CategoryView.vala:1505
 msgid "Generic audio file types"
-msgstr ""
+msgstr "Types de fichiers audio génériques"
 
 #: src/CategoryView.vala:1520
 msgid "Generic font file types"
-msgstr ""
+msgstr "Types de fichiers de polices génériques"
 
 #: src/CategoryView.vala:1525
 msgid "Adobe Photoshop image file types"
-msgstr ""
+msgstr "Types de fichiers image Adobe Photoshop"
 
 #: src/CategoryView.vala:1530
 msgid "Generic image file types"
-msgstr ""
+msgstr "Types de fichiers images génériques"
 
 #: src/CategoryView.vala:1535
 msgid "XCF image file types"
-msgstr ""
+msgstr "Types de fichiers image XCF"
 
 #: src/CategoryView.vala:1560
 msgid "Generic package file types"
-msgstr ""
+msgstr "Types de fichiers de paquets génériques"
 
 #: src/CategoryView.vala:1565
 msgid "Credit or debit card payments"
-msgstr ""
+msgstr "Paiements par carte de crédit ou de débit"
 
 #: src/CategoryView.vala:1570
 msgid "American Express branded credit or debit card payments"
-msgstr ""
+msgstr "Paiements par carte de crédit ou de débit American Express"
 
 #: src/CategoryView.vala:1575
 msgid "Diner's Club branded credit or debit card payments"
-msgstr ""
+msgstr "Paiements par carte de crédit ou de débit Diner's Club"
 
 #: src/CategoryView.vala:1580
 msgid "Discover branded credit or debit card payments"
-msgstr ""
+msgstr "Paiements par carte de crédit ou de débit Discover"
 
 #: src/CategoryView.vala:1585
 msgid "Japan Credit Bureau branded credit or debit card payments"
-msgstr ""
+msgstr "Paiements par carte de crédit ou de débit Japan Credit Bureau"
 
 #: src/CategoryView.vala:1590
 msgid "Mastercard branded credit or debit card payments"
-msgstr ""
+msgstr "Paiements par carte de crédit ou de débit Mastercard"
 
 #: src/CategoryView.vala:1595
 msgid "China UnionPay branded credit or debit card payments"
-msgstr ""
+msgstr "Paiements par carte de crédit ou de débit China UnionPay"
 
 #: src/CategoryView.vala:1600
 msgid "Visa branded credit or debit card payments"
-msgstr ""
+msgstr "Paiements par carte de crédit ou de débit Visa"
 
 #: src/CategoryView.vala:1605
 msgid "CSS text file types"
-msgstr ""
+msgstr "Types de fichiers texte CSS"
 
 #: src/CategoryView.vala:1610
 msgid "HTML text file types"
-msgstr ""
+msgstr "Types de fichiers texte HTML"
 
 #: src/CategoryView.vala:1615
 msgid "Markdown text file types"
-msgstr ""
+msgstr "Types de fichiers texte Markdown"
 
 #: src/CategoryView.vala:1630
 msgid "C programming language header file types"
-msgstr ""
+msgstr "Types de fichiers d'en-tête du langage de programmation C"
 
 #: src/CategoryView.vala:1640
 msgid "C programming language file types"
-msgstr ""
+msgstr "Types de fichiers du langage de programmation C"
 
 #: src/CategoryView.vala:1645
 msgid "Generic text file types"
-msgstr ""
+msgstr "Types de fichiers texte génériques"
 
 #: src/CategoryView.vala:1650
 msgid "Generic text templates"
-msgstr ""
+msgstr "Modèles de texte génériques"
 
 #: src/CategoryView.vala:1665
 msgid "Go programming language file types"
-msgstr ""
+msgstr "Types de fichiers du langage de programmation Go"
 
 #: src/CategoryView.vala:1685
 msgid "Python programming language file types"
-msgstr ""
+msgstr "Types de fichiers du langage de programmation Python"
 
 #: src/CategoryView.vala:1695
 msgid "Sass programming language file types"
-msgstr ""
+msgstr "Types de fichiers du langage de programmation Sass"
 
 #: src/CategoryView.vala:1700
 msgid "Script file types, such as shell scripts"
-msgstr ""
+msgstr "Types de fichiers de scripts, tels que les scripts shell"
 
 #: src/CategoryView.vala:1715
 msgid "Vala programming language file types"
-msgstr ""
+msgstr "Types de fichiers du langage de programmation Vala"
 
 #: src/CategoryView.vala:1725
 msgid "Generic video file types"
-msgstr ""
+msgstr "Types de fichiers vidéo génériques"
 
 #: src/CategoryView.vala:1730
 msgid "Generic address book file types"
-msgstr ""
+msgstr "Types de fichiers de carnet d'adresses génériques"
 
 #: src/CategoryView.vala:1735
 msgid "Generic calendar file types"
-msgstr ""
+msgstr "Types de fichiers de calendrier génériques"
 
 #: src/CategoryView.vala:1740
 msgid "Generic document and letter file types"
-msgstr ""
+msgstr "Types de fichiers de documents et de lettres génériques"
 
 #: src/CategoryView.vala:1760
 msgid "Generic presentation file types"
-msgstr ""
+msgstr "Types de fichiers présentation génériques"
 
 #: src/CategoryView.vala:1770
 msgid "Generic spreadsheet file types"
-msgstr ""
+msgstr "Types de fichiers classeur génériques"
 
 #: src/CategoryView.vala:1955
 msgid "Airplane mode, where wireless radios are disabled or off"
-msgstr ""
+msgstr "Mode avion, où les liaisons radio sans fil sont désactivées ou éteintes"
 
 #: src/CategoryView.vala:1960
 msgid "An appointment or calendar event was missed"
-msgstr ""
+msgstr "Un rendez-vous ou un événement du calendrier a été manqué"
 
 #: src/CategoryView.vala:1965
 msgid "An appointment or calendar event will be happening soon"
-msgstr ""
+msgstr "Un rendez-vous ou un événement du calendrier aura lieu bientôt"
 
 #: src/CategoryView.vala:1970
 msgid "High or loud audio volume"
-msgstr ""
+msgstr "Volume audio élevé ou fort"
 
 #: src/CategoryView.vala:1975
 msgid "Low or quiet audio volume"
-msgstr ""
+msgstr "Volume audio faible ou silencieux"
 
 #: src/CategoryView.vala:1980
 msgid "Medium or normal audio volume"
-msgstr ""
+msgstr "Volume audio moyen ou normal"
 
 #: src/CategoryView.vala:1985
 msgid "Audio volume is muted or off"
-msgstr ""
+msgstr "Le volume audio est coupé ou désactivé"
 
 #: src/CategoryView.vala:1990
 msgid ""
 "Audio volume is muted or off and something is being blocked from making noise"
 msgstr ""
+"Le volume audio est muet ou désactivé et quelque chose est empêché de faire du bruit."
 
 #: src/CategoryView.vala:1995
 msgid ""
 "The default avatar to represent a user, such as someone who has not set a "
 "profile picture"
 msgstr ""
+"L'avatar par défaut pour représenter un utilisateur, par exemple quelqu'un qui n'a pas défini de "
+"photo de profil"
 
 #: src/CategoryView.vala:2000
 msgid "A charger or AC adapter for a battery-powered device"
-msgstr ""
+msgstr "Chargeur ou adaptateur secteur pour un appareil alimenté par batterie"
 
 #: src/CategoryView.vala:2005
 msgid "Low battery level"
-msgstr ""
+msgstr "Niveau de batterie faible"
 
 #: src/CategoryView.vala:2010
 msgid "Low battery level, plugged into a charger or AC adapter"
-msgstr ""
+msgstr "Niveau de batterie faible, branchée sur un chargeur ou un adaptateur secteur"
 
 #: src/CategoryView.vala:2015
 msgid "Critically low battery level"
-msgstr ""
+msgstr "Niveau de batterie très faible"
 
 #: src/CategoryView.vala:2020
 msgid "Critically low battery, plugged into a charger or AC adapter"
-msgstr ""
+msgstr "Niveau de batterie très faible, branchée sur un chargeur ou un adaptateur secteur"
 
 #: src/CategoryView.vala:2025
 msgid "Mostly charged battery level"
-msgstr ""
+msgstr "Niveau de batterie presque pleine"
 
 #: src/CategoryView.vala:2030
 msgid "Completely charged battery level"
-msgstr ""
+msgstr "Niveau de batterie complétement chargée"
 
 #: src/CategoryView.vala:2035
 msgid "Mostly charged battery level, plugged into a charger or AC adapter"
-msgstr ""
+msgstr "Niveau de batterie presque plein, branchée sur un chargeur ou un adaptateur secteur"
 
 #: src/CategoryView.vala:2040
 msgid "Medium-high charged battery level"
-msgstr ""
+msgstr "Niveau de charge moyen-élevé de la batterie"
 
 #: src/CategoryView.vala:2045
 msgid "Medium-high charged battery level, plugged into a charger or AC adapter"
-msgstr ""
+msgstr "Niveau de charge moyen-élevé de la batterie, branchée sur un chargeur ou un adaptateur secteur"
 
 #: src/CategoryView.vala:2050
 msgid "Medium-low charged battery level"
-msgstr ""
+msgstr "Niveau de charge moyen-faible de la batterie"
 
 #: src/CategoryView.vala:2055
 msgid "Medium-low charged battery level, plugged into a charger or AC adapter"
-msgstr ""
+msgstr "Niveau de charge moyen-faible de la batterie, branchée sur un chargeur ou un adaptateur secteur"
 
 #: src/CategoryView.vala:2060
 msgid "Missing or malfunctioning battery"
-msgstr ""
+msgstr "Batterie manquante ou défectueuse"
 
 #: src/CategoryView.vala:2065
 msgid "Bluetooth radio is disabled or off"
-msgstr ""
+msgstr "Le Bluetooth est désactivé ou éteint"
 
 #: src/CategoryView.vala:2070
 msgid ""
 "Insecure, unsecure, or unencrypted communication or connection, such as HTTP"
 msgstr ""
+"Communication ou connexion non sécurisée, non chiffrée ou non cryptée, telle que HTTP"
 
 #: src/CategoryView.vala:2075
 msgid ""
 "Secure or encrypted communication or connection, such as HTTPS or encrypted "
 "Wi-Fi"
 msgstr ""
+"Communication ou connexion sécurisée ou cryptée, telle que HTTPS ou Wi-Fi "
+"cryptée"
 
 #: src/CategoryView.vala:2080
 msgid "Critical, unrecoverable, or other serious error"
-msgstr ""
+msgstr "Erreur critique, irrécupérable ou autre erreur grave"
 
 #: src/CategoryView.vala:2085
 msgid "Contextual information or explanation"
-msgstr ""
+msgstr "Renseignements ou explications contextuels"
 
 #: src/CategoryView.vala:2090
 msgid "Requesting authentication details, such as a password or encryption key"
-msgstr ""
+msgstr "Demande de détails d'authentification, tels qu'un mot de passe ou une clé de cryptage"
 
 #: src/CategoryView.vala:2095
 msgid "Question, decision, or choice for the user"
-msgstr ""
+msgstr "Question, décision ou choix pour l'utilisateur"
 
 #: src/CategoryView.vala:2100
 msgid "Warning of potentially dangerous actions or consequences"
-msgstr ""
+msgstr "Avertissement d'actions ou de conséquences potentiellement dangereuses"
 
 #: src/CategoryView.vala:2105
 msgid "Placeholder used when an image or thumbnail is loading"
-msgstr ""
+msgstr "Caractère de remplacement utilisé lorsqu'une image ou une vignette est en cours de chargement"
 
 #: src/CategoryView.vala:2110
 msgid ""
 "Placeholder used when an image or thumbnail is missing or cannot be loaded"
 msgstr ""
+"Caractère de remplacement utilisé lorsqu'une image ou une miniature est manquante ou ne peut pas être chargée"
 
 #: src/CategoryView.vala:2115
 msgid ""
 "Locked or secured, typically requiring authentication or a password to unlock"
 msgstr ""
+"Verrouillé ou sécurisé, nécessitant généralement une authentification ou un mot de passe pour le déverrouillage"
 
 #: src/CategoryView.vala:2120
 msgid "Mail attachment or file in an email"
-msgstr ""
+msgstr "Envoyer une pièce jointe ou un fichier dans un e-mail"
 
 #: src/CategoryView.vala:2125
 msgid "New, unread, or unviewed email"
-msgstr ""
+msgstr "Nouvel e-mail, non lu ou non consulté."
 
 #: src/CategoryView.vala:2130
 msgid "Read or already-viewed email"
-msgstr ""
+msgstr "E-Mail lu ou déjà consulté"
 
 #: src/CategoryView.vala:2135
 msgid "Email that has been replied or responded to"
-msgstr ""
+msgstr "E-Mail auquel on a déjà répondu ou auquel on a fait suite"
 
 #: src/CategoryView.vala:2140
 msgid "Email that contains a signature"
-msgstr ""
+msgstr "E-mail contenant une signature"
 
 #: src/CategoryView.vala:2145
 msgid "Email that contains a signature that is verified by the security system"
-msgstr ""
+msgstr "E-mail contenant une signature vérifiée par le système de sécurité"
 
 #: src/CategoryView.vala:2150
 msgid "Repeat a song, video, track, album, playlist, or other media"
-msgstr ""
+msgstr "Répéter un titre, une vidéo, une piste, un album, une liste de lecture ou tout autre média"
 
 #: src/CategoryView.vala:2155
 msgid "Shuffle or randomize an album, playlist, or other media"
-msgstr ""
+msgstr "Lire aléatoirement un album, une liste de lecture ou tout autre média"
 
 #: src/CategoryView.vala:2160
 msgid "Error or problem initializing or creating a network connection"
-msgstr ""
+msgstr "Erreur ou problème lors de l'initialisation ou de la création d'une connexion réseau"
 
 #: src/CategoryView.vala:2165
 msgid "No data being transmitted or received while connected to a network"
-msgstr ""
+msgstr "Aucune donnée n'est transmise ou reçue pendant la connexion à un réseau"
 
 #: src/CategoryView.vala:2170
 msgid "Disconnected or offline from a network"
-msgstr ""
+msgstr "Hors-ligne ou déconnecté d'un réseau"
 
 #: src/CategoryView.vala:2175
 msgid "Data is being received over a network"
-msgstr ""
+msgstr "Les données sont reçues par l'inermédiaire d'un réseau"
 
 #: src/CategoryView.vala:2180
 msgid "Data is being transmitted over a network"
-msgstr ""
+msgstr "Les données sont transmises sur un réseau"
 
 #: src/CategoryView.vala:2185
 msgid ""
 "Data is being both transmitted and received simultaneously over a network"
 msgstr ""
+"Les données sont transmises et reçues simultanément sur un réseau"
 
 #: src/CategoryView.vala:2190
 msgid "Wired network, such as Ethernet, is disconnected"
-msgstr ""
+msgstr "Le réseau câblé, tel qu'Ethernet, est déconnecté"
 
 #: src/CategoryView.vala:2195
 msgid "Item is not starred, favorited, or pinned by the user"
-msgstr ""
+msgstr "L'élément n'est pas marqué d'une étoile, marqué comme favori ou épinglé par l'utilisateur"
 
 #: src/CategoryView.vala:2200
 msgid "Notifications are disabled or in Do-Not-Disturb mode"
-msgstr ""
+msgstr "Les notifications sont désactivées ou en mode Ne pas déranger"
 
 #: src/CategoryView.vala:2205
 msgid "Error or problem occurred when attempting to print"
-msgstr ""
+msgstr "Erreur ou problème survenu lors de la tentative d'impression"
 
 #: src/CategoryView.vala:2210
 msgid "Job has been successfully spooled or sent to a printer"
-msgstr ""
+msgstr "Le travail a été transféré ou envoyé avec succès à une imprimante"
 
 #: src/CategoryView.vala:2215
 msgid "Process, job, or task has successfully completed or finished"
-msgstr ""
+msgstr "Le processus, le travail ou la tâche a été mené à bien ou s'est terminé avec succès"
 
 #: src/CategoryView.vala:2220
 msgid ""
 "Known to be secure, such as using strong encryption and a valid, verified, "
 "or trusted certificate"
 msgstr ""
+"Connu pour être sécurisé, en utilisant par exemple un cryptage fort et un certificat valide, "
+"vérifié ou de confiance"
 
 #: src/CategoryView.vala:2225
 msgid "Presumed to be secure, such as using encryption"
-msgstr ""
+msgstr "Présumé sécurisé, en utilisant par exemple le chiffrement"
 
 #: src/CategoryView.vala:2230
 msgid ""
 "Presumed to be insecure, such as unsecured, unencrypted, weak encryption, or "
 "an invalid, unverified, or untrusted certificate"
 msgstr ""
+"Présumé non sécurisé, en utilisant par exemple un cryptage non sécurisé, non crypté, faible, ou "
+"un certificat invalide, non vérifié ou non fiable"
 
 #: src/CategoryView.vala:2235
 msgid "Updated apps, software, or drivers are available"
-msgstr ""
+msgstr "Des mises à jour d'applications, de logiciels ou de pilotes sont disponibles"
 
 #: src/CategoryView.vala:2240
 msgid "Urgent or critical updates are available"
-msgstr ""
+msgstr "Des mises à jour urgentes ou critiques sont disponibles"
 
 #: src/CategoryView.vala:2245
 msgid "Item is starred, favorited, or pinned by the user"
-msgstr ""
+msgstr "L'élément est marqué d'une étoile, marqué comme favori ou épinglé par l'utilisateur"
 
 #: src/CategoryView.vala:2250
 msgid "Task is due soon"
-msgstr ""
+msgstr "La tâche est attendue sous peu"
 
 #: src/CategoryView.vala:2255
 msgid "Task is incomplete past the due date"
-msgstr ""
+msgstr "La tâche est incomplète après la date d'échéance"
 
 #: src/CategoryView.vala:2260
 msgid "User, person, or contact is available or online"
-msgstr ""
+msgstr "L'utilisateur, la personne ou le contact est disponible ou en ligne"
 
 #: src/CategoryView.vala:2265
 msgid "User, person, or contact is away or unavailable"
-msgstr ""
+msgstr "L'utilisateur, la personne ou le contact est absent ou indisponible"
 
 #: src/CategoryView.vala:2270
 msgid "User, person, or contact is idle or unresponsive"
-msgstr ""
+msgstr "L'utilisateur, la personne ou le contact est inactif ou ne répond pas"
 
 #: src/CategoryView.vala:2275
 msgid "User, person, or contact is offline or unreachable"
-msgstr ""
+msgstr "L'utilisateur, la personne ou le contact est hors ligne ou injoignable"
 
 #: src/CategoryView.vala:2280
 msgid "Private, anonymous, untracked, or incognito"
-msgstr ""
+msgstr "Privé, anonyme, non suivi ou incognito"
 
 #: src/CategoryView.vala:2285
 msgid "Clear skies or sunny weather"
-msgstr ""
+msgstr "Ciel dégagé ou temps ensoleillé"
 
 #: src/CategoryView.vala:2290
 msgid "Clear skies weather during the night"
-msgstr ""
+msgstr "Ciel dégagé pendant la nuit"
 
 #: src/CategoryView.vala:2295
 msgid "Partly cloudy, partly clear, or partly sunny weather"
-msgstr ""
+msgstr "Temps partiellement nuageux, partiellement clair ou partiellement ensoleillé"
 
 #: src/CategoryView.vala:2300
 msgid "Partly cloudy or partly clear weather during the night"
-msgstr ""
+msgstr "Temps partiellement nuageux ou partiellement clair pendant la nuit"
 
 #: src/CategoryView.vala:2305
 msgid "Foggy weather"
-msgstr ""
+msgstr "Temps brumeux"
 
 #: src/CategoryView.vala:2310
 msgid "Overcast or cloudy weather"
-msgstr ""
+msgstr "Temps couvert ou nuageux"
 
 #: src/CategoryView.vala:2315
 msgid "Severe or critical weather warning or alert"
-msgstr ""
+msgstr "Avertissement ou alerte météorologique grave ou critique"
 
 #: src/CategoryView.vala:2320
 msgid "Showers or rainy weather"
-msgstr ""
+msgstr "Averses ou temps pluvieux"
 
 #: src/CategoryView.vala:2325
 msgid "Scattered showers or partly rainy weather"
-msgstr ""
+msgstr "Averses éparses ou temps partiellement pluvieux"
 
 #: src/CategoryView.vala:2330
 msgid "Snow showers or snowy weather"
-msgstr ""
+msgstr "Averses de neige ou temps enneigé"
 
 #: src/CategoryView.vala:2335
 msgid "Thunderstorms or stormy weather"
-msgstr ""
+msgstr "Orages ou tempêtes ou temps orageux"
 
 #: src/IconView.vala:33
 msgid "Color Icons"
-msgstr ""
+msgstr "Icônes de couleur"
 
 #: src/IconView.vala:42
 msgid "Symbolic Icons"
-msgstr ""
+msgstr "Icônes symboliques"
 
 #: src/IconView.vala:51
 msgid "Code Sample"
-msgstr ""
+msgstr "Exemple de code"
 
 #: src/IconView.vala:151
 msgid "Unavailable"
-msgstr ""
+msgstr "Indisponible"
 
 #: src/MainWindow.vala:27
 msgid "LookBook"
-msgstr ""
+msgstr "LookBook"
 
 #: src/MainWindow.vala:35
 msgid "Search Icon Names or Descriptions"
-msgstr ""
+msgstr "Rechercher des noms d'icônes ou descriptions"
 
 #: src/MainWindow.vala:41
 msgid "Light background"
-msgstr ""
+msgstr "Thème clair"
 
 #: src/MainWindow.vala:42
 msgid "Dark background"
-msgstr ""
+msgstr "Thème sombre"
