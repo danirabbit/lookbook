@@ -85,13 +85,28 @@ public class CategoryView : Gtk.Paned {
             category = ACTIONS
         },
         Icon () {
+            name = "align-horizontal-left-to-anchor",
+            description = _("Align objects left along the X axis to an anchor object"),
+            category = ACTIONS
+        },
+        Icon () {
             name = "align-horizontal-right",
             description = _("Align objects right along the X axis"),
             category = ACTIONS
         },
         Icon () {
+            name = "align-horizontal-right-to-anchor",
+            description = _("Align objects right along the X axis to an anchor object"),
+            category = ACTIONS
+        },
+        Icon () {
             name = "align-vertical-bottom",
             description = _("Align objects to bottom along the Y axis"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "align-vertical-bottom-to-anchor",
+            description = _("Align objects to bottom along the Y axis to an anchor object"),
             category = ACTIONS
         },
         Icon () {
@@ -102,6 +117,11 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "align-vertical-top",
             description = _("Align objects to top along the Y axis"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "align-vertical-top-to-anchor",
+            description = _("Align objects to top along the Y axis to an anchor object"),
             category = ACTIONS
         },
         Icon () {
