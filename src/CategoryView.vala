@@ -145,6 +145,46 @@ public class CategoryView : Gtk.Paned {
             category = ACTIONS
         },
         Icon () {
+            name = "distribute-horizontal-center",
+            description = _("Distribute the center lines of objects horizontally"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "distribute-horizontal-gaps",
+            description = _("Make horizontal gaps between objects equal"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "distribute-horizontal-left",
+            description = _("Distribute left edges of objects horizontally"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "distribute-horizontal-right",
+            description = _("Distribute right edges of objects horizontally"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "distribute-vertical-bottom",
+            description = _("Distribute bottom edges of objects vertically"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "distribute-vertical-center",
+            description = _("Distribute center lines of objects vertically"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "distribute-vertical-gaps",
+            description = _("Make vertical gaps between objects equal"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "distribute-vertical-top",
+            description = _("Distriute top edges of objects vertically"),
+            category = ACTIONS
+        },
+        Icon () {
             name = "document-export",
             description = _("Export a document"),
             category = ACTIONS
