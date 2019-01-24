@@ -585,6 +585,41 @@ public class CategoryView : Gtk.Paned {
             category = ACTIONS
         },
         Icon () {
+            name = "path-break-apart",
+            description = _("Break disjoint parts of a path into separate paths"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "path-combine",
+            description = _("Merge paths into one"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "path-difference",
+            description = _("Subtract one path from another"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "path-division",
+            description = _("Divide path into disjoined parts where it intersects the second path"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "path-exclusion",
+            description = _("Remove the common part of two paths"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "path-intersection",
+            description = _("Remove non-common parts of two paths"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "path-union",
+            description = _("Union paths"),
+            category = ACTIONS
+        },
+        Icon () {
             name = "process-stop",
             description = _("Stop an action that may take a while to process, such as web page loading in a browser"),
             category = ACTIONS
