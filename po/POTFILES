@@ -1,3 +1,5 @@
+data/com.github.danrabbit.lookbook.appdata.xml.in
+data/com.github.danrabbit.lookbook.desktop.in
 src/Application.vala
 src/CategoryView.vala
 src/IconView.vala
