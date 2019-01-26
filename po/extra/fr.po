@@ -1,0 +1,47 @@
+# French translations for extra package.
+# Copyright (C) 2019 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# NathanBnm, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-14 18:27-0700\n"
+"PO-Revision-Date: 2019-01-25 11:20+0100\n"
+"Last-Translator: NathanBnm\n"
+"Language-Team: Français\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:7
+#: data/com.github.danrabbit.lookbook.desktop.in:3
+msgid "LookBook"
+msgstr "LookBook"
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:8
+#: data/com.github.danrabbit.lookbook.desktop.in:4
+msgid "Browse and find system icons"
+msgstr "Parcourez et recherchez les icônes du système"
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:10
+msgid ""
+"Browse system icons by category or search by icon name. See icons at "
+"different sizes and get a quick code snippet to use in your apps."
+msgstr "Parcourez les icônes du système par catégorie ou effectuez une recherche par nom d'icône.  Voyez des icônes de "
+"différentes tailles et obtenez rapidement un extrait de code à utiliser dans vos applications."
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:21
+msgid "Daniel Foré"
+msgstr "Daniel Foré"
+
+#: data/com.github.danrabbit.lookbook.desktop.in:6
+msgid "com.github.danrabbit.lookbook"
+msgstr "com.github.danrabbit.lookbook"
+
+#: data/com.github.danrabbit.lookbook.desktop.in:7
+msgid "icons;iconography;"
+msgstr "icônes;iconographie;"
