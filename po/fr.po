@@ -1,0 +1,1687 @@
+# French translations for com.github.danrabbit.lookbook package.
+# Copyright (C) 2019 THE com.github.danrabbit.lookbook package.'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.danrabbit.lookbook package.
+# NathanBnm, 2019.
+#
+#: src/CategoryView.vala:1400 src/CategoryView.vala:1415
+#: src/CategoryView.vala:1420 src/CategoryView.vala:1425
+#: src/CategoryView.vala:1430 src/CategoryView.vala:1435
+#: src/CategoryView.vala:1440 src/CategoryView.vala:1445
+#: src/CategoryView.vala:1450 src/CategoryView.vala:1455
+#: src/CategoryView.vala:1460 src/CategoryView.vala:1465
+#: src/CategoryView.vala:1470 src/CategoryView.vala:1480
+#: src/CategoryView.vala:1485 src/CategoryView.vala:1490
+#: src/CategoryView.vala:1510 src/CategoryView.vala:1515
+#: src/CategoryView.vala:1540 src/CategoryView.vala:1545
+#: src/CategoryView.vala:1550 src/CategoryView.vala:1555
+#: src/CategoryView.vala:1620 src/CategoryView.vala:1625
+#: src/CategoryView.vala:1635 src/CategoryView.vala:1655
+#: src/CategoryView.vala:1660 src/CategoryView.vala:1670
+#: src/CategoryView.vala:1675 src/CategoryView.vala:1680
+#: src/CategoryView.vala:1690 src/CategoryView.vala:1705
+#: src/CategoryView.vala:1710 src/CategoryView.vala:1720
+#: src/CategoryView.vala:1745 src/CategoryView.vala:1750
+#: src/CategoryView.vala:1755 src/CategoryView.vala:1765
+#: src/CategoryView.vala:1775 src/CategoryView.vala:1780
+#: src/CategoryView.vala:1785 src/CategoryView.vala:1790
+#: src/CategoryView.vala:1795 src/CategoryView.vala:1800
+#: src/CategoryView.vala:1805 src/CategoryView.vala:1810
+#: src/CategoryView.vala:1815 src/CategoryView.vala:1820
+#: src/CategoryView.vala:1825 src/CategoryView.vala:1830
+#: src/CategoryView.vala:1835 src/CategoryView.vala:1840
+#: src/CategoryView.vala:1845 src/CategoryView.vala:1850
+#: src/CategoryView.vala:1855 src/CategoryView.vala:1860
+#: src/CategoryView.vala:1865 src/CategoryView.vala:1870
+#: src/CategoryView.vala:1875 src/CategoryView.vala:1880
+#: src/CategoryView.vala:1885 src/CategoryView.vala:1890
+#: src/CategoryView.vala:1895 src/CategoryView.vala:1900
+#: src/CategoryView.vala:1905 src/CategoryView.vala:1910
+#: src/CategoryView.vala:1915 src/CategoryView.vala:1920
+#: src/CategoryView.vala:1925 src/CategoryView.vala:1930
+#: src/CategoryView.vala:1935 src/CategoryView.vala:1940
+#: src/CategoryView.vala:1945 src/CategoryView.vala:1950
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.danrabbit.lookbook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-25 12:09-0700\n"
+"PO-Revision-Date: 2019-01-15 18:23+0100\n"
+"Last-Translator: NathanBnm\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/CategoryView.vala:38
+msgid "Actions"
+msgstr "Actions"
+
+#: src/CategoryView.vala:40
+msgid "Applications"
+msgstr "Applications"
+
+#: src/CategoryView.vala:42
+msgid "Categories"
+msgstr "Catégories"
+
+#: src/CategoryView.vala:44
+msgid "Devices"
+msgstr "Appareils"
+
+#: src/CategoryView.vala:46
+msgid "Emblems"
+msgstr "Symboles"
+
+#: src/CategoryView.vala:48
+msgid "Emotes"
+msgstr "Émojis"
+
+#: src/CategoryView.vala:50
+msgid "Mimetypes"
+msgstr "Types MIME"
+
+#: src/CategoryView.vala:52
+msgid "Places"
+msgstr "Emplacements"
+
+#: src/CategoryView.vala:54
+msgid "Status"
+msgstr "Statut"
+
+#: src/CategoryView.vala:56
+msgid "OTHER"
+msgstr "DIVERS"
+
+#: src/CategoryView.vala:74 src/IconView.vala:28
+msgid "Create a new address book"
+msgstr "Créer un nouveau carnet d'adresses"
+
+#: src/CategoryView.vala:79
+msgid "Align objects to center along the X axis"
+msgstr "Aligner les objets au centre sur l'axe X"
+
+#: src/CategoryView.vala:84
+msgid "Align objects left along the X axis"
+msgstr "Aligner les objets à gauche sur l'axe X"
+
+#: src/CategoryView.vala:89
+msgid "Align objects right along the X axis"
+msgstr "Aligner les objets à droite sur l'axe X"
+
+#: src/CategoryView.vala:94
+msgid "Align objects to bottom along the Y axis"
+msgstr "Aligner les objets en bas sur l'axe Y"
+
+#: src/CategoryView.vala:99
+msgid "Align objects to center along the Y axis"
+msgstr "Aligner les objets au centre sur l'axe Y"
+
+#: src/CategoryView.vala:104
+msgid "Align objects to top along the Y axis"
+msgstr "Aligner les objets en haut sur l'axe Y"
+
+#: src/CategoryView.vala:109
+msgid "Used for exiting an application"
+msgstr "Utilisé pour quitter une application"
+
+#: src/CategoryView.vala:114
+msgid "Create a new appointment in a calendaring application"
+msgstr "Créer un nouveau rendez-vous dans une application de calendrier"
+
+#: src/CategoryView.vala:119
+msgid "Create a new bookmark"
+msgstr "Créer un nouveau marque-page"
+
+#: src/CategoryView.vala:124
+msgid "Initiate or accept a call"
+msgstr "Lancer ou accepter un appel"
+
+#: src/CategoryView.vala:129
+msgid "Stop the current call"
+msgstr "Interrompre l'appel en cours"
+
+#: src/CategoryView.vala:134
+msgid "Allow changes by unlocking such as with a password"
+msgstr "Autoriser les modifications en déverrouillant, par exemple à l'aide d'un mot de passe."
+
+#: src/CategoryView.vala:139
+msgid "Prevent changes by locking such as with a password"
+msgstr "Empêcher les changements en verrouillant, par exemple avec un mot de passe."
+
+#: src/CategoryView.vala:144
+msgid "Create a new contact in an address book application"
+msgstr "Créer un nouveau contact dans une application de carnet d'adresses"
+
+#: src/CategoryView.vala:149
+msgid "Export a document"
+msgstr "Exporter un document"
+
+#: src/CategoryView.vala:154
+msgid "Import a document"
+msgstr "Importer un document"
+
+#: src/CategoryView.vala:159
+msgid "Create a new document"
+msgstr "Créer un nouveau document"
+
+#: src/CategoryView.vala:164
+msgid "Open a document"
+msgstr "Ouvrir un document"
+
+#: src/CategoryView.vala:169
+msgid "Open a document that was recently opened"
+msgstr "Ouvrir un document récent"
+
+#: src/CategoryView.vala:174
+msgid "The page setup action of a document editor"
+msgstr "L'action de mise en page d'un éditeur de document"
+
+#: src/CategoryView.vala:179
+msgid "Print"
+msgstr "Imprimer"
+
+#: src/CategoryView.vala:184
+msgid "The print preview action of an application"
+msgstr "L'action d'aperçu avant impression d'une application"
+
+#: src/CategoryView.vala:189
+msgid "View the properties of a document"
+msgstr "Afficher les propriétés d'un document"
+
+#: src/CategoryView.vala:194
+msgid "Revert to a previous version of a document"
+msgstr "Revenir à une version précédente d'un document"
+
+#: src/CategoryView.vala:199
+msgid "Save"
+msgstr "Enregistrer"
+
+#: src/CategoryView.vala:204
+msgid "Save as"
+msgstr "Enregistrer sous"
+
+#: src/CategoryView.vala:209
+msgid "Send"
+msgstr "Envoyer"
+
+#: src/CategoryView.vala:214
+msgid "Edit"
+msgstr "Modifier"
+
+#: src/CategoryView.vala:219
+msgid "Clear"
+msgstr "Effacer"
+
+#: src/CategoryView.vala:224
+msgid "Copy"
+msgstr "Copier"
+
+#: src/CategoryView.vala:229
+msgid "Cut"
+msgstr "Couper"
+
+#: src/CategoryView.vala:234
+msgid "Delete"
+msgstr "Supprimer"
+
+#: src/CategoryView.vala:239
+msgid "Find"
+msgstr "Rechercher"
+
+#: src/CategoryView.vala:244
+msgid "Find & Replace"
+msgstr "Rechercher et remplacer"
+
+#: src/CategoryView.vala:249
+msgid "Flag an item, such as a spam email"
+msgstr "Marquer un élément, tel qu'un e-mail de spam"
+
+#: src/CategoryView.vala:254
+msgid "Paste"
+msgstr "Coller"
+
+#: src/CategoryView.vala:259
+msgid "Redo"
+msgstr "Rétablir"
+
+#: src/CategoryView.vala:264
+msgid "Select all"
+msgstr "Tout séléctionner"
+
+#: src/CategoryView.vala:269
+msgid "Undo"
+msgstr "Annuler"
+
+#: src/CategoryView.vala:274
+msgid "Create a new calendar event"
+msgstr "Créer un nouvel événement du calendrier"
+
+#: src/CategoryView.vala:279
+msgid "Copy a folder"
+msgstr "Copier un dossier"
+
+#: src/CategoryView.vala:284
+msgid "Move a folder"
+msgstr "Déplacer un dossier"
+
+#: src/CategoryView.vala:289
+msgid "Create a new folder"
+msgstr "Créer un nouveau dossier"
+
+#: src/CategoryView.vala:294
+msgid "Decrease indent"
+msgstr "Diminuer le retrait"
+
+#: src/CategoryView.vala:299
+msgid "Increase indent"
+msgstr "Augmenter le retrait"
+
+#: src/CategoryView.vala:304
+msgid "Center justify text"
+msgstr "Centrer le texte"
+
+#: src/CategoryView.vala:309
+msgid "Fill justify text"
+msgstr "Justifier le texte"
+
+#: src/CategoryView.vala:314
+msgid "Left justify text"
+msgstr "Aligner le texte à gauche"
+
+#: src/CategoryView.vala:319
+msgid "Right justify text"
+msgstr "Aligner le texte à droite"
+
+#: src/CategoryView.vala:324
+msgid "Format text as left-to-right"
+msgstr "Formater le texte de gauche à droite"
+
+#: src/CategoryView.vala:329
+msgid "Format text as right-to-left"
+msgstr "Formater le texte de droite à gauche"
+
+#: src/CategoryView.vala:334
+msgid "Format text as bold"
+msgstr "Formater le texte en gras"
+
+#: src/CategoryView.vala:339
+msgid "Format text as highlighted"
+msgstr "Surligner le texte"
+
+#: src/CategoryView.vala:344
+msgid "Format text as italic"
+msgstr "Formater le texte en italique"
+
+#: src/CategoryView.vala:349
+msgid "Format text as underlined"
+msgstr "Formater le texte en souligné"
+
+#: src/CategoryView.vala:354
+msgid "Format text as being struck through"
+msgstr "Barrer le texte"
+
+#: src/CategoryView.vala:359
+msgid "Go to the bottom, such as in a list"
+msgstr "Aller au bas de l'écran, par exemple dans une liste"
+
+#: src/CategoryView.vala:364
+msgid "Go down, such as in a list"
+msgstr "Descendre, par exemple dans une liste"
+
+#: src/CategoryView.vala:369
+msgid "Go to the first item, such as in a list"
+msgstr "Aller au premier élément, par exemple dans une liste"
+
+#: src/CategoryView.vala:374
+msgid "Go to the home location"
+msgstr "Aller à la page d'accueil"
+
+#: src/CategoryView.vala:379
+msgid "Jump to a location"
+msgstr "Aller à"
+
+#: src/CategoryView.vala:384
+msgid "Go to the last item, such as in a list"
+msgstr "Aller au dernier élément, par exemple dans une liste"
+
+#: src/CategoryView.vala:389
+msgid "Go forward to the next item, such as in a list or navigation"
+msgstr "Passer à l'élément suivant, par exemple dans une liste ou une navigation"
+
+#: src/CategoryView.vala:394
+msgid "Go back to the previous item, such as in a list or navigation"
+msgstr "Revenir à l'élément précédent, par exemple dans une liste ou une navigation"
+
+#: src/CategoryView.vala:399
+msgid "Go to the top, such as in a list"
+msgstr "Aller en haut de l'écran, par exemple dans une liste"
+
+#: src/CategoryView.vala:404
+msgid "Go up, such as in a list"
+msgstr "Remonter, par exemple dans une liste"
+
+#: src/CategoryView.vala:409
+msgid "Information about an app"
+msgstr "Informations à propose d'une application"
+
+#: src/CategoryView.vala:414
+msgid "Get help"
+msgstr "Obtenir de l'aide"
+
+#: src/CategoryView.vala:419
+msgid "Frequently asked questions"
+msgstr "Questions fréquemment posées"
+
+#: src/CategoryView.vala:424
+msgid "Make adjustments to an image"
+msgstr "Ajuster une image"
+
+#: src/CategoryView.vala:429
+msgid "Automatically adjust an image"
+msgstr "Ajuster automatiquement une image"
+
+#: src/CategoryView.vala:434
+msgid "Crop an image"
+msgstr "Rogner une image"
+
+#: src/CategoryView.vala:439
+msgid "Remove red eye from an image"
+msgstr "Enlever les yeux rouges d'une image"
+
+#: src/CategoryView.vala:444
+msgid "Insert an image"
+msgstr "Insérer une image"
+
+#: src/CategoryView.vala:449
+msgid "Insert a link"
+msgstr "Insérer un lien"
+
+#: src/CategoryView.vala:454
+msgid "Insert an object"
+msgstr "Insérer un objet"
+
+#: src/CategoryView.vala:459
+msgid "Insert text"
+msgstr "Insérer du texte"
+
+#: src/CategoryView.vala:464
+msgid "Add to a list"
+msgstr "Ajouter à la liste"
+
+#: src/CategoryView.vala:469
+msgid "Remove from a list"
+msgstr "Enlever de la liste"
+
+#: src/CategoryView.vala:474
+msgid "Forward an email"
+msgstr "Transférer un e-mail"
+
+#: src/CategoryView.vala:479
+msgid "Mark an email as important"
+msgstr "Marquer un e-mail comme important"
+
+#: src/CategoryView.vala:484
+msgid "Mark an email as junk or spam"
+msgstr "Marquer un e-mail comme spam"
+
+#: src/CategoryView.vala:489
+msgid "Mark an email as not junk or spam"
+msgstr "Marquer un e-mail comme non-spam"
+
+#: src/CategoryView.vala:494
+msgid "Mark an email as read"
+msgstr "Marquer un e-mail comme lu"
+
+#: src/CategoryView.vala:499
+msgid "Mark an email as unread"
+msgstr "Marquer un e-mail comme non lu"
+
+#: src/CategoryView.vala:504
+msgid "Compose a new email"
+msgstr "Rédiger un nouvel e-mail"
+
+#: src/CategoryView.vala:509
+msgid "Reply to all participants of an email"
+msgstr "Répondre à tous les participants d'un e-mail"
+
+#: src/CategoryView.vala:514
+msgid "Reply to the sender of an email"
+msgstr "Répondre a l'expéditeur de l'e-mail"
+
+#: src/CategoryView.vala:519
+msgid "Send an email"
+msgstr "Envoyer un e-mail"
+
+#: src/CategoryView.vala:524
+msgid "Eject removable media"
+msgstr "Éjecter le support amovible"
+
+#: src/CategoryView.vala:529
+msgid "Pause media playback"
+msgstr "Mettre la lecture en pause"
+
+#: src/CategoryView.vala:534
+msgid "Start playing media"
+msgstr "Démarrer la lecture"
+
+#: src/CategoryView.vala:539
+msgid "Stop playing media"
+msgstr "Interrompre la lecture"
+
+#: src/CategoryView.vala:544
+msgid "Start recording"
+msgstr "Démarrer l'enregistrement"
+
+#: src/CategoryView.vala:549
+msgid "Seek backwards or rewind"
+msgstr "Reculer ou rembobiner"
+
+#: src/CategoryView.vala:554
+msgid "Seek forwards, or fastforward"
+msgstr "Avancer ou avance rapide"
+
+#: src/CategoryView.vala:559
+msgid "Skip backwards, such as to the previous track"
+msgstr "Revenir en arrière, par exemple au titre précédent"
+
+#: src/CategoryView.vala:564
+msgid "Skip forwards, such as to the next track"
+msgstr "Passer, par exemple au titre suivant"
+
+#: src/CategoryView.vala:569
+msgid "Flip an object horizontally"
+msgstr "Retourner un objet horizontalement"
+
+#: src/CategoryView.vala:574
+msgid "Flip an object vertically"
+msgstr "Retourner un objet verticalement"
+
+#: src/CategoryView.vala:579
+msgid "Rotate an object to the left or counter-clockwise"
+msgstr "Tourner un objet vers la gauche ou dans le sens inverse des aiguilles d'une montre"
+
+#: src/CategoryView.vala:584
+msgid "Rotate an object to the right or clockwise"
+msgstr "Tourner un objet vers la droite ou dans le sens des aiguilles d'une montre"
+
+#: src/CategoryView.vala:589
+msgid ""
+"Stop an action that may take a while to process, such as web page loading in "
+"a browser"
+msgstr ""
+"Interrompre une action qui peut prendre un certain temps à s'éxécuter, comme le chargement d'une page Web dans "
+"un navigateur"
+
+#: src/CategoryView.vala:594
+msgid "Lock the screen or the user's session"
+msgstr "Verrouiller l'écran de la session utilisateur"
+
+#: src/CategoryView.vala:599
+msgid "Log out of the user's session"
+msgstr "Se déconnecter de la session utilisateur"
+
+#: src/CategoryView.vala:604
+msgid "Run a system app or command"
+msgstr "Exécuter une application système ou une commande"
+
+#: src/CategoryView.vala:609
+msgid "Search the system"
+msgstr "Rechercher dans le système"
+
+#: src/CategoryView.vala:614
+msgid "Restart the device"
+msgstr "Redémarrer l'appareil"
+
+#: src/CategoryView.vala:619
+msgid "Shut the device down"
+msgstr "Éteindre l'appareil"
+
+#: src/CategoryView.vala:624
+msgid "Check spelling"
+msgstr "Vérifier l'orthographe"
+
+#: src/CategoryView.vala:629
+msgid "Set or adjust a timer"
+msgstr "Régler ou ajuster un chronomètre"
+
+#: src/CategoryView.vala:634
+msgid "Display the current view as columns"
+msgstr "Afficher la vue courante sous forme de colonnes"
+
+#: src/CategoryView.vala:639
+msgid "display the current view in a continously scrolling list"
+msgstr "Afficher la vue courante dans une liste déroulante continue"
+
+#: src/CategoryView.vala:644
+msgid "display the current view as a split, dual view"
+msgstr "Afficher la vue courante sous forme de vue fractionnée double"
+
+#: src/CategoryView.vala:649
+msgid "View fullscreen"
+msgstr "Voir en plein-écran"
+
+#: src/CategoryView.vala:654
+msgid "Display the current view as a grid of images or icons"
+msgstr "Afficher la vue courante sous forme de grille d'images ou d'icônes"
+
+#: src/CategoryView.vala:659
+msgid "Refresh or reload the current view"
+msgstr "Rafraîchir ou recharger la vue courante"
+
+#: src/CategoryView.vala:664
+msgid "Leave fullscreen and return to a normal window"
+msgstr "Quitter le plein-écran et revenir à une fenêtre normale"
+
+#: src/CategoryView.vala:669
+msgid "View more information about the given context in a popover or menu"
+msgstr "Afficher plus d'informations sur le contexte donné dans une fenêtre contextuelle ou un menu"
+
+#: src/CategoryView.vala:674
+msgid "View more information about the given context in a new view or window"
+msgstr "Afficher plus d'informations sur le contexte donné dans une nouvelle vue ou une nouvelle fenêtre"
+
+#: src/CategoryView.vala:679
+msgid "Display the current view as a collection of pages"
+msgstr "Afficher la vue actuelle comme une collection de pages"
+
+#: src/CategoryView.vala:684
+msgid "Pin the current view so that it does not automatically hide"
+msgstr "Afficher la vue courante pour qu'elle ne se cache pas automatiquement."
+
+#: src/CategoryView.vala:689
+msgid "Sort items in an ascending order, such as in a list"
+msgstr "Trier les éléments par ordre croissant, comme dans un liste"
+
+#: src/CategoryView.vala:694
+msgid "Sort items in a descending order, such as in a list"
+msgstr "Trier les éléments par ordre décroissant, comme dans une liste"
+
+#: src/CategoryView.vala:699
+msgid "Close the window"
+msgstr "Fermer la fenêtre"
+
+#: src/CategoryView.vala:704
+msgid "Create a new window"
+msgstr "Créer une nouvelle fenêtre"
+
+#: src/CategoryView.vala:709
+msgid "Zoom to the best fit"
+msgstr "Zoom au meilleur ajustement"
+
+#: src/CategoryView.vala:714
+msgid "Zoom in"
+msgstr "Zoom avant"
+
+#: src/CategoryView.vala:719
+msgid "Zoom to the original size"
+msgstr "Zoom à la taille d'origine"
+
+#: src/CategoryView.vala:724
+msgid "Zoom out"
+msgstr "Zoom arrière"
+
+#: src/CategoryView.vala:729
+msgid "Calculator"
+msgstr "Calculatrice"
+
+#: src/CategoryView.vala:734
+msgid "Camera or webcam"
+msgstr "Caméra ou Webcam"
+
+#: src/CategoryView.vala:739
+msgid "International and extended text character map"
+msgstr "Mappage de caractères internationale et texte étendu"
+
+#: src/CategoryView.vala:744
+msgid "Dictionary"
+msgstr "Dictionnaire"
+
+#: src/CategoryView.vala:749
+msgid "Screenshot tool"
+msgstr "Outil capture d'écran"
+
+#: src/CategoryView.vala:754
+msgid "Text editor"
+msgstr "Éditeur de texte"
+
+#: src/CategoryView.vala:759
+msgid "Default or unprovided app icon"
+msgstr "Icône d'application par défaut ou non fournie"
+
+#: src/CategoryView.vala:764
+msgid "Archive manager"
+msgstr "Gestionnaire d'archives"
+
+#: src/CategoryView.vala:769
+msgid "Internet chat or messaging"
+msgstr "Chat ou messagerie sur Internet"
+
+#: src/CategoryView.vala:774
+msgid "Mail or email"
+msgstr "Messagerie ou E-Mail"
+
+#: src/CategoryView.vala:779
+msgid "News or feed reader"
+msgstr "Lecteur d'actualités ou de flux"
+
+#: src/CategoryView.vala:784
+msgid "Web browser"
+msgstr "Navigateur web"
+
+#: src/CategoryView.vala:790
+msgid "Music or audio player"
+msgstr "Musique ou lecteur audio"
+
+#: src/CategoryView.vala:795
+msgid "Photo manager or library"
+msgstr "Gestionnaire de photos ou bibliothèque"
+
+#: src/CategoryView.vala:800
+msgid "Video or movie player"
+msgstr "Vidéo ou lecteur de films"
+
+#: src/CategoryView.vala:805
+msgid "Address book or contacts"
+msgstr "Carnet d'adresses ou contacts"
+
+#: src/CategoryView.vala:810
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: src/CategoryView.vala:815
+msgid "Portable document or PDF viewer"
+msgstr "Visionneuse de PDF"
+
+#: src/CategoryView.vala:820
+msgid "Files"
+msgstr "Fichiers"
+
+#: src/CategoryView.vala:825
+msgid "Install the operating system"
+msgstr "Installer le système d'exploitation"
+
+#: src/CategoryView.vala:830
+msgid "AppCenter or software installer"
+msgstr "Centre d'Applications ou installateur de logiciels"
+
+#: src/CategoryView.vala:835
+msgid "Software updater"
+msgstr "Gestionnaire de mises à jour"
+
+#: src/CategoryView.vala:840
+msgid "User settings"
+msgstr "Paramètres utilisateurs"
+
+#: src/CategoryView.vala:845
+msgid "System resource monitor"
+msgstr "Moniteur de ressources système"
+
+#: src/CategoryView.vala:850
+msgid "Terminal"
+msgstr "Terminal"
+
+#: src/CategoryView.vala:855
+msgid "Accessory or utility app category"
+msgstr "Catégorie Outils et Accessoires"
+
+#: src/CategoryView.vala:860
+msgid "Programming, software development, code, or IDE app category"
+msgstr "Catégorie Programmation, Développement logiciel, Code ou EDI"
+
+#: src/CategoryView.vala:865
+msgid "Education, learning, or school app category"
+msgstr "Catégorie Éducation, Apprentissage ou École"
+
+#: src/CategoryView.vala:870
+msgid "Engineering app category"
+msgstr "Catégorie Ingénierie"
+
+#: src/CategoryView.vala:875
+msgid "Font category"
+msgstr "Catégrorie Polices"
+
+#: src/CategoryView.vala:880
+msgid "Games app category"
+msgstr "Catégorie Jeux"
+
+#: src/CategoryView.vala:885
+msgid "Graphics, drawing, art, or photo manipulation app category"
+msgstr "Catégorie Dessin, Art ou Montage photo"
+
+#: src/CategoryView.vala:890
+msgid "Internet or web related app category"
+msgstr "Catégorie Internet"
+
+#: src/CategoryView.vala:895
+msgid "Multimedia, audio, or video app category"
+msgstr "Catégorie Multimédia, Audio ou Vidéo"
+
+#: src/CategoryView.vala:900
+msgid "Office app category"
+msgstr "Catégorie Bureautique"
+
+#: src/CategoryView.vala:905
+msgid "Other or uncategorized app category"
+msgstr "Catégories Autres"
+
+#: src/CategoryView.vala:910
+msgid "Science app category"
+msgstr "Catégorie Science"
+
+#: src/CategoryView.vala:915
+msgid "System tools or OS app category"
+msgstr "Catégorie Outils Système ou Système d'Exploitaion"
+
+#: src/CategoryView.vala:920
+msgid "Utility app category"
+msgstr "Catégorie Outils"
+
+#: src/CategoryView.vala:925
+msgid "Bluetooth settings"
+msgstr "Paramètres Bluetooth"
+
+#: src/CategoryView.vala:930
+msgid "Color settings such as printer, display, or camera calibration"
+msgstr "Paramètres de couleur tels que l'imprimante, l'écran ou l'étalonnage de l'appareil photo"
+
+#: src/CategoryView.vala:935
+msgid "Desktop interface settings"
+msgstr "Paramètres de l'interface de bureau"
+
+#: src/CategoryView.vala:940
+msgid "Universal access settings"
+msgstr "Paramètres d'accessibilité"
+
+#: src/CategoryView.vala:945
+msgid "Universal access settings for pointing, such as controlling the cursor"
+msgstr "Paramètres d'accessibilité pour le pointage, tel que le contrôle du curseur"
+
+#: src/CategoryView.vala:950
+msgid "Universal access settings for zooming or magnifying"
+msgstr "Paramètres d'acessibilité pour zoomer ou agrandir"
+
+#: src/CategoryView.vala:955
+msgid "App-related settings, such as default or startup apps"
+msgstr "Paramètres relatifs aux applications, tels que les applications par défaut ou les applications au démarrage"
+
+#: src/CategoryView.vala:960
+msgid "Display settings, such as resolution or scaling"
+msgstr "Paramètres d'affichage, tels que la résolution ou la mise à l'échelle"
+
+#: src/CategoryView.vala:965
+msgid "Keyboard settings, such as layout or shortcuts"
+msgstr "Paramètres du clavier, tels que la disposition ou les raccourcis clavier"
+
+#: src/CategoryView.vala:970
+msgid "International localization, language, or region settings"
+msgstr "Paramètres de localisation internationale, de langue ou de région"
+
+#: src/CategoryView.vala:975
+msgid "Online account and cloud sync or sign in settings"
+msgstr "Paramètres de compte an ligne et cloud ou de connexion"
+
+#: src/CategoryView.vala:980
+msgid "Settings for peripherals, such as a mouse or keyboard"
+msgstr "Paramètres des périphériques, tels que la souris ou le clavier"
+
+#: src/CategoryView.vala:985
+msgid "Sound or audio input and output settings"
+msgstr "Paramètres d'éntrée et sortie son ou audio"
+
+#: src/CategoryView.vala:990
+msgid "Desktop wallpaper or background settings"
+msgstr "Paramètres de fond d'écran ou d'arrière plan"
+
+#: src/CategoryView.vala:995
+msgid "Other, miscellaneous, or uncategorized settings"
+msgstr "Autres paramètres, divers, non catégorisés"
+
+#: src/CategoryView.vala:1000
+msgid "System settings or preferences"
+msgstr "Paramètres du système ou préférences"
+
+#: src/CategoryView.vala:1005
+msgid "Network settings, such as wireless, Ethernet, or VPN"
+msgstr "Paramètres réseau, tels que le Wi-Fi, Ethernet ou le VPN"
+
+#: src/CategoryView.vala:1010
+msgid "Notification alert settings"
+msgstr "Paramètres des notifications"
+
+#: src/CategoryView.vala:1015
+msgid "Parental control settings"
+msgstr "Paramètres du contrôle parental"
+
+#: src/CategoryView.vala:1020
+msgid "Power management or energy usage settings, such as battery"
+msgstr "Paramères d'alimentation ou d'utilisation de l'énergie, tels que la batterie"
+
+#: src/CategoryView.vala:1025
+msgid "Privacy and security settings"
+msgstr "Paramètres de confidentialité et de sécurité"
+
+#: src/CategoryView.vala:1030
+msgid ""
+"Sharing settings, such as library sharing or media streaming over a network"
+msgstr ""
+"Paramètres de partage, tels que le partage des bibliothèques ou le transfert multimédia à travers le réseau"
+
+#: src/CategoryView.vala:1035
+msgid "Time and date settings"
+msgstr "Paramètres de date et heure"
+
+#: src/CategoryView.vala:1040
+msgid "Window management settings"
+msgstr "Paramètres de l'organisation des fenêtres"
+
+#: src/CategoryView.vala:1045
+msgid "Help"
+msgstr "Aide"
+
+#: src/CategoryView.vala:1050
+msgid "Audio output device, such as a sound card or speaker"
+msgstr "Périphérique de sortie audio, tel q'une carte son ou un haut-parleur"
+
+#: src/CategoryView.vala:1055
+msgid "Microphone"
+msgstr "Micro"
+
+#: src/CategoryView.vala:1060
+msgid "Subwoofer or bass speaker"
+msgstr "Caisson de basses ou enceinte"
+
+#: src/CategoryView.vala:1065
+msgid "Battery"
+msgstr "Batterie"
+
+#: src/CategoryView.vala:1070
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: src/CategoryView.vala:1075
+msgid "Digital photo or still camera"
+msgstr "Appareil photo ou appareil photo numérique"
+
+#: src/CategoryView.vala:1080
+msgid "Video or movie camera"
+msgstr "Caméscope ou caméra vidéo"
+
+#: src/CategoryView.vala:1085
+msgid "Webcam or built-in camera"
+msgstr "Webcam ou caméra integrée"
+
+#: src/CategoryView.vala:1090
+msgid "Generic or desktop computer"
+msgstr "Ordinateur générique ou de bureau"
+
+#: src/CategoryView.vala:1095
+msgid "Laptop or notebook computer"
+msgstr "Ordinateur portatif ou portable"
+
+#: src/CategoryView.vala:1100
+msgid "Hard disk or storage drive"
+msgstr "Disque dur ou disque de stockage"
+
+#: src/CategoryView.vala:1105
+msgid "Optical drive, such as for CD, DVD, or Blu-ray discs"
+msgstr "Disque optique, comme pour les disques CD, DVD ou Blu-ray"
+
+#: src/CategoryView.vala:1110
+msgid "Removable storage device, such as a portable hard drive"
+msgstr "Périphérique de stockage amovible, tel qu'un disque dur portable"
+
+#: src/CategoryView.vala:1115
+msgid "USB drive or stick, such as a flash, jump, or thumb drive"
+msgstr "Lecteur USB ou clé USB, tel qu'un lecteur flash"
+
+#: src/CategoryView.vala:1120
+msgid "Video game controller, such as a paddle, remote, or joystick"
+msgstr "Contrôleur de jeu vidéo, tel qu'une manette, une télécommande ou un joystick"
+
+#: src/CategoryView.vala:1125
+msgid "Keyboard"
+msgstr "Clavier"
+
+#: src/CategoryView.vala:1130
+msgid "Mouse"
+msgstr "Souris"
+
+#: src/CategoryView.vala:1135
+msgid ""
+"Graphics tablet or pen input, such as a Wacom digitizer, Intuos, Cintiq, or "
+"Bamboo"
+msgstr ""
+"Entrée d'une tablette graphique ou d'un stylet, tel qu'un numériseur Wacom, Intuos, Cintiq ou "
+"Bamboo"
+
+#: src/CategoryView.vala:1140
+msgid "Touchpad input, such as a multitouch trackpad or clickpad"
+msgstr "Entrée pour pavé tactile, tel qu'un pavé tactile multipoints ou un pavé tactile tactile"
+
+#: src/CategoryView.vala:1145
+msgid "Flash media such as a memory stick or SD card"
+msgstr "Support Flash tel qu'une clé USB ou une carte SD"
+
+#: src/CategoryView.vala:1150
+msgid "Optical media, such as a CD, DVD, or Blu-ray disc"
+msgstr "Disque optique, tel q'un CD, DVD ou Blu-ray"
+
+#: src/CategoryView.vala:1155
+msgid "Network modem or router"
+msgstr "Modem réseau ou routeur"
+
+#: src/CategoryView.vala:1160
+msgid "Media player device, such as a portable mp3 music player or iPod"
+msgstr "Lecteur multimédia, tel qu'un lecteur mp3 portable ou un iPod"
+
+#: src/CategoryView.vala:1165
+msgid ""
+"Cellular type wireless network or device, such as a 2G, 3G, or 4G LTE "
+"connection, modem, or SIM card"
+msgstr ""
+"Réseau ou dispositif sans fil de type cellulaire, tel qu'une connexion LTE 2G, 3G ou 4G, "
+"modem ou carte SIM "
+
+#: src/CategoryView.vala:1170
+msgid "Networking firewall"
+msgstr "Pare-feu réseau"
+
+#: src/CategoryView.vala:1175
+msgid "Virtual private network or VPN connection"
+msgstr "Réseau privé virtuel ou connexion VPN"
+
+#: src/CategoryView.vala:1180
+msgid "Wired network connection, such as Ethernet"
+msgstr "Connexion réseau câblée, telle qu'Ethernet"
+
+#: src/CategoryView.vala:1185
+msgid "Wireless network connection, such as Wi-Fi"
+msgstr "Connexion réseau sans fil, telle que Wi-Fi"
+
+#: src/CategoryView.vala:1190
+msgid ""
+"Wireless hotspot connection, such as through a mobile cellular phone or "
+"smartphone"
+msgstr ""
+"Connexion à un point d'accès sans fil, par exemple par l'intermédiaire d'un téléphone cellulaire mobile ou "
+"d'un smartphone"
+
+#: src/CategoryView.vala:1195
+msgid "Generic phone, such as a mobile Android smartphone or iPhone"
+msgstr "Téléphone générique, tel qu'un smartphone mobile Android ou iPhone"
+
+#: src/CategoryView.vala:1200
+msgid "Printer"
+msgstr "Imprimante"
+
+#: src/CategoryView.vala:1205
+msgid "Network-connected or shared printer"
+msgstr "Imprimante réseau ou partagée"
+
+#: src/CategoryView.vala:1210
+msgid "Scanner"
+msgstr "Scanner"
+
+#: src/CategoryView.vala:1215
+msgid "Display, screen, or monitor"
+msgstr "Écran ou moniteur"
+
+#: src/CategoryView.vala:1220
+msgid "Default selection emblem, such as for a printer or other device"
+msgstr "Symbole de sélection par défaut, par exemple pour une imprimante ou un autre dispositif"
+
+#: src/CategoryView.vala:1225
+msgid "Documents emblem"
+msgstr "Symbole Documents"
+
+#: src/CategoryView.vala:1230
+msgid "Downloads emblem"
+msgstr "Symbole Téléchargements"
+
+#: src/CategoryView.vala:1235
+msgid "Item the user has marked as a favorite"
+msgstr "Élément que l'utilisateur a marqué comme favori"
+
+#: src/CategoryView.vala:1240
+msgid "Item marked as important"
+msgstr "Élément marqué comme important"
+
+#: src/CategoryView.vala:1245
+msgid "Item related to email"
+msgstr "Élément relatif à l'e-mail"
+
+#: src/CategoryView.vala:1250
+msgid "Photos emblem"
+msgstr "Symbole Photos"
+
+#: src/CategoryView.vala:1255
+msgid "Item is read-only, or the user cannot write to or make changes to it"
+msgstr "L'élément est en lecture seule ou l'utilisateur ne peut pas y écrire ou y apporter des modifications"
+
+#: src/CategoryView.vala:1260
+msgid "Item shared with other people or users"
+msgstr "Élément partagé avec d'autres personnes ou utilisateurs"
+
+#: src/CategoryView.vala:1265
+msgid "Item is a symbolic link to a file somewhere else"
+msgstr "L'élément est un lien symbolique vers un autre fichier"
+
+#: src/CategoryView.vala:1270
+msgid "Item is configured to be synchronized to another device or location"
+msgstr "L'élément est configuré pour être synchronisé avec un autre appareil ou un autre emplacement"
+
+#: src/CategoryView.vala:1275
+msgid "Item is a system file, library, setting, or data"
+msgstr "L'élément est un fichier système, une bibliothèque, un paramètre ou des données"
+
+#: src/CategoryView.vala:1280
+msgid "Item is unreadable or inaccessible"
+msgstr "L'élément est illisible ou inaccessible"
+
+#: src/CategoryView.vala:1285
+msgid "0:-) emoticon"
+msgstr "Émoji 0:)"
+
+#: src/CategoryView.vala:1290
+msgid "X-( emoticon"
+msgstr "Émoji X("
+
+#: src/CategoryView.vala:1295
+msgid "B-) emoticon"
+msgstr "Émoji B)"
+
+#: src/CategoryView.vala:1300
+msgid ":'( emoticon"
+msgstr "Émoji :'("
+
+#: src/CategoryView.vala:1305
+msgid ">:-) emoticon"
+msgstr "Émoji >:("
+
+#: src/CategoryView.vala:1310
+msgid ":-[ emoticon"
+msgstr "Émoji :["
+
+#: src/CategoryView.vala:1315
+msgid "<3 emoticon"
+msgstr "Émoji <3"
+
+#: src/CategoryView.vala:1320
+msgid "</3 emoticon"
+msgstr "Émoji </3"
+
+#: src/CategoryView.vala:1325
+msgid ":-* emoticon"
+msgstr "Émoji :*"
+
+#: src/CategoryView.vala:1330
+msgid ":-)) emoticon"
+msgstr "Émoji :))"
+
+#: src/CategoryView.vala:1335
+msgid ":-(|) emoticon"
+msgstr "Émoji :(|)"
+
+#: src/CategoryView.vala:1340
+msgid ":-| emoticon"
+msgstr "Émoji :|"
+
+#: src/CategoryView.vala:1345
+msgid ":-P emoticon"
+msgstr "Émoji :P"
+
+#: src/CategoryView.vala:1350
+msgid ":-( emoticon"
+msgstr "Émoji :("
+
+#: src/CategoryView.vala:1355
+msgid ":-& emoticon"
+msgstr "Émoji :&"
+
+#: src/CategoryView.vala:1360
+msgid ":-) emoticon"
+msgstr "Émoji :)"
+
+#: src/CategoryView.vala:1365
+msgid ":-D emoticon"
+msgstr "Émoji :D"
+
+#: src/CategoryView.vala:1370
+msgid ":-! emoticon"
+msgstr "Émoji :!"
+
+#: src/CategoryView.vala:1375
+msgid ":-0 emoticon"
+msgstr "Émoji :0"
+
+#: src/CategoryView.vala:1380
+msgid "|-) emoticon"
+msgstr "Émoji |)"
+
+#: src/CategoryView.vala:1385
+msgid ":-/ emoticon"
+msgstr "Émoji :/"
+
+#: src/CategoryView.vala:1390
+msgid ";-) emoticon"
+msgstr "Émoji ;)"
+
+#: src/CategoryView.vala:1395
+msgid ":-S emoticon"
+msgstr "Émoji :S"
+
+#: src/CategoryView.vala:1405
+msgid "Adobe Illustrator image file types"
+msgstr "Types de fichiers image Adobe Illustrator"
+
+#: src/CategoryView.vala:1410
+msgid "Javascript programming language file types"
+msgstr "Types de fichiers du langage de programmation Javascript"
+
+#: src/CategoryView.vala:1475
+msgid "Executable file types"
+msgstr "Types de fichiers exécutables"
+
+#: src/CategoryView.vala:1495
+msgid "PHP programming language file types"
+msgstr "Types de fichiers du langage de programmation PHP"
+
+#: src/CategoryView.vala:1500
+msgid "Ruby programming language file types"
+msgstr "Types de fichiers du langage de programmation Ruby"
+
+#: src/CategoryView.vala:1505
+msgid "Generic audio file types"
+msgstr "Types de fichiers audio génériques"
+
+#: src/CategoryView.vala:1520
+msgid "Generic font file types"
+msgstr "Types de fichiers de polices génériques"
+
+#: src/CategoryView.vala:1525
+msgid "Adobe Photoshop image file types"
+msgstr "Types de fichiers image Adobe Photoshop"
+
+#: src/CategoryView.vala:1530
+msgid "Generic image file types"
+msgstr "Types de fichiers images génériques"
+
+#: src/CategoryView.vala:1535
+msgid "XCF image file types"
+msgstr "Types de fichiers image XCF"
+
+#: src/CategoryView.vala:1560
+msgid "Generic package file types"
+msgstr "Types de fichiers de paquets génériques"
+
+#: src/CategoryView.vala:1565
+msgid "Credit or debit card payments"
+msgstr "Paiements par carte de crédit ou de débit"
+
+#: src/CategoryView.vala:1570
+msgid "American Express branded credit or debit card payments"
+msgstr "Paiements par carte de crédit ou de débit American Express"
+
+#: src/CategoryView.vala:1575
+msgid "Diner's Club branded credit or debit card payments"
+msgstr "Paiements par carte de crédit ou de débit Diner's Club"
+
+#: src/CategoryView.vala:1580
+msgid "Discover branded credit or debit card payments"
+msgstr "Paiements par carte de crédit ou de débit Discover"
+
+#: src/CategoryView.vala:1585
+msgid "Japan Credit Bureau branded credit or debit card payments"
+msgstr "Paiements par carte de crédit ou de débit Japan Credit Bureau"
+
+#: src/CategoryView.vala:1590
+msgid "Mastercard branded credit or debit card payments"
+msgstr "Paiements par carte de crédit ou de débit Mastercard"
+
+#: src/CategoryView.vala:1595
+msgid "China UnionPay branded credit or debit card payments"
+msgstr "Paiements par carte de crédit ou de débit China UnionPay"
+
+#: src/CategoryView.vala:1600
+msgid "Visa branded credit or debit card payments"
+msgstr "Paiements par carte de crédit ou de débit Visa"
+
+#: src/CategoryView.vala:1605
+msgid "CSS text file types"
+msgstr "Types de fichiers texte CSS"
+
+#: src/CategoryView.vala:1610
+msgid "HTML text file types"
+msgstr "Types de fichiers texte HTML"
+
+#: src/CategoryView.vala:1615
+msgid "Markdown text file types"
+msgstr "Types de fichiers texte Markdown"
+
+#: src/CategoryView.vala:1630
+msgid "C programming language header file types"
+msgstr "Types de fichiers d'en-tête du langage de programmation C"
+
+#: src/CategoryView.vala:1640
+msgid "C programming language file types"
+msgstr "Types de fichiers du langage de programmation C"
+
+#: src/CategoryView.vala:1645
+msgid "Generic text file types"
+msgstr "Types de fichiers texte génériques"
+
+#: src/CategoryView.vala:1650
+msgid "Generic text templates"
+msgstr "Modèles de texte génériques"
+
+#: src/CategoryView.vala:1665
+msgid "Go programming language file types"
+msgstr "Types de fichiers du langage de programmation Go"
+
+#: src/CategoryView.vala:1685
+msgid "Python programming language file types"
+msgstr "Types de fichiers du langage de programmation Python"
+
+#: src/CategoryView.vala:1695
+msgid "Sass programming language file types"
+msgstr "Types de fichiers du langage de programmation Sass"
+
+#: src/CategoryView.vala:1700
+msgid "Script file types, such as shell scripts"
+msgstr "Types de fichiers de scripts, tels que les scripts shell"
+
+#: src/CategoryView.vala:1715
+msgid "Vala programming language file types"
+msgstr "Types de fichiers du langage de programmation Vala"
+
+#: src/CategoryView.vala:1725
+msgid "Generic video file types"
+msgstr "Types de fichiers vidéo génériques"
+
+#: src/CategoryView.vala:1730
+msgid "Generic address book file types"
+msgstr "Types de fichiers de carnet d'adresses génériques"
+
+#: src/CategoryView.vala:1735
+msgid "Generic calendar file types"
+msgstr "Types de fichiers de calendrier génériques"
+
+#: src/CategoryView.vala:1740
+msgid "Generic document and letter file types"
+msgstr "Types de fichiers de documents et de lettres génériques"
+
+#: src/CategoryView.vala:1760
+msgid "Generic presentation file types"
+msgstr "Types de fichiers présentation génériques"
+
+#: src/CategoryView.vala:1770
+msgid "Generic spreadsheet file types"
+msgstr "Types de fichiers classeur génériques"
+
+#: src/CategoryView.vala:1955
+msgid "Airplane mode, where wireless radios are disabled or off"
+msgstr "Mode avion, où les liaisons radio sans fil sont désactivées ou éteintes"
+
+#: src/CategoryView.vala:1960
+msgid "An appointment or calendar event was missed"
+msgstr "Un rendez-vous ou un événement du calendrier a été manqué"
+
+#: src/CategoryView.vala:1965
+msgid "An appointment or calendar event will be happening soon"
+msgstr "Un rendez-vous ou un événement du calendrier aura lieu bientôt"
+
+#: src/CategoryView.vala:1970
+msgid "High or loud audio volume"
+msgstr "Volume audio élevé ou fort"
+
+#: src/CategoryView.vala:1975
+msgid "Low or quiet audio volume"
+msgstr "Volume audio faible ou silencieux"
+
+#: src/CategoryView.vala:1980
+msgid "Medium or normal audio volume"
+msgstr "Volume audio moyen ou normal"
+
+#: src/CategoryView.vala:1985
+msgid "Audio volume is muted or off"
+msgstr "Le volume audio est coupé ou désactivé"
+
+#: src/CategoryView.vala:1990
+msgid ""
+"Audio volume is muted or off and something is being blocked from making noise"
+msgstr ""
+"Le volume audio est muet ou désactivé et quelque chose est empêché de faire du bruit."
+
+#: src/CategoryView.vala:1995
+msgid ""
+"The default avatar to represent a user, such as someone who has not set a "
+"profile picture"
+msgstr ""
+"L'avatar par défaut pour représenter un utilisateur, par exemple quelqu'un qui n'a pas défini de "
+"photo de profil"
+
+#: src/CategoryView.vala:2000
+msgid "A charger or AC adapter for a battery-powered device"
+msgstr "Chargeur ou adaptateur secteur pour un appareil alimenté par batterie"
+
+#: src/CategoryView.vala:2005
+msgid "Low battery level"
+msgstr "Niveau de batterie faible"
+
+#: src/CategoryView.vala:2010
+msgid "Low battery level, plugged into a charger or AC adapter"
+msgstr "Niveau de batterie faible, branchée sur un chargeur ou un adaptateur secteur"
+
+#: src/CategoryView.vala:2015
+msgid "Critically low battery level"
+msgstr "Niveau de batterie très faible"
+
+#: src/CategoryView.vala:2020
+msgid "Critically low battery, plugged into a charger or AC adapter"
+msgstr "Niveau de batterie très faible, branchée sur un chargeur ou un adaptateur secteur"
+
+#: src/CategoryView.vala:2025
+msgid "Mostly charged battery level"
+msgstr "Niveau de batterie presque pleine"
+
+#: src/CategoryView.vala:2030
+msgid "Completely charged battery level"
+msgstr "Niveau de batterie complétement chargée"
+
+#: src/CategoryView.vala:2035
+msgid "Mostly charged battery level, plugged into a charger or AC adapter"
+msgstr "Niveau de batterie presque plein, branchée sur un chargeur ou un adaptateur secteur"
+
+#: src/CategoryView.vala:2040
+msgid "Medium-high charged battery level"
+msgstr "Niveau de charge moyen-élevé de la batterie"
+
+#: src/CategoryView.vala:2045
+msgid "Medium-high charged battery level, plugged into a charger or AC adapter"
+msgstr "Niveau de charge moyen-élevé de la batterie, branchée sur un chargeur ou un adaptateur secteur"
+
+#: src/CategoryView.vala:2050
+msgid "Medium-low charged battery level"
+msgstr "Niveau de charge moyen-faible de la batterie"
+
+#: src/CategoryView.vala:2055
+msgid "Medium-low charged battery level, plugged into a charger or AC adapter"
+msgstr "Niveau de charge moyen-faible de la batterie, branchée sur un chargeur ou un adaptateur secteur"
+
+#: src/CategoryView.vala:2060
+msgid "Missing or malfunctioning battery"
+msgstr "Batterie manquante ou défectueuse"
+
+#: src/CategoryView.vala:2065
+msgid "Bluetooth radio is disabled or off"
+msgstr "Le Bluetooth est désactivé ou éteint"
+
+#: src/CategoryView.vala:2070
+msgid ""
+"Insecure, unsecure, or unencrypted communication or connection, such as HTTP"
+msgstr ""
+"Communication ou connexion non sécurisée, non chiffrée ou non cryptée, telle que HTTP"
+
+#: src/CategoryView.vala:2075
+msgid ""
+"Secure or encrypted communication or connection, such as HTTPS or encrypted "
+"Wi-Fi"
+msgstr ""
+"Communication ou connexion sécurisée ou cryptée, telle que HTTPS ou Wi-Fi "
+"cryptée"
+
+#: src/CategoryView.vala:2080
+msgid "Critical, unrecoverable, or other serious error"
+msgstr "Erreur critique, irrécupérable ou autre erreur grave"
+
+#: src/CategoryView.vala:2085
+msgid "Contextual information or explanation"
+msgstr "Renseignements ou explications contextuels"
+
+#: src/CategoryView.vala:2090
+msgid "Requesting authentication details, such as a password or encryption key"
+msgstr "Demande de détails d'authentification, tels qu'un mot de passe ou une clé de cryptage"
+
+#: src/CategoryView.vala:2095
+msgid "Question, decision, or choice for the user"
+msgstr "Question, décision ou choix pour l'utilisateur"
+
+#: src/CategoryView.vala:2100
+msgid "Warning of potentially dangerous actions or consequences"
+msgstr "Avertissement d'actions ou de conséquences potentiellement dangereuses"
+
+#: src/CategoryView.vala:2105
+msgid "Placeholder used when an image or thumbnail is loading"
+msgstr "Caractère de remplacement utilisé lorsqu'une image ou une vignette est en cours de chargement"
+
+#: src/CategoryView.vala:2110
+msgid ""
+"Placeholder used when an image or thumbnail is missing or cannot be loaded"
+msgstr ""
+"Caractère de remplacement utilisé lorsqu'une image ou une miniature est manquante ou ne peut pas être chargée"
+
+#: src/CategoryView.vala:2115
+msgid ""
+"Locked or secured, typically requiring authentication or a password to unlock"
+msgstr ""
+"Verrouillé ou sécurisé, nécessitant généralement une authentification ou un mot de passe pour le déverrouillage"
+
+#: src/CategoryView.vala:2120
+msgid "Mail attachment or file in an email"
+msgstr "Envoyer une pièce jointe ou un fichier dans un e-mail"
+
+#: src/CategoryView.vala:2125
+msgid "New, unread, or unviewed email"
+msgstr "Nouvel e-mail, non lu ou non consulté."
+
+#: src/CategoryView.vala:2130
+msgid "Read or already-viewed email"
+msgstr "E-Mail lu ou déjà consulté"
+
+#: src/CategoryView.vala:2135
+msgid "Email that has been replied or responded to"
+msgstr "E-Mail auquel on a déjà répondu ou auquel on a fait suite"
+
+#: src/CategoryView.vala:2140
+msgid "Email that contains a signature"
+msgstr "E-mail contenant une signature"
+
+#: src/CategoryView.vala:2145
+msgid "Email that contains a signature that is verified by the security system"
+msgstr "E-mail contenant une signature vérifiée par le système de sécurité"
+
+#: src/CategoryView.vala:2150
+msgid "Repeat a song, video, track, album, playlist, or other media"
+msgstr "Répéter un titre, une vidéo, une piste, un album, une liste de lecture ou tout autre média"
+
+#: src/CategoryView.vala:2155
+msgid "Shuffle or randomize an album, playlist, or other media"
+msgstr "Lire aléatoirement un album, une liste de lecture ou tout autre média"
+
+#: src/CategoryView.vala:2160
+msgid "Error or problem initializing or creating a network connection"
+msgstr "Erreur ou problème lors de l'initialisation ou de la création d'une connexion réseau"
+
+#: src/CategoryView.vala:2165
+msgid "No data being transmitted or received while connected to a network"
+msgstr "Aucune donnée n'est transmise ou reçue pendant la connexion à un réseau"
+
+#: src/CategoryView.vala:2170
+msgid "Disconnected or offline from a network"
+msgstr "Hors-ligne ou déconnecté d'un réseau"
+
+#: src/CategoryView.vala:2175
+msgid "Data is being received over a network"
+msgstr "Les données sont reçues par l'inermédiaire d'un réseau"
+
+#: src/CategoryView.vala:2180
+msgid "Data is being transmitted over a network"
+msgstr "Les données sont transmises sur un réseau"
+
+#: src/CategoryView.vala:2185
+msgid ""
+"Data is being both transmitted and received simultaneously over a network"
+msgstr ""
+"Les données sont transmises et reçues simultanément sur un réseau"
+
+#: src/CategoryView.vala:2190
+msgid "Wired network, such as Ethernet, is disconnected"
+msgstr "Le réseau câblé, tel qu'Ethernet, est déconnecté"
+
+#: src/CategoryView.vala:2195
+msgid "Item is not starred, favorited, or pinned by the user"
+msgstr "L'élément n'est pas marqué d'une étoile, marqué comme favori ou épinglé par l'utilisateur"
+
+#: src/CategoryView.vala:2200
+msgid "Notifications are disabled or in Do-Not-Disturb mode"
+msgstr "Les notifications sont désactivées ou en mode Ne pas déranger"
+
+#: src/CategoryView.vala:2205
+msgid "Error or problem occurred when attempting to print"
+msgstr "Erreur ou problème survenu lors de la tentative d'impression"
+
+#: src/CategoryView.vala:2210
+msgid "Job has been successfully spooled or sent to a printer"
+msgstr "Le travail a été transféré ou envoyé avec succès à une imprimante"
+
+#: src/CategoryView.vala:2215
+msgid "Process, job, or task has successfully completed or finished"
+msgstr "Le processus, le travail ou la tâche a été mené à bien ou s'est terminé avec succès"
+
+#: src/CategoryView.vala:2220
+msgid ""
+"Known to be secure, such as using strong encryption and a valid, verified, "
+"or trusted certificate"
+msgstr ""
+"Connu pour être sécurisé, en utilisant par exemple un cryptage fort et un certificat valide, "
+"vérifié ou de confiance"
+
+#: src/CategoryView.vala:2225
+msgid "Presumed to be secure, such as using encryption"
+msgstr "Présumé sécurisé, en utilisant par exemple le chiffrement"
+
+#: src/CategoryView.vala:2230
+msgid ""
+"Presumed to be insecure, such as unsecured, unencrypted, weak encryption, or "
+"an invalid, unverified, or untrusted certificate"
+msgstr ""
+"Présumé non sécurisé, en utilisant par exemple un cryptage non sécurisé, non crypté, faible, ou "
+"un certificat invalide, non vérifié ou non fiable"
+
+#: src/CategoryView.vala:2235
+msgid "Updated apps, software, or drivers are available"
+msgstr "Des mises à jour d'applications, de logiciels ou de pilotes sont disponibles"
+
+#: src/CategoryView.vala:2240
+msgid "Urgent or critical updates are available"
+msgstr "Des mises à jour urgentes ou critiques sont disponibles"
+
+#: src/CategoryView.vala:2245
+msgid "Item is starred, favorited, or pinned by the user"
+msgstr "L'élément est marqué d'une étoile, marqué comme favori ou épinglé par l'utilisateur"
+
+#: src/CategoryView.vala:2250
+msgid "Task is due soon"
+msgstr "La tâche est attendue sous peu"
+
+#: src/CategoryView.vala:2255
+msgid "Task is incomplete past the due date"
+msgstr "La tâche est incomplète après la date d'échéance"
+
+#: src/CategoryView.vala:2260
+msgid "User, person, or contact is available or online"
+msgstr "L'utilisateur, la personne ou le contact est disponible ou en ligne"
+
+#: src/CategoryView.vala:2265
+msgid "User, person, or contact is away or unavailable"
+msgstr "L'utilisateur, la personne ou le contact est absent ou indisponible"
+
+#: src/CategoryView.vala:2270
+msgid "User, person, or contact is idle or unresponsive"
+msgstr "L'utilisateur, la personne ou le contact est inactif ou ne répond pas"
+
+#: src/CategoryView.vala:2275
+msgid "User, person, or contact is offline or unreachable"
+msgstr "L'utilisateur, la personne ou le contact est hors ligne ou injoignable"
+
+#: src/CategoryView.vala:2280
+msgid "Private, anonymous, untracked, or incognito"
+msgstr "Privé, anonyme, non suivi ou incognito"
+
+#: src/CategoryView.vala:2285
+msgid "Clear skies or sunny weather"
+msgstr "Ciel dégagé ou temps ensoleillé"
+
+#: src/CategoryView.vala:2290
+msgid "Clear skies weather during the night"
+msgstr "Ciel dégagé pendant la nuit"
+
+#: src/CategoryView.vala:2295
+msgid "Partly cloudy, partly clear, or partly sunny weather"
+msgstr "Temps partiellement nuageux, partiellement clair ou partiellement ensoleillé"
+
+#: src/CategoryView.vala:2300
+msgid "Partly cloudy or partly clear weather during the night"
+msgstr "Temps partiellement nuageux ou partiellement clair pendant la nuit"
+
+#: src/CategoryView.vala:2305
+msgid "Foggy weather"
+msgstr "Temps brumeux"
+
+#: src/CategoryView.vala:2310
+msgid "Overcast or cloudy weather"
+msgstr "Temps couvert ou nuageux"
+
+#: src/CategoryView.vala:2315
+msgid "Severe or critical weather warning or alert"
+msgstr "Avertissement ou alerte météorologique grave ou critique"
+
+#: src/CategoryView.vala:2320
+msgid "Showers or rainy weather"
+msgstr "Averses ou temps pluvieux"
+
+#: src/CategoryView.vala:2325
+msgid "Scattered showers or partly rainy weather"
+msgstr "Averses éparses ou temps partiellement pluvieux"
+
+#: src/CategoryView.vala:2330
+msgid "Snow showers or snowy weather"
+msgstr "Averses de neige ou temps enneigé"
+
+#: src/CategoryView.vala:2335
+msgid "Thunderstorms or stormy weather"
+msgstr "Orages ou tempêtes ou temps orageux"
+
+#: src/IconView.vala:33
+msgid "Color Icons"
+msgstr "Icônes de couleur"
+
+#: src/IconView.vala:42
+msgid "Symbolic Icons"
+msgstr "Icônes symboliques"
+
+#: src/IconView.vala:51
+msgid "Code Sample"
+msgstr "Exemple de code"
+
+#: src/IconView.vala:151
+msgid "Unavailable"
+msgstr "Indisponible"
+
+#: src/MainWindow.vala:27
+msgid "LookBook"
+msgstr "LookBook"
+
+#: src/MainWindow.vala:35
+msgid "Search Icon Names or Descriptions"
+msgstr "Rechercher des noms d'icônes ou descriptions"
+
+#: src/MainWindow.vala:41
+msgid "Light background"
+msgstr "Thème clair"
+
+#: src/MainWindow.vala:42
+msgid "Dark background"
+msgstr "Thème sombre"
