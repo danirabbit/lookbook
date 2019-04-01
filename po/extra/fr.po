@@ -1,16 +1,16 @@
 # French translations for extra package.
 # Copyright (C) 2019 THE extra'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the extra package.
-# Automatically generated, 2019.
+# NathanBnm, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-01 11:33+0200\n"
+"POT-Creation-Date: 2019-04-01 16:05+0200\n"
 "PO-Revision-Date: 2019-04-01 11:33+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Last-Translator: NathanBnm\n"
+"Language-Team: Français\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,59 +20,64 @@ msgstr ""
 #: data/com.github.danrabbit.lookbook.desktop.in:3
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:7
 msgid "LookBook"
-msgstr ""
+msgstr "LookBook"
 
 #: data/com.github.danrabbit.lookbook.desktop.in:4
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:8
 msgid "Browse and find system icons"
-msgstr ""
+msgstr "Parcourez et trouvez les icônes du système"
 
 #: data/com.github.danrabbit.lookbook.desktop.in:6
 msgid "com.github.danrabbit.lookbook"
-msgstr ""
+msgstr "com.github.danrabbit.lookbook"
 
 #: data/com.github.danrabbit.lookbook.desktop.in:7
 msgid "icons;iconography;"
-msgstr ""
+msgstr "icônes;iconograhie;"
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:10
 msgid ""
 "Browse system icons by category or search by icon name. See icons at "
 "different sizes and get a quick code snippet to use in your apps."
 msgstr ""
+"Parcourez les icônes du sytème par catégorie ou recherchez-les par leur nom. "
+"Visualisez les icônes dans différentes tailles et obtenez un simple exemple "
+"de code à utiliser dans vos applications."
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:18
 msgid "Better support for symbolic-only icons and under the hood improvements!"
 msgstr ""
+"Meilleur prise en charge pour les icônes symbolic-only et corrections "
+"mineures !"
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:23
 msgid "I'm a new soul"
-msgstr ""
+msgstr "Je suis une nouvelle âme"
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:24
 msgid "I came to this strange world"
-msgstr ""
+msgstr "Je suis arrivé dans ce monde étrange"
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:25
 msgid "Hoping I could learn a bit bout how to give and take"
-msgstr ""
+msgstr "Espérant pouvoir apprendre un peu à donner et à reprendre"
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:26
 msgid "But since I came here"
-msgstr ""
+msgstr "Mais depuis que je suis là"
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:27
 msgid "Felt the joy and the fear"
-msgstr ""
+msgstr "J'ai ressenti la joie et la peur"
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:28
 msgid "Finding myself making every possible mistake"
-msgstr ""
+msgstr "Me retrouvant à faire toutes les erreurs possibles"
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:29
 msgid "La-la-la-la-la-la-la-la…"
-msgstr ""
+msgstr "La-la-la-la-la-la-la-la…"
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:71
 msgid "Daniel Foré"
-msgstr ""
+msgstr "Daniel Foré"
