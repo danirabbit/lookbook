@@ -1,0 +1,77 @@
+# Chinese translations for extra package.
+# Copyright (C) 2019 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-01 11:33+0200\n"
+"PO-Revision-Date: 2019-04-01 11:33+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_HK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.danrabbit.lookbook.desktop.in:3
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:7
+msgid "LookBook"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.desktop.in:4
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:8
+msgid "Browse and find system icons"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.desktop.in:6
+msgid "com.github.danrabbit.lookbook"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.desktop.in:7
+msgid "icons;iconography;"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:10
+msgid ""
+"Browse system icons by category or search by icon name. See icons at "
+"different sizes and get a quick code snippet to use in your apps."
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:18
+msgid "Better support for symbolic-only icons and under the hood improvements!"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:23
+msgid "I'm a new soul"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:24
+msgid "I came to this strange world"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:25
+msgid "Hoping I could learn a bit bout how to give and take"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:26
+msgid "But since I came here"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:27
+msgid "Felt the joy and the fear"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:28
+msgid "Finding myself making every possible mistake"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:29
+msgid "La-la-la-la-la-la-la-la…"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:71
+msgid "Daniel Foré"
+msgstr ""
