@@ -75,6 +75,15 @@ public class MainWindow : Gtk.Window {
 
         search_entry.search_changed.connect (() => {
             ((Gtk.ListBox)category_view.listbox).invalidate_filter ();
+
+            bool searching = (search_entry.text != "");
+            categories_sidebar.sensitive = !searching;
+
+            if (searching) {
+                categories_sidebar.selection_mode = Gtk.SelectionMode.NONE;
+            } else {
+                categories_sidebar.selection_mode = Gtk.SelectionMode.SINGLE;
+            }
         });
 
         categories_sidebar.row_selected.connect (() => {
