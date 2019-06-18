@@ -66,8 +66,8 @@ public class MainWindow : Gtk.Window {
 
         var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
         paned.position = 128;
-        paned.add1 (categories_sidebar);
-        paned.add2 (category_view);
+        paned.pack1 (categories_sidebar, false, false);
+        paned.pack2 (category_view, true, false);
 
         add (paned);
 
