@@ -81,7 +81,7 @@ public class IconView : Granite.SimpleSettingsPage {
         content_area.add (snippet);
 
         var icon_theme = Gtk.IconTheme.get_default ();
-        string [] pixels = {"16", "24", "32", "48", "64", "128"};
+        int[] pixels = {16, 24, 32, 48, 64, 128};
 
         notify["icon-name"].connect (() => {
             var is_symbolic = icon_name.has_suffix ("-symbolic");
@@ -101,7 +101,7 @@ public class IconView : Granite.SimpleSettingsPage {
             }
 
             title = color_icon_name;
-            source_buffer.text = "var icon = new Gtk.Image ();\nicon.gicon = new ThemedIcon (\"%s\");\nicon.pixel_size = \"24\";".printf (icon_name);
+            source_buffer.text = "var icon = new Gtk.Image ();\nicon.gicon = new ThemedIcon (\"%s\");\nicon.pixel_size = 24;".printf (icon_name);
 
             int i = 0;
 
@@ -116,16 +116,16 @@ public class IconView : Granite.SimpleSettingsPage {
                 child.destroy ();
             }
 
-            foreach (string pixel_size in pixels) {
+            foreach (int pixel_size in pixels) {
                 if (has_color) {
                     var color_icon = new Gtk.Image ();
                     color_icon.gicon = new ThemedIcon (color_icon_name);
                     color_icon.icon_name = icon_name;
-                    color_icon.pixel_size = int.parse (pixel_size);
+                    color_icon.pixel_size = pixel_size;
                     color_icon.use_fallback = true;
                     color_icon.valign = Gtk.Align.END;
 
-                    var color_label = new Gtk.Label (pixels[i] + "px");
+                    var color_label = new Gtk.Label ("%ipx".printf (pixels[i]));
                     color_label.hexpand = true;
 
                     color_row.attach (color_icon, i, 0);
@@ -135,10 +135,10 @@ public class IconView : Granite.SimpleSettingsPage {
                 if (has_symbolic) {
                     var symbolic_icon = new Gtk.Image ();
                     symbolic_icon.gicon = new ThemedIcon (symbolic_icon_name);
-                    symbolic_icon.pixel_size = int.parse (pixel_size);
+                    symbolic_icon.pixel_size = pixel_size;
                     symbolic_icon.valign = Gtk.Align.END;
 
-                    var symbolic_label = new Gtk.Label (pixels[i] + "px");
+                    var symbolic_label = new Gtk.Label ("%ipx".printf (pixels[i]));
                     symbolic_label.hexpand = true;
 
                     symbolic_row.attach (symbolic_icon, i, 0);

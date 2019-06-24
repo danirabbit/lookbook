@@ -2407,8 +2407,8 @@ public class CategoryView : Gtk.Paned {
         scrolled_window.vexpand = true;
         scrolled_window.add (listbox);
 
-        add1 (scrolled_window);
-        add2 (icon_view);
+        pack1 (scrolled_window, false, false);
+        pack2 (icon_view, true, false);
 
         foreach (var icon in icons) {
             var row = new IconListRow (icon.name, icon.description, icon.category);

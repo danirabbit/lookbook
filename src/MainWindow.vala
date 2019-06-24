@@ -66,8 +66,8 @@ public class MainWindow : Gtk.Window {
 
         var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
         paned.position = 128;
-        paned.add1 (categories_sidebar);
-        paned.add2 (category_view);
+        paned.pack1 (categories_sidebar, false, false);
+        paned.pack2 (category_view, true, false);
 
         add (paned);
 
@@ -75,6 +75,15 @@ public class MainWindow : Gtk.Window {
 
         search_entry.search_changed.connect (() => {
             ((Gtk.ListBox)category_view.listbox).invalidate_filter ();
+
+            bool searching = (search_entry.text != "");
+            categories_sidebar.sensitive = !searching;
+
+            if (searching) {
+                categories_sidebar.selection_mode = Gtk.SelectionMode.NONE;
+            } else {
+                categories_sidebar.selection_mode = Gtk.SelectionMode.SINGLE;
+            }
         });
 
         categories_sidebar.row_selected.connect (() => {
