@@ -56,7 +56,7 @@ msgstr "Estado"
 
 #: src/CategoryView.vala:56
 msgid "OTHER"
-msgstr "OUTRO"
+msgstr "OUTROS"
 
 #: src/CategoryView.vala:74 src/IconView.vala:28
 msgid "Create a new address book"
@@ -64,27 +64,27 @@ msgstr "Criar um novo livro de endereços"
 
 #: src/CategoryView.vala:79
 msgid "Align objects to center along the X axis"
-msgstr "Alinhar objetos ao centro ao longo do eixo X"
+msgstr "Alinhar objetos ao centro na direção horizontal"
 
 #: src/CategoryView.vala:84
 msgid "Align objects left along the X axis"
-msgstr "Alinhar objetos à esquerda ao longo do eixo X"
+msgstr "Alinhar objetos à esquerda na direção horizontal"
 
 #: src/CategoryView.vala:89
 msgid "Align objects right along the X axis"
-msgstr "Alinhar objetos à direita ao longo do eixo X"
+msgstr "Alinhar objetos à direita na direção horizontal"
 
 #: src/CategoryView.vala:94
 msgid "Align objects to bottom along the Y axis"
-msgstr "Alinhar objetos no fundo ao longo do eixo Y"
+msgstr "Alinhar objetos no fundo na direção vertical"
 
 #: src/CategoryView.vala:99
 msgid "Align objects to center along the Y axis"
-msgstr "Alinhar objetos ao centro ao longo do eixo Y"
+msgstr "Alinhar objetos ao centro na direção vertical"
 
 #: src/CategoryView.vala:104
 msgid "Align objects to top along the Y axis"
-msgstr "Alinhar objetos no topo ao longo do eixo Y"
+msgstr "Alinhar objetos no topo na direção vertical"
 
 #: src/CategoryView.vala:109
 msgid "Used for exiting an application"
@@ -92,7 +92,7 @@ msgstr "Usado para fechar uma aplicação"
 
 #: src/CategoryView.vala:114
 msgid "Create a new appointment in a calendaring application"
-msgstr "Criar um compromisso num aplicação de calendário"
+msgstr "Criar um compromisso numa aplicação de calendário"
 
 #: src/CategoryView.vala:119
 msgid "Create a new bookmark"
@@ -108,11 +108,11 @@ msgstr "Parar a chamada atual"
 
 #: src/CategoryView.vala:134
 msgid "Allow changes by unlocking such as with a password"
-msgstr "Permitir alterações ao destrancar, por exemplo, de uma senha"
+msgstr "Permitir alterações ao destrancar, por exemplo, com uma senha"
 
 #: src/CategoryView.vala:139
 msgid "Prevent changes by locking such as with a password"
-msgstr "Prevenir alterações ao trancar, tal como, de uma senha"
+msgstr "Prevenir alterações ao trancar, por exemplo, com uma senha"
 
 #: src/CategoryView.vala:144
 msgid "Create a new contact in an address book application"
