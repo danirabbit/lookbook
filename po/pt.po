@@ -160,11 +160,11 @@ msgstr "Reverter para uma versão anterior de um documento"
 
 #: src/CategoryView.vala:199
 msgid "Save"
-msgstr "Gravar"
+msgstr "Guardar"
 
 #: src/CategoryView.vala:204
 msgid "Save as"
-msgstr "Gravar como"
+msgstr "Guardar como"
 
 #: src/CategoryView.vala:209
 msgid "Send"
