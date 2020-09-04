@@ -1654,11 +1654,11 @@ msgstr "Aviso ou alerta de tempo severo ou crítico"
 
 #: src/CategoryView.vala:2320
 msgid "Showers or rainy weather"
-msgstr "Tempo com chuvas torrenciais ou chuva"
+msgstr "Tempo de chuva ou com chuviscos"
 
 #: src/CategoryView.vala:2325
 msgid "Scattered showers or partly rainy weather"
-msgstr "Tempo com chuvas torrenciais ou chuva parcial"
+msgstr "Tempo com chuva esporádica ou parcialmente chuvoso"
 
 #: src/CategoryView.vala:2330
 msgid "Snow showers or snowy weather"
@@ -1670,15 +1670,15 @@ msgstr "Tempo com trovoada ou chuvas torrenciais"
 
 #: src/IconView.vala:33
 msgid "Color Icons"
-msgstr "Ícones de Cor"
+msgstr "Ícones de Cores"
 
 #: src/IconView.vala:42
 msgid "Symbolic Icons"
-msgstr "Ícones de Símbolos"
+msgstr "Ícones simbólicos"
 
 #: src/IconView.vala:51
 msgid "Code Sample"
-msgstr "Amostras de Código"
+msgstr "Amostras de código"
 
 #: src/IconView.vala:151
 msgid "Unavailable"
@@ -1690,12 +1690,12 @@ msgstr "LookBook"
 
 #: src/MainWindow.vala:35
 msgid "Search Icon Names or Descriptions"
-msgstr "Procure Nomes de Ícones ou Descrições"
+msgstr "Procure em nomes ou descrições de ícones"
 
 #: src/MainWindow.vala:41
 msgid "Light background"
-msgstr "Tema Claro"
+msgstr "Tema claro"
 
 #: src/MainWindow.vala:42
 msgid "Dark background"
-msgstr "Tema Escuro"
+msgstr "Tema escuro"
