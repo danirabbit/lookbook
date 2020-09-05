@@ -47,4 +47,4 @@ msgstr "com.github.danrabbit.lookbook"
 
 #: data/com.github.danrabbit.lookbook.desktop.in:7
 msgid "icons;iconography;"
-msgstr "icons;ícones;iconography;iconografia;"
+msgstr "ícones;iconografia;"
