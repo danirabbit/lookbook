@@ -101,7 +101,7 @@ public class IconView : Granite.SimpleSettingsPage {
             }
 
             title = color_icon_name;
-            source_buffer.text = "var icon = new Gtk.Image ();\nicon.gicon = new ThemedIcon (\"%s\");\nicon.pixel_size = 24;".printf (icon_name);
+            source_buffer.text = "var icon = new Gtk.Image () {\n    gicon = new ThemedIcon (\"%s\"),\n    pixel_size = 24\n};".printf (icon_name);
 
             int i = 0;
 
