@@ -1447,7 +1447,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "application-epub+zip",
-            description = _(""),
+            description = _("EPUB Ebook file types"),
             category = MIMES
         },
         Icon () {
@@ -1462,62 +1462,62 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "application-msword",
-            description = _(""),
+            description = _("Microsoft Word file types"),
             category = MIMES
         },
         Icon () {
             name = "application-octet-stream",
-            description = _(""),
+            description = _("Binary file types"),
             category = MIMES
         },
         Icon () {
             name = "application-pdf",
-            description = _(""),
+            description = _("PDF file types"),
             category = MIMES
         },
         Icon () {
             name = "application-pgp",
-            description = _(""),
+            description = _("PGP file types"),
             category = MIMES
         },
         Icon () {
             name = "application-vnd.debian.binary-package",
-            description = _(""),
+            description = _("Debian package file types"),
             category = MIMES
         },
         Icon () {
             name = "application-vnd.ms-access",
-            description = _(""),
+            description = _("Microsoft Access file types"),
             category = MIMES
         },
         Icon () {
             name = "application-vnd.ms-excel",
-            description = _(""),
+            description = _("Microsoft Excel file types"),
             category = MIMES
         },
         Icon () {
             name = "application-vnd.ms-powerpoint",
-            description = _(""),
+            description = _("Microsoft PowerPoint file types"),
             category = MIMES
         },
         Icon () {
             name = "application-vnd.oasis.opendocument.chart",
-            description = _(""),
+            description = _("Oasis OpenDocument file types"),
             category = MIMES
         },
         Icon () {
             name = "application-x-bittorrent",
-            description = _(""),
+            description = _("Torrent file types"),
             category = MIMES
         },
         Icon () {
             name = "application-x-cd-image",
-            description = _(""),
+            description = _("CD Image file types"),
             category = MIMES
         },
         Icon () {
             name = "application-x-desktop",
-            description = _(""),
+            description = _("Desktop file types"),
             category = MIMES
         },
         Icon () {
@@ -1527,17 +1527,17 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "application-x-fictionbook+xml",
-            description = _(""),
+            description = _("FictionBook file types"),
             category = MIMES
         },
         Icon () {
             name = "application-x-firmware",
-            description = _(""),
+            description = _("Firmware file types"),
             category = MIMES
         },
         Icon () {
             name = "application-x-flash-video",
-            description = _(""),
+            description = _("Flash video file types"),
             category = MIMES
         },
         Icon () {
@@ -1557,12 +1557,12 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "audio-x-playlist",
-            description = _(""),
+            description = _("Audio playlist file types"),
             category = MIMES
         },
         Icon () {
             name = "extension",
-            description = _(""),
+            description = _("Extension"),
             category = MIMES
         },
         Icon () {
@@ -1587,22 +1587,22 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "internet-feed",
-            description = _(""),
+            description = _("Internet Feed"),
             category = MIMES
         },
         Icon () {
             name = "model",
-            description = _(""),
+            description = _("Model"),
             category = MIMES
         },
         Icon () {
             name = "office-contact",
-            description = _(""),
+            description = _("Contact file types"),
             category = MIMES
         },
         Icon () {
             name = "office-database",
-            description = _(""),
+            description = _("Database file types"),
             category = MIMES
         },
         Icon () {
@@ -1667,12 +1667,12 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-bibtex",
-            description = _(""),
+            description = _("Bibtext file types"),
             category = MIMES
         },
         Icon () {
             name = "text-x-changelog",
-            description = _(""),
+            description = _("Changelog file types"),
             category = MIMES
         },
         Icon () {
@@ -1682,7 +1682,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-copying",
-            description = _(""),
+            description = _("License file types"),
             category = MIMES
         },
         Icon () {
@@ -1702,12 +1702,12 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-gettext-translation",
-            description = _(""),
+            description = _("Gettext translation file types"),
             category = MIMES
         },
         Icon () {
             name = "text-x-gettext-translation-template",
-            description = _(""),
+            description = _("Gettext translation model file types"),
             category = MIMES
         },
         Icon () {
@@ -1717,17 +1717,17 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-install",
-            description = _(""),
+            description = _("Install file types"),
             category = MIMES
         },
         Icon () {
             name = "text-x-makefile",
-            description = _(""),
+            description = _("Makefile file types"),
             category = MIMES
         },
         Icon () {
             name = "text-x-preview",
-            description = _(""),
+            description = _("Preview file types"),
             category = MIMES
         },
         Icon () {
@@ -1737,7 +1737,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-readme",
-            description = _(""),
+            description = _("Readme file types"),
             category = MIMES
         },
         Icon () {
@@ -1752,12 +1752,12 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "text-x-ssa",
-            description = _(""),
+            description = _("SSA file types"),
             category = MIMES
         },
         Icon () {
             name = "text-x-tex",
-            description = _(""),
+            description = _("TEX file types"),
             category = MIMES
         },
         Icon () {
@@ -1767,7 +1767,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "unknown",
-            description = _(""),
+            description = _("Unknown file types"),
             category = MIMES
         },
         Icon () {
@@ -1792,17 +1792,17 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "x-office-document-template",
-            description = _(""),
+            description = _("Generic document and letter template file types"),
             category = MIMES
         },
         Icon () {
             name = "x-office-drawing",
-            description = _(""),
+            description = _("Generic drawing file types"),
             category = MIMES
         },
         Icon () {
             name = "x-office-drawing-template",
-            description = _(""),
+            description = _("Generic drawing template file types"),
             category = MIMES
         },
         Icon () {
@@ -1812,7 +1812,7 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "x-office-presentation-template",
-            description = _(""),
+            description = _("Generic presentation template file types"),
             category = MIMES
         },
         Icon () {
@@ -1822,182 +1822,182 @@ public class CategoryView : Gtk.Paned {
         },
         Icon () {
             name = "x-office-spreadsheet-template",
-            description = _(""),
+            description = _("Generic spreadsheet template file types"),
             category = MIMES
         },
         Icon () {
             name = "bookmark-missing",
-            description = _(""),
+            description = _("Bookmark missing"),
             category = PLACES
         },
         Icon () {
             name = "distributor-logo",
-            description = _(""),
+            description = _("Distributor logo"),
             category = PLACES
         },
         Icon () {
             name = "folder",
-            description = _(""),
+            description = _("Folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-documents",
-            description = _(""),
+            description = _("Documents folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-download",
-            description = _(""),
+            description = _("Downloads folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-drag-accept",
-            description = _(""),
+            description = _("Folder drag accept"),
             category = PLACES
         },
         Icon () {
             name = "folder-music",
-            description = _(""),
+            description = _("Music folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-open",
-            description = _(""),
+            description = _("Open folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-pictures",
-            description = _(""),
+            description = _("Pictures folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-publicshare",
-            description = _(""),
+            description = _("Publicshare folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-recent",
-            description = _(""),
+            description = _("Recent folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-remote",
-            description = _(""),
+            description = _("Remote folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-saved-search",
-            description = _(""),
+            description = _("Saved search folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-tag",
-            description = _(""),
+            description = _("Folder tag"),
             category = PLACES
         },
         Icon () {
             name = "folder-templates",
-            description = _(""),
+            description = _("Templates folder"),
             category = PLACES
         },
         Icon () {
             name = "folder-videos",
-            description = _(""),
+            description = _("Videos folder"),
             category = PLACES
         },
         Icon () {
             name = "internet-radio",
-            description = _(""),
+            description = _("Internet radio"),
             category = PLACES
         },
         Icon () {
             name = "library-audiobook",
-            description = _(""),
+            description = _("Audiobook library"),
             category = PLACES
         },
         Icon () {
             name = "library-places",
-            description = _(""),
+            description = _("Library places"),
             category = PLACES
         },
         Icon () {
             name = "library-podcast",
-            description = _(""),
+            description = _("Podcast library"),
             category = PLACES
         },
         Icon () {
             name = "mail-inbox",
-            description = _(""),
+            description = _("Mail inbox"),
             category = PLACES
         },
         Icon () {
             name = "mail-mailbox",
-            description = _(""),
+            description = _("Mail mailbox"),
             category = PLACES
         },
         Icon () {
             name = "mail-outbox",
-            description = _(""),
+            description = _("Mail outbox"),
             category = PLACES
         },
         Icon () {
             name = "mail-sent",
-            description = _(""),
+            description = _("Mail sent"),
             category = PLACES
         },
         Icon () {
             name = "network-server",
-            description = _(""),
+            description = _("Network server"),
             category = PLACES
         },
         Icon () {
             name = "network-workgroup",
-            description = _(""),
+            description = _("Network workgroup"),
             category = PLACES
         },
         Icon () {
             name = "playlist",
-            description = _(""),
+            description = _("Playlist"),
             category = PLACES
         },
         Icon () {
             name = "playlist-automatic",
-            description = _(""),
+            description = _("Automatic playlist"),
             category = PLACES
         },
         Icon () {
             name = "playlist-queue",
-            description = _(""),
+            description = _("Playlist queue"),
             category = PLACES
         },
         Icon () {
             name = "playlist-similar",
-            description = _(""),
+            description = _("Similar playlist"),
             category = PLACES
         },
         Icon () {
             name = "tag",
-            description = _(""),
+            description = _("Tag"),
             category = PLACES
         },
         Icon () {
             name = "user-bookmarks",
-            description = _(""),
+            description = _("Bookmarks"),
             category = PLACES
         },
         Icon () {
             name = "user-home",
-            description = _(""),
+            description = _("Home"),
             category = PLACES
         },
         Icon () {
             name = "user-trash",
-            description = _(""),
+            description = _("Trash"),
             category = PLACES
         },
         Icon () {
             name = "user-trash-full",
-            description = _(""),
+            description = _("Trash full"),
             category = PLACES
         },
         Icon () {
