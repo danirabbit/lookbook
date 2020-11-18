@@ -44,11 +44,11 @@ public class LookBook : Gtk.Application {
         var window_x = settings.get_int ("window-x");
         var window_y = settings.get_int ("window-y");
 
-        if (window_x != -1 ||  window_y != -1) {
+        if (window_x != -1 || window_y != -1) {
             main_window.move (window_x, window_y);
         }
 
-        if (window_height != -1 ||  window_width != -1) {
+        if (window_height != -1 || window_width != -1) {
             var rect = Gtk.Allocation ();
             rect.height = window_height;
             rect.width = window_width;
