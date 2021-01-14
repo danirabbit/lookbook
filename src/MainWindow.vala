@@ -56,17 +56,20 @@ public class MainWindow : Gtk.Window {
         var category_view = new CategoryView ();
 
         categories_sidebar = new Gtk.ListBox ();
-        categories_sidebar.vexpand = true;
-        categories_sidebar.get_style_context ().add_class (Gtk.STYLE_CLASS_SIDEBAR);
 
         foreach (var category in CategoryView.Category.all ()) {
             var sidebar_row = new SidebarRow (category);
             categories_sidebar.add (sidebar_row);
         }
 
+        var scrolled_category = new Gtk.ScrolledWindow (null, null);
+        scrolled_category.get_style_context ().add_class (Gtk.STYLE_CLASS_SIDEBAR);
+        scrolled_category.set_policy (Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC);
+        scrolled_category.add (categories_sidebar);
+
         var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
         paned.position = 128;
-        paned.pack1 (categories_sidebar, false, false);
+        paned.pack1 (scrolled_category, false, false);
         paned.pack2 (category_view, true, false);
 
         add (paned);
