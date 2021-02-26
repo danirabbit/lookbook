@@ -120,6 +120,11 @@ public class CategoryView : Gtk.Paned {
             category = ACTIONS
         },
         Icon () {
+            name = "browser-download",
+            description = _("Download a file from the Internet"),
+            category = ACTIONS
+        },
+        Icon () {
             name = "call-start",
             description = _("Initiate or accept a call"),
             category = ACTIONS
@@ -137,6 +142,11 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "changes-prevent",
             description = _("Prevent changes by locking such as with a password"),
+            category = ACTIONS
+        },
+        Icon () {
+            name = "color-picker",
+            description = _("Pick a color from elsewhere on screen"),
             category = ACTIONS
         },
         Icon () {
@@ -1407,6 +1417,11 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "application-vnd.debian.binary-package",
             description = _("Debian package file types"),
+            category = MIMES
+        },
+        Icon () {
+            name = "application-vnd.flatpak.ref",
+            description = _("Flatpak reference file types"),
             category = MIMES
         },
         Icon () {
