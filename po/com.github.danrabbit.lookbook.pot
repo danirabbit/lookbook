@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.danrabbit.lookbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-01 14:27+0200\n"
+"POT-Creation-Date: 2021-02-26 19:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,541 +98,541 @@ msgid "Create a new bookmark"
 msgstr ""
 
 #: src/CategoryView.vala:124
-msgid "Initiate or accept a call"
+msgid "Download a file from the Internet"
 msgstr ""
 
 #: src/CategoryView.vala:129
-msgid "Stop the current call"
+msgid "Initiate or accept a call"
 msgstr ""
 
 #: src/CategoryView.vala:134
-msgid "Allow changes by unlocking such as with a password"
+msgid "Stop the current call"
 msgstr ""
 
 #: src/CategoryView.vala:139
-msgid "Prevent changes by locking such as with a password"
+msgid "Allow changes by unlocking such as with a password"
 msgstr ""
 
 #: src/CategoryView.vala:144
-msgid "Create a new contact in an address book application"
+msgid "Prevent changes by locking such as with a password"
 msgstr ""
 
 #: src/CategoryView.vala:149
-msgid "Distribute the center lines of objects horizontally"
+msgid "Pick a color from elsewhere on screen"
 msgstr ""
 
 #: src/CategoryView.vala:154
-msgid "Make horizontal gaps between objects equal"
+msgid "Create a new contact in an address book application"
 msgstr ""
 
 #: src/CategoryView.vala:159
-msgid "Distribute left edges of objects horizontally"
+msgid "Distribute the center lines of objects horizontally"
 msgstr ""
 
 #: src/CategoryView.vala:164
-msgid "Distribute right edges of objects horizontally"
+msgid "Make horizontal gaps between objects equal"
 msgstr ""
 
 #: src/CategoryView.vala:169
-msgid "Distribute bottom edges of objects vertically"
+msgid "Distribute left edges of objects horizontally"
 msgstr ""
 
 #: src/CategoryView.vala:174
-msgid "Distribute center lines of objects vertically"
+msgid "Distribute right edges of objects horizontally"
 msgstr ""
 
 #: src/CategoryView.vala:179
-msgid "Make vertical gaps between objects equal"
+msgid "Distribute bottom edges of objects vertically"
 msgstr ""
 
 #: src/CategoryView.vala:184
-msgid "Distriute top edges of objects vertically"
+msgid "Distribute center lines of objects vertically"
 msgstr ""
 
 #: src/CategoryView.vala:189
-msgid "Export a document"
+msgid "Make vertical gaps between objects equal"
 msgstr ""
 
 #: src/CategoryView.vala:194
-msgid "Import a document"
+msgid "Distriute top edges of objects vertically"
 msgstr ""
 
 #: src/CategoryView.vala:199
-msgid "Create a new document"
+msgid "Export a document"
 msgstr ""
 
 #: src/CategoryView.vala:204
-msgid "Open a document"
+msgid "Import a document"
 msgstr ""
 
 #: src/CategoryView.vala:209
-msgid "Open a document that was recently opened"
+msgid "Create a new document"
 msgstr ""
 
 #: src/CategoryView.vala:214
-msgid "The page setup action of a document editor"
+msgid "Open a document"
 msgstr ""
 
 #: src/CategoryView.vala:219
-msgid "Print"
+msgid "Open a document that was recently opened"
 msgstr ""
 
 #: src/CategoryView.vala:224
-msgid "The print preview action of an application"
+msgid "The page setup action of a document editor"
 msgstr ""
 
 #: src/CategoryView.vala:229
-msgid "View the properties of a document"
+msgid "Print"
 msgstr ""
 
 #: src/CategoryView.vala:234
-msgid "Revert to a previous version of a document"
+msgid "The print preview action of an application"
 msgstr ""
 
 #: src/CategoryView.vala:239
-msgid "Save"
+msgid "View the properties of a document"
 msgstr ""
 
 #: src/CategoryView.vala:244
-msgid "Save as"
+msgid "Revert to a previous version of a document"
 msgstr ""
 
 #: src/CategoryView.vala:249
-msgid "Send"
+msgid "Save"
 msgstr ""
 
 #: src/CategoryView.vala:254
-msgid "Edit"
+msgid "Save as"
 msgstr ""
 
 #: src/CategoryView.vala:259
-msgid "Clear"
+msgid "Send"
 msgstr ""
 
 #: src/CategoryView.vala:264
-msgid "Copy"
+msgid "Edit"
 msgstr ""
 
 #: src/CategoryView.vala:269
-msgid "Cut"
+msgid "Clear"
 msgstr ""
 
 #: src/CategoryView.vala:274
-msgid "Delete"
+msgid "Copy"
 msgstr ""
 
 #: src/CategoryView.vala:279
-msgid "Find"
+msgid "Cut"
 msgstr ""
 
 #: src/CategoryView.vala:284
-msgid "Find & Replace"
+msgid "Delete"
 msgstr ""
 
 #: src/CategoryView.vala:289
-msgid "Flag an item, such as a spam email"
+msgid "Find"
 msgstr ""
 
 #: src/CategoryView.vala:294
-msgid "Paste"
+msgid "Find & Replace"
 msgstr ""
 
 #: src/CategoryView.vala:299
-msgid "Redo"
+msgid "Flag an item, such as a spam email"
 msgstr ""
 
 #: src/CategoryView.vala:304
-msgid "Select all"
+msgid "Paste"
 msgstr ""
 
 #: src/CategoryView.vala:309
-msgid "Undo"
+msgid "Redo"
 msgstr ""
 
 #: src/CategoryView.vala:314
-msgid "Create a new calendar event"
+msgid "Select all"
 msgstr ""
 
 #: src/CategoryView.vala:319
-msgid "Copy a folder"
+msgid "Undo"
 msgstr ""
 
 #: src/CategoryView.vala:324
-msgid "Move a folder"
+msgid "Create a new calendar event"
 msgstr ""
 
 #: src/CategoryView.vala:329
-msgid "Create a new folder"
+msgid "Copy a folder"
 msgstr ""
 
 #: src/CategoryView.vala:334
-msgid "Decrease indent"
+msgid "Move a folder"
 msgstr ""
 
 #: src/CategoryView.vala:339
-msgid "Increase indent"
+msgid "Create a new folder"
 msgstr ""
 
 #: src/CategoryView.vala:344
-msgid "Center justify text"
+msgid "Decrease indent"
 msgstr ""
 
 #: src/CategoryView.vala:349
-msgid "Fill justify text"
+msgid "Increase indent"
 msgstr ""
 
 #: src/CategoryView.vala:354
-msgid "Left justify text"
+msgid "Center justify text"
 msgstr ""
 
 #: src/CategoryView.vala:359
-msgid "Right justify text"
+msgid "Fill justify text"
 msgstr ""
 
 #: src/CategoryView.vala:364
-msgid "Format text as left-to-right"
+msgid "Left justify text"
 msgstr ""
 
 #: src/CategoryView.vala:369
-msgid "Format text as right-to-left"
+msgid "Right justify text"
 msgstr ""
 
 #: src/CategoryView.vala:374
-msgid "Format text as bold"
+msgid "Format text as left-to-right"
 msgstr ""
 
 #: src/CategoryView.vala:379
-msgid "Format text as highlighted"
+msgid "Format text as right-to-left"
 msgstr ""
 
 #: src/CategoryView.vala:384
-msgid "Format text as italic"
+msgid "Format text as bold"
 msgstr ""
 
 #: src/CategoryView.vala:389
-msgid "Format text as underlined"
+msgid "Format text as highlighted"
 msgstr ""
 
 #: src/CategoryView.vala:394
-msgid "Format text as being struck through"
+msgid "Format text as italic"
 msgstr ""
 
 #: src/CategoryView.vala:399
-msgid "Go to the bottom, such as in a list"
+msgid "Format text as underlined"
 msgstr ""
 
 #: src/CategoryView.vala:404
-msgid "Go down, such as in a list"
+msgid "Format text as being struck through"
 msgstr ""
 
 #: src/CategoryView.vala:409
-msgid "Go to the first item, such as in a list"
+msgid "Go to the bottom, such as in a list"
 msgstr ""
 
 #: src/CategoryView.vala:414
-msgid "Go to the home location"
+msgid "Go down, such as in a list"
 msgstr ""
 
 #: src/CategoryView.vala:419
-msgid "Jump to a location"
+msgid "Go to the first item, such as in a list"
 msgstr ""
 
 #: src/CategoryView.vala:424
-msgid "Go to the last item, such as in a list"
+msgid "Go to the home location"
 msgstr ""
 
 #: src/CategoryView.vala:429
-msgid "Go forward to the next item, such as in a list or navigation"
+msgid "Jump to a location"
 msgstr ""
 
 #: src/CategoryView.vala:434
-msgid "Go back to the previous item, such as in a list or navigation"
+msgid "Go to the last item, such as in a list"
 msgstr ""
 
 #: src/CategoryView.vala:439
-msgid "Go to the top, such as in a list"
+msgid "Go forward to the next item, such as in a list or navigation"
 msgstr ""
 
 #: src/CategoryView.vala:444
-msgid "Go up, such as in a list"
+msgid "Go back to the previous item, such as in a list or navigation"
 msgstr ""
 
 #: src/CategoryView.vala:449
-msgid "Information about an app"
+msgid "Go to the top, such as in a list"
 msgstr ""
 
 #: src/CategoryView.vala:454
-msgid "Get help"
+msgid "Go up, such as in a list"
 msgstr ""
 
 #: src/CategoryView.vala:459
-msgid "Frequently asked questions"
+msgid "Information about an app"
 msgstr ""
 
 #: src/CategoryView.vala:464
-msgid "Make adjustments to an image"
+msgid "Get help"
 msgstr ""
 
 #: src/CategoryView.vala:469
-msgid "Automatically adjust an image"
+msgid "Frequently asked questions"
 msgstr ""
 
 #: src/CategoryView.vala:474
-msgid "Crop an image"
+msgid "Make adjustments to an image"
 msgstr ""
 
 #: src/CategoryView.vala:479
-msgid "Remove red eye from an image"
+msgid "Automatically adjust an image"
 msgstr ""
 
 #: src/CategoryView.vala:484
-msgid "Insert an image"
+msgid "Crop an image"
 msgstr ""
 
 #: src/CategoryView.vala:489
-msgid "Insert a link"
+msgid "Remove red eye from an image"
 msgstr ""
 
 #: src/CategoryView.vala:494
-msgid "Insert an object"
+msgid "Insert an image"
 msgstr ""
 
 #: src/CategoryView.vala:499
-msgid "Insert text"
+msgid "Insert a link"
 msgstr ""
 
 #: src/CategoryView.vala:504
-msgid "Add to a list"
+msgid "Insert an object"
 msgstr ""
 
 #: src/CategoryView.vala:509
-msgid "Remove from a list"
+msgid "Insert text"
 msgstr ""
 
 #: src/CategoryView.vala:514
-msgid "Forward an email"
+msgid "Add to a list"
 msgstr ""
 
 #: src/CategoryView.vala:519
-msgid "Mark an email as important"
+msgid "Remove from a list"
 msgstr ""
 
 #: src/CategoryView.vala:524
-msgid "Mark an email as junk or spam"
+msgid "Forward an email"
 msgstr ""
 
 #: src/CategoryView.vala:529
-msgid "Mark an email as not junk or spam"
+msgid "Mark an email as important"
 msgstr ""
 
 #: src/CategoryView.vala:534
-msgid "Mark an email as read"
+msgid "Mark an email as junk or spam"
 msgstr ""
 
 #: src/CategoryView.vala:539
-msgid "Mark an email as unread"
+msgid "Mark an email as not junk or spam"
 msgstr ""
 
 #: src/CategoryView.vala:544
-msgid "Compose a new email"
+msgid "Mark an email as read"
 msgstr ""
 
 #: src/CategoryView.vala:549
-msgid "Reply to all participants of an email"
+msgid "Mark an email as unread"
 msgstr ""
 
 #: src/CategoryView.vala:554
-msgid "Reply to the sender of an email"
+msgid "Compose a new email"
 msgstr ""
 
 #: src/CategoryView.vala:559
-msgid "Send an email"
+msgid "Reply to all participants of an email"
 msgstr ""
 
 #: src/CategoryView.vala:564
-msgid "Eject removable media"
+msgid "Reply to the sender of an email"
 msgstr ""
 
 #: src/CategoryView.vala:569
-msgid "Pause media playback"
+msgid "Send an email"
 msgstr ""
 
 #: src/CategoryView.vala:574
-msgid "Start playing media"
+msgid "Eject removable media"
 msgstr ""
 
 #: src/CategoryView.vala:579
-msgid "Stop playing media"
+msgid "Pause media playback"
 msgstr ""
 
 #: src/CategoryView.vala:584
-msgid "Start recording"
+msgid "Start playing media"
 msgstr ""
 
 #: src/CategoryView.vala:589
-msgid "Seek backwards or rewind"
+msgid "Stop playing media"
 msgstr ""
 
 #: src/CategoryView.vala:594
-msgid "Seek forwards, or fastforward"
+msgid "Start recording"
 msgstr ""
 
 #: src/CategoryView.vala:599
-msgid "Skip backwards, such as to the previous track"
+msgid "Seek backwards or rewind"
 msgstr ""
 
 #: src/CategoryView.vala:604
-msgid "Skip forwards, such as to the next track"
+msgid "Seek forwards, or fastforward"
 msgstr ""
 
 #: src/CategoryView.vala:609
-msgid "Flip an object horizontally"
+msgid "Skip backwards, such as to the previous track"
 msgstr ""
 
 #: src/CategoryView.vala:614
-msgid "Flip an object vertically"
+msgid "Skip forwards, such as to the next track"
 msgstr ""
 
 #: src/CategoryView.vala:619
-msgid "Rotate an object to the left or counter-clockwise"
+msgid "Flip an object horizontally"
 msgstr ""
 
 #: src/CategoryView.vala:624
-msgid "Rotate an object to the right or clockwise"
+msgid "Flip an object vertically"
 msgstr ""
 
 #: src/CategoryView.vala:629
+msgid "Rotate an object to the left or counter-clockwise"
+msgstr ""
+
+#: src/CategoryView.vala:634
+msgid "Rotate an object to the right or clockwise"
+msgstr ""
+
+#: src/CategoryView.vala:639
 msgid ""
 "Stop an action that may take a while to process, such as web page loading in "
 "a browser"
 msgstr ""
 
-#: src/CategoryView.vala:634
+#: src/CategoryView.vala:644
 msgid "Lock the screen or the user's session"
 msgstr ""
 
-#: src/CategoryView.vala:639
+#: src/CategoryView.vala:649
 msgid "Log out of the user's session"
 msgstr ""
 
-#: src/CategoryView.vala:644
+#: src/CategoryView.vala:654
 msgid "Run a system app or command"
 msgstr ""
 
-#: src/CategoryView.vala:649
+#: src/CategoryView.vala:659
 msgid "Search the system"
 msgstr ""
 
-#: src/CategoryView.vala:654
+#: src/CategoryView.vala:664
 msgid "Restart the device"
 msgstr ""
 
-#: src/CategoryView.vala:659
+#: src/CategoryView.vala:669
 msgid "Shut the device down"
 msgstr ""
 
-#: src/CategoryView.vala:664
+#: src/CategoryView.vala:674
 msgid "Check spelling"
 msgstr ""
 
-#: src/CategoryView.vala:669
+#: src/CategoryView.vala:679
 msgid "Set or adjust a timer"
 msgstr ""
 
-#: src/CategoryView.vala:674
+#: src/CategoryView.vala:684
 msgid "Display the current view as columns"
 msgstr ""
 
-#: src/CategoryView.vala:679
+#: src/CategoryView.vala:689
 msgid "display the current view in a continously scrolling list"
 msgstr ""
 
-#: src/CategoryView.vala:684
+#: src/CategoryView.vala:694
 msgid "display the current view as a split, dual view"
 msgstr ""
 
-#: src/CategoryView.vala:689
+#: src/CategoryView.vala:699
 msgid "View fullscreen"
 msgstr ""
 
-#: src/CategoryView.vala:694
+#: src/CategoryView.vala:704
 msgid "Display the current view as a grid of images or icons"
 msgstr ""
 
-#: src/CategoryView.vala:699
+#: src/CategoryView.vala:709
 msgid "Refresh or reload the current view"
 msgstr ""
 
-#: src/CategoryView.vala:704
+#: src/CategoryView.vala:714
 msgid "Leave fullscreen and return to a normal window"
 msgstr ""
 
-#: src/CategoryView.vala:709
+#: src/CategoryView.vala:719
 msgid "View more information about the given context in a popover or menu"
 msgstr ""
 
-#: src/CategoryView.vala:714
+#: src/CategoryView.vala:724
 msgid "View more information about the given context in a new view or window"
 msgstr ""
 
-#: src/CategoryView.vala:719
+#: src/CategoryView.vala:729
 msgid "Display the current view as a collection of pages"
 msgstr ""
 
-#: src/CategoryView.vala:724
+#: src/CategoryView.vala:734
 msgid "Pin the current view so that it does not automatically hide"
 msgstr ""
 
-#: src/CategoryView.vala:729
+#: src/CategoryView.vala:739
 msgid "Sort items in an ascending order, such as in a list"
 msgstr ""
 
-#: src/CategoryView.vala:734
+#: src/CategoryView.vala:744
 msgid "Sort items in a descending order, such as in a list"
 msgstr ""
 
-#: src/CategoryView.vala:739
+#: src/CategoryView.vala:749
 msgid "Close the window"
 msgstr ""
 
-#: src/CategoryView.vala:744
+#: src/CategoryView.vala:754
 msgid "Create a new window"
 msgstr ""
 
-#: src/CategoryView.vala:749
+#: src/CategoryView.vala:759
 msgid "Zoom to the best fit"
 msgstr ""
 
-#: src/CategoryView.vala:754
+#: src/CategoryView.vala:764
 msgid "Zoom in"
 msgstr ""
 
-#: src/CategoryView.vala:759
+#: src/CategoryView.vala:769
 msgid "Zoom to the original size"
 msgstr ""
 
-#: src/CategoryView.vala:764
+#: src/CategoryView.vala:774
 msgid "Zoom out"
 msgstr ""
 
-#: src/CategoryView.vala:769
+#: src/CategoryView.vala:779
 msgid "Calculator"
 msgstr ""
 
-#: src/CategoryView.vala:774
-msgid "Camera or webcam"
-msgstr ""
-
-#: src/CategoryView.vala:779
+#: src/CategoryView.vala:784
 msgid "International and extended text character map"
 msgstr ""
 
-#: src/CategoryView.vala:784
-msgid "Dictionary"
-msgstr ""
-
 #: src/CategoryView.vala:789
-msgid "Screenshot tool"
+msgid "Dictionary"
 msgstr ""
 
 #: src/CategoryView.vala:794
@@ -644,1290 +644,1242 @@ msgid "Default or unprovided app icon"
 msgstr ""
 
 #: src/CategoryView.vala:804
-msgid "Archive manager"
-msgstr ""
-
-#: src/CategoryView.vala:809
-msgid "Internet chat or messaging"
-msgstr ""
-
-#: src/CategoryView.vala:814
-msgid "Mail or email"
-msgstr ""
-
-#: src/CategoryView.vala:819
-msgid "News or feed reader"
-msgstr ""
-
-#: src/CategoryView.vala:824
-msgid "Web browser"
-msgstr ""
-
-#: src/CategoryView.vala:830
-msgid "Music or audio player"
-msgstr ""
-
-#: src/CategoryView.vala:835
-msgid "Photo manager or library"
-msgstr ""
-
-#: src/CategoryView.vala:840
-msgid "Video or movie player"
-msgstr ""
-
-#: src/CategoryView.vala:845
-msgid "Address book or contacts"
-msgstr ""
-
-#: src/CategoryView.vala:850
-msgid "Calendar"
-msgstr ""
-
-#: src/CategoryView.vala:855
-msgid "Portable document or PDF viewer"
-msgstr ""
-
-#: src/CategoryView.vala:860
 msgid "Files"
 msgstr ""
 
-#: src/CategoryView.vala:865
-msgid "Install the operating system"
-msgstr ""
-
-#: src/CategoryView.vala:870
+#: src/CategoryView.vala:809
 msgid "AppCenter or software installer"
 msgstr ""
 
-#: src/CategoryView.vala:875
+#: src/CategoryView.vala:814
 msgid "Software updater"
 msgstr ""
 
-#: src/CategoryView.vala:880
-msgid "User settings"
-msgstr ""
-
-#: src/CategoryView.vala:885
+#: src/CategoryView.vala:819
 msgid "System resource monitor"
 msgstr ""
 
-#: src/CategoryView.vala:890
+#: src/CategoryView.vala:824
 msgid "Terminal"
 msgstr ""
 
-#: src/CategoryView.vala:895
+#: src/CategoryView.vala:829
 msgid "Accessory or utility app category"
 msgstr ""
 
-#: src/CategoryView.vala:900
+#: src/CategoryView.vala:834
 msgid "Programming, software development, code, or IDE app category"
 msgstr ""
 
-#: src/CategoryView.vala:905
+#: src/CategoryView.vala:839
 msgid "Education, learning, or school app category"
 msgstr ""
 
-#: src/CategoryView.vala:910
+#: src/CategoryView.vala:844
 msgid "Engineering app category"
 msgstr ""
 
-#: src/CategoryView.vala:915
+#: src/CategoryView.vala:849
 msgid "Font category"
 msgstr ""
 
-#: src/CategoryView.vala:920
+#: src/CategoryView.vala:854
 msgid "Games app category"
 msgstr ""
 
-#: src/CategoryView.vala:925
+#: src/CategoryView.vala:859
 msgid "Graphics, drawing, art, or photo manipulation app category"
 msgstr ""
 
-#: src/CategoryView.vala:930
+#: src/CategoryView.vala:864
 msgid "Internet or web related app category"
 msgstr ""
 
-#: src/CategoryView.vala:935
+#: src/CategoryView.vala:869
 msgid "Multimedia, audio, or video app category"
 msgstr ""
 
-#: src/CategoryView.vala:940
+#: src/CategoryView.vala:874
 msgid "Office app category"
 msgstr ""
 
-#: src/CategoryView.vala:945
+#: src/CategoryView.vala:879
 msgid "Other or uncategorized app category"
 msgstr ""
 
-#: src/CategoryView.vala:950
+#: src/CategoryView.vala:884
 msgid "Science app category"
 msgstr ""
 
-#: src/CategoryView.vala:955
+#: src/CategoryView.vala:889
 msgid "System tools or OS app category"
 msgstr ""
 
-#: src/CategoryView.vala:960
+#: src/CategoryView.vala:894
 msgid "Utility app category"
 msgstr ""
 
-#: src/CategoryView.vala:965
+#: src/CategoryView.vala:899
 msgid "Bluetooth settings"
 msgstr ""
 
-#: src/CategoryView.vala:970
+#: src/CategoryView.vala:904
 msgid "Color settings such as printer, display, or camera calibration"
 msgstr ""
 
-#: src/CategoryView.vala:975
+#: src/CategoryView.vala:909
 msgid "Desktop interface settings"
 msgstr ""
 
-#: src/CategoryView.vala:980
+#: src/CategoryView.vala:914
 msgid "Universal access settings"
 msgstr ""
 
-#: src/CategoryView.vala:985
+#: src/CategoryView.vala:919
 msgid "Universal access settings for pointing, such as controlling the cursor"
 msgstr ""
 
-#: src/CategoryView.vala:990
+#: src/CategoryView.vala:924
 msgid "Universal access settings for zooming or magnifying"
 msgstr ""
 
-#: src/CategoryView.vala:995
+#: src/CategoryView.vala:929
 msgid "App-related settings, such as default or startup apps"
 msgstr ""
 
-#: src/CategoryView.vala:1000
+#: src/CategoryView.vala:934
 msgid "Display settings, such as resolution or scaling"
 msgstr ""
 
-#: src/CategoryView.vala:1005
+#: src/CategoryView.vala:939
 msgid "Keyboard settings, such as layout or shortcuts"
 msgstr ""
 
-#: src/CategoryView.vala:1010
+#: src/CategoryView.vala:944
 msgid "International localization, language, or region settings"
 msgstr ""
 
-#: src/CategoryView.vala:1015
+#: src/CategoryView.vala:949
 msgid "Online account and cloud sync or sign in settings"
 msgstr ""
 
-#: src/CategoryView.vala:1020
+#: src/CategoryView.vala:954
 msgid "Settings for peripherals, such as a mouse or keyboard"
 msgstr ""
 
-#: src/CategoryView.vala:1025
+#: src/CategoryView.vala:959
 msgid "Sound or audio input and output settings"
 msgstr ""
 
-#: src/CategoryView.vala:1030
+#: src/CategoryView.vala:964
 msgid "Desktop wallpaper or background settings"
 msgstr ""
 
-#: src/CategoryView.vala:1035
+#: src/CategoryView.vala:969
 msgid "Other, miscellaneous, or uncategorized settings"
 msgstr ""
 
-#: src/CategoryView.vala:1040
+#: src/CategoryView.vala:974
 msgid "System settings or preferences"
 msgstr ""
 
-#: src/CategoryView.vala:1045
+#: src/CategoryView.vala:979
 msgid "Network settings, such as wireless, Ethernet, or VPN"
 msgstr ""
 
-#: src/CategoryView.vala:1050
+#: src/CategoryView.vala:984
 msgid "Notification alert settings"
 msgstr ""
 
-#: src/CategoryView.vala:1055
+#: src/CategoryView.vala:989
 msgid "Parental control settings"
 msgstr ""
 
-#: src/CategoryView.vala:1060
+#: src/CategoryView.vala:994
 msgid "Power management or energy usage settings, such as battery"
 msgstr ""
 
-#: src/CategoryView.vala:1065
+#: src/CategoryView.vala:999
 msgid "Privacy and security settings"
 msgstr ""
 
-#: src/CategoryView.vala:1070
+#: src/CategoryView.vala:1004
 msgid ""
 "Sharing settings, such as library sharing or media streaming over a network"
 msgstr ""
 
-#: src/CategoryView.vala:1075
+#: src/CategoryView.vala:1009
 msgid "Time and date settings"
 msgstr ""
 
-#: src/CategoryView.vala:1080
+#: src/CategoryView.vala:1014
 msgid "Window management settings"
 msgstr ""
 
-#: src/CategoryView.vala:1085
+#: src/CategoryView.vala:1019
 msgid "Help"
 msgstr ""
 
-#: src/CategoryView.vala:1090
+#: src/CategoryView.vala:1024
 msgid "Audio output device, such as a sound card or speaker"
 msgstr ""
 
-#: src/CategoryView.vala:1095
+#: src/CategoryView.vala:1029
 msgid "Audio output device representing headphones"
 msgstr ""
 
-#: src/CategoryView.vala:1100
+#: src/CategoryView.vala:1034
 msgid "Audio output device representing a headset"
 msgstr ""
 
-#: src/CategoryView.vala:1105
+#: src/CategoryView.vala:1039
 msgid "Microphone"
 msgstr ""
 
-#: src/CategoryView.vala:1110
+#: src/CategoryView.vala:1044
 msgid "Subwoofer or bass speaker"
 msgstr ""
 
-#: src/CategoryView.vala:1115
+#: src/CategoryView.vala:1049
 msgid "Battery"
 msgstr ""
 
-#: src/CategoryView.vala:1120
+#: src/CategoryView.vala:1054
 msgid "Bluetooth"
 msgstr ""
 
-#: src/CategoryView.vala:1125
+#: src/CategoryView.vala:1059
 msgid "Digital photo or still camera"
 msgstr ""
 
-#: src/CategoryView.vala:1130
+#: src/CategoryView.vala:1064
 msgid "Video or movie camera"
 msgstr ""
 
-#: src/CategoryView.vala:1135
+#: src/CategoryView.vala:1069
 msgid "Webcam or built-in camera"
 msgstr ""
 
-#: src/CategoryView.vala:1140
+#: src/CategoryView.vala:1074
 msgid "Generic or desktop computer"
 msgstr ""
 
-#: src/CategoryView.vala:1145
+#: src/CategoryView.vala:1079
 msgid "Laptop or notebook computer"
 msgstr ""
 
-#: src/CategoryView.vala:1150
+#: src/CategoryView.vala:1084
 msgid "Hard disk or storage drive"
 msgstr ""
 
-#: src/CategoryView.vala:1155
+#: src/CategoryView.vala:1089
 msgid "Optical drive, such as for CD, DVD, or Blu-ray discs"
 msgstr ""
 
-#: src/CategoryView.vala:1160
+#: src/CategoryView.vala:1094
 msgid "Removable storage device, such as a portable hard drive"
 msgstr ""
 
-#: src/CategoryView.vala:1165
+#: src/CategoryView.vala:1099
 msgid "USB drive or stick, such as a flash, jump, or thumb drive"
 msgstr ""
 
-#: src/CategoryView.vala:1170
+#: src/CategoryView.vala:1104
 msgid "Video game controller, such as a paddle, remote, or joystick"
 msgstr ""
 
-#: src/CategoryView.vala:1175
+#: src/CategoryView.vala:1109
 msgid "Keyboard"
 msgstr ""
 
-#: src/CategoryView.vala:1180
+#: src/CategoryView.vala:1114
 msgid "Mouse"
 msgstr ""
 
-#: src/CategoryView.vala:1185
+#: src/CategoryView.vala:1119
 msgid ""
 "Graphics tablet or pen input, such as a Wacom digitizer, Intuos, Cintiq, or "
 "Bamboo"
 msgstr ""
 
-#: src/CategoryView.vala:1190
+#: src/CategoryView.vala:1124
 msgid "Touchpad input, such as a multitouch trackpad or clickpad"
 msgstr ""
 
-#: src/CategoryView.vala:1195
+#: src/CategoryView.vala:1129
 msgid "Flash media such as a memory stick or SD card"
 msgstr ""
 
-#: src/CategoryView.vala:1200
+#: src/CategoryView.vala:1134
 msgid "Optical media, such as a CD, DVD, or Blu-ray disc"
 msgstr ""
 
-#: src/CategoryView.vala:1205
+#: src/CategoryView.vala:1139
 msgid "Network modem or router"
 msgstr ""
 
-#: src/CategoryView.vala:1210
+#: src/CategoryView.vala:1144
 msgid "Media player device, such as a portable mp3 music player or iPod"
 msgstr ""
 
-#: src/CategoryView.vala:1215
+#: src/CategoryView.vala:1149
 msgid ""
 "Cellular type wireless network or device, such as a 2G, 3G, or 4G LTE "
 "connection, modem, or SIM card"
 msgstr ""
 
-#: src/CategoryView.vala:1220
+#: src/CategoryView.vala:1154
 msgid "Networking firewall"
 msgstr ""
 
-#: src/CategoryView.vala:1225
+#: src/CategoryView.vala:1159
 msgid "Virtual private network or VPN connection"
 msgstr ""
 
-#: src/CategoryView.vala:1230
+#: src/CategoryView.vala:1164
 msgid "Wired network connection, such as Ethernet"
 msgstr ""
 
-#: src/CategoryView.vala:1235
+#: src/CategoryView.vala:1169
 msgid "Wireless network connection, such as Wi-Fi"
 msgstr ""
 
-#: src/CategoryView.vala:1240
+#: src/CategoryView.vala:1174
 msgid ""
 "Wireless hotspot connection, such as through a mobile cellular phone or "
 "smartphone"
 msgstr ""
 
-#: src/CategoryView.vala:1245
+#: src/CategoryView.vala:1179
 msgid "Generic phone, such as a mobile Android smartphone or iPhone"
 msgstr ""
 
-#: src/CategoryView.vala:1250
+#: src/CategoryView.vala:1184
 msgid "Printer"
 msgstr ""
 
-#: src/CategoryView.vala:1255
+#: src/CategoryView.vala:1189
 msgid "Network-connected or shared printer"
 msgstr ""
 
-#: src/CategoryView.vala:1260
+#: src/CategoryView.vala:1194
 msgid "Scanner"
 msgstr ""
 
-#: src/CategoryView.vala:1265
+#: src/CategoryView.vala:1199
 msgid "Display, screen, or monitor"
 msgstr ""
 
-#: src/CategoryView.vala:1270
+#: src/CategoryView.vala:1204
 msgid "Default selection emblem, such as for a printer or other device"
 msgstr ""
 
-#: src/CategoryView.vala:1275
+#: src/CategoryView.vala:1209
 msgid "Documents emblem"
 msgstr ""
 
-#: src/CategoryView.vala:1280
+#: src/CategoryView.vala:1214
 msgid "Downloads emblem"
 msgstr ""
 
-#: src/CategoryView.vala:1285
+#: src/CategoryView.vala:1219
 msgid "Item the user has marked as a favorite"
 msgstr ""
 
-#: src/CategoryView.vala:1290
+#: src/CategoryView.vala:1224
 msgid "Item marked as important"
 msgstr ""
 
-#: src/CategoryView.vala:1295
+#: src/CategoryView.vala:1229
 msgid "Item related to email"
 msgstr ""
 
-#: src/CategoryView.vala:1300
+#: src/CategoryView.vala:1234
 msgid "Photos emblem"
 msgstr ""
 
-#: src/CategoryView.vala:1305
+#: src/CategoryView.vala:1239
 msgid "Item is read-only, or the user cannot write to or make changes to it"
 msgstr ""
 
-#: src/CategoryView.vala:1310
+#: src/CategoryView.vala:1244
 msgid "Item shared with other people or users"
 msgstr ""
 
-#: src/CategoryView.vala:1315
+#: src/CategoryView.vala:1249
 msgid "Item is a symbolic link to a file somewhere else"
 msgstr ""
 
-#: src/CategoryView.vala:1320
+#: src/CategoryView.vala:1254
 msgid "Item is configured to be synchronized to another device or location"
 msgstr ""
 
-#: src/CategoryView.vala:1325
+#: src/CategoryView.vala:1259
 msgid "Item is a system file, library, setting, or data"
 msgstr ""
 
-#: src/CategoryView.vala:1330
+#: src/CategoryView.vala:1264
 msgid "Item is unreadable or inaccessible"
 msgstr ""
 
-#: src/CategoryView.vala:1335
+#: src/CategoryView.vala:1269
 msgid "0:-) emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1340
+#: src/CategoryView.vala:1274
 msgid "X-( emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1345
+#: src/CategoryView.vala:1279
 msgid "B-) emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1350
+#: src/CategoryView.vala:1284
 msgid ":'( emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1355
+#: src/CategoryView.vala:1289
 msgid ">:-) emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1360
+#: src/CategoryView.vala:1294
 msgid ":-[ emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1365
+#: src/CategoryView.vala:1299
 msgid "<3 emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1370
+#: src/CategoryView.vala:1304
 msgid "</3 emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1375
+#: src/CategoryView.vala:1309
 msgid ":-* emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1380
+#: src/CategoryView.vala:1314
 msgid ":-)) emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1385
+#: src/CategoryView.vala:1319
 msgid ":-(|) emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1390
+#: src/CategoryView.vala:1324
 msgid ":-| emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1395
+#: src/CategoryView.vala:1329
 msgid ":-P emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1400
+#: src/CategoryView.vala:1334
 msgid ":-( emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1405
+#: src/CategoryView.vala:1339
 msgid ":-& emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1410
+#: src/CategoryView.vala:1344
 msgid ":-) emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1415
+#: src/CategoryView.vala:1349
 msgid ":-D emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1420
+#: src/CategoryView.vala:1354
 msgid ":-! emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1425
+#: src/CategoryView.vala:1359
 msgid ":-0 emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1430
+#: src/CategoryView.vala:1364
 msgid "|-) emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1435
+#: src/CategoryView.vala:1369
 msgid ":-/ emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1440
+#: src/CategoryView.vala:1374
 msgid ";-) emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1445
+#: src/CategoryView.vala:1379
 msgid ":-S emoticon"
 msgstr ""
 
-#: src/CategoryView.vala:1450
+#: src/CategoryView.vala:1384
 msgid "EPUB Ebook file types"
 msgstr ""
 
-#: src/CategoryView.vala:1455
+#: src/CategoryView.vala:1389
 msgid "Adobe Illustrator image file types"
 msgstr ""
 
-#: src/CategoryView.vala:1460
+#: src/CategoryView.vala:1394
 msgid "Javascript programming language file types"
 msgstr ""
 
-#: src/CategoryView.vala:1465
+#: src/CategoryView.vala:1399
 msgid "Microsoft Word file types"
 msgstr ""
 
-#: src/CategoryView.vala:1470
+#: src/CategoryView.vala:1404
 msgid "Binary file types"
 msgstr ""
 
-#: src/CategoryView.vala:1475
+#: src/CategoryView.vala:1409
 msgid "PDF file types"
 msgstr ""
 
-#: src/CategoryView.vala:1480
+#: src/CategoryView.vala:1414
 msgid "PGP file types"
 msgstr ""
 
-#: src/CategoryView.vala:1485
+#: src/CategoryView.vala:1419
 msgid "Debian package file types"
 msgstr ""
 
-#: src/CategoryView.vala:1490
+#: src/CategoryView.vala:1424
+msgid "Flatpak reference file types"
+msgstr ""
+
+#: src/CategoryView.vala:1429
 msgid "Microsoft Access file types"
 msgstr ""
 
-#: src/CategoryView.vala:1495
+#: src/CategoryView.vala:1434
 msgid "Microsoft Excel file types"
 msgstr ""
 
-#: src/CategoryView.vala:1500
+#: src/CategoryView.vala:1439
 msgid "Microsoft PowerPoint file types"
 msgstr ""
 
-#: src/CategoryView.vala:1505
+#: src/CategoryView.vala:1444
 msgid "Oasis OpenDocument file types"
 msgstr ""
 
-#: src/CategoryView.vala:1510
+#: src/CategoryView.vala:1449
 msgid "Torrent file types"
 msgstr ""
 
-#: src/CategoryView.vala:1515
+#: src/CategoryView.vala:1454
 msgid "CD Image file types"
 msgstr ""
 
-#: src/CategoryView.vala:1520
+#: src/CategoryView.vala:1459
 msgid "Desktop file types"
 msgstr ""
 
-#: src/CategoryView.vala:1525
+#: src/CategoryView.vala:1464
 msgid "Executable file types"
 msgstr ""
 
-#: src/CategoryView.vala:1530
+#: src/CategoryView.vala:1469
 msgid "FictionBook file types"
 msgstr ""
 
-#: src/CategoryView.vala:1535
+#: src/CategoryView.vala:1474
 msgid "Firmware file types"
 msgstr ""
 
-#: src/CategoryView.vala:1540
+#: src/CategoryView.vala:1479
 msgid "Flash video file types"
 msgstr ""
 
-#: src/CategoryView.vala:1545
+#: src/CategoryView.vala:1484
 msgid "PHP programming language file types"
 msgstr ""
 
-#: src/CategoryView.vala:1550
+#: src/CategoryView.vala:1489
 msgid "Ruby programming language file types"
 msgstr ""
 
-#: src/CategoryView.vala:1555
+#: src/CategoryView.vala:1494
 msgid "Generic audio file types"
 msgstr ""
 
-#: src/CategoryView.vala:1560
+#: src/CategoryView.vala:1499
 msgid "Audio playlist file types"
 msgstr ""
 
-#: src/CategoryView.vala:1565
+#: src/CategoryView.vala:1504
 msgid "Extension"
 msgstr ""
 
-#: src/CategoryView.vala:1570
+#: src/CategoryView.vala:1509
 msgid "Generic font file types"
 msgstr ""
 
-#: src/CategoryView.vala:1575
+#: src/CategoryView.vala:1514
 msgid "Adobe Photoshop image file types"
 msgstr ""
 
-#: src/CategoryView.vala:1580
+#: src/CategoryView.vala:1519
 msgid "Generic image file types"
 msgstr ""
 
-#: src/CategoryView.vala:1585
+#: src/CategoryView.vala:1524
 msgid "XCF image file types"
 msgstr ""
 
-#: src/CategoryView.vala:1590
+#: src/CategoryView.vala:1529
 msgid "Internet Feed"
 msgstr ""
 
-#: src/CategoryView.vala:1595
+#: src/CategoryView.vala:1534
 msgid "Model"
 msgstr ""
 
-#: src/CategoryView.vala:1600
+#: src/CategoryView.vala:1539
 msgid "Contact file types"
 msgstr ""
 
-#: src/CategoryView.vala:1605
+#: src/CategoryView.vala:1544
 msgid "Database file types"
 msgstr ""
 
-#: src/CategoryView.vala:1610
+#: src/CategoryView.vala:1549
 msgid "Generic package file types"
 msgstr ""
 
-#: src/CategoryView.vala:1615
+#: src/CategoryView.vala:1554
 msgid "Credit or debit card payments"
 msgstr ""
 
-#: src/CategoryView.vala:1620
+#: src/CategoryView.vala:1559
 msgid "American Express branded credit or debit card payments"
 msgstr ""
 
-#: src/CategoryView.vala:1625
+#: src/CategoryView.vala:1564
 msgid "Diner's Club branded credit or debit card payments"
 msgstr ""
 
-#: src/CategoryView.vala:1630
+#: src/CategoryView.vala:1569
 msgid "Discover branded credit or debit card payments"
 msgstr ""
 
-#: src/CategoryView.vala:1635
+#: src/CategoryView.vala:1574
 msgid "Japan Credit Bureau branded credit or debit card payments"
 msgstr ""
 
-#: src/CategoryView.vala:1640
+#: src/CategoryView.vala:1579
 msgid "Mastercard branded credit or debit card payments"
 msgstr ""
 
-#: src/CategoryView.vala:1645
+#: src/CategoryView.vala:1584
 msgid "China UnionPay branded credit or debit card payments"
 msgstr ""
 
-#: src/CategoryView.vala:1650
+#: src/CategoryView.vala:1589
 msgid "Visa branded credit or debit card payments"
 msgstr ""
 
-#: src/CategoryView.vala:1655
+#: src/CategoryView.vala:1594
 msgid "CSS text file types"
 msgstr ""
 
-#: src/CategoryView.vala:1660
+#: src/CategoryView.vala:1599
 msgid "HTML text file types"
 msgstr ""
 
-#: src/CategoryView.vala:1665
+#: src/CategoryView.vala:1604
 msgid "Markdown text file types"
 msgstr ""
 
-#: src/CategoryView.vala:1670
+#: src/CategoryView.vala:1609
 msgid "Bibtext file types"
 msgstr ""
 
-#: src/CategoryView.vala:1675
+#: src/CategoryView.vala:1614
 msgid "Changelog file types"
 msgstr ""
 
-#: src/CategoryView.vala:1680
+#: src/CategoryView.vala:1619
 msgid "C programming language header file types"
 msgstr ""
 
-#: src/CategoryView.vala:1685
+#: src/CategoryView.vala:1624
 msgid "License file types"
 msgstr ""
 
-#: src/CategoryView.vala:1690
+#: src/CategoryView.vala:1629
 msgid "C programming language file types"
 msgstr ""
 
-#: src/CategoryView.vala:1695
+#: src/CategoryView.vala:1634
 msgid "Generic text file types"
 msgstr ""
 
-#: src/CategoryView.vala:1700
+#: src/CategoryView.vala:1639
 msgid "Generic text templates"
 msgstr ""
 
-#: src/CategoryView.vala:1705
+#: src/CategoryView.vala:1644
 msgid "Gettext translation file types"
 msgstr ""
 
-#: src/CategoryView.vala:1710
+#: src/CategoryView.vala:1649
 msgid "Gettext translation model file types"
 msgstr ""
 
-#: src/CategoryView.vala:1715
+#: src/CategoryView.vala:1654
 msgid "Go programming language file types"
 msgstr ""
 
-#: src/CategoryView.vala:1720
+#: src/CategoryView.vala:1659
 msgid "Install file types"
 msgstr ""
 
-#: src/CategoryView.vala:1725
+#: src/CategoryView.vala:1664
 msgid "Makefile file types"
 msgstr ""
 
-#: src/CategoryView.vala:1730
+#: src/CategoryView.vala:1669
 msgid "Preview file types"
 msgstr ""
 
-#: src/CategoryView.vala:1735
+#: src/CategoryView.vala:1674
 msgid "Python programming language file types"
 msgstr ""
 
-#: src/CategoryView.vala:1740
+#: src/CategoryView.vala:1679
 msgid "Readme file types"
 msgstr ""
 
-#: src/CategoryView.vala:1745
+#: src/CategoryView.vala:1684
 msgid "Sass programming language file types"
 msgstr ""
 
-#: src/CategoryView.vala:1750
+#: src/CategoryView.vala:1689
 msgid "Script file types, such as shell scripts"
 msgstr ""
 
-#: src/CategoryView.vala:1755
+#: src/CategoryView.vala:1694
 msgid "SSA file types"
 msgstr ""
 
-#: src/CategoryView.vala:1760
+#: src/CategoryView.vala:1699
 msgid "TEX file types"
 msgstr ""
 
-#: src/CategoryView.vala:1765
+#: src/CategoryView.vala:1704
 msgid "Vala programming language file types"
 msgstr ""
 
-#: src/CategoryView.vala:1770
+#: src/CategoryView.vala:1709
 msgid "Unknown file types"
 msgstr ""
 
-#: src/CategoryView.vala:1775
+#: src/CategoryView.vala:1714
 msgid "Generic video file types"
 msgstr ""
 
-#: src/CategoryView.vala:1780
+#: src/CategoryView.vala:1719
 msgid "Generic address book file types"
 msgstr ""
 
-#: src/CategoryView.vala:1785
+#: src/CategoryView.vala:1724
 msgid "Generic calendar file types"
 msgstr ""
 
-#: src/CategoryView.vala:1790
+#: src/CategoryView.vala:1729
 msgid "Generic document and letter file types"
 msgstr ""
 
-#: src/CategoryView.vala:1795
+#: src/CategoryView.vala:1734
 msgid "Generic document and letter template file types"
 msgstr ""
 
-#: src/CategoryView.vala:1800
+#: src/CategoryView.vala:1739
 msgid "Generic drawing file types"
 msgstr ""
 
-#: src/CategoryView.vala:1805
+#: src/CategoryView.vala:1744
 msgid "Generic drawing template file types"
 msgstr ""
 
-#: src/CategoryView.vala:1810
+#: src/CategoryView.vala:1749
 msgid "Generic presentation file types"
 msgstr ""
 
-#: src/CategoryView.vala:1815
+#: src/CategoryView.vala:1754
 msgid "Generic presentation template file types"
 msgstr ""
 
-#: src/CategoryView.vala:1820
+#: src/CategoryView.vala:1759
 msgid "Generic spreadsheet file types"
 msgstr ""
 
-#: src/CategoryView.vala:1825
+#: src/CategoryView.vala:1764
 msgid "Generic spreadsheet template file types"
 msgstr ""
 
-#: src/CategoryView.vala:1830
+#: src/CategoryView.vala:1769
 msgid "Bookmark missing"
 msgstr ""
 
-#: src/CategoryView.vala:1835
+#: src/CategoryView.vala:1774
 msgid "Distributor logo"
 msgstr ""
 
-#: src/CategoryView.vala:1840
+#: src/CategoryView.vala:1779
 msgid "Folder"
 msgstr ""
 
-#: src/CategoryView.vala:1845
+#: src/CategoryView.vala:1784
 msgid "Documents folder"
 msgstr ""
 
-#: src/CategoryView.vala:1850
+#: src/CategoryView.vala:1789
 msgid "Downloads folder"
 msgstr ""
 
-#: src/CategoryView.vala:1855
+#: src/CategoryView.vala:1794
 msgid "Folder drag accept"
 msgstr ""
 
-#: src/CategoryView.vala:1860
+#: src/CategoryView.vala:1799
 msgid "Music folder"
 msgstr ""
 
-#: src/CategoryView.vala:1865
+#: src/CategoryView.vala:1804
 msgid "Open folder"
 msgstr ""
 
-#: src/CategoryView.vala:1870
+#: src/CategoryView.vala:1809
 msgid "Pictures folder"
 msgstr ""
 
-#: src/CategoryView.vala:1875
+#: src/CategoryView.vala:1814
 msgid "Publicshare folder"
 msgstr ""
 
-#: src/CategoryView.vala:1880
+#: src/CategoryView.vala:1819
 msgid "Recent folder"
 msgstr ""
 
-#: src/CategoryView.vala:1885
+#: src/CategoryView.vala:1824
 msgid "Remote folder"
 msgstr ""
 
-#: src/CategoryView.vala:1890
+#: src/CategoryView.vala:1829
 msgid "Saved search folder"
 msgstr ""
 
-#: src/CategoryView.vala:1895
+#: src/CategoryView.vala:1834
 msgid "Folder tag"
 msgstr ""
 
-#: src/CategoryView.vala:1900
+#: src/CategoryView.vala:1839
 msgid "Templates folder"
 msgstr ""
 
-#: src/CategoryView.vala:1905
+#: src/CategoryView.vala:1844
 msgid "Videos folder"
 msgstr ""
 
-#: src/CategoryView.vala:1910
+#: src/CategoryView.vala:1849
 msgid "Internet radio"
 msgstr ""
 
-#: src/CategoryView.vala:1915
+#: src/CategoryView.vala:1854
 msgid "Audiobook library"
 msgstr ""
 
-#: src/CategoryView.vala:1920
+#: src/CategoryView.vala:1859
 msgid "Library places"
 msgstr ""
 
-#: src/CategoryView.vala:1925
+#: src/CategoryView.vala:1864
 msgid "Podcast library"
 msgstr ""
 
-#: src/CategoryView.vala:1930
+#: src/CategoryView.vala:1869
 msgid "Mail inbox"
 msgstr ""
 
-#: src/CategoryView.vala:1935
+#: src/CategoryView.vala:1874
 msgid "Mail mailbox"
 msgstr ""
 
-#: src/CategoryView.vala:1940
+#: src/CategoryView.vala:1879
 msgid "Mail outbox"
 msgstr ""
 
-#: src/CategoryView.vala:1945
+#: src/CategoryView.vala:1884
 msgid "Mail sent"
 msgstr ""
 
-#: src/CategoryView.vala:1950
+#: src/CategoryView.vala:1889
 msgid "Network server"
 msgstr ""
 
-#: src/CategoryView.vala:1955
+#: src/CategoryView.vala:1894
 msgid "Network workgroup"
 msgstr ""
 
-#: src/CategoryView.vala:1960
+#: src/CategoryView.vala:1899
 msgid "Playlist"
 msgstr ""
 
-#: src/CategoryView.vala:1965
+#: src/CategoryView.vala:1904
 msgid "Automatic playlist"
 msgstr ""
 
-#: src/CategoryView.vala:1970
+#: src/CategoryView.vala:1909
 msgid "Playlist queue"
 msgstr ""
 
-#: src/CategoryView.vala:1975
+#: src/CategoryView.vala:1914
 msgid "Similar playlist"
 msgstr ""
 
-#: src/CategoryView.vala:1980
+#: src/CategoryView.vala:1919
 msgid "Tag"
 msgstr ""
 
-#: src/CategoryView.vala:1985
+#: src/CategoryView.vala:1924
 msgid "Bookmarks"
 msgstr ""
 
-#: src/CategoryView.vala:1990
+#: src/CategoryView.vala:1929
 msgid "Home"
 msgstr ""
 
-#: src/CategoryView.vala:1995
+#: src/CategoryView.vala:1934
 msgid "Trash"
 msgstr ""
 
-#: src/CategoryView.vala:2000
+#: src/CategoryView.vala:1939
 msgid "Trash full"
 msgstr ""
 
-#: src/CategoryView.vala:2005
+#: src/CategoryView.vala:1944
 msgid "Airplane mode, where wireless radios are disabled or off"
 msgstr ""
 
-#: src/CategoryView.vala:2010
+#: src/CategoryView.vala:1949
 msgid "An appointment or calendar event was missed"
 msgstr ""
 
-#: src/CategoryView.vala:2015
+#: src/CategoryView.vala:1954
 msgid "An appointment or calendar event will be happening soon"
 msgstr ""
 
-#: src/CategoryView.vala:2020
+#: src/CategoryView.vala:1959
 msgid "High or loud audio volume"
 msgstr ""
 
-#: src/CategoryView.vala:2025
+#: src/CategoryView.vala:1964
 msgid "Low or quiet audio volume"
 msgstr ""
 
-#: src/CategoryView.vala:2030
+#: src/CategoryView.vala:1969
 msgid "Medium or normal audio volume"
 msgstr ""
 
-#: src/CategoryView.vala:2035
+#: src/CategoryView.vala:1974
 msgid "Audio volume is muted or off"
 msgstr ""
 
-#: src/CategoryView.vala:2040
+#: src/CategoryView.vala:1979
 msgid ""
 "Audio volume is muted or off and something is being blocked from making noise"
 msgstr ""
 
-#: src/CategoryView.vala:2045
+#: src/CategoryView.vala:1984
 msgid ""
 "The default avatar to represent a user, such as someone who has not set a "
 "profile picture"
 msgstr ""
 
-#: src/CategoryView.vala:2050
+#: src/CategoryView.vala:1989
 msgid "A charger or AC adapter for a battery-powered device"
 msgstr ""
 
-#: src/CategoryView.vala:2055
+#: src/CategoryView.vala:1994
 msgid "Low battery level"
 msgstr ""
 
-#: src/CategoryView.vala:2060
+#: src/CategoryView.vala:1999
 msgid "Low battery level, plugged into a charger or AC adapter"
 msgstr ""
 
-#: src/CategoryView.vala:2065
+#: src/CategoryView.vala:2004
 msgid "Critically low battery level"
 msgstr ""
 
-#: src/CategoryView.vala:2070
+#: src/CategoryView.vala:2009
 msgid "Critically low battery, plugged into a charger or AC adapter"
 msgstr ""
 
-#: src/CategoryView.vala:2075
+#: src/CategoryView.vala:2014
 msgid "Mostly charged battery level"
 msgstr ""
 
-#: src/CategoryView.vala:2080
+#: src/CategoryView.vala:2019
 msgid "Completely charged battery level"
 msgstr ""
 
-#: src/CategoryView.vala:2085
+#: src/CategoryView.vala:2024
 msgid "Mostly charged battery level, plugged into a charger or AC adapter"
 msgstr ""
 
-#: src/CategoryView.vala:2090
+#: src/CategoryView.vala:2029
 msgid "Medium-high charged battery level"
 msgstr ""
 
-#: src/CategoryView.vala:2095
+#: src/CategoryView.vala:2034
 msgid "Medium-high charged battery level, plugged into a charger or AC adapter"
 msgstr ""
 
-#: src/CategoryView.vala:2100
+#: src/CategoryView.vala:2039
 msgid "Medium-low charged battery level"
 msgstr ""
 
-#: src/CategoryView.vala:2105
+#: src/CategoryView.vala:2044
 msgid "Medium-low charged battery level, plugged into a charger or AC adapter"
 msgstr ""
 
-#: src/CategoryView.vala:2110
+#: src/CategoryView.vala:2049
 msgid "Missing or malfunctioning battery"
 msgstr ""
 
-#: src/CategoryView.vala:2115
+#: src/CategoryView.vala:2054
 msgid "Bluetooth radio is disabled or off"
 msgstr ""
 
-#: src/CategoryView.vala:2120
+#: src/CategoryView.vala:2059
 msgid ""
 "Insecure, unsecure, or unencrypted communication or connection, such as HTTP"
 msgstr ""
 
-#: src/CategoryView.vala:2125
+#: src/CategoryView.vala:2064
 msgid ""
 "Secure or encrypted communication or connection, such as HTTPS or encrypted "
 "Wi-Fi"
 msgstr ""
 
-#: src/CategoryView.vala:2130
+#: src/CategoryView.vala:2069
 msgid "Critical, unrecoverable, or other serious error"
 msgstr ""
 
-#: src/CategoryView.vala:2135
+#: src/CategoryView.vala:2074
 msgid "Contextual information or explanation"
 msgstr ""
 
-#: src/CategoryView.vala:2140
+#: src/CategoryView.vala:2079
 msgid "Requesting authentication details, such as a password or encryption key"
 msgstr ""
 
-#: src/CategoryView.vala:2145
+#: src/CategoryView.vala:2084
 msgid "Question, decision, or choice for the user"
 msgstr ""
 
-#: src/CategoryView.vala:2150
+#: src/CategoryView.vala:2089
 msgid "Warning of potentially dangerous actions or consequences"
 msgstr ""
 
-#: src/CategoryView.vala:2155
+#: src/CategoryView.vala:2094
 msgid "Placeholder used when an image or thumbnail is loading"
 msgstr ""
 
-#: src/CategoryView.vala:2160
+#: src/CategoryView.vala:2099
 msgid ""
 "Placeholder used when an image or thumbnail is missing or cannot be loaded"
 msgstr ""
 
-#: src/CategoryView.vala:2165
+#: src/CategoryView.vala:2104
 msgid ""
 "Locked or secured, typically requiring authentication or a password to unlock"
 msgstr ""
 
-#: src/CategoryView.vala:2170
+#: src/CategoryView.vala:2109
 msgid "Mail attachment or file in an email"
 msgstr ""
 
-#: src/CategoryView.vala:2175
+#: src/CategoryView.vala:2114
 msgid "New, unread, or unviewed email"
 msgstr ""
 
-#: src/CategoryView.vala:2180
+#: src/CategoryView.vala:2119
 msgid "Read or already-viewed email"
 msgstr ""
 
-#: src/CategoryView.vala:2185
+#: src/CategoryView.vala:2124
 msgid "Email that has been replied or responded to"
 msgstr ""
 
-#: src/CategoryView.vala:2190
+#: src/CategoryView.vala:2129
 msgid "Email that contains a signature"
 msgstr ""
 
-#: src/CategoryView.vala:2195
+#: src/CategoryView.vala:2134
 msgid "Email that contains a signature that is verified by the security system"
 msgstr ""
 
-#: src/CategoryView.vala:2200
+#: src/CategoryView.vala:2139
 msgid "Repeat a song, video, track, album, playlist, or other media"
 msgstr ""
 
-#: src/CategoryView.vala:2205
+#: src/CategoryView.vala:2144
 msgid "Shuffle or randomize an album, playlist, or other media"
 msgstr ""
 
-#: src/CategoryView.vala:2210
+#: src/CategoryView.vala:2149
 msgid "Error or problem initializing or creating a network connection"
 msgstr ""
 
-#: src/CategoryView.vala:2215
+#: src/CategoryView.vala:2154
 msgid "No data being transmitted or received while connected to a network"
 msgstr ""
 
-#: src/CategoryView.vala:2220
+#: src/CategoryView.vala:2159
 msgid "Disconnected or offline from a network"
 msgstr ""
 
-#: src/CategoryView.vala:2225
+#: src/CategoryView.vala:2164
 msgid "Data is being received over a network"
 msgstr ""
 
-#: src/CategoryView.vala:2230
+#: src/CategoryView.vala:2169
 msgid "Data is being transmitted over a network"
 msgstr ""
 
-#: src/CategoryView.vala:2235
+#: src/CategoryView.vala:2174
 msgid ""
 "Data is being both transmitted and received simultaneously over a network"
 msgstr ""
 
-#: src/CategoryView.vala:2240
+#: src/CategoryView.vala:2179
 msgid "Wired network, such as Ethernet, is disconnected"
 msgstr ""
 
-#: src/CategoryView.vala:2245
+#: src/CategoryView.vala:2184
 msgid "Item is not starred, favorited, or pinned by the user"
 msgstr ""
 
-#: src/CategoryView.vala:2250
+#: src/CategoryView.vala:2189
 msgid "Notifications are disabled or in Do-Not-Disturb mode"
 msgstr ""
 
-#: src/CategoryView.vala:2255
+#: src/CategoryView.vala:2194
 msgid "Error or problem occurred when attempting to print"
 msgstr ""
 
-#: src/CategoryView.vala:2260
+#: src/CategoryView.vala:2199
 msgid "Job has been successfully spooled or sent to a printer"
 msgstr ""
 
-#: src/CategoryView.vala:2265
+#: src/CategoryView.vala:2204
 msgid "Process, job, or task has successfully completed or finished"
 msgstr ""
 
-#: src/CategoryView.vala:2270
+#: src/CategoryView.vala:2209
 msgid ""
 "Known to be secure, such as using strong encryption and a valid, verified, "
 "or trusted certificate"
 msgstr ""
 
-#: src/CategoryView.vala:2275
+#: src/CategoryView.vala:2214
 msgid "Presumed to be secure, such as using encryption"
 msgstr ""
 
-#: src/CategoryView.vala:2280
+#: src/CategoryView.vala:2219
 msgid ""
 "Presumed to be insecure, such as unsecured, unencrypted, weak encryption, or "
 "an invalid, unverified, or untrusted certificate"
 msgstr ""
 
-#: src/CategoryView.vala:2285
+#: src/CategoryView.vala:2224
 msgid "Updated apps, software, or drivers are available"
 msgstr ""
 
-#: src/CategoryView.vala:2290
+#: src/CategoryView.vala:2229
 msgid "Urgent or critical updates are available"
 msgstr ""
 
-#: src/CategoryView.vala:2295
+#: src/CategoryView.vala:2234
 msgid "Item is starred, favorited, or pinned by the user"
 msgstr ""
 
-#: src/CategoryView.vala:2300
+#: src/CategoryView.vala:2239
 msgid "Task is due soon"
 msgstr ""
 
-#: src/CategoryView.vala:2305
+#: src/CategoryView.vala:2244
 msgid "Task is incomplete past the due date"
 msgstr ""
 
-#: src/CategoryView.vala:2310
+#: src/CategoryView.vala:2249
 msgid "User, person, or contact is available or online"
 msgstr ""
 
-#: src/CategoryView.vala:2315
+#: src/CategoryView.vala:2254
 msgid "User, person, or contact is away or unavailable"
 msgstr ""
 
-#: src/CategoryView.vala:2320
+#: src/CategoryView.vala:2259
 msgid "User, person, or contact is idle or unresponsive"
 msgstr ""
 
-#: src/CategoryView.vala:2325
+#: src/CategoryView.vala:2264
 msgid "User, person, or contact is offline or unreachable"
 msgstr ""
 
-#: src/CategoryView.vala:2330
+#: src/CategoryView.vala:2269
 msgid "Private, anonymous, untracked, or incognito"
 msgstr ""
 
-#: src/CategoryView.vala:2335
+#: src/CategoryView.vala:2274
 msgid "Clear skies or sunny weather"
 msgstr ""
 
-#: src/CategoryView.vala:2340
+#: src/CategoryView.vala:2279
 msgid "Clear skies weather during the night"
 msgstr ""
 
-#: src/CategoryView.vala:2345
+#: src/CategoryView.vala:2284
 msgid "Partly cloudy, partly clear, or partly sunny weather"
 msgstr ""
 
-#: src/CategoryView.vala:2350
+#: src/CategoryView.vala:2289
 msgid "Partly cloudy or partly clear weather during the night"
 msgstr ""
 
-#: src/CategoryView.vala:2355
+#: src/CategoryView.vala:2294
 msgid "Foggy weather"
 msgstr ""
 
-#: src/CategoryView.vala:2360
+#: src/CategoryView.vala:2299
 msgid "Overcast or cloudy weather"
 msgstr ""
 
-#: src/CategoryView.vala:2365
+#: src/CategoryView.vala:2304
 msgid "Severe or critical weather warning or alert"
 msgstr ""
 
-#: src/CategoryView.vala:2370
+#: src/CategoryView.vala:2309
 msgid "Showers or rainy weather"
 msgstr ""
 
-#: src/CategoryView.vala:2375
+#: src/CategoryView.vala:2314
 msgid "Scattered showers or partly rainy weather"
 msgstr ""
 
-#: src/CategoryView.vala:2380
+#: src/CategoryView.vala:2319
 msgid "Snow showers or snowy weather"
 msgstr ""
 
-#: src/CategoryView.vala:2385
+#: src/CategoryView.vala:2324
 msgid "Thunderstorms or stormy weather"
 msgstr ""
 
@@ -1951,14 +1903,14 @@ msgstr ""
 msgid "LookBook"
 msgstr ""
 
-#: src/MainWindow.vala:35
+#: src/MainWindow.vala:37
 msgid "Search Icon Names or Descriptions"
 msgstr ""
 
-#: src/MainWindow.vala:41
+#: src/MainWindow.vala:43
 msgid "Light background"
 msgstr ""
 
-#: src/MainWindow.vala:42
+#: src/MainWindow.vala:44
 msgid "Dark background"
 msgstr ""
