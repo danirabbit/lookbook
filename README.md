@@ -10,6 +10,7 @@ You'll need the following dependencies to build:
 * granite >= 0.5
 * libgtk-3-dev
 * libgtksourceview-3.0-dev
+* libhandy >= 1.0.0
 * meson
 * valac
 
