@@ -770,11 +770,6 @@ public class CategoryView : Gtk.Paned {
             category = APPS
         },
         Icon () {
-            name = "accessories-camera",
-            description = _("Camera or webcam"),
-            category = APPS
-        },
-        Icon () {
             name = "accessories-character-map",
             description = _("International and extended text character map"),
             category = APPS
@@ -782,11 +777,6 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "accessories-dictionary",
             description = _("Dictionary"),
-            category = APPS
-        },
-        Icon () {
-            name = "accessories-screenshot",
-            description = _("Screenshot tool"),
             category = APPS
         },
         Icon () {
@@ -800,69 +790,8 @@ public class CategoryView : Gtk.Paned {
             category = APPS
         },
         Icon () {
-            name = "archive-manager",
-            description = _("Archive manager"),
-            category = APPS
-        },
-        Icon () {
-            name = "internet-chat",
-            description = _("Internet chat or messaging"),
-            category = APPS
-        },
-        Icon () {
-            name = "internet-mail",
-            description = _("Mail or email"),
-            category = APPS
-        },
-        Icon () {
-            name = "internet-news-reader",
-            description = _("News or feed reader"),
-            category = APPS
-        },
-        Icon () {
-            name = "internet-web-browser",
-            description = _("Web browser"),
-            category = APPS
-        },
-
-        Icon () {
-            name = "multimedia-audio-player",
-            description = _("Music or audio player"),
-            category = APPS
-        },
-        Icon () {
-            name = "multimedia-photo-manager",
-            description = _("Photo manager or library"),
-            category = APPS
-        },
-        Icon () {
-            name = "multimedia-video-player",
-            description = _("Video or movie player"),
-            category = APPS
-        },
-        Icon () {
-            name = "office-address-book",
-            description = _("Address book or contacts"),
-            category = APPS
-        },
-        Icon () {
-            name = "office-calendar",
-            description = _("Calendar"),
-            category = APPS
-        },
-        Icon () {
-            name = "postscript-viewer",
-            description = _("Portable document or PDF viewer"),
-            category = APPS
-        },
-        Icon () {
             name = "system-file-manager",
             description = _("Files"),
-            category = APPS
-        },
-        Icon () {
-            name = "system-os-installer",
-            description = _("Install the operating system"),
             category = APPS
         },
         Icon () {
@@ -873,11 +802,6 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "system-software-update",
             description = _("Software updater"),
-            category = APPS
-        },
-        Icon () {
-            name = "system-users",
-            description = _("User settings"),
             category = APPS
         },
         Icon () {
