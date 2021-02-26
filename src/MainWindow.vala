@@ -17,7 +17,7 @@
 * Boston, MA 02110-1301 USA
 */
 
-public class MainWindow : Gtk.Window {
+public class MainWindow : Hdy.Window {
     private Gtk.ListBox categories_sidebar;
     private Gtk.SearchEntry search_entry;
 
@@ -30,6 +30,8 @@ public class MainWindow : Gtk.Window {
     }
 
     construct {
+        Hdy.init ();
+
         search_entry = new Gtk.SearchEntry ();
         search_entry.hexpand = true;
         search_entry.placeholder_text = _("Search Icon Names or Descriptions");
@@ -44,14 +46,6 @@ public class MainWindow : Gtk.Window {
         mode_switch.bind_property ("active", gtk_settings, "gtk_application_prefer_dark_theme");
 
         LookBook.settings.bind ("prefer-dark-style", mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-
-        var headerbar = new Gtk.HeaderBar ();
-        headerbar.show_close_button = true;
-        headerbar.set_custom_title (search_entry);
-        headerbar.pack_end (mode_switch);
-        headerbar.pack_end (new Gtk.Separator (Gtk.Orientation.VERTICAL));
-
-        set_titlebar (headerbar);
 
         var category_view = new CategoryView ();
 
@@ -72,7 +66,18 @@ public class MainWindow : Gtk.Window {
         paned.pack1 (scrolled_category, false, false);
         paned.pack2 (category_view, true, false);
 
-        add (paned);
+        var headerbar = new Hdy.HeaderBar () {
+            show_close_button = true
+        };
+        headerbar.set_custom_title (search_entry);
+        headerbar.pack_end (mode_switch);
+        headerbar.pack_end (new Gtk.Separator (Gtk.Orientation.VERTICAL));
+
+        var grid = new Gtk.Grid ();
+        grid.attach (headerbar, 0, 0);
+        grid.attach (paned, 0, 1);
+
+        add (grid);
 
         ((Gtk.ListBox)category_view.listbox).set_filter_func (filter_function);
 
