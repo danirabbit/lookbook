@@ -47,7 +47,7 @@ public class CategoryView : Gtk.Paned {
                 case EMOTES:
                     return _("Emotes");
                 case MIMES:
-                    return _("Mimetypes");
+                    return _("Media Types");
                 case PLACES:
                     return _("Places");
                 case STATUS:
