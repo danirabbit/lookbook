@@ -635,6 +635,11 @@ public class CategoryView : Gtk.Paned {
             category = ACTIONS
         },
         Icon () {
+            name = "office-database-new",
+            description = _("Create a new database"),
+            category = ACTIONS
+        },
+        Icon () {
             name = "process-stop",
             description = _("Stop an action that may take a while to process, such as web page loading in a browser"),
             category = ACTIONS
@@ -1205,6 +1210,11 @@ public class CategoryView : Gtk.Paned {
             category = EMBLEMS
         },
         Icon () {
+            name = "emblem-disabled",
+            description = _("Disabled feature or service emblem"),
+            category = EMBLEMS
+        },
+        Icon () {
             name = "emblem-documents",
             description = _("Documents emblem"),
             category = EMBLEMS
@@ -1212,6 +1222,16 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "emblem-downloads",
             description = _("Downloads emblem"),
+            category = EMBLEMS
+        },
+        Icon () {
+            name = "emblem-enabled",
+            description = _("Enabled feature or service emblem"),
+            category = EMBLEMS
+        },
+        Icon () {
+            name = "emblem-error",
+            description = _("Emblem for the error status of a feature or service"),
             category = EMBLEMS
         },
         Icon () {
@@ -1227,6 +1247,11 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "emblem-mail",
             description = _("Item related to email"),
+            category = EMBLEMS
+        },
+        Icon () {
+            name = "emblem-mixed",
+            description = _("Emblem for the partially enabled status of a feature or service"),
             category = EMBLEMS
         },
         Icon () {
@@ -1262,6 +1287,11 @@ public class CategoryView : Gtk.Paned {
         Icon () {
             name = "emblem-unreadable",
             description = _("Item is unreadable or inaccessible"),
+            category = EMBLEMS
+        },
+        Icon () {
+            name = "emblem-warning",
+            description = _("Emblem for the warning status of a feature or service"),
             category = EMBLEMS
         },
         Icon () {
