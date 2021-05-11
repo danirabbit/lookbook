@@ -10,6 +10,12 @@ finish-args:
 
   - '--metadata=X-DConf=migrate-path=/com/github/danrabbit/nimbus/'
 modules:
+  - name: gtksourceview
+    buildsystem: meson
+    sources:
+      - type: git
+        url: https://gitlab.gnome.org/GNOME/gtksourceview.git
+        tag: '4.8.0'
   - name: nimbus
     buildsystem: meson
     sources:
