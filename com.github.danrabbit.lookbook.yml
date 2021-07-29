@@ -16,7 +16,7 @@ modules:
       - type: git
         url: https://gitlab.gnome.org/GNOME/gtksourceview.git
         tag: '4.8.0'
-  - name: nimbus
+  - name: lookbook
     buildsystem: meson
     sources:
       - type: dir
