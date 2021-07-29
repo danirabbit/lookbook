@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-26 19:09+0000\n"
+"POT-Creation-Date: 2021-07-29 23:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,37 +42,65 @@ msgid ""
 msgstr ""
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:18
-msgid "Better support for symbolic-only icons and under the hood improvements!"
+msgid "Add audio-headphones and audio-headset"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:19
+msgid "Add distribute actions"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:20
+msgid "Disable sidebar when searching"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:21
+msgid "Remove non-fdo app names"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:22
+msgid "Add status emblems"
 msgstr ""
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:23
-msgid "I'm a new soul"
+msgid "Mimetypes → Media Types"
 msgstr ""
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:24
-msgid "I came to this strange world"
-msgstr ""
-
-#: data/com.github.danrabbit.lookbook.appdata.xml.in:25
-msgid "Hoping I could learn a bit bout how to give and take"
-msgstr ""
-
-#: data/com.github.danrabbit.lookbook.appdata.xml.in:26
-msgid "But since I came here"
-msgstr ""
-
-#: data/com.github.danrabbit.lookbook.appdata.xml.in:27
-msgid "Felt the joy and the fear"
-msgstr ""
-
-#: data/com.github.danrabbit.lookbook.appdata.xml.in:28
-msgid "Finding myself making every possible mistake"
+msgid "Added French and Portuguese translations"
 msgstr ""
 
 #: data/com.github.danrabbit.lookbook.appdata.xml.in:29
+msgid "Better support for symbolic-only icons and under the hood improvements!"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:34
+msgid "I'm a new soul"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:35
+msgid "I came to this strange world"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:36
+msgid "Hoping I could learn a bit bout how to give and take"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:37
+msgid "But since I came here"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:38
+msgid "Felt the joy and the fear"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:39
+msgid "Finding myself making every possible mistake"
+msgstr ""
+
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:40
 msgid "La-la-la-la-la-la-la-la…"
 msgstr ""
 
-#: data/com.github.danrabbit.lookbook.appdata.xml.in:71
+#: data/com.github.danrabbit.lookbook.appdata.xml.in:82
 msgid "Daniel Foré"
 msgstr ""
