@@ -13,7 +13,7 @@
     <binary>com.github.danrabbit.lookbook</binary>
   </provides>
   <releases>
-    <release version="1.2.0" date="2020-07-28">
+    <release version="1.2.0" date="2020-07-29">
       <description>
         <p>Add audio-headphones and audio-headset</p>
         <p>Add distribute actions</p>
