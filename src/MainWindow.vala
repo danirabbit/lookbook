@@ -17,7 +17,7 @@
 * Boston, MA 02110-1301 USA
 */
 
-public class MainWindow : Gtk.Window {
+public class MainWindow : Hdy.Window {
     private Gtk.ListBox categories_sidebar;
     private Gtk.SearchEntry search_entry;
 
@@ -30,6 +30,8 @@ public class MainWindow : Gtk.Window {
     }
 
     construct {
+        Hdy.init ();
+
         search_entry = new Gtk.SearchEntry ();
         search_entry.hexpand = true;
         search_entry.placeholder_text = _("Search Icon Names or Descriptions");
@@ -45,31 +47,37 @@ public class MainWindow : Gtk.Window {
 
         LookBook.settings.bind ("prefer-dark-style", mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
-        var headerbar = new Gtk.HeaderBar ();
-        headerbar.show_close_button = true;
-        headerbar.set_custom_title (search_entry);
-        headerbar.pack_end (mode_switch);
-        headerbar.pack_end (new Gtk.Separator (Gtk.Orientation.VERTICAL));
-
-        set_titlebar (headerbar);
-
         var category_view = new CategoryView ();
 
         categories_sidebar = new Gtk.ListBox ();
-        categories_sidebar.vexpand = true;
-        categories_sidebar.get_style_context ().add_class (Gtk.STYLE_CLASS_SIDEBAR);
 
         foreach (var category in CategoryView.Category.all ()) {
             var sidebar_row = new SidebarRow (category);
             categories_sidebar.add (sidebar_row);
         }
 
+        var scrolled_category = new Gtk.ScrolledWindow (null, null);
+        scrolled_category.get_style_context ().add_class (Gtk.STYLE_CLASS_SIDEBAR);
+        scrolled_category.set_policy (Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC);
+        scrolled_category.add (categories_sidebar);
+
         var paned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
         paned.position = 128;
-        paned.pack1 (categories_sidebar, false, false);
+        paned.pack1 (scrolled_category, false, false);
         paned.pack2 (category_view, true, false);
 
-        add (paned);
+        var headerbar = new Hdy.HeaderBar () {
+            show_close_button = true
+        };
+        headerbar.set_custom_title (search_entry);
+        headerbar.pack_end (mode_switch);
+        headerbar.pack_end (new Gtk.Separator (Gtk.Orientation.VERTICAL));
+
+        var grid = new Gtk.Grid ();
+        grid.attach (headerbar, 0, 0);
+        grid.attach (paned, 0, 1);
+
+        add (grid);
 
         ((Gtk.ListBox)category_view.listbox).set_filter_func (filter_function);
 
