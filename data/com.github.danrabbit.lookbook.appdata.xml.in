@@ -13,6 +13,17 @@
     <binary>com.github.danrabbit.lookbook</binary>
   </provides>
   <releases>
+    <release version="1.2.0" date="2020-07-28">
+      <description>
+        <p>Add audio-headphones and audio-headset</p>
+        <p>Add distribute actions</p>
+        <p>Disable sidebar when searching</p>
+        <p>Remove non-fdo app names</p>
+        <p>Add status emblems</p>
+        <p>Mimetypes → Media Types</p>
+        <p>Added French and Portuguese translations</p>
+      </description>
+    </release>
     <release version="1.1.0" date="2018-10-25">
       <description>
         <p>Better support for symbolic-only icons and under the hood improvements!</p>
