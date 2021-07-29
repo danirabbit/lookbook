@@ -7,9 +7,9 @@
 
 
 You'll need the following dependencies to build:
-* granite >= 0.5
+* granite >= 6.0.0
 * libgtk-3-dev
-* libgtksourceview-3.0-dev
+* libgtksourceview-4-dev
 * libhandy >= 1.0.0
 * meson
 * valac
